@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Project Artifacts
+sqp_text_dump.txt
+GAP_ANALYSIS_*.md
