@@ -4,7 +4,8 @@ export type VisualType = 'table' | 'flow' | 'grid' | 'steps' | 'list';
 export type VisualData = 
   | { headers: string[]; rows: string[][] } // for 'table'
   | { label: string; desc: string }[]      // for 'grid'
-  | string[];                              // for 'flow' (steps), 'list'
+  | string[]                               // for 'steps', 'list'
+  | { nodes: {id: string, label: string}[], edges: {from: string, to: string, label?: string}[] }; // for 'flow' (graph)
 
 export interface Visualization {
   id: string;
