@@ -3,7 +3,7 @@ import { topics } from './topics';
 import { flashcards } from './flashcards';
 import { sqp } from './sqp';
 import { mindMap } from './mindMap';
-import { CHEAT_SHEET } from './cheatSheet';
+import { cheatSheet } from './cheatSheet';
 
 export const unit1: Chapter = {
   id: 1,
@@ -14,5 +14,5 @@ export const unit1: Chapter = {
   flashcards,
   sqp,
   mindMap,
-  cheatSheet: CHEAT_SHEET
+  cheatSheet
 };

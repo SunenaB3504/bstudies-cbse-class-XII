@@ -46,6 +46,20 @@ export const SQPArchives: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
             </div>
             <h3 className="text-lg font-bold text-gray-900 mb-6 leading-snug">{q.question}</h3>
             
+            {/* Options Grid for MCQs */}
+            {(q.optionA || q.optionB || q.optionC || q.optionD) && (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6">
+                {[q.optionA, q.optionB, q.optionC, q.optionD].map((opt, i) => opt && (
+                  <div key={i} className="flex items-center gap-3 p-3 rounded-xl bg-gray-50 border border-gray-100 text-sm font-medium text-gray-700">
+                    <span className="flex-shrink-0 w-6 h-6 flex items-center justify-center rounded-full bg-gray-200 text-gray-600 font-bold text-xs">
+                      {String.fromCharCode(65 + i)}
+                    </span>
+                    <span>{opt}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+            
             {expandedQuestions.has(q.id) ? (
               <div className="grid md:grid-cols-2 gap-8 animate-in fade-in duration-300">
                 <button

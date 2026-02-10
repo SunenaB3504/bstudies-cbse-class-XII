@@ -221,10 +221,20 @@ export const RevisionHQ: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
                 {section.title}
               </h4>
               <ul className="space-y-4">
-                {section.points.map((p, j) => (
-                  <li key={j} className="flex gap-3 text-gray-700 font-medium text-sm">
-                    <span className="text-purple-500 font-black">•</span>
-                    {p}
+                {(section.content || section.points || []).map((p, j) => (
+                  <li key={j} className="flex gap-3 text-gray-700 font-medium text-sm items-start">
+                    <span className="text-purple-500 font-black shrink-0 mt-1">•</span>
+                    <span>
+                      {p.split(/(\*\*.*?\*\*)/).map((part, k) => (
+                        part.startsWith('**') && part.endsWith('**') ? (
+                          <strong key={k} className="font-extrabold text-gray-900">
+                            {part.slice(2, -2)}
+                          </strong>
+                        ) : (
+                          <span key={k}>{part}</span>
+                        )
+                      ))}
+                    </span>
                   </li>
                 ))}
               </ul>

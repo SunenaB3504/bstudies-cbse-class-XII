@@ -15,7 +15,7 @@ export const topics: TheoryTopic[] = [
         {
             id: 'mgmt-process-cycle',
             title: 'The Management Process Cycle',
-            type: 'flow',
+            type: 'steps',
             data: ['Planning', 'Organising', 'Staffing', 'Directing', 'Controlling']
         }
       ]

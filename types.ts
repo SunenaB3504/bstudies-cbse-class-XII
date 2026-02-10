@@ -1,11 +1,18 @@
 
-export type VisualType = 'table' | 'flow' | 'grid' | 'steps' | 'list';
+export type VisualType = 'table' | 'flow' | 'grid' | 'steps' | 'list' | 'tree' | 'process';
+
+export interface VisualTreeNode {
+  name: string;
+  children?: VisualTreeNode[];
+}
 
 export type VisualData = 
   | { headers: string[]; rows: string[][] } // for 'table'
   | { label: string; desc: string }[]      // for 'grid'
   | string[]                               // for 'steps', 'list'
-  | { nodes: {id: string, label: string}[], edges: {from: string, to: string, label?: string}[] }; // for 'flow' (graph)
+  | { nodes: {id: string, label: string}[], edges: {from: string, to: string, label?: string}[] } // for 'flow' (graph)
+  | { root: string; children: VisualTreeNode[] } // for 'tree'
+  | { title: string; description: string }[]; // for 'process'
 
 export interface Visualization {
   id: string;
@@ -43,6 +50,10 @@ export interface SQPQuestion {
   aiExplanation: string;
   questionNumber?: string;
   source?: string;
+  optionA?: string;
+  optionB?: string;
+  optionC?: string;
+  optionD?: string;
 }
 
 export interface MindMapNode {
@@ -51,9 +62,11 @@ export interface MindMapNode {
   children?: MindMapNode[];
 }
 
-export interface CheatSheetSection {
+export interface CheatSheetItem {
+  id?: string;
   title: string;
-  points: string[];
+  content?: string[];
+  points?: string[];
 }
 
 export interface Chapter {
@@ -65,5 +78,5 @@ export interface Chapter {
   flashcards: Flashcard[];
   sqp: SQPQuestion[];
   mindMap: MindMapNode;
-  cheatSheet: CheatSheetSection[];
+  cheatSheet: CheatSheetItem[];
 }

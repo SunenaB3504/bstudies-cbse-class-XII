@@ -8,8 +8,13 @@ export const sqp: SQPQuestion[] = [
       marks: 1,
       type: 'MCQ',
       question: 'Which feature of profession is not strictly present in management?',
+      optionA: 'Well defined body of knowledge',
+      optionB: 'Restricted Entry',
+      optionC: 'Service Motive',
+      optionD: 'Systematized body of knowledge',
       answer: 'Restricted Entry (and Ethical Code of Conduct)',
-      aiExplanation: 'Anyone can become a manager regardless of degree, unlike medicine or law where entry is restricted by examinations.'
+      markingScheme: 'Restricted Entry OR Ethical Code of Conduct OR Professional Association',
+      aiExplanation: 'Anyone can become a manager regardless of degree, unlike medicine or law where entry is restricted by examinations. Also, there is no single compulsory body like the Bar Council.'
     },
     {
       id: '2025-26-q2',
@@ -18,8 +23,13 @@ export const sqp: SQPQuestion[] = [
       marks: 1,
       type: 'MCQ',
       question: 'Identify the force that binds all other functions of management.',
+      optionA: 'Cooperation',
+      optionB: 'Coordination',
+      optionC: 'Planning',
+      optionD: 'Hierarchy',
       answer: 'Coordination',
-      aiExplanation: 'Coordination is considered the essence of management as it synchronizes all other functions.'
+      markingScheme: 'Coordination',
+      aiExplanation: 'Coordination is considered the essence of management as it synchronizes all other functions (POSDC) to ensure unity of action.'
     },
     {
       id: '2025-26-q22',
@@ -28,8 +38,15 @@ export const sqp: SQPQuestion[] = [
       marks: 3,
       type: 'SA',
       question: 'Differentiate between Top Level and Middle Level Management.',
-      answer: 'Top Level focuses on strategic goals and welfare; Middle Level focuses on execution and interpreting policies.',
-      aiExplanation: 'Top Level = Strategy & Survival. Middle Level = Linker, Interpreter & Implementer.'
+      answer: 'Top Level -> Strategies; Middle Level -> Interpretation.',
+      markingScheme: `
+| Basis | Top Level Management | Middle Level Management |
+| :--- | :--- | :--- |
+| **Main Function** | To coordinate different elements and formulate overall organizational goals. | To interpret the policies framed by top management to lower level. |
+| **Composition** | Chairman, CEO, CFO, President. | Divisional Heads, Operations Manager. |
+| **Focus** | Strategic planning and survival. | Operational planning and execution. |
+`,
+      aiExplanation: 'Top Level = Strategy, Survival, Welfare. Middle Level = Linker, Interpreter, Implementer, Motivator.'
     },
     {
       id: '2024-25-q1',
@@ -38,8 +55,13 @@ export const sqp: SQPQuestion[] = [
       marks: 1,
       type: 'MCQ',
       question: 'The process of synchronisation of efforts for unity of action is called?',
+      optionA: 'Management',
+      optionB: 'Administration',
+      optionC: 'Coordination',
+      optionD: 'Cooperation',
       answer: 'Coordination',
-      aiExplanation: 'Synchronisation is the keyword for Coordination.'
+      markingScheme: 'Coordination',
+      aiExplanation: 'Synchronisation is the keyword for Coordination; it ensures that different departments work together without conflict.'
     },
     {
       id: '2024-25-q5',
@@ -48,8 +70,9 @@ export const sqp: SQPQuestion[] = [
       marks: 1,
       type: 'MCQ',
       question: 'Management is an intangible force. Explain.',
-      answer: 'It cannot be seen but its presence is felt in the way the organization functions (e.g., orderliness).',
-      aiExplanation: 'Look for keywords like orderliness, discipline, and happy employees as evidence of this intangible force.'
+      answer: 'It cannot be seen but its presence is felt.',
+      markingScheme: 'Management is an intangible force that cannot be seen but its presence can be felt in the way the organization functions.',
+      aiExplanation: 'Look for evidence like orderliness, discipline, happy employees, and achievement of goals as proof of this intangible force.'
     },
     {
       id: '2024-25-q22',
@@ -59,7 +82,8 @@ export const sqp: SQPQuestion[] = [
       type: 'SA',
       question: 'Adopting eco-friendly methods of production helps achieve which objective of management?',
       answer: 'Social Objectives',
-      aiExplanation: 'Social objectives involve creating benefits for society like eco-friendly methods, employment, or amenities.'
+      markingScheme: 'Social Objectives.',
+      aiExplanation: 'Social objectives involve creating benefits for society. Examples: eco-friendly methods, employment generation, providing amenities (schools/creches).'
     },
     {
       id: '2023-24-q1',
@@ -68,8 +92,13 @@ export const sqp: SQPQuestion[] = [
       marks: 1,
       type: 'MCQ',
       question: 'At which level of management do managers interpret the policies framed by top management?',
+      optionA: 'Top Level Management',
+      optionB: 'Middle Level Management',
+      optionC: 'Operational Management',
+      optionD: 'None of the above',
       answer: 'Middle Level Management',
-      aiExplanation: 'Middle management acts as a link, interpreting top-level strategies for lower-level execution.'
+      markingScheme: 'Middle Level Management',
+      aiExplanation: 'Middle management acts as a link pin, interpreting top-level strategies into actionable plans for lower-level execution.'
     },
     {
       id: '2023-24-q2',
@@ -78,8 +107,13 @@ export const sqp: SQPQuestion[] = [
       marks: 1,
       type: 'MCQ',
       question: 'Which feature of Art is highlighted when a manager applies principles in his own unique way?',
+      optionA: 'Existence of theoretical knowledge',
+      optionB: 'Personalised Application',
+      optionC: 'Based on practice and creativity',
+      optionD: 'Universal Validity',
       answer: 'Personalised Application',
-      aiExplanation: 'Art is personalized; every artist (manager) applies knowledge differently based on their creativity.'
+      markingScheme: 'Personalised Application',
+      aiExplanation: 'Art is personalized; just as two musicians play the same raga differently, every manager applies knowledge differently based on their creativity.'
     },
     {
       id: '2023-24-q13',
@@ -88,9 +122,14 @@ export const sqp: SQPQuestion[] = [
       marks: 1,
       type: 'MCQ',
       question: 'Differentiation between Effectiveness and Efficiency.',
-      answer: 'Effectiveness = Achieving Goals; Efficiency = Minimum Cost.',
+      optionA: 'Effectiveness is doing work; Efficiency is doing for profit',
+      optionB: 'Effectiveness is End Result; Efficiency is Cost Benefit',
+      optionC: 'Effectiveness is Cost; Efficiency is Time',
+      optionD: 'None',
+      answer: 'Effectiveness = End Result; Efficiency = Cost Benefit.',
+      markingScheme: 'Effectiveness relates to doing the right task, completing activities and achieving goals. Efficiency relates to doing the task correctly and with minimum cost.',
       aiExplanation: 'Effectiveness is about the "End Result" (Time). Efficiency is about the "Process" (Cost/Input-Output).'
-    },
+        },
     {
       id: '2022-23-q1',
       year: '2022-23',
@@ -99,16 +138,7 @@ export const sqp: SQPQuestion[] = [
       type: 'MCQ',
       question: 'Foremen and Supervisors belong to which level of management?',
       answer: 'Supervisory or Operational Management',
-      aiExplanation: 'They are directly in contact with the workforce.'
-    },
-    {
-      id: '2022-23-q4',
-      year: '2022-23',
-      paperType: 'Board',
-      marks: 1,
-      type: 'MCQ',
-      question: 'Providing basic amenities like schools and creches for employees refers to which objective?',
-      answer: 'Social Objective (or Personal if specific to employees, but generally Social welfare)',
-      aiExplanation: 'Amenities for employees and society fall under Social Objectives (welfare) and Personal Objectives (employee care).'
+      markingScheme: 'Supervisory or Operational Management',
+      aiExplanation: 'They are at the lowest level in the hierarchy of managers, directly overseeing the workforce.'
     }
 ];
