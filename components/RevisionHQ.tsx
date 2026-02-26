@@ -8,16 +8,16 @@ import { Chapter, Flashcard, MindMapNode } from '../types';
 const FlashcardComp: React.FC<{ card: Flashcard; isActive?: boolean }> = ({ card, isActive = true }) => {
   const [flipped, setFlipped] = useState(false);
   return (
-    <div 
+    <div
       onClick={() => setFlipped(!flipped)}
       className={`relative h-80 cursor-pointer group w-full transition-all duration-300 perspective-1000 ${isActive ? 'scale-100 opacity-100' : 'scale-75 opacity-40'}`}
     >
       {/* Flip animation container */}
-      <div 
+      <div
         className={`relative w-full h-full transition-transform duration-500 preserve-3d ${flipped ? 'rotate-y-180' : 'rotate-y-0'}`}
       >
         {/* Front - Question */}
-        <div 
+        <div
           className="absolute inset-0 bg-white border-3 border-purple-100 rounded-3xl p-8 flex flex-col items-center justify-center text-center shadow-xl group-hover:shadow-2xl group-hover:border-purple-400 transition-all backface-hidden"
         >
           <div className="flex items-center gap-2 mb-3">
@@ -31,7 +31,7 @@ const FlashcardComp: React.FC<{ card: Flashcard; isActive?: boolean }> = ({ card
         </div>
 
         {/* Back - Answer */}
-        <div 
+        <div
           className="absolute inset-0 bg-gradient-to-br from-purple-600 via-purple-700 to-purple-800 rounded-3xl p-8 flex flex-col items-center justify-center text-center shadow-xl rotate-y-180 backface-hidden"
         >
           <div className="flex items-center gap-2 mb-3">
@@ -53,20 +53,20 @@ interface SlidingFlashcardsProps {
 const SlidingFlashcards: React.FC<SlidingFlashcardsProps> = ({ chapter }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState<'left' | 'right'>('right');
-  
+
   const cards = chapter.flashcards;
   const totalCards = cards.length;
-  
+
   const handleNext = () => {
     setDirection('right');
     setCurrentIndex((prev) => (prev + 1) % totalCards);
   };
-  
+
   const handlePrev = () => {
     setDirection('left');
     setCurrentIndex((prev) => (prev - 1 + totalCards) % totalCards);
   };
-  
+
   const getVisibleCards = () => {
     const indices = [];
     for (let i = -1; i <= 1; i++) {
@@ -82,9 +82,9 @@ const SlidingFlashcards: React.FC<SlidingFlashcardsProps> = ({ chapter }) => {
         <p className="text-sm font-black text-purple-600 uppercase tracking-widest mb-3">
           Card {currentIndex + 1} of {totalCards}
         </p>
-        <progress 
-          value={currentIndex + 1} 
-          max={totalCards} 
+        <progress
+          value={currentIndex + 1}
+          max={totalCards}
           className="w-full h-2 rounded-full overflow-hidden appearance-none [&::-webkit-progress-bar]:bg-gray-200 [&::-webkit-progress-bar]:rounded-full [&::-webkit-progress-value]:bg-purple-500 [&::-webkit-progress-value]:rounded-full [&::-webkit-progress-value]:transition-all [&::-webkit-progress-value]:duration-300 [&::-moz-progress-bar]:bg-purple-500"
         />
       </div>
@@ -98,12 +98,12 @@ const SlidingFlashcards: React.FC<SlidingFlashcardsProps> = ({ chapter }) => {
               <FlashcardComp card={cards[getVisibleCards()[0]]} isActive={false} />
             </div>
           )}
-          
+
           {/* Center card (active) */}
           <div className="z-10 w-full">
             <FlashcardComp card={cards[currentIndex]} isActive={true} />
           </div>
-          
+
           {/* Right card (blurred) */}
           {getVisibleCards()[2] !== currentIndex && (
             <div className="absolute right-0 opacity-30 scale-75 pointer-events-none">
@@ -132,11 +132,10 @@ const SlidingFlashcards: React.FC<SlidingFlashcardsProps> = ({ chapter }) => {
                 const index = cards.findIndex(c => c.category === cat);
                 setCurrentIndex(index);
               }}
-              className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-tight transition-all ${
-                cards[currentIndex].category === cat
+              className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-tight transition-all ${cards[currentIndex].category === cat
                   ? 'bg-amber-400 text-amber-950 shadow-md scale-105'
                   : 'bg-gray-200 text-gray-600 hover:bg-gray-300'
-              }`}
+                }`}
             >
               {cat}
             </button>
@@ -179,7 +178,7 @@ export const RevisionHQ: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
         curve: 'basis'
       }
     });
-    
+
     if (activeTab === 'map') {
       // Small delay to ensure DOM is ready for mermaid to parse
       setTimeout(() => {
@@ -191,7 +190,7 @@ export const RevisionHQ: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
   const handleDownloadPDF = () => {
     const element = document.getElementById('cheat-sheet-content');
     if (!element) return;
-    
+
     const opt = {
       margin: 10,
       filename: `${chapter.name.replace(/[^a-z0-9]/gi, '_').toLowerCase()}_cheatsheet.pdf`,
@@ -206,23 +205,23 @@ export const RevisionHQ: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
 
   const generateMermaidString = (root: MindMapNode): string => {
     let output = 'graph TD\n';
-    
+
     // Define exact styles matching the blueprint
     output += `classDef root fill:#4c1d95,stroke:#2e1065,stroke-width:4px,color:#fff,font-weight:bold,border-radius:10px;\n`;
     output += `classDef child fill:#7e22ce,stroke:#581c87,stroke-width:2px,color:#fff,font-weight:bold,border-radius:8px;\n`;
     output += `classDef leaf fill:#faf5ff,stroke:#d8b4fe,stroke-width:1px,color:#6b21a8,border-radius:6px;\n\n`;
 
-    output += `root("${root.label}"):::root\n`;
+    output += `root["${root.label}"]:::root\n`;
 
     if (root.children) {
       root.children.forEach(child => {
         const childId = child.id.replace(/[^a-zA-Z0-9]/g, '');
-        output += `root --> ${childId}("${child.label}"):::child\n`;
-        
+        output += `root --> ${childId}["${child.label}"]:::child\n`;
+
         if (child.children) {
           child.children.forEach(leaf => {
             const leafId = leaf.id.replace(/[^a-zA-Z0-9]/g, '');
-            output += `${childId} --> ${leafId}("${leaf.label}"):::leaf\n`;
+            output += `${childId} --> ${leafId}["${leaf.label}"]:::leaf\n`;
           });
         }
       });
@@ -259,8 +258,8 @@ export const RevisionHQ: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
       {activeTab === 'map' && (
         <div className="bg-white p-12 rounded-3xl border border-gray-100 shadow-sm flex flex-col items-center overflow-x-auto min-h-[60vh]">
           <div className="text-center mb-8 min-w-[300px]">
-             <h3 className="text-3xl font-black text-purple-900">{chapter.name}</h3>
-             <div className="h-1 w-24 bg-amber-400 mx-auto mt-4 rounded-full" />
+            <h3 className="text-3xl font-black text-purple-900">{chapter.name}</h3>
+            <div className="h-1 w-24 bg-amber-400 mx-auto mt-4 rounded-full" />
           </div>
           <div className="mermaid w-full flex justify-center text-center">
             {generateMermaidString(chapter.mindMap)}
@@ -271,7 +270,7 @@ export const RevisionHQ: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
       {activeTab === 'cheat' && (
         <div>
           <div className="flex justify-end mb-6">
-            <button 
+            <button
               onClick={handleDownloadPDF}
               className="px-6 py-3 bg-amber-400 hover:bg-amber-500 text-amber-950 rounded-xl font-black text-sm flex items-center gap-3 transition-all shadow-md hover:shadow-lg active:scale-95"
             >
@@ -282,8 +281,8 @@ export const RevisionHQ: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
           <div id="cheat-sheet-content" className="grid md:grid-cols-2 gap-8 bg-gray-50 p-4">
             {/* Header for PDF only */}
             <div className="hidden pdf-only col-span-2 text-center mb-8 border-b-4 border-purple-900 pb-6">
-                <h1 className="text-4xl font-black text-purple-900 uppercase tracking-tighter">EXAM MORNING CHEAT SHEET</h1>
-                <h2 className="text-xl font-bold text-gray-600 mt-2">{chapter.name}</h2>
+              <h1 className="text-4xl font-black text-purple-900 uppercase tracking-tighter">EXAM MORNING CHEAT SHEET</h1>
+              <h2 className="text-xl font-bold text-gray-600 mt-2">{chapter.name}</h2>
             </div>
 
             {chapter.cheatSheet.map((section, i) => (
