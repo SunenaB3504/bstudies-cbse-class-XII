@@ -6,6 +6,22 @@ import { Chapter, TheoryTopic } from '../types';
 export const TheoryView: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
   const [selectedTopic, setSelectedTopic] = useState<TheoryTopic | null>(chapter.topics[0]);
 
+  const highlightKeywords = (text: string) => {
+    // Splits the text by **keyword** using a capture group to keep the delimiter
+    const parts = text.split(/(\*\*.*?\*\*)/g);
+    return parts.map((part, index) => {
+      if (part.startsWith('**') && part.endsWith('**')) {
+        const keyword = part.slice(2, -2);
+        return (
+          <span key={index} className="text-purple-600 font-extrabold bg-purple-50 px-1 rounded">
+            {keyword}
+          </span>
+        );
+      }
+      return <span key={index}>{part}</span>;
+    });
+  };
+
   return (
     <div className="flex flex-col md:flex-row gap-8 animate-in fade-in duration-700">
       <div className="md:w-1/4 flex flex-col gap-2">
@@ -25,12 +41,12 @@ export const TheoryView: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
           <div className="bg-white rounded-3xl p-8 shadow-sm border border-gray-100">
             <h2 className="text-3xl font-black text-gray-900 mb-4">{selectedTopic.title}</h2>
             <p className="text-gray-600 mb-8 font-medium leading-relaxed">{selectedTopic.description}</p>
-            
+
             <div className="grid gap-6">
               {selectedTopic.content.map((p, i) => (
                 <div key={i} className="flex gap-4 p-4 bg-gray-50 rounded-2xl border-l-4 border-purple-600">
                   <div className="mt-1 h-2 w-2 rounded-full bg-purple-600 flex-shrink-0" />
-                  <p className="text-gray-800 font-medium">{p}</p>
+                  <p className="text-gray-800 font-medium leading-relaxed">{highlightKeywords(p)}</p>
                 </div>
               ))}
             </div>
@@ -65,7 +81,7 @@ export const TheoryView: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
                     </div>
                   ) : vis.type === 'grid' && Array.isArray(vis.data) && typeof vis.data[0] !== 'string' ? (
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      {(vis.data as {label: string; desc: string}[]).map((item, i: number) => (
+                      {(vis.data as { label: string; desc: string }[]).map((item, i: number) => (
                         <div key={i} className="bg-white p-5 rounded-2xl border border-purple-100 shadow-sm">
                           <p className="text-purple-900 font-black text-sm mb-1 uppercase tracking-tight">{item.label}</p>
                           <p className="text-gray-600 text-sm font-medium">{item.desc}</p>
