@@ -1,6 +1,18 @@
 import { SQPQuestion } from '../../types';
 
 export const sqp: SQPQuestion[] = [
+  {
+    id: 'bulk_701',
+    year: '2022-23',
+    paperType: 'CBSE SQP',
+    type: 'Subjective',
+    marks: 4,
+    question: `Explain the concept of 'Controlling' and how it acts as a backward looking as well as a forward looking function.`,
+    answer: `Controlling ensures tasks conform to plans. Backward looking: analyzes past performance deviations. Forward looking: uses past data to improve future planning.`,
+    markingScheme: `Controlling ensures tasks conform to plans. Backward looking: analyzes past performance deviations. Forward looking: uses past data to improve future planning.`,
+    aiExplanation: `Controlling compares actuals vs standards. It bridges past deviations to future plan corrections.`
+  },
+
     {
         id: '2025-26-q18',
         year: '2025-26',

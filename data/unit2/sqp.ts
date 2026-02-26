@@ -1,6 +1,22 @@
 import { SQPQuestion } from '../../types';
 
 export const sqp: SQPQuestion[] = [
+  {
+    id: 'bulk_102',
+    year: '2022-23',
+    paperType: 'CBSE SQP',
+    type: 'MCQ',
+    marks: 1,
+    question: `Fayol's principle of 'Espirit De Corps' means:`,
+    optionA: `Unity of command`,
+    optionB: `Union is strength`,
+    optionC: `Scalar chain`,
+    optionD: `Order`,
+    answer: `B) Union is strength`,
+    markingScheme: `B) Union is strength`,
+    aiExplanation: `Espirit De Corps emphasises team spirit, harmony and unity within the organisation.`
+  },
+
     {
         id: '2025-26-q18',
         year: '2025-26',

@@ -1,6 +1,22 @@
 import { SQPQuestion } from '../../types';
 
 export const sqp: SQPQuestion[] = [
+  {
+    id: 'bulk_700',
+    year: '2023-24',
+    paperType: 'CBSE SQP',
+    type: 'MCQ',
+    marks: 1,
+    question: `Which of the following describes 'Motivation' in Directing?`,
+    optionA: `Process of stimulating people to action to accomplish desired goals`,
+    optionB: `Assigning duties to team members`,
+    optionC: `Comparing actual performance with standards`,
+    optionD: `Raising funds from the capital market`,
+    answer: `A) Process of stimulating people to action to accomplish desired goals`,
+    markingScheme: `A) Process of stimulating people to action to accomplish desired goals`,
+    aiExplanation: `Motivation is a core element of Directing, heavily focused on driving employee action and enthusiasm.`
+  },
+
     {
         id: '2025-26-q7',
         year: '2025-26',

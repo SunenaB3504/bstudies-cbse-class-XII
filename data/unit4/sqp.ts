@@ -1,6 +1,22 @@
 import { SQPQuestion } from '../../types';
 
 export const sqp: SQPQuestion[] = [
+  {
+    id: 'bulk_400',
+    year: '2023-24',
+    paperType: 'CBSE SQP',
+    type: 'MCQ',
+    marks: 1,
+    question: `Which of the following is not a step in the process of planning?`,
+    optionA: `Making assumptions about the future`,
+    optionB: `Evaluating alternative courses`,
+    optionC: `Allocation of jobs to members of each department`,
+    optionD: `Setting objectives`,
+    answer: `C) Allocation of jobs to members of each department`,
+    markingScheme: `C) Allocation of jobs to members of each department`,
+    aiExplanation: `Allocation of jobs is a step in the organising process, not planning.`
+  },
+
     {
         id: '2025-26-q13',
         year: '2025-26',

@@ -1,6 +1,22 @@
 import { SQPQuestion } from '../../types';
 
 export const sqp: SQPQuestion[] = [
+  {
+    id: 'bulk_702',
+    year: '2023-24',
+    paperType: 'CBSE Board',
+    type: 'MCQ',
+    marks: 1,
+    question: `Determine the primary objective of Financial Management.`,
+    optionA: `Profit maximisation`,
+    optionB: `Wealth maximisation of shareholders`,
+    optionC: `Optimum utilisation of resources`,
+    optionD: `Ensuring liquidity`,
+    answer: `B) Wealth maximisation of shareholders`,
+    markingScheme: `B) Wealth maximisation of shareholders`,
+    aiExplanation: `Modern Financial Management focuses primarily on increasing the value of shareholder equity.`
+  },
+
     {
         id: '2025-26-q9',
         year: '2025-26',

@@ -1,6 +1,18 @@
 import { SQPQuestion } from '../../types';
 
 export const sqp: SQPQuestion[] = [
+  {
+    id: 'bulk_1002',
+    year: '2022-23',
+    paperType: 'CBSE Board',
+    type: 'Subjective',
+    marks: 3,
+    question: `State any two rights of a consumer under the Consumer Protection Act, 2019.`,
+    answer: `1. Right to Safety (protection against hazardous goods). 2. Right to Information (details about quality, quantity, price).`,
+    markingScheme: `1. Right to Safety (protection against hazardous goods). 2. Right to Information (details about quality, quantity, price).`,
+    aiExplanation: `The CPA 2019 grants 6 basic rights to consumers to protect them against unfair trade practices.`
+  },
+
     {
         id: '2025-26-q34a',
         year: '2025-26',

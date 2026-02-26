@@ -1,6 +1,18 @@
 import { SQPQuestion } from '../../types';
 
 export const sqp: SQPQuestion[] = [
+  {
+    id: 'bulk_402',
+    year: '2023-24',
+    paperType: 'CBSE SQP',
+    type: 'Subjective',
+    marks: 3,
+    question: `Explain the concept of 'Training' and state any two benefits of training to an organisation.`,
+    answer: `Training is the process of equipping employees with the required skills to perform the job. Benefits: 1) Reduced learning time, 2) Better performance.`,
+    markingScheme: `Training is the process of equipping employees with the required skills to perform the job. Benefits: 1) Reduced learning time, 2) Better performance.`,
+    aiExplanation: `Training is a core component of staffing that focuses on immediate skill enhancement for specific tasks.`
+  },
+
     {
         id: '2025-26-q6',
         year: '2025-26',

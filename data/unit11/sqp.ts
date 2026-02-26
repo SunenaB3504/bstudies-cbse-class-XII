@@ -1,6 +1,18 @@
 import { SQPQuestion } from '../../types';
 
 export const sqp: SQPQuestion[] = [
+  {
+    id: 'bulk_1001',
+    year: '2023-24',
+    paperType: 'CBSE SQP',
+    type: 'Subjective',
+    marks: 3,
+    question: `Management of 'Product' mix involves evaluating certain decisions. Name any two.`,
+    answer: `1. Branding (giving a distinct name/symbol), 2. Packaging (designing the wrapper/container).`,
+    markingScheme: `1. Branding (giving a distinct name/symbol), 2. Packaging (designing the wrapper/container).`,
+    aiExplanation: `Product mix focuses on decisions regarding physical attributes, branding, packaging, and labeling of goods.`
+  },
+
     {
         id: '2025-26-q34',
         year: '2025-26',

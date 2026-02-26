@@ -1,6 +1,22 @@
 import { SQPQuestion } from '../../types';
 
 export const sqp: SQPQuestion[] = [
+  {
+    id: 'bulk_401',
+    year: '2022-23',
+    paperType: 'CBSE SQP',
+    type: 'MCQ',
+    marks: 1,
+    question: `Identify the type of organisation structure which facilitates occupational specialisation.`,
+    optionA: `Functional structure`,
+    optionB: `Divisional structure`,
+    optionC: `Network structure`,
+    optionD: `Matrix structure`,
+    answer: `A) Functional structure`,
+    markingScheme: `A) Functional structure`,
+    aiExplanation: `A functional structure groups activities based on functions, leading to occupational specialisation.`
+  },
+
     {
         id: '2025-26-q12',
         year: '2025-26',

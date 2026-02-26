@@ -1,6 +1,33 @@
 import { SQPQuestion } from '../../types';
 
 export const sqp: SQPQuestion[] = [
+  {
+    id: 'bulk_100',
+    year: '2023-24',
+    paperType: 'CBSE SQP',
+    type: 'MCQ',
+    marks: 1,
+    question: `Which of the following describes 'Management is a continuous process'?`,
+    optionA: `It involves a series of continuous, composite, but separate functions`,
+    optionB: `It can be applied to all types of organizations`,
+    optionC: `Needs of the environment change dynamically`,
+    optionD: `None of the above`,
+    answer: `A) It involves a series of continuous, composite, but separate functions`,
+    markingScheme: `A) It involves a series of continuous, composite, but separate functions`,
+    aiExplanation: `Management consists of ongoing functions like planning, organising, directing, and controlling which occur simultaneously.`
+  },
+  {
+    id: 'bulk_101',
+    year: '2023-24',
+    paperType: 'CBSE SQP',
+    type: 'Subjective',
+    marks: 3,
+    question: `Saurabh decided to start a chocolates manufacturing business. He set the target of earning 10% profit on sales in the first year. Name the function of management involved.`,
+    answer: `Planning.`,
+    markingScheme: `Planning.`,
+    aiExplanation: `Planning involves setting objectives in advance and determining the course of action to achieve them.`
+  },
+
     {
       id: '2025-26-q1',
       year: '2025-26',

@@ -1,6 +1,18 @@
 import { SQPQuestion } from '../../types';
 
 export const sqp: SQPQuestion[] = [
+  {
+    id: 'bulk_103',
+    year: '2022-23',
+    paperType: 'CBSE SQP',
+    type: 'Subjective',
+    marks: 3,
+    question: `Identify the dimension of business environment illustrated by: 'Increase in the life expectancy of people'.`,
+    answer: `Social Environment`,
+    markingScheme: `Social Environment`,
+    aiExplanation: `Social environment includes customs, traditions, values, social trends, society's expectations etc. Life expectancy relates to health trends.`
+  },
+
     {
         id: '2025-26-q3',
         year: '2025-26',
