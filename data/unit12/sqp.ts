@@ -2,6 +2,70 @@ import { SQPQuestion } from '../../types';
 
 export const sqp: SQPQuestion[] = [
   {
+    id: 'u12_extra_1',
+    year: '2023-24',
+    paperType: 'CBSE SQP',
+    type: 'MCQ',
+    marks: 1,
+    question: `Aura Ltd. sold water heaters without ISI markings. Which consumer right is violated?`,
+    optionA: `Right to Choose`,
+    optionB: `Right to Information`,
+    optionC: `Right to Safety`,
+    optionD: `Right to be Heard`,
+    answer: `C) Right to Safety`,
+    markingScheme: `C) Right to Safety`,
+    aiExplanation: `Uncertified electrical appliances pose a safety hazard, violating the Right to Safety.`
+  },
+  {
+    id: 'u12_extra_2',
+    year: '2022-23',
+    paperType: 'CBSE Board',
+    type: 'Subjective',
+    marks: 4,
+    question: `Explain any four responsibilities of a consumer.`,
+    answer: `1. Ask for a cash memo. 2. Buy only standardized goods. 3. Read labels carefully. 4. Assert oneself to get a fair deal.`,
+    markingScheme: `1. Ask for a cash memo. 2. Buy only standardized goods. 3. Read labels carefully. 4. Assert oneself to get a fair deal.`,
+    aiExplanation: `Consumers have responsibilities alongside rights to ensure they are not exploited.`
+  },
+  {
+    id: 'u12_extra_3',
+    year: '2022-23',
+    paperType: 'CBSE Board',
+    type: 'Subjective',
+    marks: 3,
+    question: `State the pecuniary jurisdiction of the District Commission and State Commission under the Consumer Protection Act, 2019.`,
+    answer: `District Commission: Up to ₹1 Crore. State Commission: More than ₹1 Crore but up to ₹10 Crore.`,
+    markingScheme: `District Commission: Up to ₹1 Crore. State Commission: More than ₹1 Crore but up to ₹10 Crore.`,
+    aiExplanation: `The CPA 2019 revised the financial limits for filing complaints at different tiers.`
+  },
+  {
+    id: 'u12_extra_4',
+    year: '2021-22',
+    paperType: 'CBSE SQP',
+    type: 'Subjective',
+    marks: 5,
+    question: `If a consumer is not satisfied with the order of the State Commission, where and within how many days can they appeal?`,
+    answer: `They can appeal to the National Commission within 30 days of the State Commission's order.`,
+    markingScheme: `They can appeal to the National Commission within 30 days of the State Commission's order.`,
+    aiExplanation: `The three-tier redressal machinery allows upward appeals within specific timeframes to ensure justice.`
+  },
+  {
+    id: 'u12_extra_5',
+    year: '2023-24',
+    paperType: 'CBSE Board',
+    type: 'MCQ',
+    marks: 1,
+    question: `Which of the following marks denotes the quality of agricultural products in India?`,
+    optionA: `ISI Mark`,
+    optionB: `Hallmark`,
+    optionC: `Agmark`,
+    optionD: `FPO Mark`,
+    answer: `C) Agmark`,
+    markingScheme: `C) Agmark`,
+    aiExplanation: `Agmark is a certification mark employed on agricultural products in India.`
+  },
+
+  {
     id: 'bulk_1002',
     year: '2022-23',
     paperType: 'CBSE Board',

@@ -50,4 +50,14 @@ export const cheatSheet: CheatSheetItem[] = [
             "Develops **Society** (Jobs/Quality)."
         ]
     }
+  ,
+  {
+    title: "2. Key Characteristics",
+    points: [
+      "Goal-oriented and Pervasive",
+      "Multidimensional (Work, People, Operations)",
+      "Continuous and Dynamic Process",
+      "Intangible Force"
+    ]
+  }
 ];
