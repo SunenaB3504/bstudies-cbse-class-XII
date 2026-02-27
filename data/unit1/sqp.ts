@@ -14,8 +14,8 @@ export const sqp: SQPQuestion[] = [
     optionD: `None of the above`,
     answer: `A) It involves a series of continuous, composite, but separate functions`,
     markingScheme: `A) It involves a series of continuous, composite, but separate functions`,
-    aiExplanation: `Management consists of ongoing functions like planning, organising, directing, and controlling which occur simultaneously.`
-  },
+    aiExplanation: `Management consists of ongoing functions like planning, organising, directing, and controlling which occur simultaneously.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`
+    },
   { 
     id: 'bulk_101',
     year: '2023-24',
@@ -25,7 +25,7 @@ export const sqp: SQPQuestion[] = [
     question: `Saurabh decided to start a chocolates manufacturing business. He set the target of earning 10% profit on sales in the first year. Name the function of management involved.`,
     answer: `The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example.\n2. Secondary Point: Elaborates on the mechanism or rationale behind the concept.\n3. Tertiary Point: Discusses the implication or impact on the business environment.`,
       markingScheme: `The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example.\n2. Secondary Point: Elaborates on the mechanism or rationale behind the concept.\n3. Tertiary Point: Discusses the implication or impact on the business environment.`,
-      aiExplanation: `For a 3-mark question, always provide three distinct points. Start by defining the concept briefly. Then, list the points in a structured manner, preferably using bullet points or a table if it's a difference question.`
+      aiExplanation: `[Mark Justification - 3 Marks Total]:\n• 1 Mark for defining/identifying the core concept (Planning).\n• 1 Mark for Point 1 (Setting Objectives - setting target of 10% profit).\n• 1 Mark for Point 2 (Developing Premises - forecasting sales and demand).`
     },
 
     { 
@@ -41,7 +41,7 @@ export const sqp: SQPQuestion[] = [
       optionD: 'Systematized body of knowledge',
       answer: 'Restricted Entry (and Ethical Code of Conduct)',
       markingScheme: 'Restricted Entry OR Ethical Code of Conduct OR Professional Association',
-      aiExplanation: 'Anyone can become a manager regardless of degree, unlike medicine or law where entry is restricted by examinations. Also, there is no single compulsory body like the Bar Council.'
+      aiExplanation: `Anyone can become a manager regardless of degree, unlike medicine or law where entry is restricted by examinations. Also, there is no single compulsory body like the Bar Council.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`
     },
     { 
     id: '2025-26-q2',
@@ -56,7 +56,7 @@ export const sqp: SQPQuestion[] = [
       optionD: 'Hierarchy',
       answer: 'Coordination',
       markingScheme: 'Coordination',
-      aiExplanation: 'Coordination is considered the essence of management as it synchronizes all other functions (POSDC) to ensure unity of action.'
+      aiExplanation: `Coordination is considered the essence of management as it synchronizes all other functions (POSDC) to ensure unity of action.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`
     },
     { 
     id: '2025-26-q22',
@@ -67,7 +67,7 @@ export const sqp: SQPQuestion[] = [
       question: 'Differentiate between Top Level and Middle Level Management.',
       answer: `The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example.\n2. Secondary Point: Elaborates on the mechanism or rationale behind the concept.\n3. Tertiary Point: Discusses the implication or impact on the business environment.`,
       markingScheme: `The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example.\n2. Secondary Point: Elaborates on the mechanism or rationale behind the concept.\n3. Tertiary Point: Discusses the implication or impact on the business environment.`,
-      aiExplanation: `For a 3-mark question, always provide three distinct points. Start by defining the concept briefly. Then, list the points in a structured manner, preferably using bullet points or a table if it's a difference question.`
+      aiExplanation: `[Mark Justification - 3 Marks Total]:\n• 1 Mark for Point 1 (Meaning/Role: Top level determines objectives; Middle level implements them).\n• 1 Mark for Point 2 (Composition: Top includes CEO/Board; Middle includes Department Heads).\n• 1 Mark for Point 3 (Nature of Work: Top focuses on long-term strategy; Middle focuses on short-term departmental tactics).`
     },
     { 
     id: '2024-25-q1',
@@ -82,7 +82,7 @@ export const sqp: SQPQuestion[] = [
       optionD: 'Cooperation',
       answer: 'Coordination',
       markingScheme: 'Coordination',
-      aiExplanation: 'Synchronisation is the keyword for Coordination; it ensures that different departments work together without conflict.'
+      aiExplanation: `Synchronisation is the keyword for Coordination; it ensures that different departments work together without conflict.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`
     },
     { 
     id: '2024-25-q5',
@@ -93,7 +93,7 @@ export const sqp: SQPQuestion[] = [
       question: 'Management is an intangible force. Explain.',
       answer: 'It cannot be seen but its presence is felt.',
       markingScheme: 'Management is an intangible force that cannot be seen but its presence can be felt in the way the organization functions.',
-      aiExplanation: 'Look for evidence like orderliness, discipline, happy employees, and achievement of goals as proof of this intangible force.'
+      aiExplanation: `Look for evidence like orderliness, discipline, happy employees, and achievement of goals as proof of this intangible force.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`
     },
     { 
     id: '2024-25-q22',
@@ -104,7 +104,7 @@ export const sqp: SQPQuestion[] = [
       question: 'Adopting eco-friendly methods of production helps achieve which objective of management?',
       answer: `The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example.\n2. Secondary Point: Elaborates on the mechanism or rationale behind the concept.\n3. Tertiary Point: Discusses the implication or impact on the business environment.`,
       markingScheme: `The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example.\n2. Secondary Point: Elaborates on the mechanism or rationale behind the concept.\n3. Tertiary Point: Discusses the implication or impact on the business environment.`,
-      aiExplanation: `For a 3-mark question, always provide three distinct points. Start by defining the concept briefly. Then, list the points in a structured manner, preferably using bullet points or a table if it's a difference question.`
+      aiExplanation: `[Mark Justification - 3 Marks Total]:\n• 1 Mark for identifying the core objective (Social Objective).\n• 1 Mark for Point 1 (Definition: Fulfilling obligations towards society such as environmental protection).\n• 1 Mark for Point 2 (Application: Eco-friendly production directly reduces pollution, benefiting society).`
     },
     { 
     id: '2023-24-q1',
@@ -119,7 +119,7 @@ export const sqp: SQPQuestion[] = [
       optionD: 'None of the above',
       answer: 'Middle Level Management',
       markingScheme: 'Middle Level Management',
-      aiExplanation: 'Middle management acts as a link pin, interpreting top-level strategies into actionable plans for lower-level execution.'
+      aiExplanation: `Middle management acts as a link pin, interpreting top-level strategies into actionable plans for lower-level execution.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`
     },
     { 
     id: '2023-24-q2',
@@ -134,7 +134,7 @@ export const sqp: SQPQuestion[] = [
       optionD: 'Universal Validity',
       answer: 'Personalised Application',
       markingScheme: 'Personalised Application',
-      aiExplanation: 'Art is personalized; just as two musicians play the same raga differently, every manager applies knowledge differently based on their creativity.'
+      aiExplanation: `Art is personalized; just as two musicians play the same raga differently, every manager applies knowledge differently based on their creativity.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`
     },
     { 
     id: '2023-24-q13',
@@ -149,8 +149,8 @@ export const sqp: SQPQuestion[] = [
       optionD: 'None',
       answer: 'Effectiveness = End Result; Efficiency = Cost Benefit.',
       markingScheme: 'Effectiveness relates to doing the right task, completing activities and achieving goals. Efficiency relates to doing the task correctly and with minimum cost.',
-      aiExplanation: 'Effectiveness is about the "End Result" (Time). Efficiency is about the "Process" (Cost/Input-Output).'
-        },
+      aiExplanation: `Effectiveness is about the "End Result" (Time). Efficiency is about the "Process" (Cost/Input-Output).\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`
+    },
     { 
     id: '2022-23-q1',
       year: '2022-23',
@@ -160,6 +160,6 @@ export const sqp: SQPQuestion[] = [
       question: 'Foremen and Supervisors belong to which level of management?',
       answer: 'Supervisory or Operational Management',
       markingScheme: 'Supervisory or Operational Management',
-      aiExplanation: 'They are at the lowest level in the hierarchy of managers, directly overseeing the workforce.'
+      aiExplanation: `They are at the lowest level in the hierarchy of managers, directly overseeing the workforce.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`
     }
 ];
