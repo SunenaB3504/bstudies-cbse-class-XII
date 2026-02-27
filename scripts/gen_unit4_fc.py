@@ -1,4 +1,6 @@
-import { Chapter } from '../../types';
+import os
+
+file_content = """import { Chapter } from '../../types';
 
 export const flashcards: Chapter['flashcards'] = [
   {
@@ -314,3 +316,9 @@ export const flashcards: Chapter['flashcards'] = [
     answer: 'Planning does not guarantee success (Relying on past success in a dynamic environment).'
   }
 ];
+"""
+
+with open(r'c:\Users\Admin\Neil\bstudies-cbse-class-XII\data\unit4\flashcards.ts', 'w', encoding='utf-8') as f:
+    f.write(file_content)
+
+print("Unit 4 Flashcards expanded to 52 items successfully.")
