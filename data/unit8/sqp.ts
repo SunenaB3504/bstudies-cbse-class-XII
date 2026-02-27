@@ -10,8 +10,7 @@ export const sqp: SQPQuestion[] = [
     question: `Explain the concept of 'Controlling' and how it acts as a backward looking as well as a forward looking function.`,
     answer: `A four-mark answer must be comprehensive, breaking down the principles or processes into at least four distinct headings.\n\n1. First Heading: Detailed explanation linking back to the case study or direct theory.\n2. Second Heading: Expansion on the subsequent step or feature.\n3. Third Heading: Providing a real-world application or example.\n4. Fourth Heading: Summarizing the outcome or conclusion of the process.`,
       markingScheme: `Controlling involves comparison of actual performance with the planned standards. Controlling is a backward-looking function as it measures performance against past standards. It is a forward-looking function because it seeks to improve future performance based on past experiences.`,
-      aiExplanation: `This is a 4-mark question. You must identify the core concept (1 mark) and provide a minimum of three detailed points of explanation (3 marks). Ensure each point has a clear heading and a 2-3 sentence description.`
-    },
+      aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for identifying Controlling as backward-looking.\n• 1 Mark for identifying Controlling as forward-looking.\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Nature of Controlling):*\n• **Backward-Looking:** It is like a postmortem of past activities to find out deviations from the established standards.\n• **Forward-Looking:** It seeks to improve future performance on the basis of past experiences by initiating corrective actions.\n• **Goal Oriented:** It aims at ensuring that resources are used effectively to achieve organizational goals.\n• **Pervasive:** It is required at all levels of management.`,},
 
     { 
     id: '2025-26-q18',
@@ -21,8 +20,7 @@ export const sqp: SQPQuestion[] = [
         type: 'SA',
         question: 'Identify the principle of management control that states: "An attempt to control everything results in controlling nothing".',
         answer: 'Management by Exception',
-        aiExplanation: `This is a 4-mark question. You must identify the core concept (1 mark) and provide a minimum of three detailed points of explanation (3 marks). Ensure each point has a clear heading and a 2-3 sentence description.`
-    },
+        aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for identifying the principle (Management by Exception).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Analysing Deviations in Controlling):*\n• **Management by Exception:** Principle stating that an attempt to control everything results in controlling nothing. Only significant deviations going beyond permissible limits should be addressed.\n• **Critical Point Control:** Focusing on Key Result Areas (KRAs) which are critical to the success of an organization.\n• **Importance:** Saves time and effort of managers, allowing them to focus on vital issues.\n• **Facilitates Delegation:** Routine problems are left to subordinates.`,},
     { 
     id: '2024-25-q8',
         year: '2024-25',
@@ -31,8 +29,7 @@ export const sqp: SQPQuestion[] = [
         type: 'MCQ',
         question: 'Which function of management is considered as a "forward looking function" because it seeks to improve future performance?',
         answer: 'Controlling',
-        aiExplanation: 'Controlling looks at past errors to take corrective action for the future, making it forward-looking.'
-    },
+        aiExplanation: `Controlling looks at past errors to take corrective action for the future, making it forward-looking.\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
     { 
     id: '2024-25-q28',
         year: '2024-25',
@@ -41,8 +38,7 @@ export const sqp: SQPQuestion[] = [
         type: 'SA',
         question: 'Planning and controlling are inseparable twins of management. How are they related?',
         answer: 'Blind without standards / Meaningless without implementation',
-        aiExplanation: `This is a 4-mark question. You must identify the core concept (1 mark) and provide a minimum of three detailed points of explanation (3 marks). Ensure each point has a clear heading and a 2-3 sentence description.`
-    },
+        aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for stating Planning is blind without Controlling.\n• 1 Mark for stating Controlling is meaningless without Planning.\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Relationship between Planning and Controlling):*\n• **Inseparable Twins:** Planning and controlling are closely interrelated.\n• **Standards Provided by Planning:** Planning sets the standards against which actual performance is evaluated. Therefore, controlling is meaningless without planning.\n• **Action Provided by Controlling:** Once a plan becomes operational, controlling ensures that work progresses as planned. Therefore, planning is blind without controlling.\n• **Forward and Backward Looking:** Both functions look backward to past experiences and forward to future actions.`,},
     { 
     id: '2023-24-q8',
         year: '2023-24',
@@ -51,8 +47,7 @@ export const sqp: SQPQuestion[] = [
         type: 'MCQ',
         question: 'Which technique of controlling deals with the concept of Key Result Areas (KRAs)?',
         answer: 'Critical Point Control',
-        aiExplanation: 'Critical Point Control focuses on Key Result Areas (KRAs) which are critical to the success of an organization.'
-    },
+        aiExplanation: `Critical Point Control focuses on Key Result Areas (KRAs) which are critical to the success of an organization.\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
     { 
     id: '2023-24-q30',
         year: '2023-24',
@@ -61,8 +56,7 @@ export const sqp: SQPQuestion[] = [
         type: 'LA',
         question: 'What should a manager do if the performance standards set in the planning process are found to be obsolete or unachievable?',
         answer: 'Revise the Standards (Corrective Action)',
-        aiExplanation: `For 5 or 6 mark long-answer questions, structure is critical. Start with a short introduction. Then use well-defined headings for each of the 5 or 6 points. Underline the headings and provide 2-3 sentences of explanation for each point. End with a concluding sentence if applicable.`
-    },
+        aiExplanation: `[Mark Justification - 6 Marks Total]:\n• 1 Mark for identifying the action (Revise the Standards).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Taking Corrective Action in Controlling):*\n• **Purpose of Corrective Action:** To bring actual performance up to the level of planned performance.\n• **When Standards are Faulty:** If standards are found to be defective, unrealistic, or unachievable due to environmental changes, the manager must revise them.\n• **When Deviations are within limits:** No corrective action is required if deviations are within acceptable limits.\n• **Addressing the Root Cause:** Managers must find the exact cause of deviation (e.g., defective materials, obsolete machinery) and take specific actions (e.g., changing suppliers, repairing machines).`,},
     { 
     id: '2022-23-q8',
         year: '2022-23',
@@ -71,8 +65,7 @@ export const sqp: SQPQuestion[] = [
         type: 'MCQ',
         question: 'One of the importance of controlling is that it enables management to verify whether the standards set are accurate and objective. Which importance is this?',
         answer: 'Judging accuracy of standards',
-        aiExplanation: 'Controlling helps to check if standards are valid in the changing environment.'
-    },
+        aiExplanation: `Controlling helps to check if standards are valid in the changing environment.\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
     { 
     id: '2022-23-q26',
         year: '2022-23',
@@ -81,6 +74,5 @@ export const sqp: SQPQuestion[] = [
         type: 'LA',
         question: 'Explain Critical Point Control with an example.',
         answer: 'Focus on KRAs (e.g., 5% rise in labour cost is more critical than 15% rise in postal charges)',
-        aiExplanation: `For 5 or 6 mark long-answer questions, structure is critical. Start with a short introduction. Then use well-defined headings for each of the 5 or 6 points. Underline the headings and provide 2-3 sentences of explanation for each point. End with a concluding sentence if applicable.`
-    }
+        aiExplanation: `[Mark Justification - 6 Marks Total]:\n• 1 Mark for indentifying the concept (Critical Point Control).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Critical Point Control):*\n• **Concept:** It is neither economical nor easy to keep a check on each and every activity in an organisation.\n• **Focus on KRAs:** Control should, therefore, focus on Key Result Areas (KRAs) which are critical to the success of an organisation.\n• **Example:** In a manufacturing organization, a 5% increase in the labor cost is more troublesome than a 15% increase in postal charges.\n• **Benefit:** It helps in saving time and effort of the management as they only focus on significant deviations.\n• **Contrast:** Distinguish it from Management by Exception which focuses on the *degree* of deviation rather than the *area* of deviation.`,}
 ];

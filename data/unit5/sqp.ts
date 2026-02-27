@@ -25,8 +25,7 @@ export const sqp: SQPQuestion[] = [
         type: 'MCQ',
         question: 'Responsibility flows upwards, whereas Authority flows _____________.',
         answer: 'Downwards',
-        aiExplanation: 'Authority is the right to command (Top to Bottom). Responsibility is the obligation to perform (Bottom to Top).'
-    },
+        aiExplanation: `Authority is the right to command (Top to Bottom). Responsibility is the obligation to perform (Bottom to Top).\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
     { 
     id: '2025-26-q26',
         year: '2025-26',
@@ -35,8 +34,7 @@ export const sqp: SQPQuestion[] = [
         type: 'LA',
         question: 'Identify the organisation structure where each division functions as an autonomous unit and is accountable for its own profits and losses.',
         answer: 'Divisional Structure',
-        aiExplanation: `For 5 or 6 mark long-answer questions, structure is critical. Start with a short introduction. Then use well-defined headings for each of the 5 or 6 points. Underline the headings and provide 2-3 sentences of explanation for each point. End with a concluding sentence if applicable.`
-    },
+        aiExplanation: `[Mark Justification - 6 Marks Total]:\n• 1 Mark for identifying the structure (Divisional Structure).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Product Specialisation/Divisional Structure):*\n• **Concept:** An organization structure comprising of separate business units or divisions, each functioning autonomously under a divisional manager responsible for profits/losses.\n• **Product Specialization:** It leads to product specialization as the manager gains experience in all functions related to a particular product.\n• **Accountability:** It helps in fixing responsibility because divisional results (revenues and costs) can be assessed easily.\n• **Flexibility:** It promotes flexibility and initiative because each division functions as an autonomous unit leading to faster decision making.\n• **Expansion:** It facilitates expansion and growth as new divisions can be added without interrupting existing operations.`,},
     { 
     id: '2024-25-q6',
         year: '2024-25',
@@ -45,8 +43,7 @@ export const sqp: SQPQuestion[] = [
         type: 'MCQ',
         question: 'It refers to the number of subordinates that can be effectively managed by a superior. Identify the concept.',
         answer: 'Span of Management',
-        aiExplanation: 'Span of Management determines the levels of management in an organisation structure.'
-    },
+        aiExplanation: `Span of Management determines the levels of management in an organisation structure.\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
     { 
     id: '2024-25-q26',
         year: '2024-25',
@@ -55,8 +52,7 @@ export const sqp: SQPQuestion[] = [
         type: 'LA',
         question: 'It is the act of making the subordinate answerable for the final outcome. Once authority has been delegated and responsibility accepted, one cannot deny it.',
         answer: 'Accountability',
-        aiExplanation: `For 5 or 6 mark long-answer questions, structure is critical. Start with a short introduction. Then use well-defined headings for each of the 5 or 6 points. Underline the headings and provide 2-3 sentences of explanation for each point. End with a concluding sentence if applicable.`
-    },
+        aiExplanation: `[Mark Justification - 6 Marks Total]:\n• 1 Mark for identifying the concept (Accountability).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Accountability & Delegation):*\n• **Concept of Accountability:** Being answerable for the final outcome. It cannot be delegated and flows upwards.\n• **Delegation Process:** Explaining the three elements of delegation: Authority, Responsibility, and Accountability.\n• **Authority:** The right to command subordinates and take action.\n• **Responsibility:** The obligation of a subordinate to properly perform the assigned duty.\n• **Principle of Absolute Accountability:** A manager can delegate authority and responsibility to subordinates, but remains ultimately accountable to their own superior for the task's completion.`,},
     { 
     id: '2023-24-q6',
         year: '2023-24',
@@ -65,8 +61,7 @@ export const sqp: SQPQuestion[] = [
         type: 'MCQ',
         question: 'Which type of organisation structure leads to occupational specialisation?',
         answer: 'Functional Structure',
-        aiExplanation: 'Functional Structure groups similar activities together, leading to developing deep skills in that specific function (Occupational Specialisation).'
-    },
+        aiExplanation: `Functional Structure groups similar activities together, leading to developing deep skills in that specific function (Occupational Specialisation).\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
     { 
     id: '2023-24-q34',
         year: '2023-24',
@@ -75,8 +70,7 @@ export const sqp: SQPQuestion[] = [
         type: 'LA',
         question: 'Top management needs relief from routine decision making to focus on strategic issues. Which concept helps in this?',
         answer: 'Decentralisation',
-        aiExplanation: `For 5 or 6 mark long-answer questions, structure is critical. Start with a short introduction. Then use well-defined headings for each of the 5 or 6 points. Underline the headings and provide 2-3 sentences of explanation for each point. End with a concluding sentence if applicable.`
-    },
+        aiExplanation: `[Mark Justification - 6 Marks Total]:\n• 1 Mark for identifying the concept (Decentralisation).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Importance of Decentralisation):*\n• **Relief to Top Management:** Diminishes the burden of top executives by delegating routine decision-making so they can focus on strategy.\n• **Develops Initiative:** Promotes self-reliance and confidence amongst subordinates.\n• **Develops Managerial Talent:** Gives lower-level managers a chance to prove their abilities, creating a reservoir of qualified manpower.\n• **Quick Decision Making:** Decisions are taken at the level which is closest to the point of action, preventing delays.\n• **Facilitates Growth:** Awards greater autonomy, allowing departments to function to their best potential.\n• **Better Control:** Makes it possible to evaluate performance at each level and hold departments accountable.`,},
     { 
     id: '2022-23-q1',
         year: '2022-23',
@@ -85,8 +79,7 @@ export const sqp: SQPQuestion[] = [
         type: 'MCQ',
         question: 'Which step in the process of organising involves establishing who reports to whom?',
         answer: 'Establishing Reporting Relationships',
-        aiExplanation: 'This is the final step where the hierarchy and lines of communication are clearly defined.'
-    },
+        aiExplanation: `This is the final step where the hierarchy and lines of communication are clearly defined.\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
     { 
     id: '2022-23-q23',
         year: '2022-23',
@@ -95,6 +88,5 @@ export const sqp: SQPQuestion[] = [
         type: 'SA',
         question: 'Can a manager delegate accountability? Explain.',
         answer: 'No. Accountability is absolute.',
-        aiExplanation: `This is a 4-mark question. You must identify the core concept (1 mark) and provide a minimum of three detailed points of explanation (3 marks). Ensure each point has a clear heading and a 2-3 sentence description.`
-    }
+        aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for the direct answer (No).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Delegation of Accountability):*\n• **Absolute Nature:** Accountability is absolute and cannot be delegated.\n• **Upward Flow:** It flows upwards, i.e., a subordinate will be accountable to a superior for satisfactory performance of work.\n• **Ultimate Responsibility:** Even after delegating authority and assigning responsibility to a subordinate, the manager remains accountable to his own superior for the outcome.`,}
 ];

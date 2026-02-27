@@ -57,8 +57,7 @@ export const SQP_QUESTIONS: Chapter['sqp'] = [
     type: "LA",
     year: "2024-25",
     marks: 6,
-    aiExplanation: `For 5 or 6 mark long-answer questions, structure is critical. Start with a short introduction. Then use well-defined headings for each of the 5 or 6 points. Underline the headings and provide 2-3 sentences of explanation for each point. End with a concluding sentence if applicable.`
-  },
+    aiExplanation: `[Mark Justification - 6 Marks Total]:\n• 1 Mark for listing each major step.\n• 1 Mark for explanation of the step.\n\n*Comprehensive Revision Points (Trading Procedure on Stock Exchange):*\n• **1. Selection of a Broker:** Only registered members can trade. The investor signs a broker-client agreement and a client registration form.\n• **2. Opening Demat Account:** Opening an account with a Depository Participant (bank/broker) to hold and transfer securities electronically.\n• **3. Placing the Order:** The investor places an order with the broker (e.g., buy 100 shares of Reliance at Rs. 2500).\n• **4. Execution of the order:** The broker buys/sells the shares on the exchange and issues a 'Trade Confirmation Slip' and later a 'Contract Note'.\n• **5. Settlement:** Transfer of securities and cash. T+1 rolling settlement system where trades are settled 1 working day after the transaction date.`,},
   { 
     id: "sqp-10-6",
     paperType: "SQP",
@@ -67,6 +66,5 @@ export const SQP_QUESTIONS: Chapter['sqp'] = [
     type: "LA",
     year: "2023-24",
     marks: 3,
-    aiExplanation: `For a 3-mark question, always provide three distinct points. Start by defining the concept briefly. Then, list the points in a structured manner, preferably using bullet points or a table if it's a difference question.`
-  }
+    aiExplanation: `[Mark Justification - 3 Marks Total]:\n• 1 Mark for each point of difference explained.\n\n*Comprehensive Revision Points (Capital Market vs Money Market):*\n• **1. Duration:** Capital market deals in medium and long-term securities (>1 year). Money market deals in short-term securities (<1 year).\n• **2. Liquidity:** Capital market securities are relatively less liquid. Money market instruments are highly liquid as Discount Finance House of India (DFHI) provides a ready market.\n• **3. Safety:** Capital market instruments are riskier with higher chances of default and price volatility. Money market instruments are much safer due to shorter duration and institutional participants.\n• **4. Participants:** Capital market (Retail investors, mutual funds, banks). Money market (RBI, Commercial banks, large corporate houses).`,}
 ];

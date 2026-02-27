@@ -25,8 +25,7 @@ export const sqp: SQPQuestion[] = [
         type: 'MCQ',
         question: 'Which of the following incentives helps in satisfying the self-actualisation needs of an employee?',
         answer: 'Career Advancement Opportunity',
-        aiExplanation: 'Career Advancement (Non-Financial) provides growth, satisfying higher-order needs like self-actualisation.'
-    },
+        aiExplanation: `Career Advancement (Non-Financial) provides growth, satisfying higher-order needs like self-actualisation.\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
     { 
     id: '2025-26-q28',
         year: '2025-26',
@@ -35,8 +34,7 @@ export const sqp: SQPQuestion[] = [
         type: 'SA',
         question: 'Identify the barrier to communication when a superior acts in a manner that subordinates do not have the confidence to communicate with him?',
         answer: 'Personal Barrier (Fear of challenge to authority / Lack of confidence)',
-        aiExplanation: `This is a 4-mark question. You must identify the core concept (1 mark) and provide a minimum of three detailed points of explanation (3 marks). Ensure each point has a clear heading and a 2-3 sentence description.`
-    },
+        aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for identifying the exact barrier (Lack of confidence of superior on his subordinates - Personal Barrier).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Personal Barriers to Communication):*\n• **Lack of Confidence:** If superiors do not have confidence in the competency of their subordinates, they may not seek their advice or opinions.\n• **Fear of Challenge:** Superior may withhold information if they fear it will challenge their authority.\n• **Unwillingness to Communicate:** Subordinates may not communicate if they perceive it will adversely affect their interests.\n• **Lack of Proper Incentives:** If there is no motivation or reward, subordinates may not take initiative in offering suggestions.`,},
     { 
     id: '2024-25-q14',
         year: '2024-25',
@@ -45,8 +43,7 @@ export const sqp: SQPQuestion[] = [
         type: 'MCQ',
         question: 'A leader who does not believe in the use of power unless it is absolutely essential is using which style of leadership?',
         answer: 'Laissez-faire (Free-rein)',
-        aiExplanation: 'Laissez-faire leaders give complete freedom to subordinates and avoid using power.'
-    },
+        aiExplanation: `Laissez-faire leaders give complete freedom to subordinates and avoid using power.\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
     { 
     id: '2024-25-q27',
         year: '2024-25',
@@ -55,8 +52,7 @@ export const sqp: SQPQuestion[] = [
         type: 'LA',
         question: 'Management of a company ensures that the basic salary of employees is enough to cover their food and shelter. Which need is being satisfied?',
         answer: 'Physiological Needs',
-        aiExplanation: `For 5 or 6 mark long-answer questions, structure is critical. Start with a short introduction. Then use well-defined headings for each of the 5 or 6 points. Underline the headings and provide 2-3 sentences of explanation for each point. End with a concluding sentence if applicable.`
-    },
+        aiExplanation: `[Mark Justification - 6 Marks Total]:\n• 1 Mark for identifying the need (Basic Physiological Needs).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Maslow's Need Hierarchy):*\n• **1. Basic Physiological Needs:** Most basic needs in the hierarchy (food, clothing, shelter). In organizational context: Basic salary.\n• **2. Safety/Security Needs:** Needs for physical and emotional security. In organizational context: Pension plans, job security.\n• **3. Affiliation/Belonging Needs:** Needs for affection, sense of belongingness, acceptance. In organizational context: Cordial relations with colleagues.\n• **4. Esteem Needs:** Needs for self-respect, autonomy status, recognition. In organizational context: Job title, awards.\n• **5. Self-Actualization Needs:** Drive to become what one is capable of becoming. In organizational context: Challenging jobs, growth opportunities.`,},
     { 
     id: '2023-24-q7',
         year: '2023-24',
@@ -65,8 +61,7 @@ export const sqp: SQPQuestion[] = [
         type: 'MCQ',
         question: 'Instructions should be clear and precise so that subordinates can understand them easily. Which principle of directing is highlighted?',
         answer: 'Managerial Communication',
-        aiExplanation: 'The principle of Managerial Communication emphasizes clarity of instructions for effective direction.'
-    },
+        aiExplanation: `The principle of Managerial Communication emphasizes clarity of instructions for effective direction.\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
     { 
     id: '2023-24-q29',
         year: '2023-24',
@@ -75,8 +70,7 @@ export const sqp: SQPQuestion[] = [
         type: 'SA',
         question: 'When a manager usage technical jargon which is not understood by the subordinates, which type of communication barrier is it?',
         answer: 'Semantic Barrier',
-        aiExplanation: `This is a 4-mark question. You must identify the core concept (1 mark) and provide a minimum of three detailed points of explanation (3 marks). Ensure each point has a clear heading and a 2-3 sentence description.`
-    },
+        aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for identifying the category (Semantic Barrier).\n• 1 Mark for specifically identifying (Technical Jargon).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Semantic Barriers):*\n• **Technical Jargon:** Specialists use technical language which may not be understood by workers.\n• **Badly Expressed Message:** Wrong choice of words or inadequate vocabulary.\n• **Symbols with Different Meanings:** A word like 'value' can have different meanings in different contexts.\n• **Faulty Translations:** If the translator is not proficient, the meaning may be lost.\n• **Unclarified Assumptions:** Sender may make assumptions that the receiver does not share.`,},
     { 
     id: '2022-23-q15',
         year: '2022-23',
@@ -85,8 +79,7 @@ export const sqp: SQPQuestion[] = [
         type: 'MCQ',
         question: 'Which element of directing involves the process of stimulating people to action to accomplish desired goals?',
         answer: 'Motivation',
-        aiExplanation: 'Motivation is defined as the process of stimulating people to action.'
-    },
+        aiExplanation: `Motivation is defined as the process of stimulating people to action.\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
     { 
     id: '2022-23-q30',
         year: '2022-23',
@@ -95,6 +88,5 @@ export const sqp: SQPQuestion[] = [
         type: 'LA',
         question: 'A company offers Stock Option / Co-partnership to its employees. What kind of incentive is this?',
         answer: 'Financial Incentive',
-        aiExplanation: `For 5 or 6 mark long-answer questions, structure is critical. Start with a short introduction. Then use well-defined headings for each of the 5 or 6 points. Underline the headings and provide 2-3 sentences of explanation for each point. End with a concluding sentence if applicable.`
-    }
+        aiExplanation: `[Mark Justification - 6 Marks Total]:\n• 1 Mark for identifying the incentive type (Financial Incentive - Co-partnership/Stock Option).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Financial Incentives):*\n• **Co-partnership/Stock Option:** Employees are offered company shares at a set price lower than the market price, giving them a feeling of ownership and tying their success to the company's success.\n• **Pay and Allowances:** Regular increments in salary and D.A.\n• **Productivity Linked Wage Incentives:** Paying wages at higher rates for higher productivity.\n• **Bonus:** An incentive offered over and above the wages/salary.\n• **Profit Sharing:** Provide a share to employees in the profits of the organisation.\n• **Perquisites:** Fringe benefits like car allowance, housing, medical aid.`,}
 ];

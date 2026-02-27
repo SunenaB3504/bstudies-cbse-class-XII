@@ -25,8 +25,7 @@ export const sqp: SQPQuestion[] = [
         type: 'MCQ',
         question: 'Identify the primary objective of financial management which focuses on maximizing the market price of shares.',
         answer: 'Wealth Maximisation',
-        aiExplanation: 'The primary objective is wealth maximisation, which is achieved by maximizing the market price of equity shares.'
-    },
+        aiExplanation: `The primary objective is wealth maximisation, which is achieved by maximizing the market price of equity shares.\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
     { 
     id: '2025-26-q29',
         year: '2025-26',
@@ -35,8 +34,7 @@ export const sqp: SQPQuestion[] = [
         type: 'SA',
         question: 'Under what condition is financial leverage considering to be favourable?',
         answer: 'When ROI > Cost of Debt',
-        aiExplanation: `This is a 4-mark question. You must identify the core concept (1 mark) and provide a minimum of three detailed points of explanation (3 marks). Ensure each point has a clear heading and a 2-3 sentence description.`
-    },
+        aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for defining the condition (ROI > Cost of Debt).\n• 1 Mark for each valid explanation point.\n\n*Comprehensive Revision Points (Trading on Equity/Financial Leverage):*\n• **Concept:** Financial leverage is the proportion of debt in the overall capital structure.\n• **Favourable Condition:** It is favourable when the Return on Investment (ROI) is greater than the Cost of Debt.\n• **Impact:** Under this condition, the Earnings Per Share (EPS) of the equity shareholders increases.\n• **Risk:** However, if ROI falls below the cost of debt, the financial leverage becomes unfavourable and EPS rapidly declines.\n• **Trading on Equity:** The practice of using fixed-cost sources of finance (like debt) to increase the return to equity shareholders.`,},
     { 
     id: '2024-25-q15',
         year: '2024-25',
@@ -45,8 +43,7 @@ export const sqp: SQPQuestion[] = [
         type: 'MCQ',
         question: 'Lenders often impose certain restrictions on the payment of dividend in the loan agreement. Which factor affecting dividend decision is this?',
         answer: 'Contractual Constraints',
-        aiExplanation: 'Loan agreements and bond indentures often contain restrictions (covenants) on dividend payments to protect lenders.'
-    },
+        aiExplanation: `Loan agreements and bond indentures often contain restrictions (covenants) on dividend payments to protect lenders.\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
     { 
     id: '2024-25-q30',
         year: '2024-25',
@@ -55,8 +52,7 @@ export const sqp: SQPQuestion[] = [
         type: 'LA',
         question: 'There is a time lag between the receipt of raw material and the realisation of cash from sales. How does this affect working capital requirements?',
         answer: 'Production Cycle (Longer cycle = Higher WC)',
-        aiExplanation: `For 5 or 6 mark long-answer questions, structure is critical. Start with a short introduction. Then use well-defined headings for each of the 5 or 6 points. Underline the headings and provide 2-3 sentences of explanation for each point. End with a concluding sentence if applicable.`
-    },
+        aiExplanation: `[Mark Justification - 6 Marks Total]:\n• 1 Mark for identifying 'Production Cycle / Operating Cycle'.\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Factors affecting Working Capital):*\n• **1. Production Cycle/Operating Cycle:** The time span between receipt of raw materials and their conversion into finished goods. Longer cycle = Higher working capital.\n• **2. Nature of Business:** Trading firm = Less WC. Manufacturing firm = More WC.\n• **3. Scale of Operations:** Large scale = More WC. Small scale = Less WC.\n• **4. Business Cycle:** Boom = More WC. Depression = Less WC.\n• **5. Seasonal Factors:** Peak season = More WC. Slack season = Less WC.\n• **6. Credit Allowed:** Liberal credit policy = More WC.\n• **7. Availability of Raw Material:** If available easily = Less WC.`,},
     { 
     id: '2023-24-q1',
         year: '2023-24',
@@ -65,8 +61,7 @@ export const sqp: SQPQuestion[] = [
         type: 'MCQ',
         question: 'The use of higher proportion of debt in the capital structure increases the EPS. This situation is known as?',
         answer: 'Favourable Financial Leverage / Trading on Equity',
-        aiExplanation: 'Trading on Equity uses fixed cost debt to increase the EPS, provided ROI > Interest Rate.'
-    },
+        aiExplanation: `Trading on Equity uses fixed cost debt to increase the EPS, provided ROI > Interest Rate.\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
     { 
     id: '2023-24-q23',
         year: '2023-24',
@@ -75,8 +70,7 @@ export const sqp: SQPQuestion[] = [
         type: 'SA',
         question: 'A decision is taken to invest funds in a new project. Which type of financial decision is this?',
         answer: 'Investment Decision (Capital Budgeting)',
-        aiExplanation: `For a 3-mark question, always provide three distinct points. Start by defining the concept briefly. Then, list the points in a structured manner, preferably using bullet points or a table if it's a difference question.`
-    },
+        aiExplanation: `[Mark Justification - 3 Marks Total]:\n• 1 Mark for identifying the decision (Investment/Capital Budgeting).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Investment Decision):*\n• **Concept:** Relates to how the firm's funds are invested in different assets.\n• **Long-term investment (Capital Budgeting):** Involves committing finance on a long-term basis (e.g., buying a new machine). They are irreversible except at a huge cost.\n• **Short-term investment (Working Capital):** Concerned with the levels of cash, inventory, and receivables.\n• **Factors Affecting Capital Budgeting:** Cash flows of the project, Rate of Return, and the Investment criteria involved (interest rates, tax).`,},
     { 
     id: '2022-23-q9',
         year: '2022-23',
@@ -85,8 +79,7 @@ export const sqp: SQPQuestion[] = [
         type: 'MCQ',
         question: 'The preparation of a financial blueprint of an organisation\'s future operations is known as?',
         answer: 'Financial Planning',
-        aiExplanation: 'Financial Planning involves forecasting and blueprinting future operations to ensure fund availability.'
-    },
+        aiExplanation: `Financial Planning involves forecasting and blueprinting future operations to ensure fund availability.\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
     { 
     id: '2022-23-q31',
         year: '2022-23',
@@ -95,6 +88,5 @@ export const sqp: SQPQuestion[] = [
         type: 'LA',
         question: 'A company enters into a collaboration with another company to share production facilities. How will this affect its Fixed Capital requirement?',
         answer: 'Requirement Reduces (Level of Collaboration)',
-        aiExplanation: `For 5 or 6 mark long-answer questions, structure is critical. Start with a short introduction. Then use well-defined headings for each of the 5 or 6 points. Underline the headings and provide 2-3 sentences of explanation for each point. End with a concluding sentence if applicable.`
-    }
+        aiExplanation: `[Mark Justification - 6 Marks Total]:\n• 1 Mark for identifying 'Level of Collaboration'.\n• 1 Mark for each valid point relating to fixed capital.\n\n*Comprehensive Revision Points (Factors affecting Fixed Capital):*\n• **1. Level of Collaboration:** If companies share facilities (like ATMs by banks), the requirement for fixed capital reduces.\n• **2. Nature of Business:** Manufacturing needs more fixed capital than trading.\n• **3. Scale of Operations:** Larger organizations need more fixed capital.\n• **4. Choice of Technique:** Capital-intensive techniques need more fixed capital than labour-intensive.\n• **5. Technology Upgradation:** Industries where technology upgrades faster need more fixed capital for replacement.\n• **6. Growth Prospects:** Higher growth expectations require higher fixed capital.\n• **7. Financing Alternatives:** If leasing is available, less fixed capital is needed to buy assets.`,}
 ];

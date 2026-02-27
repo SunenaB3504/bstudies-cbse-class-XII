@@ -10,8 +10,7 @@ export const sqp: SQPQuestion[] = [
     question: `Explain the concept of 'Training' and state any two benefits of training to an organisation.`,
     answer: `The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example.\n2. Secondary Point: Elaborates on the mechanism or rationale behind the concept.\n3. Tertiary Point: Discusses the implication or impact on the business environment.`,
       markingScheme: `Training. It is the process of increasing the knowledge and skills of an employee for doing a particular job. Benefits: Reduces learning time, better performance, attitude formation, aids in solving operational problems.`,
-      aiExplanation: `For a 3-mark question, always provide three distinct points. Start by defining the concept briefly. Then, list the points in a structured manner, preferably using bullet points or a table if it's a difference question.`
-    },
+      aiExplanation: `[Mark Justification - 3 Marks Total]:\n• 1 Mark for defining Training.\n• 1 Mark for each valid benefit explained.\n\n*Comprehensive Revision Points (Benefits of Training to Organisation):*\n• **Concept:** Training is the process of increasing the knowledge and skills for doing a particular job.\n• **Systematic Learning:** It avoids the wastage of efforts and money that comes with the 'hit or trial' method.\n• **Higher Productivity:** Enhances employee performance, leading to higher profits.\n• **Future Managers:** Equips employees to take over in emergencies.\n• **Reduces Absenteeism:** Increases employee morale and reduces turnover.\n• **Adaptability:** Helps the organization obtain effective responses to a fast-changing economic and technological environment.`,},
 
     { 
     id: '2025-26-q6',
@@ -21,8 +20,7 @@ export const sqp: SQPQuestion[] = [
         type: 'MCQ',
         question: 'Identify the method of training where employees learn their jobs on the equipment they will be using, but the training is conducted away from the actual work floor.',
         answer: 'Vestibule Training',
-        aiExplanation: 'Vestibule training uses dummy models/equipment in a classroom setting to avoid disruption and accidents.'
-    },
+        aiExplanation: `Vestibule training uses dummy models/equipment in a classroom setting to avoid disruption and accidents.\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
     { 
     id: '2025-26-q27',
         year: '2025-26',
@@ -31,8 +29,7 @@ export const sqp: SQPQuestion[] = [
         type: 'LA',
         question: 'Which step in the staffing process involves determining the number and type of employees required?',
         answer: 'Estimating Manpower Requirements',
-        aiExplanation: `For 5 or 6 mark long-answer questions, structure is critical. Start with a short introduction. Then use well-defined headings for each of the 5 or 6 points. Underline the headings and provide 2-3 sentences of explanation for each point. End with a concluding sentence if applicable.`
-    },
+        aiExplanation: `[Mark Justification - 6 Marks Total]:\n• 1 Mark for identifying the step (Estimating Manpower Requirements).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Steps in Staffing Process):*\n• **1. Estimating Manpower Requirements:** Workload analysis (finding number/type needed) and Workforce analysis (assessing existing staff).\n• **2. Recruitment:** Searching for prospective employees and stimulating them to apply.\n• **3. Selection:** Choosing the best person out of the pool of prospective candidates.\n• **4. Placement and Orientation:** Occupying the position (placement) and introducing the employee to the organization (orientation).\n• **5. Training and Development:** Improving skills and competence.\n• **6. Performance Appraisal:** Evaluating current/past performance against standards.`,},
     { 
     id: '2024-25-q13',
         year: '2024-25',
@@ -41,8 +38,7 @@ export const sqp: SQPQuestion[] = [
         type: 'MCQ',
         question: 'Shifting an employee from one job to another without a substantive change in responsibilities or status is known as?',
         answer: 'Transfer',
-        aiExplanation: 'Transfer is a horizontal movement of employees (Internal Source of recruitment).'
-    },
+        aiExplanation: `Transfer is a horizontal movement of employees (Internal Source of recruitment).\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
     { 
     id: '2024-25-q34',
         year: '2024-25',
@@ -51,8 +47,7 @@ export const sqp: SQPQuestion[] = [
         type: 'LA',
         question: 'Differentiate between Trade Test and Aptitude Test.',
         answer: 'Trade Test measures existing skills. Aptitude Test measures potential to learn new skills.',
-        aiExplanation: `For 5 or 6 mark long-answer questions, structure is critical. Start with a short introduction. Then use well-defined headings for each of the 5 or 6 points. Underline the headings and provide 2-3 sentences of explanation for each point. End with a concluding sentence if applicable.`
-    },
+        aiExplanation: `[Mark Justification - 6 Marks Total]:\n• 1 Mark for defining Trade Test.\n• 1 Mark for defining Aptitude Test.\n• 1 Mark for each valid point/difference explained.\n\n*Comprehensive Revision Points (Types of Selection Tests):*\n• **Trade Test:** Measures the existing skills of an individual. Assesses the level of knowledge and proficiency in the area of the profession.\n• **Aptitude Test:** A measure of an individual's potential for learning new skills. Helps ascertain a person's capacity to develop.\n• **Personality Test:** Provides clues to a person's emotions, reactions, maturity, and value system.\n• **Intelligence Test:** Measures the level of intelligence quotient (IQ) and learning ability.\n• **Interest Test:** Used to know the pattern of interests or involvement of a person.`,},
     { 
     id: '2023-24-q22',
         year: '2023-24',
@@ -61,8 +56,7 @@ export const sqp: SQPQuestion[] = [
         type: 'SA',
         question: 'Which step involves introducing the selected employee to other employees and familiarizing him with the rules and policies?',
         answer: 'Orientation',
-        aiExplanation: `For a 3-mark question, always provide three distinct points. Start by defining the concept briefly. Then, list the points in a structured manner, preferably using bullet points or a table if it's a difference question.`
-    },
+        aiExplanation: `[Mark Justification - 3 Marks Total]:\n• 1 Mark for identifying the step (Orientation/Induction).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Placement and Orientation):*\n• **Orientation:** Introducing the selected employee to other employees.\n• **Familiarization:** Familiarizing the new employee with the rules and policies of the organization.\n• **Placement:** The employee occupying the position or post for which the person has been selected.\n• **Purpose:** To make the new employee feel at home and comfortable in the new environment.`,},
     { 
     id: '2023-24-q28',
         year: '2023-24',
@@ -71,8 +65,7 @@ export const sqp: SQPQuestion[] = [
         type: 'SA',
         question: 'A company maintains a database of unsolicited applicants in its offices. Which source of recruitment is this?',
         answer: 'Casual Callers',
-        aiExplanation: `This is a 4-mark question. You must identify the core concept (1 mark) and provide a minimum of three detailed points of explanation (3 marks). Ensure each point has a clear heading and a 2-3 sentence description.`
-    },
+        aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for identifying the source (Casual Callers).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (External Source - Casual Callers):*\n• **Concept:** Many reputed business organizations keep a database of unsolicited applicants in their offices.\n• **Usage:** Such job seekers can be a valuable source of manpower to fill pending vacancies.\n• **Advantage:** It reduces the cost of recruiting workforce compared to other sources like advertising.\n• **Suitability:** Good for finding candidates for lower-level or urgent vacancies quickly.`,},
     { 
     id: '2022-23-q6',
         year: '2022-23',
@@ -81,8 +74,7 @@ export const sqp: SQPQuestion[] = [
         type: 'MCQ',
         question: 'Which selection test provides clues to a person\'s emotions, reactions, maturity, and value system?',
         answer: 'Personality Test',
-        aiExplanation: 'Personality tests assess the overall psychological makeup of a candidate.'
-    },
+        aiExplanation: `Personality tests assess the overall psychological makeup of a candidate.\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
     { 
     id: '2022-23-q25',
         year: '2022-23',
@@ -91,6 +83,5 @@ export const sqp: SQPQuestion[] = [
         type: 'SA',
         question: 'Staffing ensures the continuous survival and growth of the enterprise. Explain.',
         answer: 'Through Succession Planning',
-        aiExplanation: `This is a 4-mark question. You must identify the core concept (1 mark) and provide a minimum of three detailed points of explanation (3 marks). Ensure each point has a clear heading and a 2-3 sentence description.`
-    }
+        aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for identifying the point correctly.\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Importance of Staffing):*\n• **Continuous Survival:** Staffing ensures the continuous survival and growth of the enterprise.\n• **Mechanism:** It achieves this through 'succession planning' for managers.\n• **Competent Personnel:** Discovers and obtains competent personnel for various jobs.\n• **Higher Performance:** Ensures higher performance by putting the right person on the right job.\n• **Optimum Utilization:** Prevents underutilization of personnel and high labor costs.`,}
 ];

@@ -25,8 +25,7 @@ export const sqp: SQPQuestion[] = [
     question: `Explain any four responsibilities of a consumer.`,
     answer: `A four-mark answer must be comprehensive, breaking down the principles or processes into at least four distinct headings.\n\n1. First Heading: Detailed explanation linking back to the case study or direct theory.\n2. Second Heading: Expansion on the subsequent step or feature.\n3. Third Heading: Providing a real-world application or example.\n4. Fourth Heading: Summarizing the outcome or conclusion of the process.`,
       markingScheme: `Consumer Responsibilities: 1. Be aware about various goods and services available in the market. 2. Buy only standardized goods as they provide quality assurance (e.g., ISI mark). 3. Learn about the risks associated with products and use them safely. 4. Read labels carefully. 5. Assert yourself to get a fair deal. (Any 4 points).`,
-      aiExplanation: `This is a 4-mark question. You must identify the core concept (1 mark) and provide a minimum of three detailed points of explanation (3 marks). Ensure each point has a clear heading and a 2-3 sentence description.`
-    },
+      aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for each valid responsibility explained.\n\n*Comprehensive Revision Points (Responsibilities of a Consumer):*\n• **1. Be aware:** Gather knowledge about various goods and services so an intelligent choice can be made.\n• **2. Buy standard goods:** Always check for quality marks (ISI on electrical, FPO on food, Hallmark on jewelry).\n• **3. Read labels:** Carefully read labels to know price, net weight, manufacturing and expiry dates.\n• **4. Assert yourself:** Ensure that you get a fair deal.\n• **5. Ask for Cash Memo:** Essential proof of purchase required for filing a complaint.\n• **6. File complaint:** File a complaint in an appropriate consumer forum in case of a shortcoming.`,},
   { 
     id: 'u12_extra_3',
     year: '2022-23',
@@ -36,8 +35,7 @@ export const sqp: SQPQuestion[] = [
     question: `State the pecuniary jurisdiction of the District Commission and State Commission under the Consumer Protection Act, 2019.`,
     answer: `The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example.\n2. Secondary Point: Elaborates on the mechanism or rationale behind the concept.\n3. Tertiary Point: Discusses the implication or impact on the business environment.`,
       markingScheme: `Pecuniary Jurisdiction under CPA 2019: District Commission entertains complaints where the value of goods or services paid as consideration does not exceed Rs. 1 crore. State Commission entertains complaints where the value exceeds Rs. 1 crore but does not exceed Rs. 10 crore.`,
-      aiExplanation: `For a 3-mark question, always provide three distinct points. Start by defining the concept briefly. Then, list the points in a structured manner, preferably using bullet points or a table if it's a difference question.`
-    },
+      aiExplanation: `[Mark Justification - 3 Marks Total]:\n• 1 Mark for defining Pecuniary Jurisdiction.\n• 1 Mark for District limit.\n• 1 Mark for State limit.\n\n*Comprehensive Revision Points (Pecuniary Jurisdiction under CPA 2019):*\n• **District Commission:** Receives complaints where the value of goods or services paid DOES NOT EXCEED Rs. 1 crore.\n• **State Commission:** Receives complaints where the value EXCEEDS Rs. 1 crore but DOES NOT EXCEED Rs. 10 crore.\n• **National Commission:** Receives complaints where the value EXCEEDS Rs. 10 crore.`,},
   { 
     id: 'u12_extra_4',
     year: '2021-22',
@@ -47,8 +45,7 @@ export const sqp: SQPQuestion[] = [
     question: `If a consumer is not satisfied with the order of the State Commission, where and within how many days can they appeal?`,
     answer: `This is a comprehensive long-form answer requiring deep analysis.\n\n1. Introduction: Define the broad concept asked in the question (e.g., Planning process, Fayol\'s principles).\n2. Core Point 1: Detail the first major feature or step with situational context.\n3. Core Point 2: Detail the second major feature or step.\n4. Core Point 3: Detail the third major feature or step.\n5. Core Point 4: Detail the fourth feature.\n6. Conclusion: A brief summarizing statement linking the points together.`,
       markingScheme: `Appeal against State Commission: If a consumer is not satisfied with the order of the State Commission, they can prefer an appeal against such order to the National Commission within 30 days of passing the order.`,
-      aiExplanation: `For 5 or 6 mark long-answer questions, structure is critical. Start with a short introduction. Then use well-defined headings for each of the 5 or 6 points. Underline the headings and provide 2-3 sentences of explanation for each point. End with a concluding sentence if applicable.`
-    },
+      aiExplanation: `[Mark Justification - 5 Marks Total]:\n• 1 Mark for identifying the correct appellate body.\n• 1 Mark for stating the time limit.\n• 3 Marks for elaborating the hierarchy.\n\n*Comprehensive Revision Points (Appellate Hierarchy under CPA 2019):*\n• **District to State:** Appeal against District Commission lies with the State Commission within 45 days.\n• **State to National:** Appeal against State Commission lies with the National Commission within 30 days.\n• **National to Supreme Court:** Appeal against National Commission (only for cases originating there) lies with the Supreme Court within 30 days.`,},
   { 
     id: 'u12_extra_5',
     year: '2023-24',
@@ -74,8 +71,7 @@ export const sqp: SQPQuestion[] = [
     question: `State any two rights of a consumer under the Consumer Protection Act, 2019.`,
     answer: `The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example.\n2. Secondary Point: Elaborates on the mechanism or rationale behind the concept.\n3. Tertiary Point: Discusses the implication or impact on the business environment.`,
       markingScheme: `Consumer Rights (Any two): Right to Safety (protection against hazardous goods), Right to be Informed (about quality, quantity, price), Right to Choose (assured access to a variety of products at competitive prices), Right to be Heard, Right to seek Redressal, Right to Consumer Education.`,
-      aiExplanation: `For a 3-mark question, always provide three distinct points. Start by defining the concept briefly. Then, list the points in a structured manner, preferably using bullet points or a table if it's a difference question.`
-    },
+      aiExplanation: `[Mark Justification - 3 Marks Total]:\n• 1 Mark for each valid right explained.\n\n*Comprehensive Revision Points (Consumer Rights under CPA 2019):*\n• **1. Right to Safety:** Protection against goods that are hazardous to life and health.\n• **2. Right to be Informed:** Right to have complete information about the product (ingredients, date of manufacture).\n• **3. Right to Choose:** Assured access to a variety of products at competitive prices.\n• **4. Right to be Heard:** Right to have their complaints heard in case of dissatisfaction.\n• **5. Right to seek Redressal:** Right to get relief against unfair trade practices.\n• **6. Right to Consumer Education:** Right to acquire knowledge and skills to be an informed consumer.`,},
 
     { 
     id: '2025-26-q34a',
@@ -85,8 +81,7 @@ export const sqp: SQPQuestion[] = [
         type: 'LA',
         question: 'Suggest any three remedies or reliefs available to a consumer under the Consumer Protection Act, 2019.',
         answer: 'Removal of defect, Replacement, Refund, Compensation, Discontinuance of unfair practice.',
-        aiExplanation: `For 5 or 6 mark long-answer questions, structure is critical. Start with a short introduction. Then use well-defined headings for each of the 5 or 6 points. Underline the headings and provide 2-3 sentences of explanation for each point. End with a concluding sentence if applicable.`
-    },
+        aiExplanation: `[Mark Justification - 6 Marks Total]:\n• 1 Mark for each valid relief/remedy listed.\n\n*Comprehensive Revision Points (Reliefs Available to Consumers):*\n• **1.** To remove the defect in goods or deficiency in services.\n• **2.** To replace the defective product with a new one, free from any defect.\n• **3.** To refund the price paid for the product, or the charges paid for the service.\n• **4.** To pay a reasonable amount of compensation for any loss or injury suffered.\n• **5.** To discontinue the unfair trade practice and not to repeat it in the future.\n• **6.** To withdraw the hazardous goods from being offered for sale.\n• **7.** To cease manufacture of hazardous goods.`,},
     { 
     id: '2024-25-q21',
         year: '2024-25',
@@ -95,8 +90,7 @@ export const sqp: SQPQuestion[] = [
         type: 'SA',
         question: 'A consumer has the right to acquire knowledge and skill to be an informed consumer throughout life. Identify the right.',
         answer: 'Right to Consumer Education',
-        aiExplanation: `For a 3-mark question, always provide three distinct points. Start by defining the concept briefly. Then, list the points in a structured manner, preferably using bullet points or a table if it's a difference question.`
-    },
+        aiExplanation: `[Mark Justification - 3 Marks Total]:\n• 1 Mark for identifying the Right.\n• 1 Mark for explaining the significance.\n\n*Comprehensive Revision Points (Right to Consumer Education):*\n• **Identify:** Right to Consumer Education.\n• **Meaning:** The consumer has a right to acquire knowledge and to be a well informed consumer throughout life.\n• **Importance:** He should be aware about his rights and the reliefs available to him in case of a product or service falling short of his expectations.\n• **Agencies:** Many consumer organizations and some enlightened businesses are taking an active part in educating consumers.`,},
     { 
     id: '2023-24-q34c',
         year: '2023-24',
@@ -105,8 +99,7 @@ export const sqp: SQPQuestion[] = [
         type: 'LA',
         question: 'Identify the consumer responsibility highlighted in the statement: "A consumer should act like a prudent person and ask for a proof of purchase".',
         answer: 'Ask for a Cash Memo',
-        aiExplanation: `For 5 or 6 mark long-answer questions, structure is critical. Start with a short introduction. Then use well-defined headings for each of the 5 or 6 points. Underline the headings and provide 2-3 sentences of explanation for each point. End with a concluding sentence if applicable.`
-    },
+        aiExplanation: `[Mark Justification - 6 Marks Total]:\n• 1 Mark for identifying 'Ask for a Cash Memo'.\n• 1 Mark for explaining its legal importance.\n\n*Comprehensive Revision Points (Responsibilities of a Consumer):*\n• **Identify Requirement:** Ask for a Cash Memo.\n• **Rationale:** A cash memo serves as absolute proof of purchase.\n• **Legal Need:** Without this proof, a consumer cannot file a legal complaint against the seller in a consumer court in case the product is defective.\n• **Related Responsibilities:** Read labels carefully, buy standardized goods (ISI mark), assert yourself to get a fair deal, respect the environment.`,},
     { 
     id: '2022-23-q21',
         year: '2022-23',
@@ -115,6 +108,5 @@ export const sqp: SQPQuestion[] = [
         type: 'SA',
         question: 'Business uses society\'s resources and therefore has an obligation to supply safer products. Which importance of consumer protection is this?',
         answer: 'Social Responsibility (Business View)',
-        aiExplanation: `For a 3-mark question, always provide three distinct points. Start by defining the concept briefly. Then, list the points in a structured manner, preferably using bullet points or a table if it's a difference question.`
-    }
+        aiExplanation: `[Mark Justification - 3 Marks Total]:\n• 1 Mark for identifying 'Social Responsibility'.\n• 1 Mark for elaborating on business ethics.\n\n*Comprehensive Revision Points (Importance of Consumer Protection from Business View):*\n• **1. Social Responsibility:** Business has a responsibility to supply quality products at reasonable prices and avoid exploiting the society's resources it uses.\n• **2. Long-term Interest of Business:** Satisfied consumers lead to repeat sales and positive word-of-mouth.\n• **3. Moral Justification:** It is the moral duty of any business to take care of consumer's interest and avoid black marketing/adulteration.\n• **4. Government Intervention:** Exploitative businesses invite government intervention or action against them.\n• **5. Business uses society's resources:** They must use them for the benefit of the society.`,}
 ];
