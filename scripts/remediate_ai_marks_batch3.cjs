@@ -60,16 +60,16 @@ function processUnit(unitNum) {
             if (marks >= 3 || id.startsWith('bulk_') || id.startsWith('sqp-10-') || id.startsWith('u12_extra_')) {
                 if (specificJustifications[id]) {
                     const justificationStr = specificJustifications[id];
-                    block = block.replace(/aiExplanation:\s*[`'"][\s\S]*?[`'"],/, `aiExplanation: \`${justificationStr}\`,`);
+                    block = block.replace(/aiExplanation:\s*(?:`[\s\S]*?`|'[\s\S]*?'|"[\s\S]*?")\s*,?/, `aiExplanation: \`${justificationStr}\`,`);
                     modifications++;
                 }
             } else if (marks === 1) {
                 if (!block.includes('[Mark Justification]')) {
-                    const existingMatch = block.match(/aiExplanation:\s*[`'"]([\s\S]*?)[`'"],/);
+                    const existingMatch = block.match(/aiExplanation:\s*(?:`([\s\S]*?)`|'([\s\S]*?)'|"([\s\S]*?)")/);
                     if (existingMatch) {
-                        const existingText = existingMatch[1].replace(/\\/g, '\\\\').replace(/`/g, '\\`');
+                        const existingText = (existingMatch[1] || existingMatch[2] || existingMatch[3]).replace(/\\/g, '\\\\').replace(/`/g, '\\`');
                         const newText = existingText + "\\n\\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.";
-                        block = block.replace(/aiExplanation:\s*[`'"][\s\S]*?[`'"],/, `aiExplanation: \`${newText}\`,`);
+                        block = block.replace(/aiExplanation:\s*(?:`[\s\S]*?`|'[\s\S]*?'|"[\s\S]*?")\s*,?/, `aiExplanation: \`${newText}\`,`);
                         modifications++;
                     }
                 }
