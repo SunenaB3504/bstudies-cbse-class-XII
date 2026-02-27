@@ -1,7 +1,7 @@
 import { Chapter } from '../../types';
 
 export const SQP_QUESTIONS: Chapter['sqp'] = [
-  {
+  { 
     id: "sqp-10-1",
     paperType: "SQP",
     question: "Which of the following creates a market for 'old securities'?",
@@ -15,7 +15,7 @@ export const SQP_QUESTIONS: Chapter['sqp'] = [
     marks: 1,
     aiExplanation: "The Secondary Market (Stock Exchange) is specifically defined as the market for buying and selling *existing* or *old* securities."
   },
-  {
+  { 
     id: "sqp-10-2",
     paperType: "SQP",
     question: "Identify the instrument of Money Market which is also known as 'Zero Coupon Bond'.",
@@ -29,7 +29,7 @@ export const SQP_QUESTIONS: Chapter['sqp'] = [
     marks: 1,
     aiExplanation: "Trigger Phrase: 'Zero Coupon Bond'. Treasury Bills are issued at a discount and redeemed at par, earning no explicit interest, hence the name."
   },
-  {
+  { 
     id: "sqp-10-3",
     paperType: "SQP",
     question: "State the developmental function of SEBI mentioned in the statement: 'SEBI conducts research and publishes information useful to all market participants'.",
@@ -39,7 +39,7 @@ export const SQP_QUESTIONS: Chapter['sqp'] = [
     marks: 1,
     aiExplanation: "Trigger Phrase: 'Training intermediaries' or 'Conducting research'. These are Developmental Functions aimed at promoting market growth."
   },
-  {
+  { 
     id: "sqp-10-4",
     paperType: "SQP",
     question: "Briefly explain 'Allocative Function' of Financial Market.",
@@ -49,7 +49,7 @@ export const SQP_QUESTIONS: Chapter['sqp'] = [
     marks: 1,
     aiExplanation: "The Allocative Function refers to linking savers and investors to ensure funds reach the most efficient investment opportunities."
   },
-  {
+  { 
     id: "sqp-10-5",
     paperType: "SQP",
     question: "Explain the trading procedure on a Stock Exchange.",
@@ -59,7 +59,7 @@ export const SQP_QUESTIONS: Chapter['sqp'] = [
     marks: 6,
     aiExplanation: `For 5 or 6 mark long-answer questions, structure is critical. Start with a short introduction. Then use well-defined headings for each of the 5 or 6 points. Underline the headings and provide 2-3 sentences of explanation for each point. End with a concluding sentence if applicable.`
   },
-  {
+  { 
     id: "sqp-10-6",
     paperType: "SQP",
     question: "Differentiate between Capital Market and Money Market on the basis of: (i) Duration (ii) Liquidity (iii) Safety.",

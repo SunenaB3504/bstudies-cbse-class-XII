@@ -9,7 +9,7 @@ export const sqp: SQPQuestion[] = [
     marks: 3,
     question: `Management of 'Product' mix involves evaluating certain decisions. Name any two.`,
     answer: `The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example.\n2. Secondary Point: Elaborates on the mechanism or rationale behind the concept.\n3. Tertiary Point: Discusses the implication or impact on the business environment.`,
-      markingScheme: `The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example.\n2. Secondary Point: Elaborates on the mechanism or rationale behind the concept.\n3. Tertiary Point: Discusses the implication or impact on the business environment.`,
+      markingScheme: `Product Mix Decisions: 1. Branding (giving a name, sign, or symbol to the product). 2. Packaging (designing the wrapper or container for the product). 3. Labelling (designing the label to be put on the package). (Any two points with explanation).`,
       aiExplanation: `For a 3-mark question, always provide three distinct points. Start by defining the concept briefly. Then, list the points in a structured manner, preferably using bullet points or a table if it's a difference question.`
     },
 
