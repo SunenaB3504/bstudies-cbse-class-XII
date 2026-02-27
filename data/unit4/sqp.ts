@@ -1,10 +1,10 @@
 import { SQPQuestion } from '../../types';
 
 export const sqp: SQPQuestion[] = [
-  {
+  { 
     id: 'bulk_400',
     year: '2023-24',
-    paperType: 'CBSE SQP',
+    paperType: "SQP",
     type: 'MCQ',
     marks: 1,
     question: `Which of the following is not a step in the process of planning?`,
@@ -17,8 +17,8 @@ export const sqp: SQPQuestion[] = [
     aiExplanation: `Allocation of jobs is a step in the organising process, not planning.`
   },
 
-    {
-        id: '2025-26-q13',
+    { 
+    id: '2025-26-q13',
         year: '2025-26',
         paperType: 'SQP',
         marks: 1,
@@ -27,18 +27,18 @@ export const sqp: SQPQuestion[] = [
         answer: 'Budget',
         aiExplanation: 'A Budget is a quantitative statement identifying expected results for a given future period.'
     },
-    {
-        id: '2025-26-q24',
+    { 
+    id: '2025-26-q24',
         year: '2025-26',
         paperType: 'SQP',
         marks: 4,
         type: 'SA',
         question: 'In the planning process, assumptions about the future are made. Identify and explain this step.',
         answer: 'Developing Premises',
-        aiExplanation: 'Planning is based on foresight. Premises are the assumptions (internal or external) about the future upon which plans are drawn.'
+        aiExplanation: `This is a 4-mark question. You must identify the core concept (1 mark) and provide a minimum of three detailed points of explanation (3 marks). Ensure each point has a clear heading and a 2-3 sentence description.`
     },
-    {
-        id: '2024-25-q4',
+    { 
+    id: '2024-25-q4',
         year: '2024-25',
         paperType: 'SQP',
         marks: 1,
@@ -47,18 +47,18 @@ export const sqp: SQPQuestion[] = [
         answer: 'Futuristic',
         aiExplanation: 'Planning is a forward-looking function involving forecasting future events.'
     },
-    {
-        id: '2024-25-q25',
+    { 
+    id: '2024-25-q25',
         year: '2024-25',
         paperType: 'SQP',
         marks: 4,
         type: 'SA',
         question: 'Identify the type of plan which is a comprehensive plan for achieving objectives, including resource allocation.',
         answer: 'Strategy',
-        aiExplanation: 'Strategy involves: 1. Long-term objectives, 2. Course of action, 3. Allocation of resources.'
+        aiExplanation: `This is a 4-mark question. You must identify the core concept (1 mark) and provide a minimum of three detailed points of explanation (3 marks). Ensure each point has a clear heading and a 2-3 sentence description.`
     },
-    {
-        id: '2023-24-q5',
+    { 
+    id: '2023-24-q5',
         year: '2023-24',
         paperType: 'Board',
         marks: 1,
@@ -67,18 +67,18 @@ export const sqp: SQPQuestion[] = [
         answer: 'Planning does not guarantee success',
         aiExplanation: 'Managers may have a false sense of security. Plans must be adapted to the new environment.'
     },
-    {
-        id: '2023-24-q26',
+    { 
+    id: '2023-24-q26',
         year: '2023-24',
         paperType: 'Board',
         marks: 6,
         type: 'LA',
         question: 'In which step of the planning process are the positive and negative aspects of each proposal weighed?',
         answer: 'Evaluating Alternative Courses',
-        aiExplanation: 'After identifying alternatives, managers evaluate the pros and cons (feasibility and consequences) of each.'
+        aiExplanation: `For 5 or 6 mark long-answer questions, structure is critical. Start with a short introduction. Then use well-defined headings for each of the 5 or 6 points. Underline the headings and provide 2-3 sentences of explanation for each point. End with a concluding sentence if applicable.`
     },
-    {
-        id: '2022-23-q3',
+    { 
+    id: '2022-23-q3',
         year: '2022-23',
         paperType: 'Board',
         marks: 1,
@@ -87,8 +87,8 @@ export const sqp: SQPQuestion[] = [
         answer: 'Rule',
         aiExplanation: 'Rules are rigid statements (e.g., "No Smoking") that allow no deviation or discretion.'
     },
-    {
-        id: '2022-23-q14',
+    { 
+    id: '2022-23-q14',
         year: '2022-23',
         paperType: 'Board',
         marks: 1,

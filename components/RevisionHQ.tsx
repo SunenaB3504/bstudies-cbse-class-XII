@@ -133,8 +133,8 @@ const SlidingFlashcards: React.FC<SlidingFlashcardsProps> = ({ chapter }) => {
                 setCurrentIndex(index);
               }}
               className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-tight transition-all ${cards[currentIndex].category === cat
-                  ? 'bg-amber-400 text-amber-950 shadow-md scale-105'
-                  : 'bg-gray-200 text-gray-600 hover:bg-gray-300'
+                ? 'bg-amber-400 text-amber-950 shadow-md scale-105'
+                : 'bg-gray-200 text-gray-600 hover:bg-gray-300'
                 }`}
             >
               {cat}
@@ -194,9 +194,9 @@ export const RevisionHQ: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
     const opt = {
       margin: 10,
       filename: `${chapter.name.replace(/[^a-z0-9]/gi, '_').toLowerCase()}_cheatsheet.pdf`,
-      image: { type: 'jpeg', quality: 0.98 },
+      image: { type: 'jpeg' as 'jpeg' | 'png' | 'webp', quality: 0.98 },
       html2canvas: { scale: 2, useCORS: true },
-      jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+      jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' as 'portrait' | 'landscape' },
       pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
     };
 

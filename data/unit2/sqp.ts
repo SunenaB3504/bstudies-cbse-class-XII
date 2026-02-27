@@ -1,10 +1,10 @@
 import { SQPQuestion } from '../../types';
 
 export const sqp: SQPQuestion[] = [
-  {
+  { 
     id: 'bulk_102',
     year: '2022-23',
-    paperType: 'CBSE SQP',
+    paperType: "SQP",
     type: 'MCQ',
     marks: 1,
     question: `Fayol's principle of 'Espirit De Corps' means:`,
@@ -17,28 +17,28 @@ export const sqp: SQPQuestion[] = [
     aiExplanation: `Espirit De Corps emphasises team spirit, harmony and unity within the organisation.`
   },
 
-    {
-        id: '2025-26-q18',
+    { 
+    id: '2025-26-q18',
         year: '2025-26',
         paperType: 'SQP',
         marks: 4,
         type: 'SA',
         question: 'State the principle of Scientific Management that emphasizes a "Mental Revolution" between management and workers.',
         answer: 'Harmony, Not Discord',
-        aiExplanation: 'Mental Revolution implies a change in attitude from competition to cooperation, which is the core of Harmony, Not Discord.'
+        aiExplanation: `This is a 4-mark question. You must identify the core concept (1 mark) and provide a minimum of three detailed points of explanation (3 marks). Ensure each point has a clear heading and a 2-3 sentence description.`
     },
-    {
-        id: '2025-26-q25',
+    { 
+    id: '2025-26-q25',
         year: '2025-26',
         paperType: 'SQP',
         marks: 4,
         type: 'SA',
         question: 'Identify the improved communication route suggested by Fayol when an employee needs to contact a peer in an emergency, bypassing the scalar chain.',
         answer: 'Gang Plank',
-        aiExplanation: 'Gang Plank allows direct communication between employees at the same level to avoid delays in the Scalar Chain.'
+        aiExplanation: `This is a 4-mark question. You must identify the core concept (1 mark) and provide a minimum of three detailed points of explanation (3 marks). Ensure each point has a clear heading and a 2-3 sentence description.`
     },
-    {
-        id: '2024-25-q2',
+    { 
+    id: '2024-25-q2',
         year: '2024-25',
         paperType: 'SQP',
         marks: 1,
@@ -47,18 +47,18 @@ export const sqp: SQPQuestion[] = [
         answer: 'Motion Study',
         aiExplanation: 'Motion study observes movements (lifting, sitting, etc.) to eliminate wasteful ones.'
     },
-    {
-        id: '2024-25-q23',
+    { 
+    id: '2024-25-q23',
         year: '2024-25',
         paperType: 'SQP',
         marks: 4,
         type: 'SA',
         question: 'Explain why management principles are considered "Flexible" and "Contingent".',
         answer: 'Flexible: They can be modified by the manager. Contingent: Their application depends on the prevailing situation.',
-        aiExplanation: 'Unlike scientific laws, management principles adapt to situations (e.g., fair wage depends on ability to pay).'
+        aiExplanation: `This is a 4-mark question. You must identify the core concept (1 mark) and provide a minimum of three detailed points of explanation (3 marks). Ensure each point has a clear heading and a 2-3 sentence description.`
     },
-    {
-        id: '2023-24-q3',
+    { 
+    id: '2023-24-q3',
         year: '2023-24',
         paperType: 'Board',
         marks: 1,
@@ -67,18 +67,18 @@ export const sqp: SQPQuestion[] = [
         answer: 'Functional Foremanship',
         aiExplanation: 'Taylor suggested separating planning (4 bosses) and execution (4 bosses) to improve efficiency.'
     },
-    {
-        id: '2023-24-q24',
+    { 
+    id: '2023-24-q24',
         year: '2023-24',
         paperType: 'Board',
         marks: 4,
         type: 'SA',
         question: 'Distinguish between Unity of Command and Unity of Direction.',
         answer: 'Command = One Boss (Individual focus). Direction = One Head, One Plan (Group focus/Coordination).',
-        aiExplanation: 'Unity of Command avoids confusion for the employee. Unity of Direction ensures unity of action for the organization.'
+        aiExplanation: `This is a 4-mark question. You must identify the core concept (1 mark) and provide a minimum of three detailed points of explanation (3 marks). Ensure each point has a clear heading and a 2-3 sentence description.`
     },
-    {
-        id: '2022-23-q2',
+    { 
+    id: '2022-23-q2',
         year: '2022-23',
         paperType: 'Board',
         marks: 1,
@@ -87,8 +87,8 @@ export const sqp: SQPQuestion[] = [
         answer: 'Equity',
         aiExplanation: 'Equity refers to kindliness and justice in the behavior of managers towards workers.'
     },
-    {
-        id: '2022-23-q13',
+    { 
+    id: '2022-23-q13',
         year: '2022-23',
         paperType: 'Board',
         marks: 1,
