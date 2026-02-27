@@ -9,7 +9,7 @@ export const sqp: SQPQuestion[] = [
     marks: 3,
     question: `Explain the concept of 'Training' and state any two benefits of training to an organisation.`,
     answer: `The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example.\n2. Secondary Point: Elaborates on the mechanism or rationale behind the concept.\n3. Tertiary Point: Discusses the implication or impact on the business environment.`,
-      markingScheme: `The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example.\n2. Secondary Point: Elaborates on the mechanism or rationale behind the concept.\n3. Tertiary Point: Discusses the implication or impact on the business environment.`,
+      markingScheme: `Training. It is the process of increasing the knowledge and skills of an employee for doing a particular job. Benefits: Reduces learning time, better performance, attitude formation, aids in solving operational problems.`,
       aiExplanation: `For a 3-mark question, always provide three distinct points. Start by defining the concept briefly. Then, list the points in a structured manner, preferably using bullet points or a table if it's a difference question.`
     },
 

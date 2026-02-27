@@ -9,7 +9,7 @@ export const sqp: SQPQuestion[] = [
     marks: 4,
     question: `Explain the concept of 'Controlling' and how it acts as a backward looking as well as a forward looking function.`,
     answer: `A four-mark answer must be comprehensive, breaking down the principles or processes into at least four distinct headings.\n\n1. First Heading: Detailed explanation linking back to the case study or direct theory.\n2. Second Heading: Expansion on the subsequent step or feature.\n3. Third Heading: Providing a real-world application or example.\n4. Fourth Heading: Summarizing the outcome or conclusion of the process.`,
-      markingScheme: `A four-mark answer must be comprehensive, breaking down the principles or processes into at least four distinct headings.\n\n1. First Heading: Detailed explanation linking back to the case study or direct theory.\n2. Second Heading: Expansion on the subsequent step or feature.\n3. Third Heading: Providing a real-world application or example.\n4. Fourth Heading: Summarizing the outcome or conclusion of the process.`,
+      markingScheme: `Controlling involves comparison of actual performance with the planned standards. Controlling is a backward-looking function as it measures performance against past standards. It is a forward-looking function because it seeks to improve future performance based on past experiences.`,
       aiExplanation: `This is a 4-mark question. You must identify the core concept (1 mark) and provide a minimum of three detailed points of explanation (3 marks). Ensure each point has a clear heading and a 2-3 sentence description.`
     },
 
