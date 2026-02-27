@@ -59,9 +59,12 @@ function processUnit(unitNum) {
                 finalJustification = `[Mark Justification - ${marks} Mark Total]:\\n• ${marks} Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`;
             }
 
-            if (finalJustification && !block.includes('[Mark Justification')) {
+            if (finalJustification && (marks >= 3 || !block.includes('[Mark Justification'))) {
                 // Completely replace existing AI explanation for high marks, or append for 1 mark
                 if (marks >= 3) {
+                    const cleanAnswer = finalJustification.replace(/\[Mark Justification.+?\]:\\n/, '');
+                    block = block.replace(/answer:\s*[`'"][\s\S]*?[`'"],/, `answer: \`${cleanAnswer}\`,`);
+                    block = block.replace(/markingScheme:\s*[`'"][\s\S]*?[`'"],/, `markingScheme: \`${cleanAnswer}\`,`);
                     block = block.replace(/aiExplanation:\s*[`'"][\s\S]*?[`'"](,?)\s*\}/, `aiExplanation: \`${finalJustification}\`$1\n    }`);
                 } else {
                     // Append for 1 marks

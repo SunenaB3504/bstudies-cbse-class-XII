@@ -8,8 +8,8 @@ export const sqp: SQPQuestion[] = [
     type: "SA",
     marks: 3,
     question: `Identify the dimension of business environment illustrated by: 'Increase in the life expectancy of people'.`,
-    answer: `The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example.\n2. Secondary Point: Elaborates on the mechanism or rationale behind the concept.\n3. Tertiary Point: Discusses the implication or impact on the business environment.`,
-      markingScheme: `The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example.\n2. Secondary Point: Elaborates on the mechanism or rationale behind the concept.\n3. Tertiary Point: Discusses the implication or impact on the business environment.`,
+    answer: `• 1 Mark for identifying the core dimension (Social Environment).\n• 1 Mark for Point 1 (Definition: Social environment includes traditions, values, social trends, demographics).\n• 1 Mark for Point 2 (Application: Increase in life expectancy creates new demands, like health products or senior care services).`,
+      markingScheme: `• 1 Mark for identifying the core dimension (Social Environment).\n• 1 Mark for Point 1 (Definition: Social environment includes traditions, values, social trends, demographics).\n• 1 Mark for Point 2 (Application: Increase in life expectancy creates new demands, like health products or senior care services).`,
       aiExplanation: `[Mark Justification - 3 Marks Total]:\n• 1 Mark for identifying the core dimension (Social Environment).\n• 1 Mark for Point 1 (Definition: Social environment includes traditions, values, social trends, demographics).\n• 1 Mark for Point 2 (Application: Increase in life expectancy creates new demands, like health products or senior care services).`
     },
 
@@ -40,7 +40,7 @@ export const sqp: SQPQuestion[] = [
         marks: 4,
         type: 'SA',
         question: 'Identify the importance of business environment highlighted: WhatsApp was the first mobile chat app to offer free messaging, capturing a huge user base.',
-        answer: 'Identification of opportunities and getting the First Mover Advantage',
+        answer: `• 1 Mark for correctly identifying the core principle (First Mover Advantage).\n• 1 Mark for Point 1 (Definition: Recognizing positive external trends early).\n• 1 Mark for Point 2 (Application: Explaining how WhatsApp seized the opportunity before competitors).\n• 1 Mark for Point 3 (Outcome: Achieving a massive user base and market dominance by being early).`,
         aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for correctly identifying the core principle (First Mover Advantage).\n• 1 Mark for Point 1 (Definition: Recognizing positive external trends early).\n• 1 Mark for Point 2 (Application: Explaining how WhatsApp seized the opportunity before competitors).\n• 1 Mark for Point 3 (Outcome: Achieving a massive user base and market dominance by being early).`
     },
     { 
@@ -60,7 +60,7 @@ export const sqp: SQPQuestion[] = [
         marks: 4,
         type: 'SA',
         question: 'The trend of health and fitness has created a demand for gyms and organic food. Identify the dimension.',
-        answer: 'Social Environment',
+        answer: `• 1 Mark for correctly identifying the core concept (Social Environment).\n• 1 Mark for Point 1 (Definition: It represents the customs, traditions, and social trends of society).\n• 1 Mark for Point 2 (Expansion: Changing lifestyles directly shift consumer demand).\n• 1 Mark for Point 3 (Outcome: Businesses must adapt to these social trends (e.g., offering organic foods) to survive).`,
         aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for correctly identifying the core concept (Social Environment).\n• 1 Mark for Point 1 (Definition: It represents the customs, traditions, and social trends of society).\n• 1 Mark for Point 2 (Expansion: Changing lifestyles directly shift consumer demand).\n• 1 Mark for Point 3 (Outcome: Businesses must adapt to these social trends (e.g., offering organic foods) to survive).`
     },
     { 
@@ -80,7 +80,7 @@ export const sqp: SQPQuestion[] = [
         marks: 4,
         type: 'SA',
         question: 'Managers must examine environment changes to develop suitable courses of action. Which importance is this?',
-        answer: 'Coping with Rapid Changes',
+        answer: `• 1 Mark for correctly identifying the core principle (Coping with Rapid Changes).\n• 1 Mark for Point 1 (Detail: The environment is dynamic and constantly changing).\n• 1 Mark for Point 2 (Application: Managers must constantly scan the environment to adapt).\n• 1 Mark for Point 3 (Outcome: Using environmental understanding to formulate resilient future plans/policies).`,
         aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for correctly identifying the core principle (Coping with Rapid Changes).\n• 1 Mark for Point 1 (Detail: The environment is dynamic and constantly changing).\n• 1 Mark for Point 2 (Application: Managers must constantly scan the environment to adapt).\n• 1 Mark for Point 3 (Outcome: Using environmental understanding to formulate resilient future plans/policies).`
     },
     { 
@@ -100,7 +100,7 @@ export const sqp: SQPQuestion[] = [
         marks: 3,
         type: 'SA',
         question: 'State two features of Demonetization.',
-        answer: '1. Tax Administration Measure. 2. Channelizing savings into formal financial system.',
+        answer: `• 1 Mark for defining/identifying Demonetization conceptually.\n• 1 Mark for Point 1 (Tax Administration Measure: Targeting black money and tax evasion).\n• 1 Mark for Point 2 (Channelizing savings: Shifting informal cash into the formal banking system to promote digital economy).`,
         aiExplanation: `[Mark Justification - 3 Marks Total]:\n• 1 Mark for defining/identifying Demonetization conceptually.\n• 1 Mark for Point 1 (Tax Administration Measure: Targeting black money and tax evasion).\n• 1 Mark for Point 2 (Channelizing savings: Shifting informal cash into the formal banking system to promote digital economy).`
     }
 ];

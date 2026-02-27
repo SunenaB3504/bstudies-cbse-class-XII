@@ -24,7 +24,7 @@ export const sqp: SQPQuestion[] = [
         marks: 4,
         type: 'SA',
         question: 'State the principle of Scientific Management that emphasizes a "Mental Revolution" between management and workers.',
-        answer: 'Harmony, Not Discord',
+        answer: `• 1 Mark for correctly identifying the core principle (Harmony, Not Discord).\n• 1 Mark for Point 1 (Mental Revolution: Complete change of attitude for both management and workers).\n• 1 Mark for Point 2 (Mutual Realization: Both should realize they need each other).\n• 1 Mark for Point 3 (Shared Prosperity: Management shares gains; workers work hard).`,
         aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for correctly identifying the core principle (Harmony, Not Discord).\n• 1 Mark for Point 1 (Mental Revolution: Complete change of attitude for both management and workers).\n• 1 Mark for Point 2 (Mutual Realization: Both should realize they need each other).\n• 1 Mark for Point 3 (Shared Prosperity: Management shares gains; workers work hard).`
     },
     { 
@@ -34,7 +34,7 @@ export const sqp: SQPQuestion[] = [
         marks: 4,
         type: 'SA',
         question: 'Identify the improved communication route suggested by Fayol when an employee needs to contact a peer in an emergency, bypassing the scalar chain.',
-        answer: 'Gang Plank',
+        answer: `• 1 Mark for correctly identifying the core concept (Gang Plank).\n• 1 Mark for Point 1 (Definition: It allows direct communication between employees of the same level).\n• 1 Mark for Point 2 (Purpose: It prevents delays in communication during emergencies in a strict Scalar Chain).\n• 1 Mark for Point 3 (Limitation/Condition: It should not be a normal practice and superiors must be informed eventually).`,
         aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for correctly identifying the core concept (Gang Plank).\n• 1 Mark for Point 1 (Definition: It allows direct communication between employees of the same level).\n• 1 Mark for Point 2 (Purpose: It prevents delays in communication during emergencies in a strict Scalar Chain).\n• 1 Mark for Point 3 (Limitation/Condition: It should not be a normal practice and superiors must be informed eventually).`
     },
     { 
@@ -54,7 +54,7 @@ export const sqp: SQPQuestion[] = [
         marks: 4,
         type: 'SA',
         question: 'Explain why management principles are considered "Flexible" and "Contingent".',
-        answer: 'Flexible: They can be modified by the manager. Contingent: Their application depends on the prevailing situation.',
+        answer: `• 1 Mark for identifying the core nature of principles.\n• 1 Mark for Point 1 (Flexible: Principles can be modified by managers according to situations).\n• 1 Mark for Point 2 (Contingent: Their application depends on the prevailing environmental conditions).\n• 1 Mark for Point 3 (Summary: They are guidelines, not exact science formulas).`,
         aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for identifying the core nature of principles.\n• 1 Mark for Point 1 (Flexible: Principles can be modified by managers according to situations).\n• 1 Mark for Point 2 (Contingent: Their application depends on the prevailing environmental conditions).\n• 1 Mark for Point 3 (Summary: They are guidelines, not exact science formulas).`
     },
     { 
@@ -74,7 +74,7 @@ export const sqp: SQPQuestion[] = [
         marks: 4,
         type: 'SA',
         question: 'Distinguish between Unity of Command and Unity of Direction.',
-        answer: 'Command = One Boss (Individual focus). Direction = One Head, One Plan (Group focus/Coordination).',
+        answer: `• 1 Mark for identifying both concepts.\n• 1 Mark for Point 1 (Meaning: Unity of Command = One boss per subordinate. Unity of Direction = One head one plan).\n• 1 Mark for Point 2 (Aim: Command prevents dual subordination. Direction prevents overlapping).\n• 1 Mark for Point 3 (Implication: Command affects individual employee. Direction affects the entire department).`,
         aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for identifying both concepts.\n• 1 Mark for Point 1 (Meaning: Unity of Command = One boss per subordinate. Unity of Direction = One head one plan).\n• 1 Mark for Point 2 (Aim: Command prevents dual subordination. Direction prevents overlapping).\n• 1 Mark for Point 3 (Implication: Command affects individual employee. Direction affects the entire department).`
     },
     { 

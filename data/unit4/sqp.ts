@@ -34,7 +34,7 @@ export const sqp: SQPQuestion[] = [
         marks: 4,
         type: 'SA',
         question: 'In the planning process, assumptions about the future are made. Identify and explain this step.',
-        answer: 'Developing Premises',
+        answer: `• 1 Mark for correctly identifying the core concept (Developing Premises).\n• 1 Mark for Point 1 (Definition: Making assumptions about the future upon which plans are based).\n• 1 Mark for Point 2 (Expansion: These can be internal like company policies, or external like economic trends).\n• 1 Mark for Point 3 (Importance: Accurate premises are essential since the future is uncertain).`,
         aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for correctly identifying the core concept (Developing Premises).\n• 1 Mark for Point 1 (Definition: Making assumptions about the future upon which plans are based).\n• 1 Mark for Point 2 (Expansion: These can be internal like company policies, or external like economic trends).\n• 1 Mark for Point 3 (Importance: Accurate premises are essential since the future is uncertain).`
     },
     { 
@@ -54,7 +54,7 @@ export const sqp: SQPQuestion[] = [
         marks: 4,
         type: 'SA',
         question: 'Identify the type of plan which is a comprehensive plan for achieving objectives, including resource allocation.',
-        answer: 'Strategy',
+        answer: `• 1 Mark for correctly identifying the core concept (Strategy).\n• 1 Mark for Point 1 (Elaboration: It outlines long-term objectives and broad contours of business operations).\n• 1 Mark for Point 2 (Expansion: It includes adopting a specific course of action).\n• 1 Mark for Point 3 (Summary: It dictates massive resource allocation to achieve goals against competitors).`,
         aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for correctly identifying the core concept (Strategy).\n• 1 Mark for Point 1 (Elaboration: It outlines long-term objectives and broad contours of business operations).\n• 1 Mark for Point 2 (Expansion: It includes adopting a specific course of action).\n• 1 Mark for Point 3 (Summary: It dictates massive resource allocation to achieve goals against competitors).`
     },
     { 
@@ -74,7 +74,7 @@ export const sqp: SQPQuestion[] = [
         marks: 6,
         type: 'LA',
         question: 'In which step of the planning process are the positive and negative aspects of each proposal weighed?',
-        answer: 'Evaluating Alternative Courses',
+        answer: `• 1 Mark for Introduction/Definition (Evaluating Alternative Courses).\n• 1 Mark for Point 1 (Analyzing Pros and Cons).\n• 1 Mark for Point 2 (Feasibility Check against the developed premises).\n• 1 Mark for Point 3 (Financial Evaluation regarding cost-benefit analysis).\n• 1 Mark for Point 4 (Risk Assessment covering potential uncertainties).\n• 1 Mark for a concluding statement.`,
         aiExplanation: `[Mark Justification - 6 Marks Total]:\n• 1 Mark for Introduction/Definition (Evaluating Alternative Courses).\n• 1 Mark for Point 1 (Analyzing Pros and Cons).\n• 1 Mark for Point 2 (Feasibility Check against the developed premises).\n• 1 Mark for Point 3 (Financial Evaluation regarding cost-benefit analysis).\n• 1 Mark for Point 4 (Risk Assessment covering potential uncertainties).\n• 1 Mark for a concluding statement.`
     },
     { 
