@@ -27,6 +27,7 @@ export const topics: TheoryTopic[] = [
     content: [
       'Effectiveness: Doing the right task, completing activities and achieving goals. Main focus is on end result.',
       'Efficiency: Doing the task correctly and with minimum cost. Main focus is on cost-benefit analysis.',
+      'Example: Suppose a company\'s target is to produce 5,000 units in a month. To achieve this, the manager operates on double shifts. He achieves the target (Effective) but at a higher cost due to overtime (Inefficient). If he produced them at the standard cost but missed the deadline, he would be Efficient but Ineffective.',
       'Relation: High efficiency without effectiveness is useless; high effectiveness with low efficiency leads to high costs.'
     ],
     visualizations: [
@@ -72,9 +73,9 @@ export const topics: TheoryTopic[] = [
     title: 'Objectives of Management',
     description: 'Organizational, Social, and Personal objectives.',
     content: [
-      'Organizational Objectives: Survival (earning enough revenue), Profit (incentive for risk), Growth (expansion).',
-      'Social Objectives: Using eco-friendly methods, creating employment, fair trade practices.',
-      'Personal Objectives: Fair wages, good working conditions, peer recognition, training.'
+      'Organizational Objectives: Survival (earning enough revenue to cover costs), Profit (essential for covering risks/incentive), Growth (expansion in terms of sales, employees, or products).',
+      'Social Objectives: Using eco-friendly methods, creating employment for weaker sections, providing basic amenities like schools/healthcare (e.g., TATA Steel in Jamshedpur).',
+      'Personal Objectives: Fair wages/salary, peer recognition, good working conditions, and opportunities for training and development.'
     ],
     visualizations: []
   },
@@ -83,11 +84,11 @@ export const topics: TheoryTopic[] = [
     title: 'Importance of Management',
     description: 'Why management is critical for success.',
     content: [
-      'Helps in achieving group goals.',
-      'Increases efficiency.',
-      'Creates a dynamic organisation.',
-      'Helps in achieving personal objectives.',
-      'Helps in development of society.'
+      'Helps in achieving group goals: Directs individual efforts towards organization\'s goal.',
+      'Increases efficiency: Reduces costs and increases productivity through better planning and organizing.',
+      'Creates a dynamic organisation: Helps people adapt to changing environment so the firm maintains its competitive edge.',
+      'Helps in achieving personal objectives: Lead and motivate individuals to achieve personal goals while working for the organization.',
+      'Helps in development of society: Provides good quality products, creates jobs, and adopts new technology.'
     ],
     visualizations: []
   },
