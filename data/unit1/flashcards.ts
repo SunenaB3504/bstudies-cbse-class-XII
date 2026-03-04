@@ -54,7 +54,7 @@ export const flashcards: Flashcard[] = [
     // 6. LEVELS OF MANAGEMENT (39-44)
     { id: 'f1-39', category: 'Levels', question: 'Name the three levels of management.', answer: 'Top, Middle, and Operational (Supervisory).' },
     { id: 'f1-40', category: 'Levels', question: 'Who constitutes Top Level?', answer: 'Chairman, CEO, COO, President, Vice-President.' },
-    { id: 'f1-41', category: 'Levels', question: 'Main function of Top Level?', answer: 'Determining objectives, framing policies, and ensuring survival.' },
+    { id: 'f1-41', category: 'Levels', question: 'Main function of Top Level?', answer: 'Determining objectives, framing policies, ensuring welfare and survival of the organization.' },
     { id: 'f1-42', category: 'Levels', question: 'Who constitutes Middle Level?', answer: 'Divisional Heads, Department Managers, Plant Superintendents.' },
     { id: 'f1-43', category: 'Levels', question: 'Main function of Middle Level?', answer: 'Interpreting policies, staffing, motivating, and coordinating departments.' },
     { id: 'f1-44', category: 'Levels', question: 'Role of Operational Management?', answer: 'Overseeing workforce, ensuring quality, minimizing wastage, maintaining safety.' },

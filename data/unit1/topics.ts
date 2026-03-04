@@ -52,7 +52,7 @@ export const topics: TheoryTopic[] = [
     description: 'Key features that define the nature of management.',
     content: [
       'Goal Oriented Process: Unites efforts of different individuals towards common goals.',
-      'Perverasive: Required in all types of organizations (economic, social, political) and at all levels.',
+      'Pervasive: Required in all types of organizations (economic, social, political) and at all levels.',
       'Multidimensional: Management of Work, Management of People, Management of Operations.',
       'Continuous Process: Ongoing series of functions (POSDC).',
       'Group Activity: Teamwork and coordination of individual efforts.',
