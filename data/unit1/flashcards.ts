@@ -26,8 +26,8 @@ export const flashcards: Flashcard[] = [
     { id: 'f1-18', category: 'Objectives', question: 'Define "Survival" objective.', answer: 'Earning enough revenue to cover costs.' },
     { id: 'f1-19', category: 'Objectives', question: 'Why is "Profit" essential?', answer: 'It covers costs and risks, and provides incentive for continued operation.' },
     { id: 'f1-20', category: 'Objectives', question: 'Indicators of "Growth".', answer: 'Increase in sales volume, number of employees, or capital investment.' },
-    { id: 'f1-21', category: 'Objectives', question: 'Give two examples of Social Objectives.', answer: 'Using eco-friendly methods; Creating employment opportunities.' },
-    { id: 'f1-22', category: 'Objectives', question: 'Why are Personal Objectives important?', answer: 'To keep employees motivated (FAir wages, recognition, good working conditions).' },
+    { id: 'f1-21', category: 'Objectives', question: 'Give three examples of Social Objectives.', answer: 'Using eco-friendly methods; Creating employment opportunities; Fair trade practices.' },
+    { id: 'f1-22', category: 'Objectives', question: 'Why are Personal Objectives important?', answer: 'To keep employees motivated (Fair wages, recognition, good working conditions, training/development).' },
 
     // 4. IMPORTANCE (23-27)
     { id: 'f1-23', category: 'Importance', question: 'How does management increase efficiency?', answer: 'By reducing costs and increasing productivity through planning and organising.' },
@@ -48,6 +48,8 @@ export const flashcards: Flashcard[] = [
     { id: 'f1-36', category: 'Nature', question: 'Management is both Art and Science. True/False?', answer: 'True. They are mutually exclusive but complementary.' },
     { id: 'f1-37', category: 'Nature', question: 'What feature of Art implies "Practice makes perfect"?', answer: 'Based on Practice and Creativity.' },
     { id: 'f1-38', category: 'Nature', question: 'Which science feature is present in management?', answer: 'Systematized body of knowledge (Theories and Principles exist).' },
+    { id: 'f1-54', category: 'Nature', question: 'Feature of Science missing in Management?', answer: 'Principles based on experimentation (Management principles are based on human behavior/observation).' },
+    { id: 'f1-55', category: 'Nature', question: 'Define "Service Motive" in profession.', answer: 'The primary goal of a profession should be to serve society; Management is increasingly focusing on this.' },
 
     // 6. LEVELS OF MANAGEMENT (39-44)
     { id: 'f1-39', category: 'Levels', question: 'Name the three levels of management.', answer: 'Top, Middle, and Operational (Supervisory).' },
