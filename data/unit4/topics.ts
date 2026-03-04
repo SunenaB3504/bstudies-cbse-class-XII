@@ -25,12 +25,12 @@ export const topics: TheoryTopic[] = [
       '6. **Establishes Standards for Controlling**: Planning provides the goals or standards against which actual performance is measured. Therefore, planning provides the basis of control.'
     ],
     visualizations: [
-       {
-          id: 'planning-importance-list',
-          title: 'Importance of Planning Benefits',
-          type: 'list',
-          data: ['Direction', 'Risk Reduction', 'Efficiency (No Overlap)', 'Innovation', 'Decision Making', 'Control Standards']
-       }
+      {
+        id: 'planning-importance-list',
+        title: 'Importance of Planning Benefits',
+        type: 'list',
+        data: ['Direction', 'Risk Reduction', 'Efficiency (No Overlap)', 'Innovation', 'Decision Making', 'Control Standards']
+      }
     ]
   },
   {
@@ -40,11 +40,11 @@ export const topics: TheoryTopic[] = [
     content: [
       '**Focuses on Achieving Objectives**: Planning is purposeful and has no meaning unless it contributes to the achievement of predetermined organisational goals.',
       '**Primary Function of Management**: It lays down the base for other functions of management (organising, staffing, directing, controlling). This is referred to as the "primacy of planning".',
-      '**Pervasive**: It is required at all levels of management as well as in all departments. It is not an exclusive function of top management.',
+      '**Pervasive**: It is required at all levels of management as well as in all departments. It is not an exclusive function of top management. (Example: Top level plans for the entire organization, while Middle level plans for their departments).',
       '**Continuous**: Plans are prepared for a specific period. At the end of that period, there is a need for a new plan based on new requirements and future conditions.',
       '**Futuristic**: It essentially involves looking ahead and preparing for the future. It is regarded as a forward-looking function based on forecasting.',
       '**Involves Decision Making**: It essentially involves choice from among various alternatives and activities.',
-      '**Mental Exercise**: It requires application of the mind involving foresight, intelligent imagination and sound judgement. It is an intellectual activity.'
+      '**Mental Exercise**: It requires application of the mind involving foresight, intelligent imagination and sound judgement. It is an intellectual activity (Example: A manager must forecast demand based on data rather than just guessing).'
     ],
     visualizations: []
   },
@@ -53,14 +53,19 @@ export const topics: TheoryTopic[] = [
     title: 'Limitations of Planning',
     description: 'Challenges and constraints involved in the planning process.',
     content: [
-      '1. **Leads to Rigidity**: Specific goals to be achieved within a specific time frame may not allow managers to be flexible enough to cope with changed circumstances.',
-      '2. **May Not Work in Dynamic Environment**: The business environment is dynamic. Planning cannot foresee everything and thus, there may be obstacles to effective planning in a rapidly changing environment.',
-      '3. **Reduces Creativity**: Plans are drawn by top management and implemented by others. Middle and lower management are neither allowed to deviate from plans nor are they permitted to act on their own.',
-      '4. **Involves Huge Costs**: Huge costs are involved in the formulation of the plans (time, money, effort) which may not justify the benefits derived.',
-      '5. **Time Consuming Process**: Sometimes plans to be drawn up take so much time that there is not much time left for their implementation.',
-      '6. **Does Not Guarantee Success**: The success of an enterprise is possible only when plans are properly drawn up and implemented. Any plan needs to be translated into action or it becomes meaningless.',
+      '**Internal Limitations**:',
+      '1. **Leads to Rigidity**: Specific goals may not allow flexibility to cope with changed circumstances.',
+      '2. **May Not Work in Dynamic Environment**: Planning cannot foresee everything in a rapidly changing environment (political, economic, tech).',
+      '3. **Reduces Creativity**: Once top management draws plans, middle/lower managers stop taking initiative and just blindly follow.',
+      '4. **Involves Huge Costs**: Formulation requires research, expert fees, and time which may outweigh benefits.',
+      '5. **Time Consuming Process**: Data collection and analysis may leave little time for implementation.',
+      '6. **Does Not Guarantee Success**: Success depends on implementation; relying on past successful plans in a new environment is risky.',
       '',
-      '**External Limitations**: These are outside the control of management, such as: Natural calamities, Change in political outlook, Change in government policies (tax/bank rates), or Competitors\' policies.'
+      '**External Limitations** (Outside management control):',
+      '1. **Natural Calamities**: Floods, earthquakes, etc., can disrupt the best plans.',
+      '2. **Change in Government Policies**: Changes in tax rates or bank rates can affect planning.',
+      '3. **Political Outlook**: Stability or changes in the political environment of the country.',
+      '4. **Competitors\' Policies**: Unexpected moves by rival firms can make existing plans obsolete.'
     ],
     visualizations: []
   },
@@ -74,30 +79,30 @@ export const topics: TheoryTopic[] = [
       '3. **Identifying Alternative Courses of Action**: Once objectives are set and assumptions are made, then the next step is to identify all possible alternative courses of action.',
       '4. **Evaluating Alternative Courses**: The next step is to weigh the pros and cons of each alternative. Each course will have many variables which have to be weighed against each other.',
       '5. **Selecting an Alternative**: This is the real point of decision making. The best plan has to be adopted and implemented. The ideal plan would be the most feasible, profitable and with least negative consequences.',
-      '6. **Implementing the Plan**: This is the step where other managerial functions also come into the picture. The step is concerned with putting the plan into action.',
-      '7. **Follow-up Action**: To see whether plans are being implemented and activities are performed according to schedule is also part of the planning process. Monitoring the plans is equally important to ensure that objectives are achieved.'
+      '6. **Implementing the Plan**: Step concerned with putting the plan into action—allocating resources, assigning daily tasks, and coordinating labor and machinery.',
+      '7. **Follow-up Action**: Monitoring plans to ensure activities are performed according to schedule. It makes the "Controlling" function meaningful.'
     ],
     visualizations: [
-       {
-          id: 'planning-process-flow',
-          title: 'The Planning Process',
-          type: 'flow',
-          data: {
-              nodes: [
-                  { id: '1', label: '1. Setting Objectives' },
-                  { id: '2', label: '2. Developing Premises' },
-                  { id: '3', label: '3. Identifying Alternatives' },
-                  { id: '4', label: '4. Evaluating Alternatives' },
-                  { id: '5', label: '5. Selecting Alternative' },
-                  { id: '6', label: '6. Implementing Plan' },
-                  { id: '7', label: '7. Follow-up Action' }
-              ],
-              edges: [
-                  { from: '1', to: '2' }, { from: '2', to: '3' }, { from: '3', to: '4' },
-                  { from: '4', to: '5' }, { from: '5', to: '6' }, { from: '6', to: '7' }
-              ]
-          }
-       }
+      {
+        id: 'planning-process-flow',
+        title: 'The Planning Process',
+        type: 'flow',
+        data: {
+          nodes: [
+            { id: '1', label: '1. Setting Objectives' },
+            { id: '2', label: '2. Developing Premises' },
+            { id: '3', label: '3. Identifying Alternatives' },
+            { id: '4', label: '4. Evaluating Alternatives' },
+            { id: '5', label: '5. Selecting Alternative' },
+            { id: '6', label: '6. Implementing Plan' },
+            { id: '7', label: '7. Follow-up Action' }
+          ],
+          edges: [
+            { from: '1', to: '2' }, { from: '2', to: '3' }, { from: '3', to: '4' },
+            { from: '4', to: '5' }, { from: '5', to: '6' }, { from: '6', to: '7' }
+          ]
+        }
+      }
     ]
   },
   {
@@ -119,20 +124,20 @@ export const topics: TheoryTopic[] = [
       '8. **Budget**: A statement of expected results expressed in numerical terms.'
     ],
     visualizations: [
-       {
-          id: 'single-vs-standing',
-          title: 'Single-use vs Standing Plans',
-          type: 'table',
-          data: {
-             headers: ['Basis', 'Single-use Plans', 'Standing Plans'],
-             rows: [
-                ['Meaning', 'Developed for one-time event', 'Used for activities that occur regularly'],
-                ['Objective', 'To manage specific project', 'To enable smooth operations'],
-                ['Scope', 'Narrow', 'Wide'],
-                ['Examples', 'Budget, Programme', 'Policy, Procedure, Rule']
-             ]
-          }
-       }
+      {
+        id: 'single-vs-standing',
+        title: 'Single-use vs Standing Plans',
+        type: 'table',
+        data: {
+          headers: ['Basis', 'Single-use Plans', 'Standing Plans'],
+          rows: [
+            ['Meaning', 'Developed for one-time event', 'Used for activities that occur regularly'],
+            ['Objective', 'To manage specific project', 'To enable smooth operations'],
+            ['Scope', 'Narrow', 'Wide'],
+            ['Examples', 'Budget, Programme', 'Policy, Procedure, Rule']
+          ]
+        }
+      }
     ]
   }
 ];
