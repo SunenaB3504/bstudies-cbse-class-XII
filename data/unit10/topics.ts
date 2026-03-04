@@ -36,14 +36,14 @@ export const topics: TheoryTopic[] = [
             {
               name: "Capital Market",
               children: [
-                { 
+                {
                   name: "Primary Market",
                   children: [
-                     { name: "Offer through Prospectus" },
-                     { name: "Offer for Sale" },
-                     { name: "Private Placement" },
-                     { name: "Rights Issue" },
-                     { name: "e-IPOs" }
+                    { name: "Offer through Prospectus" },
+                    { name: "Offer for Sale" },
+                    { name: "Private Placement" },
+                    { name: "Rights Issue" },
+                    { name: "e-IPOs" }
                   ]
                 },
                 { name: "Secondary Market (Stock Exchange)" }
@@ -63,11 +63,11 @@ export const topics: TheoryTopic[] = [
       "Market for short-term funds which deals in monetary assets whose period of maturity is up to one year. Assets are close substitutes for money.",
       "",
       "**Instruments (Crucial for Exams)**",
-      "1. **Treasury Bill (T-Bill)**: Issued by RBI on behalf of Govt. Also known as 'Zero Coupon Bond'. Issued at discount, redeemed at par. Safe and highly liquid.",
-      "2. **Commercial Paper (CP)**: Short-term unsecured promissory note issued by large creditworthy companies. Used for 'Bridge Financing' (to cover floatation costs).",
-      "3. **Call Money**: Short-term finance repayable on demand (1-15 days). Used for inter-bank transactions to maintain Cash Reserve Ratio (CRR).",
-      "4. **Certificate of Deposit (CD)**: Unsecured, negotiable, short-term instruments in bearer form, issued by commercial banks and development financial institutions.",
-      "5. **Commercial Bill**: Bill of exchange used to finance the working capital requirements of business firms. Short-term, negotiable, self-liquidating instrument."
+      "1. **Treasury Bill (T-Bill)**: Issued by RBI on behalf of Govt. **Trigger**: 'Zero Coupon Bond', 'Issued at discount', 'Safest'.",
+      "2. **Commercial Paper (CP)**: Short-term unsecured promissory note. **Trigger**: 'Bridge Financing', 'Large creditworthy companies', 'Floatation costs'.",
+      "3. **Call Money**: Short-term finance (1-15 days). **Trigger**: 'Inter-bank', 'Maintain CRR', 'Repayable on demand'.",
+      "4. **Certificate of Deposit (CD)**: Unsecured instruments in bearer form. **Trigger**: 'Issued by banks', 'To individuals/corporates', 'Negotiable'.",
+      "5. **Commercial Bill**: Bill of exchange for working capital. **Trigger**: 'Self-liquidating', 'Negotiable', 'Trade bill'."
     ],
     visualizations: []
   },
@@ -82,31 +82,31 @@ export const topics: TheoryTopic[] = [
       "**Primary Market (New Issue Market)**",
       "- Deals in *new* securities being issued for the first time.",
       "- **Methods of Floatation**:",
-      "    1. **Offer through Prospectus**: Direct appeal to investors through a prospectus (advertisement in newspapers).",
-      "    2. **Offer for Sale**: Securities are not issued directly to the public but are offered for sale through intermediaries (issue houses/brokers).",
-      "    3. **Private Placement**: Allotment of securities by a company to institutional investors and some selected individuals.",
-      "    4. **Rights Issue**: Privilege given to existing shareholders to subscribe to a new issue of shares.",
-      "    5. **e-IPOs**: Issuing securities through the online system of a stock exchange.",
+      "    1. **Offer through Prospectus**: Direct appeal to investors through newspapers. **Trigger**: 'Direct appeal', 'Prospectus'.",
+      "    2. **Offer for Sale**: Securities offered through intermediaries. **Trigger**: 'Intermediaries', 'Issue houses'.",
+      "    3. **Private Placement**: Allotment to institutional investors. **Trigger**: 'Selective individuals', 'Speedy issue', 'Saves costs'.",
+      "    4. **Rights Issue**: Privilege to existing shareholders. **Trigger**: 'Existing shareholders', 'Pre-emptive right'.",
+      "    5. **e-IPOs**: Issuing through the online system. **Trigger**: 'Online system', 'Stock exchange terminal'.",
       "",
       "**Secondary Market (Stock Exchange)**",
       "- Market for the sale and purchase of *existing* (second-hand) securities.",
       "- **Distinction**: Primary deals in new securities (buying only); Secondary deals in existing securities (buying and selling)."
     ],
     visualizations: [
-        {
-          id: "money-vs-capital-table",
-          title: "Money Market vs Capital Market",
-          type: "table",
-          data: {
-            headers: ["Basis", "Money Market", "Capital Market"],
-            rows: [
-              ["Duration", "Short Term (up to 1 year)", "Medium & Long Term"],
-              ["Liquidity", "High Liquidity", "Less Liquid compared to Money Market"],
-              ["Safety", "Safer (low risk)", "Riskier (higher return)"],
-              ["Instruments", "T-Bills, CP, CD, Call Money", "Shares, Debentures, Bonds"]
-            ]
-          }
+      {
+        id: "money-vs-capital-table",
+        title: "Money Market vs Capital Market",
+        type: "table",
+        data: {
+          headers: ["Basis", "Money Market", "Capital Market"],
+          rows: [
+            ["Duration", "Short Term (up to 1 year)", "Medium & Long Term"],
+            ["Liquidity", "High Liquidity", "Less Liquid compared to Money Market"],
+            ["Safety", "Safer (low risk)", "Riskier (higher return)"],
+            ["Instruments", "T-Bills, CP, CD, Call Money", "Shares, Debentures, Bonds"]
+          ]
         }
+      }
     ]
   },
   {
