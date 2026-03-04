@@ -105,27 +105,27 @@ export const topics: TheoryTopic[] = [
       "- Employee Empowerment (giving more autonomy and powers)"
     ],
     visualizations: [
-        {
-            id: 'maslow-pyramid',
-            title: "Maslow's Hierarchy of Needs",
-            type: 'flow',
-            caption: 'From Bottom (Basic) to Top (Growth)',
-            data: {
-                nodes: [
-                    { id: '1', label: '1. Physiological (Basic)' },
-                    { id: '2', label: '2. Safety/Security' },
-                    { id: '3', label: '3. Belongingness (Social)' },
-                    { id: '4', label: '4. Esteem (Status)' },
-                    { id: '5', label: '5. Self-Actualisation' }
-                ],
-                edges: [
-                    { from: '1', to: '2', label: 'Satisfied -> Next' },
-                    { from: '2', to: '3' },
-                    { from: '3', to: '4' },
-                    { from: '4', to: '5' }
-                ]
-            }
+      {
+        id: 'maslow-pyramid',
+        title: "Maslow's Hierarchy of Needs",
+        type: 'flow',
+        caption: 'From Bottom (Basic) to Top (Growth)',
+        data: {
+          nodes: [
+            { id: '1', label: '1. Physiological (Basic)' },
+            { id: '2', label: '2. Safety/Security' },
+            { id: '3', label: '3. Belongingness (Social)' },
+            { id: '4', label: '4. Esteem (Status)' },
+            { id: '5', label: '5. Self-Actualisation' }
+          ],
+          edges: [
+            { from: '1', to: '2', label: 'Satisfied -> Next' },
+            { from: '2', to: '3' },
+            { from: '3', to: '4' },
+            { from: '4', to: '5' }
+          ]
         }
+      }
     ]
   },
   {
@@ -151,31 +151,31 @@ export const topics: TheoryTopic[] = [
       "5. **Training**: Provides training to subordinates and builds up successors.",
       "",
       "**Leadership Styles**",
-      "1. **Autocratic (Authoritarian)**: Leader gives orders and expects subordinates to obey. Communication is one-way. Effective for quick decision-making and productivity in certain situations.",
-      "2. **Democratic (Participative)**: Leader develops action plans and makes decisions in consultation with subordinates. Encourages participation and respects others' opinions.",
-      "3. **Laissez-faire (Free-rein)**: Leader does not believe in use of power unless essential. Followers are given high independence to formulate objectives and ways to achieve them."
+      "1. **Autocratic (Authoritarian)**: Leader gives orders and expects subordinates to obey. Communication is one-way. Effective for quick decision-making. **Trigger**: 'Dogmatic', 'Centralised power', 'One-way communication'.",
+      "2. **Democratic (Participative)**: Leader develops action plans and makes decisions in consultation with subordinates. Encourages participation. **Trigger**: 'Consultative', 'Decentralised power', 'Mutual trust'.",
+      "3. **Laissez-faire (Free-rein)**: Leader does not believe in use of power unless essential. Followers are given high independence. **Trigger**: 'High independence', 'Subordinate-led objectives', 'Abstinence from power'."
     ],
     visualizations: [
-        {
-            id: 'leadership-styles-flow',
-            title: 'Leadership Styles Flow',
-            type: 'flow',
-            data: {
-                nodes: [
-                    { id: 'L', label: 'Leader' },
-                    { id: 'S1', label: 'Subordinate A' },
-                    { id: 'S2', label: 'Subordinate B' },
-                    { id: 'Auto', label: 'Autocratic (One-way)' },
-                    { id: 'Demo', label: 'Democratic (Two-way)' },
-                    { id: 'Free', label: 'Laissez-faire (Free)' }
-                ],
-                edges: [
-                    { from: 'L', to: 'Auto' }, { from: 'Auto', to: 'S1', label: 'Order' },
-                    { from: 'L', to: 'Demo' }, { from: 'Demo', to: 'S1', label: 'Consult' }, { from: 'S1', to: 'Demo', label: 'Feedback' },
-                    { from: 'L', to: 'Free' }, { from: 'Free', to: 'S1', label: 'Delegate' }, { from: 'S1', to: 'S2', label: 'Collaborate' }
-                ]
-            }
+      {
+        id: 'leadership-styles-flow',
+        title: 'Leadership Styles Flow',
+        type: 'flow',
+        data: {
+          nodes: [
+            { id: 'L', label: 'Leader' },
+            { id: 'S1', label: 'Subordinate A' },
+            { id: 'S2', label: 'Subordinate B' },
+            { id: 'Auto', label: 'Autocratic (One-way)' },
+            { id: 'Demo', label: 'Democratic (Two-way)' },
+            { id: 'Free', label: 'Laissez-faire (Free)' }
+          ],
+          edges: [
+            { from: 'L', to: 'Auto' }, { from: 'Auto', to: 'S1', label: 'Order' },
+            { from: 'L', to: 'Demo' }, { from: 'Demo', to: 'S1', label: 'Consult' }, { from: 'S1', to: 'Demo', label: 'Feedback' },
+            { from: 'L', to: 'Free' }, { from: 'Free', to: 'S1', label: 'Delegate' }, { from: 'S1', to: 'S2', label: 'Collaborate' }
+          ]
         }
+      }
     ]
   },
   {
@@ -205,17 +205,62 @@ export const topics: TheoryTopic[] = [
       "6. **Effective Leadership**: Basis of leadership; helps to influence subordinates.",
       "7. **Boosts Morale**: Enables management to motivate and satisfy subordinates.",
       "",
-      "**Formal vs Informal Communication**",
       "**Formal Communication**: Flows through official channels.",
       "- **Vertical**: Upward (subordinate to superior) or Downward (superior to subordinate).",
       "- **Horizontal**: Between one division/department and another.",
-      "- **Networks**: Single chain, Wheel, Circular, Free flow, Inverted V.",
-      "",
+      "- **Networks**: Single chain, Wheel, Circular, Free flow, Inverted V."
+    ],
+    visualizations: [
+      {
+        id: 'formal-communication-networks',
+        title: 'Formal Communication Networks',
+        type: 'flow',
+        data: {
+          nodes: [
+            { id: 'chain', label: 'Single Chain (Scalar)' },
+            { id: 'wheel', label: 'Wheel (Central Leader)' },
+            { id: 'circ', label: 'Circular (Adjacents)' },
+            { id: 'free', label: 'Free Flow (All-to-All)' },
+            { id: 'inv', label: 'Inverted V (Two levels)' }
+          ],
+          edges: [
+            { from: 'chain', to: 'wheel', label: 'Types' }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    id: "informal-communication",
+    title: "Informal Communication (Grapevine)",
+    description: "Informal communication networks within an organisation.",
+    content: [
       "**Informal Communication (Grapevine)**: Flows without following formal lines.",
-      "- Arises out of social needs.",
-      "- Spreads rapidly but sometimes gets distorted.",
-      "- **Networks**: Single strand, Gossip, Probability, Cluster.",
-      "",
+      "- Arises out of social needs. Spreads rapidly but can be distorted.",
+      "- **Networks**: Single strand, Gossip, Probability, Cluster."
+    ],
+    visualizations: [
+      {
+        id: 'informal-communication-networks',
+        title: 'Informal Communication Networks',
+        type: 'flow',
+        data: {
+          nodes: [
+            { id: 'str', label: 'Single Strand' },
+            { id: 'gos', label: 'Gossip' },
+            { id: 'pro', label: 'Probability' },
+            { id: 'clu', label: 'Cluster' }
+          ],
+          edges: []
+        }
+      }
+    ]
+  },
+  {
+    id: "communication-barriers",
+    title: "Barriers to Communication",
+    description: "Factors that obstruct effective communication and ways to improve it.",
+    content: [
       "**Barriers to Communication**",
       "1. **Semantic Barriers**: Badly expressed message, Symbols with different meanings, Faulty translations, Unclarified assumptions, Technical jargon, Body language.",
       "2. **Psychological Barriers**: Premature evaluation, Lack of attention, Loss by transmission/poor retention, Distrust.",
@@ -234,29 +279,29 @@ export const topics: TheoryTopic[] = [
       "9. Be a good listener."
     ],
     visualizations: [
-        {
-            id: 'communication-process-network',
-            title: 'Communication Process',
-            type: 'flow',
-            data: {
-                nodes: [
-                    { id: 'Send', label: 'Sender' },
-                    { id: 'Msg', label: 'Message' },
-                    { id: 'Enc', label: 'Encoding' },
-                    { id: 'Media', label: 'Media' },
-                    { id: 'Dec', label: 'Decoding' },
-                    { id: 'Rec', label: 'Receiver' },
-                    { id: 'Feed', label: 'Feedback' },
-                    { id: 'Noise', label: 'NOISE (Barrier)' }
-                ],
-                edges: [
-                    { from: 'Send', to: 'Msg' }, { from: 'Msg', to: 'Enc' },
-                    { from: 'Enc', to: 'Media' }, { from: 'Media', to: 'Dec' },
-                    { from: 'Dec', to: 'Rec' }, { from: 'Rec', to: 'Feed' },
-                    { from: 'Feed', to: 'Send' }, { from: 'Noise', to: 'Media', label: 'Disturbs' }
-                ]
-            }
+      {
+        id: 'communication-process-network',
+        title: 'Communication Process',
+        type: 'flow',
+        data: {
+          nodes: [
+            { id: 'Send', label: 'Sender' },
+            { id: 'Msg', label: 'Message' },
+            { id: 'Enc', label: 'Encoding' },
+            { id: 'Media', label: 'Media' },
+            { id: 'Dec', label: 'Decoding' },
+            { id: 'Rec', label: 'Receiver' },
+            { id: 'Feed', label: 'Feedback' },
+            { id: 'Noise', label: 'NOISE (Barrier)' }
+          ],
+          edges: [
+            { from: 'Send', to: 'Msg' }, { from: 'Msg', to: 'Enc' },
+            { from: 'Enc', to: 'Media' }, { from: 'Media', to: 'Dec' },
+            { from: 'Dec', to: 'Rec' }, { from: 'Rec', to: 'Feed' },
+            { from: 'Feed', to: 'Send' }, { from: 'Noise', to: 'Media', label: 'Disturbs' }
+          ]
         }
+      }
     ]
   }
 ];
