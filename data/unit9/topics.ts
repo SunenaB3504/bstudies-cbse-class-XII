@@ -28,16 +28,18 @@ export const topics: TheoryTopic[] = [
     content: [
       "**1. Investment Decision**",
       "- Relates to how the firm's funds are invested in different assets.",
-      "- **Long-term (Capital Budgeting)**: Irreversible, huge funds, affects long-term growth/risk.",
+      "- **Long-term (Capital Budgeting)**: **Trigger**: 'Irreversible', 'Huge funds', 'Affects long-term growth'. **TRAP**: These decisions cannot be easily undone without heavy loss.",
       "- **Short-term (Working Capital)**: Affects day-to-day operations, liquidity, and profitability.",
       "- **Factors**: Cash flows of the project, Rate of Return, Investment criteria involved.",
       "",
       "**2. Financing Decision**",
       "- Relates to the quantum of finance to be raised from various long-term sources (Debt vs Equity).",
+      "- **Trigger**: 'Debt-Equity mix', 'Raising funds', 'Cost of capital'.",
       "- **Factors**: Cost, Risk, Floatation Costs, Cash Flow Position, Fixed Operating Costs, Control Considerations, State of Capital Market.",
       "",
       "**3. Dividend Decision**",
       "- Relates to how much of the profit acts as dividend and how much is retained.",
+      "- **Trigger**: 'Profit distribution', 'Retained earnings', 'Shareholder return'.",
       "- **Factors**: Amount of Earnings, Stability Earnings, Stability of Dividends, Growth Opportunities, Cash Flow Position, Shareholder Preference, Taxation Policy, Stock Market Reaction, Access to Capital Market, Legal/Contractual Constraints."
     ],
     visualizations: []
@@ -96,29 +98,29 @@ export const topics: TheoryTopic[] = [
       "14. **Capital Structure of other Companies**: Industry norms."
     ],
     visualizations: [
-        {
-            id: 'factors-cap-struct-network',
-            title: 'Factors Affecting Capital Structure',
-            type: 'flow',
-            data: {
-                nodes: [
-                    { id: 'CS', label: 'Capital Structure (Debt:Equity)' },
-                    { id: 'Risk', label: 'Risk (Business/Financial)' },
-                    { id: 'Cost', label: 'Cost of Debt/Equity' },
-                    { id: 'Tax', label: 'Tax Rate' },
-                    { id: 'Cash', label: 'Cash Flow Position' },
-                    { id: 'ROI', label: 'Return on Investment (ROI)' },
-                    { id: 'Ctrl', label: 'Control' },
-                    { id: 'Mkt', label: 'Market Conditions' }
-                ],
-                edges: [
-                    { from: 'Risk', to: 'CS' }, { from: 'Cost', to: 'CS' },
-                    { from: 'Tax', to: 'CS' }, { from: 'Cash', to: 'CS' },
-                    { from: 'ROI', to: 'CS', label: 'Trading on Equity' },
-                    { from: 'Ctrl', to: 'CS' }, { from: 'Mkt', to: 'CS' }
-                ]
-            }
+      {
+        id: 'factors-cap-struct-network',
+        title: 'Factors Affecting Capital Structure',
+        type: 'flow',
+        data: {
+          nodes: [
+            { id: 'CS', label: 'Capital Structure (Debt:Equity)' },
+            { id: 'Risk', label: 'Risk (Business/Financial)' },
+            { id: 'Cost', label: 'Cost of Debt/Equity' },
+            { id: 'Tax', label: 'Tax Rate' },
+            { id: 'Cash', label: 'Cash Flow Position' },
+            { id: 'ROI', label: 'Return on Investment (ROI)' },
+            { id: 'Ctrl', label: 'Control' },
+            { id: 'Mkt', label: 'Market Conditions' }
+          ],
+          edges: [
+            { from: 'Risk', to: 'CS' }, { from: 'Cost', to: 'CS' },
+            { from: 'Tax', to: 'CS' }, { from: 'Cash', to: 'CS' },
+            { from: 'ROI', to: 'CS', label: 'Trading on Equity' },
+            { from: 'Ctrl', to: 'CS' }, { from: 'Mkt', to: 'CS' }
+          ]
         }
+      }
     ]
   },
   {
@@ -150,11 +152,26 @@ export const topics: TheoryTopic[] = [
       "  6. Credit Allowed (Liberal policy requires more).",
       "  7. Credit Availed (Credit from suppliers reduces requirement).",
       "  8. Operating Efficiency.",
-      "  9. Availability of Raw Material.",
+      "  9. Availability of Raw Material (Easy availability = Less WC).",
       "  10. Growth Prospects.",
-      "  11. Level of Competition.",
+      "  11. Level of Competition (High competition = More WC).",
       "  12. Inflation."
     ],
-    visualizations: []
+    visualizations: [
+      {
+        id: 'fixed-vs-working-capital',
+        title: 'Fixed vs. Working Capital Comparison',
+        type: 'table',
+        data: {
+          headers: ['Basis', 'Fixed Capital', 'Working Capital'],
+          rows: [
+            ['Nature', 'Long-term assets (Plant, Land)', 'Short-term assets (Cash, Stock)'],
+            ['Purpose', 'Generating income over years', 'Day-to-day operations'],
+            ['Source', 'Equity, Debt, Long-term loans', 'Commercial Paper, Trade Credit'],
+            ['Liquidity', 'Low (cannot be easily sold)', 'High (easily convertible to cash)']
+          ]
+        }
+      }
+    ]
   }
 ];
