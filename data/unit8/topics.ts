@@ -50,25 +50,25 @@ export const topics: TheoryTopic[] = [
       "- **Correction**: Both are forward and backward looking. Planning is guided by past experiences (backward). Controlling aims to improve future performance (forward)."
     ],
     visualizations: [
-        {
-            id: 'planning-controlling-cycle',
-            title: 'Planning-Controlling Cycle',
-            type: 'flow',
-            data: {
-                nodes: [
-                    { id: 'Plan', label: 'Planning (Standards)' },
-                    { id: 'Act', label: 'Action/Implementation' },
-                    { id: 'Control', label: 'Controlling (Check)' },
-                    { id: 'Correct', label: 'Corrective Action' }
-                ],
-                edges: [
-                    { from: 'Plan', to: 'Act', label: 'Basis' },
-                    { from: 'Act', to: 'Control', label: 'Input' },
-                    { from: 'Control', to: 'Correct', label: 'Feedback' },
-                    { from: 'Correct', to: 'Plan', label: 'Improve Future' }
-                ]
-            }
+      {
+        id: 'planning-controlling-cycle',
+        title: 'Planning-Controlling Cycle',
+        type: 'flow',
+        data: {
+          nodes: [
+            { id: 'Plan', label: 'Planning (Standards)' },
+            { id: 'Act', label: 'Action/Implementation' },
+            { id: 'Control', label: 'Controlling (Check)' },
+            { id: 'Correct', label: 'Corrective Action' }
+          ],
+          edges: [
+            { from: 'Plan', to: 'Act', label: 'Basis' },
+            { from: 'Act', to: 'Control', label: 'Input' },
+            { from: 'Control', to: 'Correct', label: 'Feedback' },
+            { from: 'Correct', to: 'Plan', label: 'Improve Future' }
+          ]
         }
+      }
     ]
   },
   {
@@ -81,32 +81,32 @@ export const topics: TheoryTopic[] = [
       "2. **Measurement of Actual Performance**: Measurement should be objective and reliable (e.g., personal observation, sample checking, reports).",
       "3. **Comparison of Actual Performance with Standards**: Reveals deviation between actual and desired results.",
       "4. **Analysing Deviations**: Determining acceptable range of deviations.",
-      "   - **Critical Point Control (CPC)**: Focus on Key Result Areas (KRAs) which are critical to success. 'If anything goes wrong at the critical points, the entire organisation suffers.'",
-      "   - **Management by Exception (MBE)**: 'An attempt to control everything results in controlling nothing.' Only significant deviations beyond permissible limits should be brought to notice of management.",
-      "5. **Taking Corrective Action**: Final step. Required when deviations go beyond acceptable range. May involve training, resource allocation, or revising standards."
+      "   - **Critical Point Control (CPC)**: Focus on Key Result Areas (KRAs) which are critical to success. **Trigger**: 'KRA', 'Essential for success', 'Entire org suffers'. Example: 5% rise in labor cost is more critical than 15% in postal charges.",
+      "   - **Management by Exception (MBE)**: Only significant deviations beyond permissible limits are brought to notice. **Trigger**: 'Control everything = Control nothing', 'Significant deviations', 'Permissible limits'.",
+      "5. **Taking Corrective Action**: Final step. Required when deviations go beyond acceptable range. May involve training, resource allocation, or revising/updating standards."
     ],
     visualizations: [
-        {
-            id: 'control-process-loop',
-            title: 'Controlling Process Cycle',
-            type: 'flow',
-            caption: 'A continuous loop of measurement and correction',
-            data: {
-                nodes: [
-                    { id: '1', label: '1. Set Standards' },
-                    { id: '2', label: '2. Measure Performance' },
-                    { id: '3', label: '3. Compare' },
-                    { id: '4', label: '4. Analyse (CPC/MBE)' },
-                    { id: '5', label: '5. Corrective Action' }
-                ],
-                edges: [
-                    { from: '1', to: '2' }, { from: '2', to: '3' },
-                    { from: '3', to: '4', label: 'Find Deviation' },
-                    { from: '4', to: '5', label: 'If Significant' },
-                    { from: '5', to: '1', label: 'Feedback Loop' }
-                ]
-            }
+      {
+        id: 'control-process-loop',
+        title: 'Controlling Process Cycle',
+        type: 'flow',
+        caption: 'A continuous loop of measurement and correction',
+        data: {
+          nodes: [
+            { id: '1', label: '1. Set Standards' },
+            { id: '2', label: '2. Measure Performance' },
+            { id: '3', label: '3. Compare' },
+            { id: '4', label: '4. Analyse (CPC/MBE)' },
+            { id: '5', label: '5. Corrective Action' }
+          ],
+          edges: [
+            { from: '1', to: '2' }, { from: '2', to: '3' },
+            { from: '3', to: '4', label: 'Find Deviation' },
+            { from: '4', to: '5', label: 'If Significant' },
+            { from: '5', to: '1', label: 'Feedback Loop' }
+          ]
         }
+      }
     ]
   },
   {
