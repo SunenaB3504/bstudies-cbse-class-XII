@@ -204,7 +204,7 @@ export const RevisionHQ: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
   };
 
   const generateMermaidString = (root: MindMapNode): string => {
-    let output = 'graph TD\n';
+    let output = 'graph LR\n';
 
     // Define exact styles matching the blueprint
     output += `classDef root fill:#4c1d95,stroke:#2e1065,stroke-width:4px,color:#fff,font-weight:bold,border-radius:10px;\n`;
