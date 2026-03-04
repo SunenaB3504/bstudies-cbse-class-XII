@@ -1,54 +1,32 @@
 import { Flashcard } from '../../types';
 
 export const flashcards: Flashcard[] = [
-  { id: 'q1', question: 'Review Chapter 12 Core Concept #1', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q2', question: 'Review Chapter 12 Core Concept #2', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q3', question: 'Review Chapter 12 Core Concept #3', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q4', question: 'Review Chapter 12 Core Concept #4', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q5', question: 'Review Chapter 12 Core Concept #5', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q6', question: 'Review Chapter 12 Core Concept #6', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q7', question: 'Review Chapter 12 Core Concept #7', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q8', question: 'Review Chapter 12 Core Concept #8', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q9', question: 'Review Chapter 12 Core Concept #9', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q10', question: 'Review Chapter 12 Core Concept #10', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q11', question: 'Review Chapter 12 Core Concept #11', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q12', question: 'Review Chapter 12 Core Concept #12', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q13', question: 'Review Chapter 12 Core Concept #13', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q14', question: 'Review Chapter 12 Core Concept #14', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q15', question: 'Review Chapter 12 Core Concept #15', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q16', question: 'Review Chapter 12 Core Concept #16', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q17', question: 'Review Chapter 12 Core Concept #17', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q18', question: 'Review Chapter 12 Core Concept #18', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q19', question: 'Review Chapter 12 Core Concept #19', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q20', question: 'Review Chapter 12 Core Concept #20', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q21', question: 'Review Chapter 12 Core Concept #21', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q22', question: 'Review Chapter 12 Core Concept #22', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q23', question: 'Review Chapter 12 Core Concept #23', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q24', question: 'Review Chapter 12 Core Concept #24', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q25', question: 'Review Chapter 12 Core Concept #25', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q26', question: 'Review Chapter 12 Core Concept #26', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q27', question: 'Review Chapter 12 Core Concept #27', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q28', question: 'Review Chapter 12 Core Concept #28', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q29', question: 'Review Chapter 12 Core Concept #29', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q30', question: 'Review Chapter 12 Core Concept #30', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q31', question: 'Review Chapter 12 Core Concept #31', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q32', question: 'Review Chapter 12 Core Concept #32', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q33', question: 'Review Chapter 12 Core Concept #33', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q34', question: 'Review Chapter 12 Core Concept #34', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q35', question: 'Review Chapter 12 Core Concept #35', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q36', question: 'Review Chapter 12 Core Concept #36', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q37', question: 'Review Chapter 12 Core Concept #37', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q38', question: 'Review Chapter 12 Core Concept #38', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q39', question: 'Review Chapter 12 Core Concept #39', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q40', question: 'Review Chapter 12 Core Concept #40', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q41', question: 'Review Chapter 12 Core Concept #41', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q42', question: 'Review Chapter 12 Core Concept #42', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q43', question: 'Review Chapter 12 Core Concept #43', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q44', question: 'Review Chapter 12 Core Concept #44', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q45', question: 'Review Chapter 12 Core Concept #45', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q46', question: 'Review Chapter 12 Core Concept #46', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q47', question: 'Review Chapter 12 Core Concept #47', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q48', question: 'Review Chapter 12 Core Concept #48', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q49', question: 'Review Chapter 12 Core Concept #49', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
-  { id: 'q50', question: 'Review Chapter 12 Core Concept #50', answer: 'Refer to your NCERT textbook for detailed explanations of this foundational concept.', category: 'Self-Study' },
+  // 1. IMPORTANCE & CONCEPT
+  { id: 'f12-1', category: 'Importance', question: 'Why is Consumer Protection important from a Business point of view?', answer: 'Long-term interest, use of society\'s resources, social responsibility, and avoiding government intervention.' },
+  { id: 'f12-2', category: 'Concept', question: 'Who is a "Consumer" under the CPA 2019?', answer: 'A person who buys goods or avails services for a consideration, excluding those that buy for resale or commercial purposes.' },
+
+  // 2. CONSUMER RIGHTS
+  { id: 'f12-3', category: 'Right', question: 'Identify Right: Protective against life-threatening electrical heaters without ISI marks.', answer: 'Right to Safety.' },
+  { id: 'f12-4', category: 'Right', question: 'Identify Right: Requirement for companies to print expiry dates and ingredients on labels.', answer: 'Right to be Informed.' },
+  { id: 'f12-5', category: 'Right', question: 'Identify Right: The right to get compensation for injury caused by a defective product.', answer: 'Right to Seek Redressal.' },
+  { id: 'f12-6', category: 'Right', question: 'What is the "Right to be Assured" (Choose)?', answer: 'The right to have access to a variety of products and services at competitive prices.' },
+
+  // 3. RESPONSIBILITIES & MARKS
+  { id: 'f12-7', category: 'Responsibility', question: 'Which document is a "Proof of Purchase" required to file a complaint?', answer: 'Cash Memo.' },
+  { id: 'f12-8', category: 'Mark', question: 'Match the Mark: 1. Electrical Goods, 2. Agricultural Products, 3. Gold Jewellery.', answer: '1. ISI Mark, 2. Agmark, 3. BIS Hallmark.' },
+  { id: 'f12-9', category: 'Responsibility', question: 'Why should a consumer always buy "Standardised Goods"?', answer: 'To ensure quality assurance and safety (e.g., ISI, Agmark labels).' },
+
+  // 4. REDRESSAL MACHINERY
+  { id: 'f12-10', category: 'Jurisdiction', question: 'Cases up to ₹1 Crore are filed in which commission?', answer: 'District Commission.' },
+  { id: 'f12-11', category: 'Jurisdiction', question: 'What is the pecuniary jurisdiction of the State Commission?', answer: 'Exceeds ₹1 Crore but does not exceed ₹10 Crores.' },
+  { id: 'f12-12', category: 'Appellate', question: 'Within how many days can an appeal be filed against a District Commission order?', answer: 'Within 45 days (to the State Commission).' },
+  { id: 'f12-13', category: 'Appellate', question: 'Where can a consumer appeal against a National Commission order?', answer: 'To the Supreme Court (within 30 days).' },
+
+  // 5. RELIEF & NGOs
+  { id: 'f12-14', category: 'Relief', question: 'Name two reliefs available to a consumer.', answer: '1. Removal of defects. 2. Replacement of product. 3. Refund of price.' },
+  { id: 'f12-15', category: 'NGO', question: 'What is the role of NGOs in consumer protection?', answer: 'Educating consumers, filing complaints, and providing legal assistance.' },
+
+  // 6. TRAPS & KEY FACTS
+  { id: 'f12-16', category: 'Trap', question: 'Is a person who buys goods for resale considered a consumer?', answer: 'No, commercial purposes are excluded.' },
+  { id: 'f12-17', category: 'Key Fact', question: 'Does CPA 2019 apply to online/e-commerce transactions?', answer: 'Yes, it covers both offline and online transactions.' }
 ];

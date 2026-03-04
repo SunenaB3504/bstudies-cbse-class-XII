@@ -31,27 +31,27 @@ export const topics: TheoryTopic[] = [
       "- **Excludes**: Person who obtains goods/services for resale or commercial purpose.",
       "",
       "**Consumer Rights**",
-      "1. **Right to Safety**: Protection against hazardous goods/services (e.g., ISI marked appliances).",
-      "2. **Right to be Informed**: Complete information about product (ingredients, price, date, etc.).",
-      "3. **Right to be Assured (Choose)**: Access to variety of products at competitive prices.",
-      "4. **Right to be Heard**: Right to file complaint and be heard (grievance cells).",
-      "5. **Right to Seek Redressal**: Relief against unfair trade practices or exploitation (compensation, replacement).",
-      "6. **Right to Consumer Education**: Right to acquire knowledge and be informed throughout life."
+      "1. **Right to Safety**: Protection against hazardous goods/services. **Trigger**: 'Electrical hazard', 'ISI mark', 'Life-threatening'.",
+      "2. **Right to be Informed**: Complete information about product. **Trigger**: 'Ingredients', 'Expiry date', 'Usage instructions'.",
+      "3. **Right to be Assured (Choose)**: Access to variety at competitive prices. **Trigger**: 'Monopoly price', 'Lack of variety', 'Forcing a brand'.",
+      "4. **Right to be Heard**: Right to file complaint and be heard. **Trigger**: 'Grievance cell', 'Company's feedback loop', 'Company ignored complaint'.",
+      "5. **Right to Seek Redressal**: Relief against unfair practices. **Trigger**: 'Compensation', 'Replacement', 'Refund', 'Court-ordered relief'.",
+      "6. **Right to Consumer Education**: Right to acquire knowledge. **Trigger**: 'Awareness camp', 'Knowledge of rights', 'Informing consumers'."
     ],
     visualizations: [
-        {
-            id: 'consumer-rights-list',
-            title: 'Consumer Rights',
-            type: 'list',
-            data: [
-                'Right to Safety',
-                'Right to be Informed',
-                'Right to Choose',
-                'Right to be Heard',
-                'Right to Seek Redressal',
-                'Right to Consumer Education'
-            ]
-        }
+      {
+        id: 'consumer-rights-list',
+        title: 'Consumer Rights',
+        type: 'list',
+        data: [
+          'Right to Safety',
+          'Right to be Informed',
+          'Right to Choose',
+          'Right to be Heard',
+          'Right to Seek Redressal',
+          'Right to Consumer Education'
+        ]
+      }
     ]
   },
   {
@@ -59,30 +59,30 @@ export const topics: TheoryTopic[] = [
     title: "Consumer Responsibilities",
     description: "Duties of a consumer while purchasing and using goods/services.",
     content: [
-      "1. **Be Aware**: Knowledge of available goods and services.",
-      "2. **Buy Standardised Goods**: Look for quality marks (ISI - Electrical, FPO - Food, Hallmark - Jewellery, Agmark - Agricultural).",
-      "3. **Learn Risks**: Follow manufacturer instructions.",
-      "4. **Read Labels**: Check price, weight, expiry date.",
-      "5. **Assert Yourself**: Ensure a fair deal.",
+      "1. **Be Aware**: Knowledge of available goods.",
+      "2. **Buy Standardised Goods**: Look for quality marks. **Trigger**: 'ISI', 'Agmark', 'Hallmark'.",
+      "3. **Learn Risks**: Follow instructions.",
+      "4. **Read Labels**: Check price, expiry. **Trigger**: 'Information on pack'.",
+      "5. **Assert Yourself**: Ensure a fair deal. **Trigger**: 'Prudent person', 'Not being submissive'.",
       "6. **Be Honest**: Discourage black-marketing.",
-      "7. **Ask for Cash Memo**: Proof of purchase.",
+      "7. **Ask for Cash Memo**: Proof of purchase. **Trigger**: 'Proof of purchase', 'Evidence for court'.",
       "8. **File Complaint**: Even for small amounts.",
-      "9. **Form Consumer Societies**: Educate and safeguard interests.",
-      "10. **Respect Environment**: Avoid waste and pollution."
+      "9. **Form Consumer Societies**: Educate others.",
+      "10. **Respect Environment**: Avoid waste."
     ],
     visualizations: [
-        {
-            id: 'quality-marks',
-            title: 'Quality Marks for Products',
-            type: 'grid',
-            data: [
-                { label: 'ISI Mark', desc: 'Durable/Electrical Goods' },
-                { label: 'Agmark', desc: 'Agricultural Commodities' },
-                { label: 'BIS Hallmark', desc: 'Gold Jewellery' },
-                { label: 'Woolmark', desc: 'Woolen Products' },
-                { label: 'Eco-mark', desc: 'Environment Friendly' }
-            ]
-        }
+      {
+        id: 'quality-marks',
+        title: 'Quality Marks for Products',
+        type: 'grid',
+        data: [
+          { label: 'ISI Mark', desc: 'Durable/Electrical Goods' },
+          { label: 'Agmark', desc: 'Agricultural Commodities' },
+          { label: 'BIS Hallmark', desc: 'Gold Jewellery' },
+          { label: 'Woolmark', desc: 'Woolen Products' },
+          { label: 'Eco-mark', desc: 'Environment Friendly' }
+        ]
+      }
     ]
   },
   {
@@ -91,39 +91,39 @@ export const topics: TheoryTopic[] = [
     description: "Three-tier enforcement machinery under the Consumer Protection Act, 2019.",
     content: [
       "**District Commission**",
-      "- Jurisdiction: Value of goods/services paid as consideration **up to ₹1 Crore**.",
-      "- Appeal: To State Commission within 45 days on questions of law.",
+      "- Jurisdiction: Value **up to ₹1 Crore**.",
+      "- Appeal: To State Commission within **45 days**.",
       "",
       "**State Commission**",
-      "- Jurisdiction: Value **exceeds ₹1 Crore but does not exceed ₹10 Crores**.",
-      "- Appeal: To National Commission within 30 days.",
+      "- Jurisdiction: Value **₹1 Crore to ₹10 Crores**.",
+      "- Appeal: To National Commission within **30 days**.",
       "",
       "**National Commission**",
       "- Jurisdiction: Value **exceeds ₹10 Crores**.",
-      "- Appeal: To Supreme Court within 30 days (only if originating in National Commission).",
+      "- Appeal: To Supreme Court within **30 days**.",
       "",
       "**Mediation**",
       "- Provision for settlement of disputes through mediation at all three levels."
     ],
     visualizations: [
-        {
-            id: 'redressal-machinery-flow',
-            title: 'Redressal Machinery Hierarchy (CPA 2019)',
-            type: 'flow',
-            data: {
-                nodes: [
-                    { id: 'SC', label: 'Supreme Court' },
-                    { id: 'Nat', label: 'National Commission (> ₹10 Cr)' },
-                    { id: 'State', label: 'State Commission (₹1 Cr - ₹10 Cr)' },
-                    { id: 'Dist', label: 'District Commission (< ₹1 Cr)' }
-                ],
-                edges: [
-                    { from: 'Dist', to: 'State', label: 'Appeal (45 days)' },
-                    { from: 'State', to: 'Nat', label: 'Appeal (30 days)' },
-                    { from: 'Nat', to: 'SC', label: 'Appeal (30 days)' }
-                ]
-            }
+      {
+        id: 'redressal-machinery-flow',
+        title: 'Redressal Machinery Hierarchy (CPA 2019)',
+        type: 'flow',
+        data: {
+          nodes: [
+            { id: 'SC', label: 'Supreme Court' },
+            { id: 'Nat', label: 'National Commission (> ₹10 Cr)' },
+            { id: 'State', label: 'State Commission (₹1 Cr - ₹10 Cr)' },
+            { id: 'Dist', label: 'District Commission (< ₹1 Cr)' }
+          ],
+          edges: [
+            { from: 'Dist', to: 'State', label: 'Appeal (45 days)' },
+            { from: 'State', to: 'Nat', label: 'Appeal (30 days)' },
+            { from: 'Nat', to: 'SC', label: 'Appeal (30 days)' }
+          ]
         }
+      }
     ]
   },
   {
