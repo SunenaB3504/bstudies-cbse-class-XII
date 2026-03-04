@@ -9,13 +9,20 @@ export const topics: TheoryTopic[] = [
       'Meaning: Staffing is the managerial function of filling and keeping filled the positions in the organisation structure. It is "putting people to jobs".',
       'It involves obtaining, utilising, and maintaining a satisfactory and satisfied workforce.',
       'Importance:',
-      '1. Competent Personnel: Helps in discovering and obtaining competent personnel for various jobs.',
-      '2. Higher Performance: Ensures higher performance by putting the right person on the right job.',
-      '3. Growth: Ensures continuous survival and growth through succession planning.',
-      '4. Optimum Utilisation: Avoids overmanning (saving costs) and understaffing (avoiding work disruption).',
-      '5. Job Satisfaction: Improves morale through objective assessment and fair rewards.'
+      '1. Competent Personnel: Discovering and obtaining competent personnel for various jobs.',
+      '2. Higher Performance: Putting the right person on the right job.',
+      '3. Continuous Growth: Survival and growth through succession planning for managers.',
+      '4. Optimum Utilisation: Avoids overmanning (costly) and understaffing (disruption).',
+      '5. Job Satisfaction: Improves morale of employees through objective assessment.'
     ],
-    visualizations: []
+    visualizations: [
+      {
+        id: 'staffing-importance-list',
+        title: 'Importance of Staffing',
+        type: 'list',
+        data: ['Competent Personnel', 'Higher Performance', 'Survival & Growth', 'Optimum Utilisation', 'Job Satisfaction']
+      }
+    ]
   },
   {
     id: 'staffing-process',
@@ -31,7 +38,30 @@ export const topics: TheoryTopic[] = [
       '7. Promotion and Career Planning: Placed in positions of increased responsibility.',
       '8. Compensation: All forms of pay or rewards (financial and non-financial).'
     ],
-    visualizations: []
+    visualizations: [
+      {
+        id: 'staffing-process-flow',
+        title: 'The Staffing Process',
+        type: 'flow',
+        data: {
+          nodes: [
+            { id: '1', label: '1. Estimating Manpower' },
+            { id: '2', label: '2. Recruitment' },
+            { id: '3', label: '3. Selection' },
+            { id: '4', label: '4. Placement & Orientation' },
+            { id: '5', label: '5. Training & Development' },
+            { id: '6', label: '6. Performance Appraisal' },
+            { id: '7', label: '7. Promotion' },
+            { id: '8', label: '8. Compensation' }
+          ],
+          edges: [
+            { from: '1', to: '2' }, { from: '2', to: '3' }, { from: '3', to: '4' },
+            { from: '4', to: '5' }, { from: '5', to: '6' }, { from: '6', to: '7' },
+            { from: '7', to: '8' }
+          ]
+        }
+      }
+    ]
   },
   {
     id: 'recruitment',
@@ -56,27 +86,27 @@ export const topics: TheoryTopic[] = [
       'Limitations of External: Dissatisfaction among existing staff, lengthy process, costly.'
     ],
     visualizations: [
-        {
-          id: 'recruitment-sources-tree',
-          title: 'Sources of Recruitment',
-          type: 'flow',
-          data: {
-              nodes: [
-                  { id: 'src', label: 'Sources of Recruitment' },
-                  { id: 'int', label: 'Internal Sources' },
-                  { id: 'ext', label: 'External Sources' },
-                  { id: 'trans', label: 'Transfers' }, { id: 'prom', label: 'Promotions' },
-                  { id: 'adv', label: 'Advertisement' }, { id: 'camp', label: 'Campus' },
-                  { id: 'ex', label: 'Exchange' }, { id: 'web', label: 'Web Pub' }
-              ],
-              edges: [
-                  { from: 'src', to: 'int' }, { from: 'src', to: 'ext' },
-                  { from: 'int', to: 'trans' }, { from: 'int', to: 'prom' },
-                  { from: 'ext', to: 'adv' }, { from: 'ext', to: 'camp' },
-                  { from: 'ext', to: 'ex' }, { from: 'ext', to: 'web' }
-              ]
-          }
+      {
+        id: 'recruitment-sources-tree',
+        title: 'Sources of Recruitment',
+        type: 'flow',
+        data: {
+          nodes: [
+            { id: 'src', label: 'Sources of Recruitment' },
+            { id: 'int', label: 'Internal Sources' },
+            { id: 'ext', label: 'External Sources' },
+            { id: 'trans', label: 'Transfers' }, { id: 'prom', label: 'Promotions' },
+            { id: 'adv', label: 'Advertisement' }, { id: 'camp', label: 'Campus' },
+            { id: 'ex', label: 'Exchange' }, { id: 'web', label: 'Web Pub' }
+          ],
+          edges: [
+            { from: 'src', to: 'int' }, { from: 'src', to: 'ext' },
+            { from: 'int', to: 'trans' }, { from: 'int', to: 'prom' },
+            { from: 'ext', to: 'adv' }, { from: 'ext', to: 'camp' },
+            { from: 'ext', to: 'ex' }, { from: 'ext', to: 'web' }
+          ]
         }
+      }
     ]
   },
   {
@@ -84,38 +114,43 @@ export const topics: TheoryTopic[] = [
     title: 'Selection',
     description: 'Process of identifying and choosing the best person.',
     content: [
-      '1. Preliminary Screening: Eliminating unqualified applicants.',
-      '2. Selection Tests: Measuring characteristics (Intelligence, Aptitude, Personality, Trade, Interest tests).',
+      '1. Preliminary Screening: Eliminating unqualified applicants based on info in forms.',
+      '2. Selection Tests: Measuring specific characteristics:',
+      '   - **Intelligence Test**: IQ and learning ability.',
+      '   - **Aptitude Test**: Potential for learning new skills.',
+      '   - **Personality Test**: Emotions, reactions, and maturity.',
+      '   - **Trade Test**: Existing professional skills/knowledge.',
+      '   - **Interest Test**: Areas of involvement/interest.',
       '3. Employment Interview: In-depth conversation to evaluate suitability.',
-      '4. Reference and Background Checks: Verifying information.',
-      '5. Selection Decision: Final decision from among those who passed.',
-      '6. Medical Examination: Fitness check.',
-      '7. Job Offer: Letter of appointment.',
-      '8. Contract of Employment: Documents involving terms, duties, pay, etc.'
+      '4. Reference and Background Checks: Verifying information with previous employers/references.',
+      '5. Selection Decision: Chosen from candidates who pass tests and interviews.',
+      '6. Medical Examination: Determining physical fitness.',
+      '7. Job Offer: Letter of appointment with date of joining.',
+      '8. Contract of Employment: Documents including duties, pay, leave rules, etc.'
     ],
     visualizations: [
-        {
-            id: 'selection-process-flow',
-            title: 'Steps in Selection Process',
-            type: 'flow',
-            data: {
-                nodes: [
-                    { id: '1', label: '1. Preliminary Screening' },
-                    { id: '2', label: '2. Selection Tests' },
-                    { id: '3', label: '3. Employment Interview' },
-                    { id: '4', label: '4. Reference Checks' },
-                    { id: '5', label: '5. Selection Decision' },
-                    { id: '6', label: '6. Medical Exam' },
-                    { id: '7', label: '7. Job Offer' },
-                    { id: '8', label: '8. Contract' }
-                ],
-                edges: [
-                    { from: '1', to: '2' }, { from: '2', to: '3' }, { from: '3', to: '4' },
-                    { from: '4', to: '5' }, { from: '5', to: '6' }, { from: '6', to: '7' },
-                    { from: '7', to: '8' }
-                ]
-            }
+      {
+        id: 'selection-process-flow',
+        title: 'Steps in Selection Process',
+        type: 'flow',
+        data: {
+          nodes: [
+            { id: '1', label: '1. Preliminary Screening' },
+            { id: '2', label: '2. Selection Tests' },
+            { id: '3', label: '3. Employment Interview' },
+            { id: '4', label: '4. Reference Checks' },
+            { id: '5', label: '5. Selection Decision' },
+            { id: '6', label: '6. Medical Exam' },
+            { id: '7', label: '7. Job Offer' },
+            { id: '8', label: '8. Contract' }
+          ],
+          edges: [
+            { from: '1', to: '2' }, { from: '2', to: '3' }, { from: '3', to: '4' },
+            { from: '4', to: '5' }, { from: '5', to: '6' }, { from: '6', to: '7' },
+            { from: '7', to: '8' }
+          ]
         }
+      }
     ]
   },
   {
