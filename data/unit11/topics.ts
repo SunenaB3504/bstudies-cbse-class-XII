@@ -10,39 +10,39 @@ export const topics: TheoryTopic[] = [
       "Marketing is a social process by which individuals and groups obtain what they need and want through creating offering and freely exchanging products and services of value with others.",
       "",
       "**Marketing Management Philosophies**",
-      "1. **Production Concept**: Focus on availability and affordability. Ends: Profit through volume of production.",
-      "2. **Product Concept**: Focus on quality, performance, and features. Ends: Profit through product quality.",
-      "3. **Selling Concept**: Focus on selling and promoting existing products. Ends: Profit through sales volume.",
-      "4. **Marketing Concept**: Focus on customer needs and satisfaction. Ends: Profit through customer satisfaction.",
-      "5. **Societal Marketing Concept**: Focus on customer satisfaction and social welfare (ethical/ecological). Ends: Profit through customer satisfaction and social welfare."
+      "1. **Production Concept**: Focus on availability and affordability. **Trigger**: 'Mass production', 'Availability/Affordability'.",
+      "2. **Product Concept**: Focus on quality, performance, and features. **Trigger**: 'Product improvement', 'High quality/features'.",
+      "3. **Selling Concept**: Focus on selling and promoting existing products. **Trigger**: 'Aggressive selling', 'Attracting customers', 'Pushing products'.",
+      "4. **Marketing Concept**: Focus on customer needs and satisfaction. **Trigger**: 'Customer satisfaction', 'Integrated marketing', 'Identifying needs'.",
+      "5. **Societal Marketing Concept**: Focus on satisfaction and social welfare. **Trigger**: 'Ethical/Ecological concerns', 'Society's well-being', 'Environmental protection'."
     ],
     visualizations: [
-        {
-          id: 'marketing-concepts-table',
-          title: 'Marketing Philosophies Comparison',
-          type: 'table',
-          data: {
-              headers: ['Concept', 'Focus', 'Means', 'Ends (Profit)'],
-              rows: [
-                  ['Production', 'Availability', 'Mass Production', 'Volume'],
-                  ['Product', 'Quality/Features', 'Product Improv.', 'Quality'],
-                  ['Selling', 'Existing Product', 'Selling/Prom.', 'Sales Volume'],
-                  ['Marketing', 'Customer Needs', 'Integrated Mkting', 'Satisfaction'],
-                  ['Societal', 'Welfare + Needs', 'Social Mkting', 'Sat + Welfare']
-              ]
-          }
-        },
-        {
-          id: 'marketing-mix',
-          title: 'The 4 Ps of Marketing Mix',
-          type: 'grid',
-          data: [
-            { label: 'Product', desc: 'Design, Quality, Features, Brand, Packaging' },
-            { label: 'Price', desc: 'List Price, Discounts, Credit Terms, Payment Period' },
-            { label: 'Place', desc: 'Channels, Coverage, Locations, Inventory, Transport' },
-            { label: 'Promotion', desc: 'Advertising, Personal Selling, Sales Promotion, PR' }
+      {
+        id: 'marketing-concepts-table',
+        title: 'Marketing Philosophies Comparison',
+        type: 'table',
+        data: {
+          headers: ['Concept', 'Focus', 'Means', 'Ends (Profit)'],
+          rows: [
+            ['Production', 'Availability', 'Mass Production', 'Volume'],
+            ['Product', 'Quality/Features', 'Product Improv.', 'Quality'],
+            ['Selling', 'Existing Product', 'Selling/Prom.', 'Sales Volume'],
+            ['Marketing', 'Customer Needs', 'Integrated Mkting', 'Satisfaction'],
+            ['Societal', 'Welfare + Needs', 'Social Mkting', 'Sat + Welfare']
           ]
         }
+      },
+      {
+        id: 'marketing-mix',
+        title: 'The 4 Ps of Marketing Mix',
+        type: 'grid',
+        data: [
+          { label: 'Product', desc: 'Design, Quality, Features, Brand, Packaging' },
+          { label: 'Price', desc: 'List Price, Discounts, Credit Terms, Payment Period' },
+          { label: 'Place', desc: 'Channels, Coverage, Locations, Inventory, Transport' },
+          { label: 'Promotion', desc: 'Advertising, Personal Selling, Sales Promotion, PR' }
+        ]
+      }
     ]
   },
   {
@@ -83,27 +83,27 @@ export const topics: TheoryTopic[] = [
       "",
       "**Packaging**",
       "- **Levels**: Primary (immediate), Secondary (protection), Transportation (storage/shipping).",
-      "- **Functions**: Product identification, protection, facilitating use, promotion.",
+      "- **Functions**: Product identification, protection, facilitating use, promotion. **Label**: 'Silent Salesman' (attracts attention).",
       "- **Importance**: Health/sanitation, self-service outlets, innovation, product differentiation."
     ],
     visualizations: [
-        {
-          id: 'packaging-levels',
-          title: 'Levels of Packaging',
-          type: 'list',
-          data: [
-            '1. Primary Package: Immediate container (e.g., Tube)',
-            '2. Secondary Package: Protection/Dispensing (e.g., Cardboard Box)',
-            '3. Transportation Package: Storage/Shipping (e.g., Corrugated Box)'
-          ]
-        }
+      {
+        id: 'packaging-levels',
+        title: 'Levels of Packaging',
+        type: 'list',
+        data: [
+          '1. Primary Package: Immediate container (e.g., Tube)',
+          '2. Secondary Package: Protection/Dispensing (e.g., Cardboard Box)',
+          '3. Transportation Package: Storage/Shipping (e.g., Corrugated Box)'
+        ]
+      }
     ]
   },
   {
-      id: "labelling-branding",
-      title: "Labelling and Branding",
-      description: "Identification and Promotion tools.",
-      content: [
+    id: "labelling-branding",
+    title: "Labelling and Branding",
+    description: "Identification and Promotion tools.",
+    content: [
       "**Labelling**",
       "- **Functions**: Describe product/contents, identify product/brand, grade products, promote products, provide legal information."
     ],
@@ -139,26 +139,26 @@ export const topics: TheoryTopic[] = [
       "4. **Inventory Control**: Balancing cost of inventory (capital tied up) vs. level of service (satisfaction)."
     ],
     visualizations: [
-        {
-            id: 'distribution-channels',
-            title: 'Channels of Distribution',
-            type: 'flow',
-            data: {
-                nodes: [
-                    { id: 'M', label: 'Manufacturer' },
-                    { id: 'C', label: 'Consumer' },
-                    { id: 'R', label: 'Retailer' },
-                    { id: 'W', label: 'Wholesaler' },
-                    { id: 'A', label: 'Agent' }
-                ],
-                edges: [
-                    { from: 'M', to: 'C', label: 'Zero Level' },
-                    { from: 'M', to: 'R', label: 'One Level' }, { from: 'R', to: 'C' },
-                    { from: 'M', to: 'W', label: 'Two Level' }, { from: 'W', to: 'R' },
-                    { from: 'M', to: 'A', label: 'Three Level' }, { from: 'A', to: 'W' }
-                ]
-            }
+      {
+        id: 'distribution-channels',
+        title: 'Channels of Distribution',
+        type: 'flow',
+        data: {
+          nodes: [
+            { id: 'M', label: 'Manufacturer' },
+            { id: 'C', label: 'Consumer' },
+            { id: 'R', label: 'Retailer' },
+            { id: 'W', label: 'Wholesaler' },
+            { id: 'A', label: 'Agent' }
+          ],
+          edges: [
+            { from: 'M', to: 'C', label: 'Zero Level' },
+            { from: 'M', to: 'R', label: 'One Level' }, { from: 'R', to: 'C' },
+            { from: 'M', to: 'W', label: 'Two Level' }, { from: 'W', to: 'R' },
+            { from: 'M', to: 'A', label: 'Three Level' }, { from: 'A', to: 'W' }
+          ]
         }
+      }
     ]
   },
   {
@@ -167,24 +167,16 @@ export const topics: TheoryTopic[] = [
     description: "Tools used to communicate with customers: Advertising, Personal Selling, Sales Promotion, Public Relations.",
     content: [
       "**1. Advertising**",
-      "- Paid, impersonal form of communication by identified sponsor.",
-      "- **Merits**: Mass reach, customer satisfaction/confidence, expressiveness, economy.",
-      "- **Objections**: Adds to cost, undermines social values, confuses buyers, encourages inferior products.",
+      "- Paid, impersonal form. **Trigger**: 'Paid form', 'Identified sponsor', 'Mass reach'.",
       "",
       "**2. Personal Selling**",
-      "- Oral presentation, conversation with prospective customers.",
-      "- **Features**: Personal form, relationship development.",
-      "- **Merits**: Flexibility, direct feedback, minimum wastage.",
+      "- Oral presentation. **Trigger**: 'Oral conversation', 'Flexible', 'Personal relationship'.",
       "",
       "**3. Sales Promotion**",
-      "- Short-term incentives to boost immediate sales.",
-      "- **Merits**: Attention value, useful in new product launch, synergy.",
-      "- **Techniques**: Rebate, Discount, Refunds, Product Combinations, Quantity Gifts, Instant Draws, Lucky Draws, Usable Benefits, Full Finance @ 0%, Sampling, Contests.",
+      "- Short-term incentives. **Trigger**: 'Immediate sales boost', 'Cash discounts', 'Free gifts'.",
       "",
       "**4. Public Relations (PR)**",
-      "- Managing public opinion and organisation's image.",
-      "- **Role**: Press relations, product publicity, corporate communication, lobbying, counselling.",
-      "- **Objectives**: Building awareness, credibility, stimulating sales force, lowering promotion costs."
+      "- Managing image. **Trigger**: 'Corporate image', 'Lobbying', 'Managing public opinion'."
     ],
     visualizations: []
   }
