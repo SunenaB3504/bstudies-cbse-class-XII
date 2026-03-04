@@ -1,92 +1,96 @@
 import { SQPQuestion } from '../../types';
 
 export const sqp: SQPQuestion[] = [
-  { 
-    id: 'bulk_401',
-    year: '2022-23',
-    paperType: "SQP",
-    type: 'MCQ',
-    marks: 1,
-    question: `Identify the type of organisation structure which facilitates occupational specialisation.`,
-    optionA: `Functional structure`,
-    optionB: `Divisional structure`,
-    optionC: `Network structure`,
-    optionD: `Matrix structure`,
-    answer: `A) Functional structure`,
-    markingScheme: `A) Functional structure`,
-    aiExplanation: `A functional structure groups activities based on functions, leading to occupational specialisation.`
-  },
-
-    { 
-    id: '2025-26-q12',
+    {
+        id: 'u5-sqp-1',
         year: '2025-26',
         paperType: 'SQP',
         marks: 1,
         type: 'MCQ',
-        question: 'Responsibility flows upwards, whereas Authority flows _____________.',
-        answer: 'Downwards',
-        aiExplanation: `Authority is the right to command (Top to Bottom). Responsibility is the obligation to perform (Bottom to Top).\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
-    { 
-    id: '2025-26-q26',
+        question: 'Identify the element of delegation which cannot be delegated at all.',
+        optionA: 'Authority',
+        optionB: 'Responsibility',
+        optionC: 'Accountability',
+        optionD: 'Power',
+        answer: 'C) Accountability',
+        aiExplanation: 'While authority can be shared and responsibility assigned, the ultimate answerability (Accountability) remains with the delegator. [1 Mark]'
+    },
+    {
+        id: 'u5-sqp-2',
         year: '2025-26',
         paperType: 'SQP',
-        marks: 6,
-        type: 'LA',
-        question: 'Identify the organisation structure where each division functions as an autonomous unit and is accountable for its own profits and losses.',
-        answer: 'Divisional Structure',
-        aiExplanation: `[Mark Justification - 6 Marks Total]:\n• 1 Mark for identifying the structure (Divisional Structure).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Product Specialisation/Divisional Structure):*\n• **Concept:** An organization structure comprising of separate business units or divisions, each functioning autonomously under a divisional manager responsible for profits/losses.\n• **Product Specialization:** It leads to product specialization as the manager gains experience in all functions related to a particular product.\n• **Accountability:** It helps in fixing responsibility because divisional results (revenues and costs) can be assessed easily.\n• **Flexibility:** It promotes flexibility and initiative because each division functions as an autonomous unit leading to faster decision making.\n• **Expansion:** It facilitates expansion and growth as new divisions can be added without interrupting existing operations.`,},
-    { 
-    id: '2024-25-q6',
+        marks: 3,
+        type: 'SA',
+        question: 'Explain "Span of Management" and how it affects organization structure.',
+        answer: '• Meaning: Span of management refers to the number of subordinates that can be effectively managed by a superior. [1.5 Marks]\n• Impact: It determines the levels of management in the organization. A narrow span leads to a "tall" structure (more levels), while a wide span leads to a "flat" structure (fewer levels). [1.5 Marks]',
+        aiExplanation: 'Emphasis on the inverse relationship between the span and the number of hierarchical levels. [3 Marks]'
+    },
+    {
+        id: 'u5-sqp-3',
         year: '2024-25',
-        paperType: 'SQP',
+        paperType: 'Board',
+        marks: 4,
+        type: 'SA',
+        question: 'Distinguish between Functional and Divisional structure on the basis of: (i) Formation, (ii) Cost, (iii) Responsibility, (iv) Managerial Development.',
+        answer: '1. Formation: Functional is based on functions; Divisional on product lines.\n2. Cost: Functional is economical; Divisional is costly due to duplication.\n3. Responsibility: Hard to fix in Functional; Easy to fix in Divisional.\n4. Development: Narrow in Functional; Comprehensive in Divisional.\n[1 Mark for each correct basis]',
+        aiExplanation: 'Refer to the comparison table in theory for verbatim marking scheme points. [4 Marks]'
+    },
+    {
+        id: 'u5-sqp-4',
+        year: '2024-25',
+        paperType: 'Board',
         marks: 1,
         type: 'MCQ',
-        question: 'It refers to the number of subordinates that can be effectively managed by a superior. Identify the concept.',
-        answer: 'Span of Management',
-        aiExplanation: `Span of Management determines the levels of management in an organisation structure.\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
-    { 
-    id: '2024-25-q26',
-        year: '2024-25',
-        paperType: 'SQP',
+        question: 'Accountability flows in which direction?',
+        optionA: 'Downward',
+        optionB: 'Upward',
+        optionC: 'Horizontal',
+        optionD: 'Diagonal',
+        answer: 'B) Upward',
+        aiExplanation: 'A subordinate is always answerable to their superior for the task assigned. [1 Mark]'
+    },
+    {
+        id: 'u5-sqp-5',
+        year: '2023-24',
+        paperType: 'Board',
         marks: 6,
         type: 'LA',
-        question: 'It is the act of making the subordinate answerable for the final outcome. Once authority has been delegated and responsibility accepted, one cannot deny it.',
-        answer: 'Accountability',
-        aiExplanation: `[Mark Justification - 6 Marks Total]:\n• 1 Mark for identifying the concept (Accountability).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Accountability & Delegation):*\n• **Concept of Accountability:** Being answerable for the final outcome. It cannot be delegated and flows upwards.\n• **Delegation Process:** Explaining the three elements of delegation: Authority, Responsibility, and Accountability.\n• **Authority:** The right to command subordinates and take action.\n• **Responsibility:** The obligation of a subordinate to properly perform the assigned duty.\n• **Principle of Absolute Accountability:** A manager can delegate authority and responsibility to subordinates, but remains ultimately accountable to their own superior for the task's completion.`,},
-    { 
-    id: '2023-24-q6',
+        question: 'Define Delegation. Explain its elements in detail.',
+        answer: 'Definition: Downward transfer of authority from superior to subordinate.\nElements:\n1. Authority: Right to command; flows downward.\n2. Responsibility: Obligation to perform duty; flows upward.\n3. Accountability: Final answerability; cannot be delegated; flows upward.\n[1 Mark for definition, 5 Marks for detailed explanation of elements]',
+        aiExplanation: 'Ensure the distinction between "Delegation" and "Decentralisation" is clear in the student’s mind. [6 Marks]'
+    },
+    {
+        id: 'u5-sqp-6',
         year: '2023-24',
         paperType: 'Board',
         marks: 1,
         type: 'MCQ',
-        question: 'Which type of organisation structure leads to occupational specialisation?',
-        answer: 'Functional Structure',
-        aiExplanation: `Functional Structure groups similar activities together, leading to developing deep skills in that specific function (Occupational Specialisation).\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
-    { 
-    id: '2023-24-q34',
-        year: '2023-24',
-        paperType: 'Board',
-        marks: 6,
-        type: 'LA',
-        question: 'Top management needs relief from routine decision making to focus on strategic issues. Which concept helps in this?',
-        answer: 'Decentralisation',
-        aiExplanation: `[Mark Justification - 6 Marks Total]:\n• 1 Mark for identifying the concept (Decentralisation).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Importance of Decentralisation):*\n• **Relief to Top Management:** Diminishes the burden of top executives by delegating routine decision-making so they can focus on strategy.\n• **Develops Initiative:** Promotes self-reliance and confidence amongst subordinates.\n• **Develops Managerial Talent:** Gives lower-level managers a chance to prove their abilities, creating a reservoir of qualified manpower.\n• **Quick Decision Making:** Decisions are taken at the level which is closest to the point of action, preventing delays.\n• **Facilitates Growth:** Awards greater autonomy, allowing departments to function to their best potential.\n• **Better Control:** Makes it possible to evaluate performance at each level and hold departments accountable.`,},
-    { 
-    id: '2022-23-q1',
-        year: '2022-23',
-        paperType: 'Board',
-        marks: 1,
-        type: 'MCQ',
-        question: 'Which step in the process of organising involves establishing who reports to whom?',
-        answer: 'Establishing Reporting Relationships',
-        aiExplanation: `This is the final step where the hierarchy and lines of communication are clearly defined.\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
-    { 
-    id: '2022-23-q23',
+        question: 'Grouping of similar jobs into departments is which step of organising?',
+        answer: 'Departmentalisation',
+        aiExplanation: 'Step 2 of the process focuses on grouping work based on criteria like product or area. [1 Mark]'
+    },
+    {
+        id: 'u5-sqp-7',
         year: '2022-23',
         paperType: 'Board',
         marks: 4,
         type: 'SA',
-        question: 'Can a manager delegate accountability? Explain.',
-        answer: 'No. Accountability is absolute.',
-        aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for the direct answer (No).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Delegation of Accountability):*\n• **Absolute Nature:** Accountability is absolute and cannot be delegated.\n• **Upward Flow:** It flows upwards, i.e., a subordinate will be accountable to a superior for satisfactory performance of work.\n• **Ultimate Responsibility:** Even after delegating authority and assigning responsibility to a subordinate, the manager remains accountable to his own superior for the outcome.`,}
+        question: 'Compare Formal and Informal organization on any four bases.',
+        answer: 'Bases: 1. Origin (Management vs Social), 2. Authority (Position vs Personal), 3. Flow of Comm (Scalar Chain vs Informal/Grapevine), 4. Leadership (Managers vs Informal Leaders).\n[1 Mark each]',
+        aiExplanation: 'Formal organization is created deliberately, while informal is spontaneous. [4 Marks]'
+    },
+    {
+        id: 'u5-sqp-8',
+        year: '2025-26',
+        paperType: 'SQP',
+        marks: 1,
+        type: 'MCQ',
+        question: 'Which of the following is an optional policy of the top management?',
+        optionA: 'Delegation',
+        optionB: 'Decentralisation',
+        optionC: 'Organising',
+        optionD: 'Planning',
+        answer: 'B) Decentralisation',
+        aiExplanation: 'Delegation is a necessity for a growing firm, but decentralisation is a strategic choice (optional policy). [1 Mark]'
+    }
 ];

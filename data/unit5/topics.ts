@@ -23,22 +23,22 @@ export const topics: TheoryTopic[] = [
       '4. Establishing Authority and Reporting Relationships: Clarifying who has to take orders from whom and to whom they are accountable. Creates a hierarchical structure.'
     ],
     visualizations: [
-        {
-          id: 'organising-process-flow',
-          title: 'Steps in Organising',
-          type: 'flow',
-          data: {
-              nodes: [
-                  { id: '1', label: '1. Identification & Division of Work' },
-                  { id: '2', label: '2. Departmentalisation' },
-                  { id: '3', label: '3. Assignment of Duties' },
-                  { id: '4', label: '4. Establishing Reporting Relationships' }
-              ],
-              edges: [
-                  { from: '1', to: '2' }, { from: '2', to: '3' }, { from: '3', to: '4' }
-              ]
-          }
+      {
+        id: 'organising-process-flow',
+        title: 'Steps in Organising',
+        type: 'flow',
+        data: {
+          nodes: [
+            { id: '1', label: '1. Identification & Division of Work' },
+            { id: '2', label: '2. Departmentalisation' },
+            { id: '3', label: '3. Assignment of Duties' },
+            { id: '4', label: '4. Establishing Reporting Relationships' }
+          ],
+          edges: [
+            { from: '1', to: '2' }, { from: '2', to: '3' }, { from: '3', to: '4' }
+          ]
         }
+      }
     ]
   },
   {
@@ -64,7 +64,28 @@ export const topics: TheoryTopic[] = [
       'The framework within which managerial and operating tasks are performed. It specifies the relationships between people, work, and resources.',
       'Span of Management: Refers to the number of subordinates that can be effectively managed by a superior. This determines the levels of management in the structure.'
     ],
-    visualizations: []
+    visualizations: [
+      {
+        id: 'functional-structure-chart',
+        title: 'Functional Structure Organization Chart',
+        type: 'flow',
+        data: {
+          nodes: [
+            { id: 'md', label: 'Managing Director' },
+            { id: 'prod', label: 'Production' },
+            { id: 'mark', label: 'Marketing' },
+            { id: 'fin', label: 'Finance' },
+            { id: 'hr', label: 'Human Resources' }
+          ],
+          edges: [
+            { from: 'md', to: 'prod' },
+            { from: 'md', to: 'mark' },
+            { from: 'md', to: 'fin' },
+            { from: 'md', to: 'hr' }
+          ]
+        }
+      }
+    ]
   },
   {
     id: 'types-of-structure',
@@ -79,22 +100,46 @@ export const topics: TheoryTopic[] = [
       'Disadvantages of Divisional: Conflicts among divisions, increased costs due to duplication, managers may ignore organisational interests.'
     ],
     visualizations: [
-        {
-          id: 'func-vs-div',
-          title: 'Functional vs Divisional Structure',
-          type: 'table',
-          data: {
-            headers: ['Basis', 'Functional Structure', 'Divisional Structure'],
-            rows: [
-              ['Formation', 'Based on functions (e.g., Marketing, Production)', 'Based on product lines (e.g., Cosmetics, Garments)'],
-              ['Specialisation', 'Functional specialisation', 'Product specialisation'],
-              ['Responsibility', 'Difficult to fix on a department', 'Easy to fix responsibility for performance'],
-              ['Managerial Development', 'Difficult (narrow skills)', 'Easier (autonomy and multiple functions)'],
-              ['Cost', 'Economical (no duplication)', 'Costly (duplication of resources per division)'],
-              ['Coordination', 'Difficult for multi-product company', 'Easy (each division is autonomous)']
-            ]
-          }
+      {
+        id: 'divisional-structure-chart',
+        title: 'Divisional Structure Organization Chart',
+        type: 'flow',
+        data: {
+          nodes: [
+            { id: 'md', label: 'Managing Director' },
+            { id: 'div-a', label: 'Division: Cosmetics' },
+            { id: 'div-b', label: 'Division: Garments' },
+            { id: 'func-a1', label: 'Production' },
+            { id: 'func-a2', label: 'Marketing' },
+            { id: 'func-b1', label: 'Production' },
+            { id: 'func-b2', label: 'Marketing' }
+          ],
+          edges: [
+            { from: 'md', to: 'div-a' },
+            { from: 'md', to: 'div-b' },
+            { from: 'div-a', to: 'func-a1' },
+            { from: 'div-a', to: 'func-a2' },
+            { from: 'div-b', to: 'func-b1' },
+            { from: 'div-b', to: 'func-b2' }
+          ]
         }
+      },
+      {
+        id: 'func-vs-div',
+        title: 'Functional vs Divisional Structure',
+        type: 'table',
+        data: {
+          headers: ['Basis', 'Functional Structure', 'Divisional Structure'],
+          rows: [
+            ['Formation', 'Based on functions (e.g., Marketing, Production)', 'Based on product lines (e.g., Cosmetics, Garments)'],
+            ['Specialisation', 'Functional specialisation', 'Product specialisation'],
+            ['Responsibility', 'Difficult to fix on a department', 'Easy to fix responsibility for performance'],
+            ['Managerial Development', 'Difficult (narrow skills)', 'Easier (autonomy and multiple functions)'],
+            ['Cost', 'Economical (no duplication)', 'Costly (duplication of resources per division)'],
+            ['Coordination', 'Difficult for multi-product company', 'Easy (each division is autonomous)']
+          ]
+        }
+      }
     ]
   },
   {
@@ -121,6 +166,8 @@ export const topics: TheoryTopic[] = [
       '1. Authority: Right to command subordinates and take action. Flows from top to bottom.',
       '2. Responsibility: Obligation of a subordinate to properly perform assigned duty. Flows upwards.',
       '3. Accountability: Answerability for the final outcome. Cannot be delegated. Flows upwards.',
+      '> [!IMPORTANT]',
+      '> **The Principle of Absoluteness of Accountability**: Authority can be delegated but responsibility/accountability cannot. A manager remains accountable to their superior even after delegating tasks.',
       'Importance: Effective management, Employee development, Motivation of employees, Facilitation of growth, Basis of management hierarchy, Better coordination.'
     ],
     visualizations: []
