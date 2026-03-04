@@ -2,16 +2,16 @@ import { MindMapNode } from '../../types';
 
 export const mindMap: MindMapNode = {
   id: "root",
-  label: "NATURE & SIGNIFICANCE OF MANAGEMENT",
+  label: "NATURE AND SIGNIFICANCE OF MANAGEMENT",
   children: [
     {
       id: "concept",
       label: "1. CONCEPT",
       children: [
         { id: "def", label: "Process of getting things done" },
-        { 
-          id: "eff-vs-eff", 
-          label: "Performance", 
+        {
+          id: "eff-vs-eff",
+          label: "Performance",
           children: [
             { id: "eff1", label: "Effectiveness (Right Task/Time)" },
             { id: "eff2", label: "Efficiency (Right Way/Cost)" }
@@ -36,9 +36,9 @@ export const mindMap: MindMapNode = {
       id: "obj",
       label: "3. OBJECTIVES",
       children: [
-        { 
-          id: "o-org", 
-          label: "Organisational", 
+        {
+          id: "o-org",
+          label: "Organisational",
           children: [
             { id: "surv", label: "Survival" },
             { id: "prof", label: "Profit" },
@@ -64,18 +64,18 @@ export const mindMap: MindMapNode = {
       id: "nat",
       label: "5. NATURE",
       children: [
-        { 
-          id: "n-art", 
-          label: "As an Art", 
+        {
+          id: "n-art",
+          label: "As an Art",
           children: [
             { id: "na1", label: "Theoretical Knowledge" },
             { id: "na2", label: "Personalised Application" },
-            { id: "na3", label: "Practice & Creativity" }
+            { id: "na3", label: "Practice and Creativity" }
           ]
         },
-        { 
-          id: "n-sci", 
-          label: "As a Science", 
+        {
+          id: "n-sci",
+          label: "As a Science",
           children: [
             { id: "ns1", label: "Systematized Body" },
             { id: "ns2", label: "Principles (Experimental)" },
@@ -89,9 +89,9 @@ export const mindMap: MindMapNode = {
       id: "lvl",
       label: "6. LEVELS",
       children: [
-        { id: "l-top", label: "Top (BOD, CEO) -> Strategy" },
-        { id: "l-mid", label: "Middle (Mgrs) -> Link Pin" },
-        { id: "l-low", label: "Operational -> Workforce" }
+        { id: "l-top", label: "Top (BOD, CEO) - Strategy" },
+        { id: "l-mid", label: "Middle (Mgrs) - Link Pin" },
+        { id: "l-low", label: "Operational - Workforce" }
       ]
     },
     {
