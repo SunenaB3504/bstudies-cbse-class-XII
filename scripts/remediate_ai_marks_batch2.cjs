@@ -64,18 +64,18 @@ function processUnit(unitNum) {
                     const justificationStr = specificJustifications[id];
                     // Overwrite the existing aiExplanation COMPLETELY for 3-6 mark questions
                     // so we don't end up with generic text + justification
-                    block = block.replace(/aiExplanation:\s*[`'"][\s\S]*?[`'"],/, `aiExplanation: \`${justificationStr}\`,`);
+                    block = block.replace(/aiExplanation:\s*(?:`[\s\S]*?`|'[\s\S]*?'|"[\s\S]*?")\s*,?/, `aiExplanation: \`${justificationStr}\`,`);
                     modifications++;
                 } else if (!block.includes('[Mark Justification]') && !block.includes('Comprehensive Revision Points')) {
                     // Fallback for missing high mark questions, though we mapped them all
                 }
             } else if (marks === 1) {
                 if (!block.includes('[Mark Justification]')) {
-                    const existingMatch = block.match(/aiExplanation:\s*[`'"]([\s\S]*?)[`'"],/);
+                    const existingMatch = block.match(/aiExplanation:\s*(?:`([\s\S]*?)`|'([\s\S]*?)'|"([\s\S]*?)")/);
                     if (existingMatch) {
-                        const existingText = existingMatch[1].replace(/\\/g, '\\\\').replace(/`/g, '\\`');
+                        const existingText = (existingMatch[1] || existingMatch[2] || existingMatch[3]).replace(/\\/g, '\\\\').replace(/`/g, '\\`');
                         const newText = existingText + "\\n\\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.";
-                        block = block.replace(/aiExplanation:\s*[`'"][\s\S]*?[`'"],/, `aiExplanation: \`${newText}\`,`);
+                        block = block.replace(/aiExplanation:\s*(?:`[\s\S]*?`|'[\s\S]*?'|"[\s\S]*?")\s*,?/, `aiExplanation: \`${newText}\`,`);
                         modifications++;
                     }
                 }
