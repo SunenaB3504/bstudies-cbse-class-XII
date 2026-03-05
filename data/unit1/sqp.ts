@@ -14,7 +14,7 @@ export const sqp: SQPQuestion[] = [
     optionD: `None of the above`,
     answer: `A) It involves a series of continuous, composite, but separate functions`,
     markingScheme: `A) It involves a series of continuous, composite, but separate functions`,
-    aiExplanation: `Management consists of ongoing functions like planning, organising, directing, and controlling which occur simultaneously.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`
+    aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** \"continuous process\" refers to the fact that management involves a series of ongoing, continuous, composite, but separate functions.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     },
   { 
     id: 'bulk_101',
@@ -41,7 +41,7 @@ export const sqp: SQPQuestion[] = [
       optionD: 'Systematized body of knowledge',
       answer: `Restricted Entry (and Ethical Code of Conduct)`,
       markingScheme: `Restricted Entry (and Ethical Code of Conduct)`,
-      aiExplanation: `Anyone can become a manager regardless of degree, unlike medicine or law where entry is restricted by examinations. Also, there is no single compulsory body like the Bar Council.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`
+      aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** Unlike medicine or law, there is no \"Restricted Entry\" (educational degree) or a compulsory regulatory body for managers.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     },
     { 
     id: '2025-26-q2',
@@ -56,7 +56,7 @@ export const sqp: SQPQuestion[] = [
       optionD: 'Hierarchy',
       answer: `Coordination`,
       markingScheme: `Coordination`,
-      aiExplanation: `Coordination is considered the essence of management as it synchronizes all other functions (POSDC) to ensure unity of action.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`
+      aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** The \"force that binds all other functions\" is the textbook definition of Coordination (the essence of management).\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     },
     { 
     id: '2025-26-q22',
@@ -82,7 +82,7 @@ export const sqp: SQPQuestion[] = [
       optionD: 'Cooperation',
       answer: `Coordination`,
       markingScheme: `Coordination`,
-      aiExplanation: `Synchronisation is the keyword for Coordination; it ensures that different departments work together without conflict.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`
+      aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** \"synchronisation of efforts\" and \"unity of action\" are the primary definitional phrases for Coordination.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     },
     { 
     id: '2024-25-q5',
@@ -93,7 +93,7 @@ export const sqp: SQPQuestion[] = [
       question: 'Management is an intangible force. Explain.',
       answer: `It cannot be seen but its presence is felt in the way the organization functions (e.g., orderliness).`,
       markingScheme: `It cannot be seen but its presence is felt in the way the organization functions (e.g., orderliness).`,
-      aiExplanation: `Look for evidence like orderliness, discipline, happy employees, and achievement of goals as proof of this intangible force.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`
+      aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** \"intangible force\" means it cannot be seen or touched, but its presence is felt in the way the organization functions (e.g., orderliness, discipline, goal achievement).\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     },
     { 
     id: '2024-25-q22',
@@ -119,7 +119,7 @@ export const sqp: SQPQuestion[] = [
       optionD: 'None of the above',
       answer: `Middle Level Management`,
       markingScheme: `Middle Level Management`,
-      aiExplanation: `Middle management acts as a link pin, interpreting top-level strategies into actionable plans for lower-level execution.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`
+      aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** \"interpret the policies framed by top management\" is specifically a function of Middle Level Management, acting as a link between top and lower levels.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     },
     { 
     id: '2023-24-q2',
@@ -134,7 +134,7 @@ export const sqp: SQPQuestion[] = [
       optionD: 'Universal Validity',
       answer: `Personalised Application`,
       markingScheme: `Personalised Application`,
-      aiExplanation: `Art is personalized; just as two musicians play the same raga differently, every manager applies knowledge differently based on their creativity.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`
+      aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** Applying principles in an \"own unique way\" or customized manner strictly refers to \"Personalised Application\" as a feature of Art.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     },
     { 
     id: '2023-24-q13',
@@ -160,6 +160,6 @@ export const sqp: SQPQuestion[] = [
       question: 'Foremen and Supervisors belong to which level of management?',
       answer: `Supervisory or Operational Management`,
       markingScheme: `Supervisory or Operational Management`,
-      aiExplanation: `They are at the lowest level in the hierarchy of managers, directly overseeing the workforce.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`
+      aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** \"Foremen and Supervisors\" directly oversee the actual workforce, placing them at the lowest managerial level, which is Supervisory or Operational Management.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     }
 ];
