@@ -152,7 +152,22 @@ export const SQPArchives: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
                     <Zap className="w-3 h-3 fill-amber-900" />
                     AI Reasoning
                   </h5>
-                  <p className="text-amber-800 font-medium text-xs leading-relaxed whitespace-pre-wrap">{q.aiExplanation || q.explanation}</p>
+                  <div className="text-amber-800 font-medium text-xs leading-relaxed whitespace-pre-wrap">
+                    {(q.aiExplanation || q.explanation)?.split('\n').map((line, lineIndex) => {
+                      // Handle bolding **text**
+                      const parts = line.split(/(\*\*.*?\*\*)/g);
+                      return (
+                        <div key={lineIndex} className="min-h-[1.5em]">
+                          {parts.map((part, partIndex) => {
+                            if (part.startsWith('**') && part.endsWith('**')) {
+                              return <strong key={partIndex} className="font-black text-amber-950">{part.slice(2, -2)}</strong>;
+                            }
+                            return <span key={partIndex}>{part}</span>;
+                          })}
+                        </div>
+                      )
+                    })}
+                  </div>
                 </div>
               </div>
             ) : (
