@@ -14,7 +14,8 @@ export const getAllMCQs = (): MCQWithUnit[] => {
     const allMCQs: MCQWithUnit[] = [];
 
     ALL_UNITS.forEach(unit => {
-        const unitMCQs = unit.sqp.filter(q => q.type === 'MCQ');
+        // Only include MCQs that actually have properly formatted options
+        const unitMCQs = unit.sqp.filter(q => q.type === 'MCQ' && q.optionA);
         unitMCQs.forEach(mcq => {
             allMCQs.push({
                 ...mcq,
