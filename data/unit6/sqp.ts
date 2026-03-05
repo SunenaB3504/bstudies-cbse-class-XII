@@ -1,87 +1,96 @@
 import { SQPQuestion } from '../../types';
 
 export const sqp: SQPQuestion[] = [
-  { 
-    id: 'bulk_402',
-    year: '2023-24',
-    paperType: "SQP",
-    type: "SA",
-    marks: 3,
-    question: `Explain the concept of 'Training' and state any two benefits of training to an organisation.`,
-    answer: `The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example.\n2. Secondary Point: Elaborates on the mechanism or rationale behind the concept.\n3. Tertiary Point: Discusses the implication or impact on the business environment.`,
-      markingScheme: `Training. It is the process of increasing the knowledge and skills of an employee for doing a particular job. Benefits: Reduces learning time, better performance, attitude formation, aids in solving operational problems.`,
-      aiExplanation: `[Mark Justification - 3 Marks Total]:\n• 1 Mark for defining Training.\n• 1 Mark for each valid benefit explained.\n\n*Comprehensive Revision Points (Benefits of Training to Organisation):*\n• **Concept:** Training is the process of increasing the knowledge and skills for doing a particular job.\n• **Systematic Learning:** It avoids the wastage of efforts and money that comes with the 'hit or trial' method.\n• **Higher Productivity:** Enhances employee performance, leading to higher profits.\n• **Future Managers:** Equips employees to take over in emergencies.\n• **Reduces Absenteeism:** Increases employee morale and reduces turnover.\n• **Adaptability:** Helps the organization obtain effective responses to a fast-changing economic and technological environment.`,},
+    {
+        id: 'bulk_402',
+        year: '2023-24',
+        paperType: "SQP",
+        type: "SA",
+        marks: 3,
+        question: `Explain the concept of 'Training' and state any two benefits of training to an organisation.`,
+        answer: `The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example.\n2. Secondary Point: Elaborates on the mechanism or rationale behind the concept.\n3. Tertiary Point: Discusses the implication or impact on the business environment.`,
+        markingScheme: `Training. It is the process of increasing the knowledge and skills of an employee for doing a particular job. Benefits: Reduces learning time, better performance, attitude formation, aids in solving operational problems.`,
+        aiExplanation: `**How to Approach This Question:**\n• **Deconstruct the Prompt:** The question has two parts: define 'Training' (1 mark) and state two 'benefits to the organisation' (1 mark each for two points).\n• **Structure your Answer:** Write a clear definition first. Then, use two bullet points to state the organizational benefits. (Make sure you don't accidentally list benefits to the *employee* instead).\n\n[Mark Justification - 3 Marks Total]:\n• 1 Mark for defining Training.\n• 2 Marks for stating and explaining two valid organizational benefits.\n\n*Comprehensive Revision Points (Benefits of Training to Organisation):*\n• **Concept:** Training is the process of increasing the knowledge and skills for doing a particular job.\n• **Systematic Learning:** Avoids the wastage of efforts and money (reduces learning time).\n• **Higher Productivity:** Enhances employee performance, leading to higher profits.\n• **Future Managers:** Equips employees to take over in emergencies.\n• **Reduces Absenteeism:** Increases employee morale and reduces turnover.\n• **Adaptability:** Helps the organization respond to a fast-changing environment.`,
+    },
 
-    { 
-    id: '2025-26-q6',
+    {
+        id: '2025-26-q6',
         year: '2025-26',
         paperType: 'SQP',
         marks: 1,
         type: 'MCQ',
         question: 'Identify the method of training where employees learn their jobs on the equipment they will be using, but the training is conducted away from the actual work floor.',
         answer: 'Vestibule Training',
-        aiExplanation: `Vestibule training uses dummy models/equipment in a classroom setting to avoid disruption and accidents.\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
-    { 
-    id: '2025-26-q27',
+        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** "on the equipment" but "away from the actual work floor" is the exact definition of Vestibule Training (using dummy models).\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`,
+    },
+    {
+        id: '2025-26-q27',
         year: '2025-26',
         paperType: 'SQP',
         marks: 6,
         type: 'LA',
         question: 'Which step in the staffing process involves determining the number and type of employees required?',
         answer: 'Estimating Manpower Requirements',
-        aiExplanation: `[Mark Justification - 6 Marks Total]:\n• 1 Mark for identifying the step (Estimating Manpower Requirements).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Steps in Staffing Process):*\n• **1. Estimating Manpower Requirements:** Workload analysis (finding number/type needed) and Workforce analysis (assessing existing staff).\n• **2. Recruitment:** Searching for prospective employees and stimulating them to apply.\n• **3. Selection:** Choosing the best person out of the pool of prospective candidates.\n• **4. Placement and Orientation:** Occupying the position (placement) and introducing the employee to the organization (orientation).\n• **5. Training and Development:** Improving skills and competence.\n• **6. Performance Appraisal:** Evaluating current/past performance against standards.`,},
-    { 
-    id: '2024-25-q13',
+        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** "determining the number and type of employees required" is the first step of Staffing: Estimating Manpower Requirements.\n• **Structure your Answer:** This is a 6-mark question. Name the first step for 1 mark. Then, explicitly detail the remaining 5 steps in the Staffing process to earn the full 6 marks.\n\n[Mark Justification - 6 Marks Total]:\n• 1 Mark for identifying 'Estimating Manpower Requirements'.\n• 5 Marks for explaining the subsequent 5 steps in the staffing process.\n\n*Comprehensive Revision Points (Steps in Staffing Process):*\n• **1. Estimating Manpower Requirements:** Includes Workload (calculating number/type) and Workforce analysis (assessing existing staff).\n• **2. Recruitment:** Searching for prospects and stimulating them to apply.\n• **3. Selection:** Choosing the best person from the pool.\n• **4. Placement and Orientation:** Occupying the position (placement) and introducing the employee (orientation).\n• **5. Training and Development:** Improving skills and competence.\n• **6. Performance Appraisal:** Evaluating current/past performance against standards.`,
+    },
+    {
+        id: '2024-25-q13',
         year: '2024-25',
         paperType: 'SQP',
         marks: 1,
         type: 'MCQ',
         question: 'Shifting an employee from one job to another without a substantive change in responsibilities or status is known as?',
         answer: 'Transfer',
-        aiExplanation: `Transfer is a horizontal movement of employees (Internal Source of recruitment).\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
-    { 
-    id: '2024-25-q34',
+        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** "shifting an employee... without a substantive change in responsibilities" describes a horizontal movement, which is the definition of a Transfer.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`,
+    },
+    {
+        id: '2024-25-q34',
         year: '2024-25',
         paperType: 'SQP',
         marks: 6,
         type: 'LA',
         question: 'Differentiate between Trade Test and Aptitude Test.',
         answer: 'Trade Test measures existing skills. Aptitude Test measures potential to learn new skills.',
-        aiExplanation: `[Mark Justification - 6 Marks Total]:\n• 1 Mark for defining Trade Test.\n• 1 Mark for defining Aptitude Test.\n• 1 Mark for each valid point/difference explained.\n\n*Comprehensive Revision Points (Types of Selection Tests):*\n• **Trade Test:** Measures the existing skills of an individual. Assesses the level of knowledge and proficiency in the area of the profession.\n• **Aptitude Test:** A measure of an individual's potential for learning new skills. Helps ascertain a person's capacity to develop.\n• **Personality Test:** Provides clues to a person's emotions, reactions, maturity, and value system.\n• **Intelligence Test:** Measures the level of intelligence quotient (IQ) and learning ability.\n• **Interest Test:** Used to know the pattern of interests or involvement of a person.`,},
-    { 
-    id: '2023-24-q22',
+        aiExplanation: `**How to Approach This Question:**\n• **Identify the Format:** "Differentiate between" requires you to draw a clear line between the two specific concepts. A tabular format with bases is always preferable.\n• **Focus on the Core Difference:** The central distinction is "existing skills" vs "potential to learn new skills".\n\n[Mark Justification - 6 Marks Total]:\n• 3 Marks for defining and explaining the features of Trade Test.\n• 3 Marks for defining and explaining the features of Aptitude Test.\n\n*Comprehensive Revision Points (Types of Selection Tests):*\n• **Trade Test:** Measures the existing skills of an individual. Assesses the level of current knowledge and proficiency in the profession.\n• **Aptitude Test:** Measures an individual's potential for learning new skills. Helps ascertain a person's capacity to develop in the future.\n• **Intelligence Test:** Measures the level of intelligence quotient (IQ) and learning ability.\n• **Personality Test:** Provides clues to emotions, reactions, and maturity.`,
+    },
+    {
+        id: '2023-24-q22',
         year: '2023-24',
         paperType: 'Board',
         marks: 3,
         type: 'SA',
         question: 'Which step involves introducing the selected employee to other employees and familiarizing him with the rules and policies?',
         answer: 'Orientation',
-        aiExplanation: `[Mark Justification - 3 Marks Total]:\n• 1 Mark for identifying the step (Orientation/Induction).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Placement and Orientation):*\n• **Orientation:** Introducing the selected employee to other employees.\n• **Familiarization:** Familiarizing the new employee with the rules and policies of the organization.\n• **Placement:** The employee occupying the position or post for which the person has been selected.\n• **Purpose:** To make the new employee feel at home and comfortable in the new environment.`,},
-    { 
-    id: '2023-24-q28',
+        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** "introducing the selected employee" and "familiarizing him" directly points to "Orientation" (or Induction).\n• **Structure your Answer:** State the name of the step. Then, provide a 1-2 sentence explanation of its purpose (e.g., making the employee feel at home).\n\n[Mark Justification - 3 Marks Total]:\n• 1 Mark for identifying the step (Orientation/Induction).\n• 2 Marks for explaining its meaning and purpose.\n\n*Comprehensive Revision Points:*\n• **Orientation:** Introducing the selected employee to other employees.\n• **Familiarization:** Familiarizing the new employee with the rules and policies of the organization.\n• **Placement:** The employee occupying the position or post for which the person has been selected.\n• **Purpose:** To make the new employee feel at home and comfortable in the new environment.`,
+    },
+    {
+        id: '2023-24-q28',
         year: '2023-24',
         paperType: 'Board',
         marks: 4,
         type: 'SA',
         question: 'A company maintains a database of unsolicited applicants in its offices. Which source of recruitment is this?',
         answer: 'Casual Callers',
-        aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for identifying the source (Casual Callers).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (External Source - Casual Callers):*\n• **Concept:** Many reputed business organizations keep a database of unsolicited applicants in their offices.\n• **Usage:** Such job seekers can be a valuable source of manpower to fill pending vacancies.\n• **Advantage:** It reduces the cost of recruiting workforce compared to other sources like advertising.\n• **Suitability:** Good for finding candidates for lower-level or urgent vacancies quickly.`,},
-    { 
-    id: '2022-23-q6',
+        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** "database of unsolicited applicants" uniquely identifies the external source called "Casual Callers".\n• **Structure your Answer:** Identify the source. Define it clearly. Provide at least two distinct merits of this source (e.g., saves time, reduces cost of advertising).\n\n[Mark Justification - 4 Marks Total]:\n• 1 Mark for identifying the source (Casual Callers).\n• 3 Marks for explaining its usage and advantages.\n\n*Comprehensive Revision Points:*\n• **Concept:** Many reputed business organizations keep a database of unsolicited applicants in their offices.\n• **Usage:** Such job seekers can be a valuable source of manpower to fill pending vacancies.\n• **Advantage:** It reduces the cost of recruiting workforce compared to other sources like advertising.\n• **Suitability:** Good for finding candidates quickly.`,
+    },
+    {
+        id: '2022-23-q6',
         year: '2022-23',
         paperType: 'Board',
         marks: 1,
         type: 'MCQ',
         question: 'Which selection test provides clues to a person\'s emotions, reactions, maturity, and value system?',
         answer: 'Personality Test',
-        aiExplanation: `Personality tests assess the overall psychological makeup of a candidate.\n\n[Mark Justification]: 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`,},
-    { 
-    id: '2022-23-q25',
+        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** "emotions, reactions, maturity, and value system" are the defining keywords for a Personality Test in the selection process.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`,
+    },
+    {
+        id: '2022-23-q25',
         year: '2022-23',
         paperType: 'Board',
         marks: 4,
         type: 'SA',
         question: 'Staffing ensures the continuous survival and growth of the enterprise. Explain.',
         answer: 'Through Succession Planning',
-        aiExplanation: `[Mark Justification - 4 Marks Total]:\n• 1 Mark for identifying the point correctly.\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Importance of Staffing):*\n• **Continuous Survival:** Staffing ensures the continuous survival and growth of the enterprise.\n• **Mechanism:** It achieves this through 'succession planning' for managers.\n• **Competent Personnel:** Discovers and obtains competent personnel for various jobs.\n• **Higher Performance:** Ensures higher performance by putting the right person on the right job.\n• **Optimum Utilization:** Prevents underutilization of personnel and high labor costs.`,}
+        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** The prompt mentions "continuous survival and growth", which is a specific point under the importance of staffing.\n• **Structure your Answer:** The answer requires elaborating *how* staffing ensures this survival. Specifically mention the keyword "succession planning".\n\n[Mark Justification - 4 Marks Total]:\n• 1 Mark for stating the core mechanism (succession planning).\n• 3 Marks for elaborating on how obtaining competent personnel leads to long-term survival.\n\n*Comprehensive Revision Points (Importance of Staffing):*\n• **Continuous Survival:** Staffing ensures the continuous survival and growth of the enterprise.\n• **Mechanism:** It achieves this through accurate 'succession planning' for future managers.\n• **Competent Personnel:** Helps discover and obtain competent personnel for various jobs.\n• **Higher Performance:** Ensures higher performance by putting the right person on the right job.`
+    }
 ];

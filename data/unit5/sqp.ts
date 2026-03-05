@@ -13,7 +13,7 @@ export const sqp: SQPQuestion[] = [
         optionC: 'Accountability',
         optionD: 'Power',
         answer: 'C) Accountability',
-        aiExplanation: 'While authority can be shared and responsibility assigned, the ultimate answerability (Accountability) remains with the delegator. [1 Mark]'
+        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** The core of the question is "cannot be delegated". In the elements of delegation, Authority can be delegated, Responsibility is assigned, but Accountability (ultimate answerability) is absolute and can never be delegated.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     },
     {
         id: 'u5-sqp-2',
@@ -23,7 +23,7 @@ export const sqp: SQPQuestion[] = [
         type: 'SA',
         question: 'Explain "Span of Management" and how it affects organization structure.',
         answer: '• Meaning: Span of management refers to the number of subordinates that can be effectively managed by a superior. [1.5 Marks]\n• Impact: It determines the levels of management in the organization. A narrow span leads to a "tall" structure (more levels), while a wide span leads to a "flat" structure (fewer levels). [1.5 Marks]',
-        aiExplanation: 'Emphasis on the inverse relationship between the span and the number of hierarchical levels. [3 Marks]'
+        aiExplanation: `**How to Approach This Question:**\n• **Deconstruct the Prompt:** You need to do two things: (1) Explain the meaning, (2) Explain its effect on the organizational structure.\n• **Structure your Answer:** Write a clear definition for "Span of Management". In a new paragraph/bullet, explain the relationship: narrow span = tall structure (more levels); wide span = flat structure (fewer levels).\n\n[Mark Justification - 3 Marks Total]:\n• 1.5 Marks for correctly defining Span of Management.\n• 1.5 Marks for explaining its impact on the organization structure.\n\n*Comprehensive Revision Points:*\n• **Span of Management:** Refers to the number of subordinates that can be effectively managed by a superior.\n• **Impact on Structure:** It determines the levels of management in the organization. A narrow span leads to a "tall" structure, while a wide span leads to a "flat" structure.`
     },
     {
         id: 'u5-sqp-3',
@@ -33,7 +33,7 @@ export const sqp: SQPQuestion[] = [
         type: 'SA',
         question: 'Distinguish between Functional and Divisional structure on the basis of: (i) Formation, (ii) Cost, (iii) Responsibility, (iv) Managerial Development.',
         answer: '1. Formation: Functional is based on functions; Divisional on product lines.\n2. Cost: Functional is economical; Divisional is costly due to duplication.\n3. Responsibility: Hard to fix in Functional; Easy to fix in Divisional.\n4. Development: Narrow in Functional; Comprehensive in Divisional.\n[1 Mark for each correct basis]',
-        aiExplanation: 'Refer to the comparison table in theory for verbatim marking scheme points. [4 Marks]'
+        aiExplanation: `**How to Approach This Question:**\n• **Identify the Format:** This is a "Distinguish between" question with specific given bases. You *must* present your answer in a tabular format using exactly these four bases to get full marks.\n• **Structure your Answer:** Create three columns: 'Basis', 'Functional Structure', and 'Divisional Structure'. Fill in the exact differences for Formation, Cost, Responsibility, and Managerial Development.\n\n[Mark Justification - 4 Marks Total]:\n• 1 Mark for each correct basis of difference properly explained.\n\n*Comprehensive Revision Points:*\n• **Formation:** Functional is formed on the basis of functions (sales, marketing); Divisional is formed on the basis of product lines.\n• **Cost:** Functional is economical (no duplication); Divisional is costly due to duplication of resources/functions in each division.\n• **Responsibility:** Hard to fix in Functional as departments are interdependent; Easy to fix in Divisional as each product is an independent profit center.\n• **Managerial Development:** Difficult in Functional (narrow specialization); Easier in Divisional (managers perform multiple functions across their product).`
     },
     {
         id: 'u5-sqp-4',
@@ -47,7 +47,7 @@ export const sqp: SQPQuestion[] = [
         optionC: 'Horizontal',
         optionD: 'Diagonal',
         answer: 'B) Upward',
-        aiExplanation: 'A subordinate is always answerable to their superior for the task assigned. [1 Mark]'
+        aiExplanation: `**How to Approach This Question:**\n• **Recall the Flow:** Authority flows downward (superior to subordinate). Responsibility and Accountability flow upward (subordinate is answerable to the superior).\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     },
     {
         id: 'u5-sqp-5',
@@ -57,7 +57,7 @@ export const sqp: SQPQuestion[] = [
         type: 'LA',
         question: 'Define Delegation. Explain its elements in detail.',
         answer: 'Definition: Downward transfer of authority from superior to subordinate.\nElements:\n1. Authority: Right to command; flows downward.\n2. Responsibility: Obligation to perform duty; flows upward.\n3. Accountability: Final answerability; cannot be delegated; flows upward.\n[1 Mark for definition, 5 Marks for detailed explanation of elements]',
-        aiExplanation: 'Ensure the distinction between "Delegation" and "Decentralisation" is clear in the student’s mind. [6 Marks]'
+        aiExplanation: `**How to Approach This Question:**\n• **Deconstruct the Prompt:** You must first define Delegation (worth 1-2 marks), then explain its three elements in detail (the remaining 4-5 marks).\n• **Structure your Answer:** Start with a clear definition. Use headings for the three elements: Authority, Responsibility, and Accountability. For each element, explain its meaning, flow (upward/downward), and traceability/delegability.\n\n[Mark Justification - 6 Marks Total]:\n• 1-2 Marks for a comprehensive definition of Delegation.\n• 4-5 Marks for detailing the three elements.\n\n*Comprehensive Revision Points (Elements of Delegation):*\n• **Delegation:** The downward transfer of authority from a superior to a subordinate.\n• **Authority:** Right to command or take decisions. Flows downward. It can be delegated.\n• **Responsibility:** Obligation of a subordinate to properly perform the assigned duty. Flows upward. It cannot be entirely delegated.\n• **Accountability:** Answerability for the final outcome of the assigned task. Flows upward. It is absolute and cannot be delegated at all.`
     },
     {
         id: 'u5-sqp-6',
@@ -67,7 +67,7 @@ export const sqp: SQPQuestion[] = [
         type: 'MCQ',
         question: 'Grouping of similar jobs into departments is which step of organising?',
         answer: 'Departmentalisation',
-        aiExplanation: 'Step 2 of the process focuses on grouping work based on criteria like product or area. [1 Mark]'
+        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** "Grouping of similar jobs" into departments is the textbook definition of "Departmentalisation", the second step in the organising process.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     },
     {
         id: 'u5-sqp-7',
@@ -77,7 +77,7 @@ export const sqp: SQPQuestion[] = [
         type: 'SA',
         question: 'Compare Formal and Informal organization on any four bases.',
         answer: 'Bases: 1. Origin (Management vs Social), 2. Authority (Position vs Personal), 3. Flow of Comm (Scalar Chain vs Informal/Grapevine), 4. Leadership (Managers vs Informal Leaders).\n[1 Mark each]',
-        aiExplanation: 'Formal organization is created deliberately, while informal is spontaneous. [4 Marks]'
+        aiExplanation: `**How to Approach This Question:**\n• **Identify the Format:** A "Compare" or "Distinguish" question requires a tabular format. The prompt says "any four bases", meaning you can choose the ones you know best.\n• **Structure your Answer:** Create three columns: Basis, Formal, and Informal. Strong bases to choose are Origin, Authority, Communication, and Flow of Leadership.\n\n[Mark Justification - 4 Marks Total]:\n• 1 Mark for each distinct basis of difference.\n\n*Comprehensive Revision Points:*\n• **Origin:** Formal arises deliberately due to company rules; Informal arises spontaneously due to social interaction.\n• **Authority:** Formal authority arises from official position in management; Informal authority arises from personal qualities.\n• **Flow of Communication:** Formal follows the official scalar chain; Informal follows independent grapevine channels.\n• **Leadership:** Formal managers are the leaders; Informal leaders are chosen by the group members.`
     },
     {
         id: 'u5-sqp-8',
@@ -91,6 +91,6 @@ export const sqp: SQPQuestion[] = [
         optionC: 'Organising',
         optionD: 'Planning',
         answer: 'B) Decentralisation',
-        aiExplanation: 'Delegation is a necessity for a growing firm, but decentralisation is a strategic choice (optional policy). [1 Mark]'
+        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** "optional policy" is the main trigger. Delegation is a compulsion/necessity, whereas Decentralisation is the optional policy decision made by top management to disburse authority.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     }
 ];
