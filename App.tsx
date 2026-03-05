@@ -8,6 +8,7 @@ import { ChapterCard } from './components/ChapterCard';
 import { TheoryView } from './components/TheoryView';
 import { RevisionHQ } from './components/RevisionHQ';
 import { SQPArchives } from './components/SQPArchives';
+import { QuizMaster } from './components/MCQQuiz/QuizMaster';
 
 export default function App() {
   const [activeView, setActiveView] = useState('dashboard');
@@ -25,14 +26,16 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-gray-50 pb-20 font-sans">
-      <Navbar 
-        activeView={activeView} 
-        setActiveView={setActiveView} 
-        isDashboard={activeView === 'dashboard'} 
+      <Navbar
+        activeView={activeView}
+        setActiveView={setActiveView}
+        isDashboard={activeView === 'dashboard'}
       />
-      
+
       <main className="max-w-7xl mx-auto px-6 pt-10">
-        {activeView === 'dashboard' ? (
+        {activeView === 'mcq-test' ? (
+          <QuizMaster onBack={handleBackToDashboard} />
+        ) : activeView === 'dashboard' ? (
           <>
             <div className="mb-12 animate-in fade-in slide-in-from-top-4 duration-700">
               <h1 className="text-4xl md:text-5xl font-black text-gray-900 tracking-tight leading-tight">
@@ -46,10 +49,10 @@ export default function App() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {ALL_UNITS.map(unit => (
-                <ChapterCard 
-                  key={unit.id} 
-                  chapter={unit} 
-                  onClick={() => handleChapterSelect(unit)} 
+                <ChapterCard
+                  key={unit.id}
+                  chapter={unit}
+                  onClick={() => handleChapterSelect(unit)}
                 />
               ))}
             </div>
@@ -58,7 +61,7 @@ export default function App() {
           <div>
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-10 border-b border-gray-200 pb-8 animate-in fade-in slide-in-from-left-4 duration-500">
               <div>
-                <button 
+                <button
                   onClick={handleBackToDashboard}
                   className="text-[10px] font-black text-purple-700 hover:text-purple-900 transition-colors flex items-center gap-1 mb-2 uppercase tracking-widest"
                 >

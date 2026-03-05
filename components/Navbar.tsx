@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Briefcase, BookOpen, Lightbulb, Archive, Menu } from 'lucide-react';
+import { Briefcase, BookOpen, Lightbulb, Archive, Menu, Target } from 'lucide-react';
 
 interface NavbarProps {
   activeView: string;
@@ -11,7 +11,7 @@ interface NavbarProps {
 export const Navbar: React.FC<NavbarProps> = ({ activeView, setActiveView, isDashboard }) => (
   <nav className="sticky top-0 z-50 purple-gradient text-white shadow-xl px-6 py-4">
     <div className="max-w-7xl mx-auto flex items-center justify-between">
-      <div 
+      <div
         className="flex items-center gap-2 cursor-pointer"
         onClick={() => setActiveView('dashboard')}
       >
@@ -24,7 +24,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeView, setActiveView, isDas
           { id: 'revision', label: 'Revision HQ', icon: Lightbulb },
           { id: 'archives', label: 'SQP Archives', icon: Archive }
         ].map(item => (
-          <button 
+          <button
             key={item.id}
             onClick={() => !isDashboard && setActiveView(item.id)}
             className={`flex items-center gap-2 transition-all hover:text-amber-300 ${activeView === item.id ? 'text-amber-400 border-b-2 border-amber-400' : ''} ${isDashboard ? 'opacity-50 cursor-not-allowed' : ''}`}
@@ -34,6 +34,16 @@ export const Navbar: React.FC<NavbarProps> = ({ activeView, setActiveView, isDas
             {item.label}
           </button>
         ))}
+
+        <div className="w-px h-6 bg-white/20 mx-2 hidden lg:block" />
+
+        <button
+          onClick={() => setActiveView('mcq-test')}
+          className={`hidden lg:flex items-center gap-2 transition-all px-4 py-2 rounded-full font-bold shadow-md hover:scale-105 active:scale-95 ${activeView === 'mcq-test' ? 'bg-amber-400 text-purple-900 border border-amber-400' : 'bg-white/10 hover:bg-white/20 border border-white/30 text-white hover:border-white/50'}`}
+        >
+          <Target className="w-4 h-4" />
+          MCQ Challenge
+        </button>
       </div>
       <button className="md:hidden" aria-label="Open Menu">
         <Menu className="w-6 h-6" />

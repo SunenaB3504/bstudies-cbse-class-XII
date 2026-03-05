@@ -6,11 +6,11 @@ export interface VisualTreeNode {
   children?: VisualTreeNode[];
 }
 
-export type VisualData = 
+export type VisualData =
   | { headers: string[]; rows: string[][] } // for 'table'
   | { label: string; desc: string }[]      // for 'grid'
   | string[]                               // for 'steps', 'list'
-  | { nodes: {id: string, label: string}[], edges: {from: string, to: string, label?: string}[] } // for 'flow' (graph)
+  | { nodes: { id: string, label: string }[], edges: { from: string, to: string, label?: string }[] } // for 'flow' (graph)
   | { root: string; children: VisualTreeNode[] } // for 'tree'
   | { title: string; description: string }[]; // for 'process'
 
@@ -80,3 +80,23 @@ export interface Chapter {
   mindMap: MindMapNode;
   cheatSheet: CheatSheetItem[];
 }
+
+export type QuizAnswer = {
+  questionId: string;
+  selectedOption: string; // e.g. "A", "B", "C", "D"
+  isCorrect: boolean;
+};
+
+export type UnitScore = {
+  unitId: number;
+  unitName: string;
+  totalQuestions: number;
+  correctAnswers: number;
+};
+
+export type QuizResult = {
+  totalScore: number;
+  maxScore: number;
+  unitScores: UnitScore[];
+  answers: QuizAnswer[];
+};
