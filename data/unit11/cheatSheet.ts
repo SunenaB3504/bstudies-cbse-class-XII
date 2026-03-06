@@ -39,5 +39,14 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
             "**Pitfall:** Confusing 'Sales Promotion' with 'Public Relations'. Sales promotion is strictly short-term incentives (offers, scratch cards, discounts). PR involves building a good corporate image (press kits, sponsorships, overcoming bad press).",
             "**Trick:** The factors affecting pricing are heavily tested. Remember: Product Cost (lower limit) vs Utility/Demand (upper limit)."
         ]
+    },
+    {
+        title: "Top SQP Questions",
+        points: [
+            "**Q: Management of 'Product' mix involves evaluating certain decisions. Name any two.** A: 1. Branding: Giving a name, sign, symbol etc., to a product to differentiate it from competitors. Helps in product identification and advertising. | 2. Packaging: Designing and developing the wrapper or container for the product. It acts as a sile...",
+            "**Q: A company decides to launch a massive promotional campaign offering free gifts to clear its stock. Which element of promotion mix is used?** A: Concept: Short-term incentives designed to encourage buyers to make immediate purchase. | Common Tools: | Rebate: Offering products at special prices.",
+            "**Q: Explain the factors affecting the price of a product.** A: 1. Product Cost: Sets the lower limit of the price. Includes fixed, variable, and semi-variable costs. | 2. The Utility and Demand: Sets the upper limit. Inelastic demand = Higher prices. Elastic demand = Lower prices. | 3. Extent of Competition: ...",
+            "**Q: A company appoints an on-ground sales team to deliver products to small shops in rural areas. Which element of marketing mix is this?** A: Concept: Making the goods available at the right place, in right quantity, at the right time. | Major Components: | Order Processing: Accurate and speedy processing of orders from customers to factory."
+        ]
     }
 ];

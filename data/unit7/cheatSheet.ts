@@ -41,5 +41,14 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
             "**Trick:** If a case study says 'A manager offers shares at lower than market price', it's the financial incentive **Co-partnership/Stock Option**.",
             "**Pitfall:** Confusing 'Status' with 'Job Security'. Status implies prestige (Esteem need), Security implies stability (Safety need)."
         ]
+    },
+    {
+        title: "Top SQP Questions",
+        points: [
+            "**Q: Identify the barrier to communication when a superior acts in a manner that subordinates do not have the confidence to communicate with him?** A: Personal Barrier (Fear of challenge to authority / Lack of confidence)",
+            "**Q: Management of a company ensures that the basic salary of employees is enough to cover their food and shelter. Which need is being satisfied?** A: Physiological Needs",
+            "**Q: When a manager usage technical jargon which is not understood by the subordinates, which type of communication barrier is it?** A: Semantic Barrier",
+            "**Q: A company offers Stock Option / Co-partnership to its employees. What kind of incentive is this?** A: Financial Incentive"
+        ]
     }
 ];

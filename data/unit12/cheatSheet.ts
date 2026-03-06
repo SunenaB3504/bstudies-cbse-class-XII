@@ -32,5 +32,15 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
             "**Trap:** 'Social Responsibility' is a business-view importance. It states that business uses society's resources and therefore has an obligation to supply safer products.",
             "**Trick:** If an individual buys a product intending to resell it or use it to manufacture another product for profit, they CANNOT file a complaint under CPA because they are not a 'consumer'."
         ]
+    },
+    {
+        title: "Top SQP Questions",
+        points: [
+            "**Q: Explain any four responsibilities of a consumer.** A: A four-mark answer must be comprehensive, breaking down the principles or processes into at least four distinct headings.\n\n1. First Heading: Detailed explanation linking back to the case study or direct theory.\n2. Second Heading: Expansion on t...",
+            "**Q: State the pecuniary jurisdiction of the District Commission and State Commission under the Consumer Protection Act, 2019.** A: The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example....",
+            "**Q: If a consumer is not satisfied with the order of the State Commission, where and within how many days can they appeal?** A: This is a comprehensive long-form answer requiring deep analysis.\n\n1. Introduction: Define the broad concept asked in the question (e.g., Planning process, Fayol\'s principles).\n2. Core Point 1: Detail the first major feature or step with situa...",
+            "**Q: State any two rights of a consumer under the Consumer Protection Act, 2019.** A: The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example....",
+            "**Q: Suggest any three remedies or reliefs available to a consumer under the Consumer Protection Act, 2019.** A: Removal of defect, Replacement, Refund, Compensation, Discontinuance of unfair practice."
+        ]
     }
 ];

@@ -44,5 +44,12 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
             "**Pitfall:** Confusing the roles of SEBI. If an action 'protects investors' or 'stops fraud/insider trading', it is **Protective**. If it relates to 'registration/fees/audits', it is **Regulatory**.",
             "**Trick:** The 'Trading Procedure' always starts with 'Selection of Broker' and opening a 'Demat Account'."
         ]
+    },
+    {
+        title: "Top SQP Questions",
+        points: [
+            "**Q: Explain the trading procedure on a Stock Exchange.** A: 1. Selection of Broker 2. Opening Demat Account 3. Placing Order 4. Execution 5. Settlement.",
+            "**Q: Differentiate between Capital Market and Money Market on the basis of: (i) Duration (ii) Liquidity (iii) Safety.** A: Capital: Long term, Less Liquid, Riskier. Money: Short term, High Liquid, Safer."
+        ]
     }
 ];

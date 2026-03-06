@@ -42,5 +42,15 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
             "**Trick:** 'A 5% raise in postal charge is less critical than a 5% raise in raw material cost' points to **Critical Point Control (CPC)**.",
             "**Pitfall:** Students often forget that if the standard itself was set incorrectly (unachievable), the 'Corrective Action' is to **Revise the Standards**."
         ]
+    },
+    {
+        title: "Top SQP Questions",
+        points: [
+            "**Q: Explain the concept of 'Controlling' and how it acts as a backward looking as well as a forward looking function.** A: A four-mark answer must be comprehensive, breaking down the principles or processes into at least four distinct headings.\n\n1. First Heading: Detailed explanation linking back to the case study or direct theory.\n2. Second Heading: Expansion on t...",
+            "**Q: Identify the principle of management control that states: 'An attempt to control everything results in controlling nothing'.** A: Management by Exception",
+            "**Q: Planning and controlling are inseparable twins of management. How are they related?** A: Blind without standards / Meaningless without implementation",
+            "**Q: What should a manager do if the performance standards set in the planning process are found to be obsolete or unachievable?** A: Revise the Standards (Corrective Action)",
+            "**Q: Explain Critical Point Control with an example.** A: Focus on KRAs (e.g., 5% rise in labour cost is more critical than 15% rise in postal charges)"
+        ]
     }
 ];

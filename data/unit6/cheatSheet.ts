@@ -34,5 +34,15 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
             "**Trap:** Do not confuse 'Placement' with 'Orientation/Induction'. Placement is occupying the position. Orientation is introducing the employee and familiarizing him with rules and policies.",
             "**Pitfall:** Ensure you write the Steps in Staffing strictly in chronological order. 'Estimating Manpower Requirements' ALWAYS comes first."
         ]
+    },
+    {
+        title: "Top SQP Questions",
+        points: [
+            "**Q: Explain the concept of 'Training' and state any two benefits of training to an organisation.** A: The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example....",
+            "**Q: Which step in the staffing process involves determining the number and type of employees required?** A: Estimating Manpower Requirements",
+            "**Q: Differentiate between Trade Test and Aptitude Test.** A: Trade Test measures existing skills. Aptitude Test measures potential to learn new skills.",
+            "**Q: Which step involves introducing the selected employee to other employees and familiarizing him with the rules and policies?** A: Orientation",
+            "**Q: A company maintains a database of unsolicited applicants in its offices. Which source of recruitment is this?** A: Casual Callers"
+        ]
     }
 ];

@@ -35,5 +35,14 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
             "**Trick - Mental Revolution:** Associated with 'Harmony, Not Discord'. It means a complete change in the attitude of management and workers towards one another.",
             "**Trick:** Identify if a case talks about 'one boss' (Unity of Command) vs 'common goals' (Unity of Direction)."
         ]
+    },
+    {
+        title: "Top SQP Questions",
+        points: [
+            "**Q: State the principle of Scientific Management that emphasizes a 'Mental Revolution' between management and workers.** A: • 1 Mark for identifying the principle (Harmony, Not Discord).\n• 1 Mark for each valid point explained (up to 4 marks).\n\n*Comprehensive Revision Points (Harmony, Not Discord):*\n• Mental Revolution: Requires a complete change in the attitud...",
+            "**Q: Identify the improved communication route suggested by Fayol when an employee needs to contact a peer in an emergency, bypassing the scalar chain.** A: • 1 Mark for identifying the concept (Gang Plank).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Scalar Chain & Gang Plank):*\n• Scalar Chain Definition: The formal line of authority and communication from the hi...",
+            "**Q: Explain why management principles are considered 'Flexible' and 'Contingent'.** A: • 1 Mark for defining Flexible.\n• 1 Mark for defining Contingent.\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Nature of Management Principles):*\n• Flexible: Management principles are not rigid prescriptions (...",
+            "**Q: Distinguish between Unity of Command and Unity of Direction.** A: • 1 Mark for each valid point of difference explained.\n\n*Comprehensive Revision Points (Unity of Command vs Unity of Direction):*\n• Meaning: Unity of Command implies one subordinate should receive orders from and be accountable to only one ..."
+        ]
     }
 ];

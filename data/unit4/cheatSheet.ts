@@ -40,5 +40,13 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
             "**Pitfall:** Assuming planning works everywhere. A key limitation tested often is that planning *reduces creativity* because middle managers become blind followers.",
             "**Trick:** A 'Budget' is essentially a plan expressed in numerical terms (Single-use plan)."
         ]
+    },
+    {
+        title: "Top SQP Questions",
+        points: [
+            "**Q: In the planning process, assumptions about the future are made. Identify and explain this step.** A: • 1 Mark for identifying the step (Developing Premises).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Steps in Planning Process):*\n• 1. Setting Objectives: Specifying exactly what the organization wants to achi...",
+            "**Q: Identify the type of plan which is a comprehensive plan for achieving objectives, including resource allocation.** A: • 1 Mark for identifying the concept (Strategy).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Types of Plans - Strategy):*\n• Comprehensive Plan: Strategy provides the broad contours of an organization's busines...",
+            "**Q: In which step of the planning process are the positive and negative aspects of each proposal weighed?** A: • 1 Mark for identifying the step (Evaluating Alternative Courses).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Steps in Planning Process):*\n• 1. Setting Objectives: Specifying exactly what the organization wa..."
+        ]
     }
 ];

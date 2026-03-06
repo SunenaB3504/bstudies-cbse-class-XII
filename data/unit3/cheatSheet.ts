@@ -32,5 +32,15 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
             "**Trick:** Any change in Tax Rates or Repo Rates or Home Loan interest rates by the RBI falls strictly under the **Economic Environment**.",
             "**Pitfall:** Students often forget that 'Relativity' means the environment differs from country to country (e.g., demand for sarees is high in India, almost nil in France)."
         ]
+    },
+    {
+        title: "Top SQP Questions",
+        points: [
+            "**Q: Identify the dimension of business environment illustrated by: 'Increase in the life expectancy of people'.** A: • 1 Mark for identifying the dimension (Social Environment).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Social Environment Dimensions):*\n• Customs & Traditions: Practices that have lasted for decades/centurie...",
+            "**Q: Identify the importance of business environment highlighted: WhatsApp was the first mobile chat app to offer free messaging, capturing a huge user base.** A: • 1 Mark for identifying 'First Mover Advantage'.\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Importance of Business Environment):*\n• First Mover Advantage: By scanning the environment, a firm can identify opp...",
+            "**Q: The trend of health and fitness has created a demand for gyms and organic food. Identify the dimension.** A: • 1 Mark for identifying the dimension (Social Environment).\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Dimensions of Business Environment):*\n• Social Environment: Involves changing lifestyles and trends (lik...",
+            "**Q: Managers must examine environment changes to develop suitable courses of action. Which importance is this?** A: • 1 Mark for identifying 'Coping with Rapid Changes'.\n• 1 Mark for each valid point explained.\n\n*Comprehensive Revision Points (Importance of Business Environment):*\n• Coping with Rapid Changes: The environment is dynamic. Managers must co...",
+            "**Q: State two features of Demonetization.** A: • 1 Mark for each valid feature explained.\n\n*Comprehensive Revision Points (Features of Demonetization):*\n• Tax Administration Measure: It was viewed as a strong measure to penalize people holding unaccounted wealth/black money who had not ..."
+        ]
     }
 ];

@@ -34,5 +34,13 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
             "**Trick:** If a case study mentions a manager 'balancing different departments', the answer is almost always **Coordination**.",
             "**Pitfall:** Confusing 'Management of Work' with 'Management of Operations'. Operations is the interlinked process combining both Work and People."
         ]
+    },
+    {
+        title: "Top SQP Questions",
+        points: [
+            "**Q: Saurabh decided to start a chocolates manufacturing business. He set the target of earning 10% profit on sales in the first year. Name the function of management involved.** A: • 1 Mark for defining/identifying the core concept (Planning).\n• 1 Mark for each valid point explained (up to 3 marks).\n\n*Comprehensive Revision Points for Planning Process:*\n• Point 1: Setting Objectives (e.g., Target of 10% profit).\n• P...",
+            "**Q: Differentiate between Top Level and Middle Level Management.** A: • 1 Mark for each valid point of difference explained (up to 3 marks).\n\n*Comprehensive Revision Points (Top Level vs Middle Level):*\n• Meaning/Role: Top level integrates diverse elements and determines overall objectives; Middle level acts ...",
+            "**Q: Adopting eco-friendly methods of production helps achieve which objective of management?** A: • 1 Mark for identifying the correct objective (Social).\n• 1 Mark for each valid point explained (up to 3 marks).\n\n*Comprehensive Revision Points (Social Objectives):*\n• Definition: Social objectives involve the creation of benefit for soc..."
+        ]
     }
 ];

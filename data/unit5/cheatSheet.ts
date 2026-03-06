@@ -41,5 +41,14 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
             "**Pitfall:** Thinking you can delegate accountability. Remember the SQP trick: *A manager remains accountable for the tasks he delegates to his subordinates.*",
             "**Pitfall:** Confusing the importance of 'effective administration' (Organising) with 'relief to top management' (Decentralisation)."
         ]
+    },
+    {
+        title: "Top SQP Questions",
+        points: [
+            "**Q: Explain 'Span of Management' and how it affects organization structure.** A: • Meaning: Span of management refers to the number of subordinates that can be effectively managed by a superior. [1.5 Marks]\n• Impact: It determines the levels of management in the organization. A narrow span leads to a 'tall' structure (more le...",
+            "**Q: Distinguish between Functional and Divisional structure on the basis of: (i) Formation, (ii) Cost, (iii) Responsibility, (iv) Managerial Development.** A: 1. Formation: Functional is based on functions; Divisional on product lines.\n2. Cost: Functional is economical; Divisional is costly due to duplication.\n3. Responsibility: Hard to fix in Functional; Easy to fix in Divisional.\n4. Development: Na...",
+            "**Q: Define Delegation. Explain its elements in detail.** A: Definition: Downward transfer of authority from superior to subordinate.\nElements:\n1. Authority: Right to command; flows downward.\n2. Responsibility: Obligation to perform duty; flows upward.\n3. Accountability: Final answerability; cannot be d...",
+            "**Q: Compare Formal and Informal organization on any four bases.** A: Bases: 1. Origin (Management vs Social), 2. Authority (Position vs Personal), 3. Flow of Comm (Scalar Chain vs Informal/Grapevine), 4. Leadership (Managers vs Informal Leaders).\n[1 Mark each]"
+        ]
     }
 ];

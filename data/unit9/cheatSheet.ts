@@ -48,5 +48,14 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
             "**Trick:** If a case study focuses on maintaining 'liquidity' or ensuring 'enough cash for day-to-day operations', it discusses **Working Capital**.",
             "**Pitfall:** Floatation cost specifically implies the cost of issuing securities (brokerage, underwriting commission). Higher floatation cost makes an issue less attractive."
         ]
+    },
+    {
+        title: "Top SQP Questions",
+        points: [
+            "**Q: Under what condition is financial leverage considering to be favourable?** A: Concept: Financial leverage is the proportion of debt in the overall capital structure. | Favourable Condition: It is favourable when the Return on Investment (ROI) is greater than the Cost of Debt. | Impact: Under this condition, the Earnings Per...",
+            "**Q: There is a time lag between the receipt of raw material and the realisation of cash from sales. How does this affect working capital requirements?** A: 1. Production/Operating Cycle: Time span between receipt of raw materials and cash realization (Longer cycle = Higher WC). | 2. Nature of Business: Trading firm = Less WC. Manufacturing firm = More WC. | 3. Scale of Operations: Large scale = More ...",
+            "**Q: A decision is taken to invest funds in a new project. Which type of financial decision is this?** A: Concept: Relates to how the firm's funds are invested in different assets. | Long-term investment (Capital Budgeting): Involves committing finance on a long-term basis (e.g., buying a new machine). They are irreversible except at a huge cost. | Sh...",
+            "**Q: A company enters into a collaboration with another company to share production facilities. How will this affect its Fixed Capital requirement?** A: 1. Level of Collaboration: Sharing facilities reduces the requirement for fixed capital. | 2. Nature of Business: Manufacturing needs more fixed capital than trading. | 3. Scale of Operations: Larger organizations need more fixed capital."
+        ]
     }
 ];
