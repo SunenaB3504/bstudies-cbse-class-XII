@@ -2,43 +2,37 @@ import { Chapter } from '../../types';
 
 export const CHEAT_SHEET: Chapter['cheatSheet'] = [
     {
-        title: "Key Definitions & Abbreviations",
+        title: "Key Definitions",
         points: [
-            "**Staffing:** The process of putting people to jobs. It begins with workforce planning and includes different other functions like recruitment, selection, training etc.",
-            "**Recruitment:** The process of searching for prospective employees and stimulating them to apply for jobs in the organization.",
-            "**Selection:** The process of choosing the best person out of the pool of prospective candidates for a job.",
-            "**HRM:** Human Resource Management."
+            "**Staffing:** Finding the right person for the right job having the right qualifications, doing the right job at the right time.",
+            "**Recruitment:** Searching for prospective employees and stimulating them to apply for jobs in the organization.",
+            "**Selection:** Choosing the best person from the pool of prospective candidates.",
+            "**Training:** The process of increasing the knowledge and skills of an employee for doing a particular job.",
+            "**Vestibule Training:** Employees learn their jobs on the equipment they will be using, but the training is conducted away from the actual work floor (using dummy models)."
         ]
     },
     {
-        title: "Core Concepts & Processes",
+        title: "Core Concepts",
         points: [
-            "**Staffing Process (Exact Steps):**\n1. Estimating Manpower Requirements (Workload & Workforce Analysis)\n2. Recruitment\n3. Selection\n4. Placement and Orientation\n5. Training and Development\n6. Performance Appraisal\n7. Promotion and Career Planning\n8. Compensation.",
-            "**Selection Process:**\n1. Preliminary Screening\n2. Selection Tests\n3. Employment Interview\n4. Reference and Background Checks\n5. Selection Decision\n6. Medical Examination\n7. Job Offer\n8. Contract of Employment.",
-            "**Types of Training:** On-the-job (Apprenticeship, Coaching, Internship, Job Rotation) vs Off-the-job (Vestibule Training)."
-        ]
-    },
-    {
-        title: "Numerical Formulas",
-        points: [
-            "*(No numerical formulas in Unit 6: Staffing)*"
+            "**Steps in Staffing Process:** 1. Estimating Manpower Requirements (Workload and Workforce analysis). 2. Recruitment. 3. Selection. 4. Placement and Orientation. 5. Training and Development. 6. Performance Appraisal. 7. Promotion and Career Planning. 8. Compensation.",
+            "**Types of Selection Tests:**\n  - **Trade Test:** Measures existing skills and current proficiency.\n  - **Aptitude Test:** Measures potential for learning new skills.\n  - **Intelligence Test:** Measures IQ and learning ability.\n  - **Personality Test:** Provides clues to emotions, reactions, maturity, and value system.",
+            "**Importance of Staffing:** Ensures higher performance by putting the right person on the right job. Ensures continuous survival and growth through succession planning."
         ]
     },
     {
         title: "Important Distinctions",
         points: [
-            "**Training vs Development:** Training focuses on skills for a *current* specific job (short-term). Development focuses on the overall growth of the employee for *future* challenges (long-term).",
-            "**Recruitment vs Selection:** Recruitment is a *positive* process (attracting more applicants). Selection is a *negative* process (rejecting unsuitable applicants).",
-            "**Workload vs Workforce Analysis:** Workload tells you how many people you *need*. Workforce tells you how many people you *currently have*."
+            "**Recruitment vs Selection:** Recruitment is positive, Selection is negative.",
+            "**Internal vs External Sources:** Internal is economical, boosts morale, but limits fresh talent (e.g., Transfer, Promotion). External brings wider choice and fresh talent but is expensive and hurts existing staff morale (e.g., Casual Callers, Placement Agencies).",
+            "**Transfer vs Promotion:** Transfer is shifting an employee without a substantive change in responsibilities or status (horizontal). Promotion shifts an employee to a higher position with more responsibility/pay (vertical)."
         ]
     },
     {
-        title: "Exam Pitfalls & Tricks (From SQPs)",
+        title: "Exam Pitfalls & Tricks",
         points: [
-            "**Trick - Vestibule Training:** Used when employees need to handle expensive, sophisticated, or delicate machinery (Off-the-job).",
-            "**Trick - Apprenticeship:** Used for trades like Plumbers, Electricians, Iron workers (On-the-job).",
-            "**Pitfall:** Confusing Trade Test with Aptitude Test. Trade Test = existing skills. Aptitude Test = potential to learn new skills.",
-            "**Trick - Campus Recruitment:** Directly recruiting fresh graduates from institutes of management/technology."
+            "**Trick:** If the case mentions a 'database of unsolicited applicants', the answer is the external source **Casual Callers**, which reduces the cost of recruitment.",
+            "**Trap:** Do not confuse 'Placement' with 'Orientation/Induction'. Placement is occupying the position. Orientation is introducing the employee and familiarizing him with rules and policies.",
+            "**Pitfall:** Ensure you write the Steps in Staffing strictly in chronological order. 'Estimating Manpower Requirements' ALWAYS comes first."
         ]
     }
 ];

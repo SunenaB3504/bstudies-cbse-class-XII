@@ -2,41 +2,38 @@ import { Chapter } from '../../types';
 
 export const CHEAT_SHEET: Chapter['cheatSheet'] = [
     {
-        title: "Key Definitions & Abbreviations",
+        title: "Key Definitions",
         points: [
-            "**Principles of Management:** Broad and general guidelines for decision making and behavior of managers.",
-            "**Scientific Management:** Knowing exactly what you want men to do and seeing that they do it in the best and cheapest way.",
-            "**Functional Foremanship:** A technique of scientific management violating the principle of Unity of Command, separating planning and execution."
+            "**Scientific Management:** Application of science to each element of management to maximize efficiency.",
+            "**Functional Foremanship:** Technique separating planning and execution under 8 specialized bosses (e.g. Route Clerk, Speed Boss).",
+            "**Espirit De Corps:** Fayol's principle meaning 'Union is strength' - emphasizing team spirit and harmony.",
+            "**Gang Plank:** A shorter, direct route of communication between employees at the same hierarchical level to prevent critical delays in emergencies.",
+            "**Scalar Chain:** The formal line of authority and communication from the highest to the lowest ranks."
         ]
     },
     {
-        title: "Core Concepts & Processes",
+        title: "Core Concepts",
         points: [
-            "**Fayol's 14 Principles:** Division of Work, Authority & Responsibility, Discipline, Unity of Command, Unity of Direction, Subordination of Individual Interest, Remuneration, Centralisation & Decentralisation, Scalar Chain, Order, Equity, Stability of Personnel, Initiative, Esprit De Corps.",
-            "**Taylor's Scientific Principles:**\n1. Science, Not Rule of Thumb\n2. Harmony, Not Discord\n3. Cooperation, Not Individualism\n4. Development of Each Person to greatest efficiency.",
-            "**Taylor's Techniques:** Functional Foremanship, Standardisation & Simplification, Work Study (Fatigue, Method, Time, Motion), Differential Piece Wage System."
-        ]
-    },
-    {
-        title: "Numerical Formulas",
-        points: [
-            "*(No numerical formulas in Unit 2: Principles of Management)*"
+            "**Mental Revolution (Harmony, Not Discord):** Requires a complete change in attitude of both management and workers. Management must share gains; workers must work hard.",
+            "**Nature of Principles (Flexible & Contingent):** Flexible (not rigid, can be modified by managers). Contingent (application depends on the prevailing situation).",
+            "**Motion Study:** Scientific technique aiming to eliminate unnecessary movements.",
+            "**Time Study:** Determines the standard time taken to perform a well-defined job."
         ]
     },
     {
         title: "Important Distinctions",
         points: [
-            "**Unity of Command vs Unity of Direction:** Command means ONE Boss per subordinate (prevents dual subordination). Direction means ONE Head, ONE Plan for a group of activities (prevents overlapping).",
-            "**Fayol vs Taylor:** Fayol's perspective was Top-Level Management (General Administration). Taylor's perspective was Shop Floor/Lower Level Management (Scientific).",
-            "**Time Study vs Motion Study:** Time study determines the *standard time* required. Motion study eliminates *unnecessary movements*."
+            "**Unity of Command vs Unity of Direction:** Command (One subordinate, One Boss) vs Direction (One Head, One Plan).",
+            "**Fayol vs Taylor:** Fayol (Top Management perspective). Taylor (Shop floor level)."
         ]
     },
     {
-        title: "Exam Pitfalls & Tricks (From SQPs)",
+        title: "Exam Pitfalls",
         points: [
             "**Trick - Gang Plank:** A direct violation of Scalar Chain allowed ONLY in emergencies to prevent delay in communication.",
             "**Pitfall:** Confusing 'Harmony, Not Discord' with 'Cooperation, Not Individualism'. Cooperation is the *extension* of Harmony. If the question involves involving workers in decision making, it's Cooperation.",
-            "**Trick - Mental Revolution:** Associated with 'Harmony, Not Discord'. It means a complete change in the attitude of management and workers towards one another."
+            "**Trick - Mental Revolution:** Associated with 'Harmony, Not Discord'. It means a complete change in the attitude of management and workers towards one another.",
+            "**Trick:** Identify if a case talks about 'one boss' (Unity of Command) vs 'common goals' (Unity of Direction)."
         ]
     }
 ];

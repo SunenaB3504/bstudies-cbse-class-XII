@@ -2,47 +2,34 @@ import { Chapter } from '../../types';
 
 export const CHEAT_SHEET: Chapter['cheatSheet'] = [
     {
-        title: "Key Definitions & Abbreviations",
+        title: "Key Definitions",
         points: [
-            "**Consumer Protection:** Educating consumers about their rights and responsibilities and redressing their grievances.",
-            "**Consumer:** A person who buys any goods or hires any service for a consideration (payment). Does *not* include a person who obtains goods for resale or commercial purpose.",
-            "**CPA:** Consumer Protection Act, 2019.",
-            "**NGO:** Non-Governmental Organisation.",
-            "**ISI:** Indian Standards Institution (Mark for industrial products).",
-            "**FPO:** Fruit Products Order (Mark for food products).",
-            "**Agmark:** Agricultural Mark."
+            "**Consumer:** Any person who buys any goods or hires/avails of any service for a consideration which has been paid or promised (does not include people obtaining goods for resale or commercial purpose).",
+            "**CPA 2019:** Consumer Protection Act 2019 protects consumers against unfair trade practices and exploitation."
         ]
     },
     {
-        title: "Core Concepts & Processes",
+        title: "Core Concepts",
         points: [
-            "**Importance of Consumer Protection (Consumer POV):** Consumer ignorance, unorganized consumers, widespread exploitation.",
-            "**Importance of Consumer Protection (Business POV):** Long term interest of business, Business uses society's resources, Social responsibility, Moral justification, Government intervention.",
-            "**Rights of a Consumer (CPA 2019):**\n1. Right to Safety\n2. Right to be Informed\n3. Right to Choose\n4. Right to be Heard\n5. Right to seek Redressal\n6. Right to Consumer Education.",
-            "**Responsibilities:** Be aware, buy standardized goods, learn about risks, read labels, assert yourself, ask for a cash memo."
-        ]
-    },
-    {
-        title: "Numerical Formulas (Jurisdiction Limits)",
-        points: [
-            "Under the Consumer Protection Act, 2019, the pecuniary (monetary) jurisdiction limits are absolutely critical for MCQs:",
-            "**1. District Commission:** Compensation claimed does NOT exceed **₹1 Crore**.",
-            "**2. State Commission:** Compensation claimed EXCEEDS ₹1 Crore but does NOT exceed **₹10 Crore**.",
-            "**3. National Commission:** Compensation claimed EXCEEDS **₹10 Crore**.",
-            "**4. Appeal Window:** An appeal to a higher authority must be made within **30 days** of the previous order."
+            "**Consumer Rights:**\n  - **Right to Safety:** Protection against hazardous goods (e.g., ISI mark).\n  - **Right to be Informed:** Complete info about quality, quantity, price.\n  - **Right to Choose:** Assured access to a variety of products at competitive prices.\n  - **Right to be Heard:** Complaints heard in case of dissatisfaction.\n  - **Right to seek Redressal:** Relief against unfair trade practices.\n  - **Right to Consumer Education:** Acquire knowledge and skill to be an informed consumer.",
+            "**Consumer Responsibilities:** 1. Be aware about various goods. 2. Buy only standardized goods (ISI on electrical, FPO on food, Hallmark on jewelry, Agmark on agricultural). 3. Learn about risks. 4. Read labels carefully. 5. Assert yourself to get a fair deal. 6. Ask for a Cash Memo (absolute proof of purchase).",
+            "**Reliefs/Remedies Available:** 1. Remove the defect. 2. Replace the defective product. 3. Refund the price. 4. Pay compensation for loss/injury. 5. Discontinue the unfair trade practice. 6. Withdraw hazardous goods.",
+            "**Importance of Consumer Protection (Business POV):** Long term interest of business, Business uses society's resources, Social responsibility, Moral justification, Government intervention."
         ]
     },
     {
         title: "Important Distinctions",
         points: [
-            "**Right to be Heard vs Right to seek Redressal:**\n• 'Heard' implies the consumer has the right to file a complaint and have it acknowledged by a forum.\n• 'Redressal' refers to the actual relief/remedy awarded (e.g., replacement, refund) if the complaint is found valid."
+            "**Pecuniary Jurisdiction (CPA 2019):**\n  - **District Commission:** Value of goods or services does not exceed Rs. 1 crore.\n  - **State Commission:** Value exceeds Rs. 1 crore but does not exceed Rs. 10 crore.\n  - **National Commission:** Value exceeds Rs. 10 crore.",
+            "**Appellate Hierarchy:** Appeal against District goes to State (within 45 days). Appeal against State goes to National (within 30 days of passing the order). Appeal against National goes to Supreme Court (within 30 days)."
         ]
     },
     {
-        title: "Exam Pitfalls & Tricks (From SQPs)",
+        title: "Exam Pitfalls & Tricks",
         points: [
-            "**Pitfall:** Many students use older (1986) jurisdiction amounts (e.g., 20 lakhs). You MUST use the 2019 Act figures: 1 Crore, 10 Crore.",
-            "**Trick:** If a case asks 'What document is essential proof to file a complaint?', the answer is strictly **Cash Memo**.",
+            "**Trick:** Without a \"proof of purchase\" (Cash Memo), a consumer cannot file a legal complaint.",
+            "**Pitfall:** Confusing the old 1986 Jurisdiction limits with new 2019 limits. Stick to 1cr / 1cr-10cr / >10cr.",
+            "**Trap:** 'Social Responsibility' is a business-view importance. It states that business uses society's resources and therefore has an obligation to supply safer products.",
             "**Trick:** If an individual buys a product intending to resell it or use it to manufacture another product for profit, they CANNOT file a complaint under CPA because they are not a 'consumer'."
         ]
     }
