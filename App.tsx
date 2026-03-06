@@ -9,6 +9,7 @@ import { TheoryView } from './components/TheoryView';
 import { RevisionHQ } from './components/RevisionHQ';
 import { SQPArchives } from './components/SQPArchives';
 import { QuizMaster } from './components/MCQQuiz/QuizMaster';
+import { NonMCQMaster } from './components/NonMCQ/NonMCQMaster';
 
 export default function App() {
   const [activeView, setActiveView] = useState('dashboard');
@@ -35,6 +36,8 @@ export default function App() {
       <main className="max-w-7xl mx-auto px-6 pt-10">
         {activeView === 'mcq-test' ? (
           <QuizMaster onBack={handleBackToDashboard} />
+        ) : activeView === 'non-mcq' ? (
+          <NonMCQMaster onBack={handleBackToDashboard} />
         ) : activeView === 'dashboard' ? (
           <>
             <div className="mb-12 animate-in fade-in slide-in-from-top-4 duration-700">

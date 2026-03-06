@@ -82,5 +82,50 @@ export const sqp: SQPQuestion[] = [
         question: 'Explain Critical Point Control with an example.',
         answer: 'Focus on KRAs (e.g., 5% rise in labour cost is more critical than 15% rise in postal charges)',
         aiExplanation: `**How to Approach This Question:**\n• **Deconstruct the Prompt:** Define "Critical Point Control" and provide a distinct, business-related example.\n• **Structure your Answer:** Define the concept (focusing on KRAs). State *why* it's done (it's uneconomical to control everything). Provide a clear example (e.g., the manufacturing postal vs. labor cost example). To round out a 6-mark answer, clarify its benefit (saves time).\n\n[Mark Justification - 6 Marks Total]:\n• 2 Marks for defining Critical Point Control and KRAs.\n• 2 Marks for providing a valid, clear example.\n• 2 Marks for explaining the rationale and benefits.\n\n*Comprehensive Revision Points (Critical Point Control):*\n• **Concept:** It is neither economical nor easy to keep a check on each and every activity in an organisation.\n• **Focus on KRAs:** Control should, therefore, focus on Key Result Areas (KRAs) which are critical to the success of an organisation.\n• **Example:** In a manufacturing organization, a 5% increase in the labor cost is more troublesome than a 15% increase in postal charges.\n• **Benefit:** It helps in saving time and effort of the management as they only focus on significant deviations.\n• **Contrast:** Distinguish it from Management by Exception which focuses on the *degree* of deviation rather than the *area* of deviation.`,
-    }
+    },
+  {
+    id: 'sqp2025_26_q8',
+    year: '2025-26',
+    paperType: 'SQP',
+    marks: 1,
+    type: 'MCQ',
+    question: `8 . Choose the correct statement about the controlling function of 1 management.`,
+    optionA: `No corrective action is required when the deviation goes beyond the`,
+    optionB: `Deviations should be analysed for their causes.`,
+    optionC: `Measurement of actual performance should be done only after the`,
+    optionD: `Managers must keep a check on each and every activity, otherwise`,
+    answer: `See marking scheme`,
+    markingScheme: `See marking scheme`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+  },
+  {
+    id: 'sqp2023_24_q12',
+    year: '2023-24',
+    paperType: 'SQP',
+    marks: 1,
+    type: 'MCQ',
+    question: `12. Some employees have been assigned the job of measuring the output in an 1 objective and reliable way. They are applying different techniques for achieving this aim. Some of these are personal-observation, sample-checking etc. They are also keeping the units of measurement same as that of the units in the standards. Name the step of ‘Controlling process applicable in the above paragraph.`,
+    optionA: `Analysing deviations`,
+    optionB: `Comparing actual performance with standards.`,
+    optionC: `Establishing standards.`,
+    optionD: `Measurement of actual performance`,
+    answer: `See marking scheme`,
+    markingScheme: `See marking scheme`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+  },
+  {
+    id: 'sqp2024_25_q8',
+    year: '2024-25',
+    paperType: 'SQP',
+    marks: 1,
+    type: 'MCQ',
+    question: `8. Read the following statements: Assertion (A) and Reason (R). Choose the 1 correct alternative from those given below: ASSERTION (A): Controlling can prevent deviations. REASON (R): Controlling helps in minimising deviations by taking actions and decisions that reduce their recurrence.`,
+    optionA: `Both Assertion (A) and Reason (R) are true and Reason is the correct`,
+    optionB: `Both Assertion(A) and Reason (R) are true and Reason is not the`,
+    optionC: `Assertion (A) is true, Reason (R) is false.`,
+    optionD: `Assertion(A) is false, Reason(R) is true.`,
+    answer: `See marking scheme`,
+    markingScheme: `See marking scheme`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+  }
 ];

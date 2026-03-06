@@ -96,5 +96,50 @@ export const sqp: SQPQuestion[] = [
         question: 'The standard time taken to perform a well-defined job is determined by which study?',
         answer: 'Time Study',
         aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** The trigger is "standard time taken to perform a well-defined job". This directly relates to Taylor's Time Study.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
-    }
+    },
+  {
+    id: 'sqp2025_26_q2',
+    year: '2025-26',
+    paperType: 'SQP',
+    marks: 1,
+    type: 'MCQ',
+    question: `2. Henri Fayol's principle of discipline which emphasizes obedience to 1 organisational rules and employment agreement, is evolved out of the experience and collective wisdom of managers. The nature of principle of management reflected through the above statement is—-------------`,
+    optionA: `Universal applicability`,
+    optionB: `Flexible`,
+    optionC: `Mainly behavioral`,
+    optionD: `Formed by practice and experimentation`,
+    answer: `See marking scheme`,
+    markingScheme: `See marking scheme`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+  },
+  {
+    id: 'sqp2024_25_q7',
+    year: '2024-25',
+    paperType: 'SQP',
+    marks: 1,
+    type: 'MCQ',
+    question: `7. 1 2 Identify the responsibility that a consumer fulfills when he looks for the quality marks given above:`,
+    optionA: `Assert yourself to ensure that you get a fair deal`,
+    optionB: `Getting a proper receipt`,
+    optionC: `Buy only standardised products`,
+    optionD: `Be honest in your dealings`,
+    answer: `See marking scheme`,
+    markingScheme: `See marking scheme`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+  },
+  {
+    id: 'sqp2024_25_q10',
+    year: '2024-25',
+    paperType: 'SQP',
+    marks: 1,
+    type: 'MCQ',
+    question: `10. Spiceworks, a company providing financial services to its clients is keeping a 1 close check on the employee’s activities by using biometric and retina scanning as modes of accessing the office premises, in order to ensure greater security of information in the organisation. Choose the correct point of significance of controlling highlighted above:`,
+    optionA: `controlling helps in achievement of organisational goals`,
+    optionB: `controlling helps in ensuring order and discipline`,
+    optionC: `controlling helps in improving employees motivation`,
+    optionD: `controlling enables optimum utilisation of resources`,
+    answer: `See marking scheme`,
+    markingScheme: `See marking scheme`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+  }
 ];

@@ -37,13 +37,23 @@ export const Navbar: React.FC<NavbarProps> = ({ activeView, setActiveView, isDas
 
         <div className="w-px h-6 bg-white/20 mx-2 hidden lg:block" />
 
-        <button
-          onClick={() => setActiveView('mcq-test')}
-          className={`hidden lg:flex items-center gap-2 transition-all px-4 py-2 rounded-full font-bold shadow-md hover:scale-105 active:scale-95 ${activeView === 'mcq-test' ? 'bg-amber-400 text-purple-900 border border-amber-400' : 'bg-white/10 hover:bg-white/20 border border-white/30 text-white hover:border-white/50'}`}
-        >
-          <Target className="w-4 h-4" />
-          MCQ Challenge
-        </button>
+        <div className="hidden lg:flex items-center gap-3">
+          <button
+            onClick={() => setActiveView('non-mcq')}
+            className={`flex items-center gap-2 transition-all px-4 py-2 rounded-full font-bold shadow-md hover:scale-105 active:scale-95 ${activeView === 'non-mcq' ? 'bg-teal-400 text-purple-900 border border-teal-400' : 'bg-white/10 hover:bg-white/20 border border-white/30 text-white hover:border-white/50'}`}
+          >
+            <BookOpen className="w-4 h-4" />
+            Subjective Qs
+          </button>
+
+          <button
+            onClick={() => setActiveView('mcq-test')}
+            className={`flex items-center gap-2 transition-all px-4 py-2 rounded-full font-bold shadow-md hover:scale-105 active:scale-95 ${activeView === 'mcq-test' ? 'bg-amber-400 text-purple-900 border border-amber-400' : 'bg-white/10 hover:bg-white/20 border border-white/30 text-white hover:border-white/50'}`}
+          >
+            <Target className="w-4 h-4" />
+            MCQ Challenge
+          </button>
+        </div>
       </div>
       <button className="md:hidden" aria-label="Open Menu">
         <Menu className="w-6 h-6" />

@@ -96,5 +96,50 @@ export const sqp: SQPQuestion[] = [
         question: 'Planning provides the basis for which other management function?',
         answer: 'Controlling',
         aiExplanation: `**How to Approach This Question:**\n• **Identify the Core Link:** Planning sets the standards (goals). Controlling measures actual performance against those standards. Planning provides the basis for Controlling.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
-    }
+    },
+  {
+    id: 'sqp2022_23_q7',
+    year: '2022-23',
+    paperType: 'SQP',
+    marks: 1,
+    type: 'MCQ',
+    question: `7. sectors/routes due to the decision of the civil aviation ministry to remove price caps from 1 August 31, 2022. This can help an airline to do better performance if they take early decisions regarding future courses of action after understanding and doing analysis. Which importance of business environment and its understanding by managers is not highlighted above:`,
+    optionA: `It helps in improving performance`,
+    optionB: `It helps in assisting in planning and policy formulation`,
+    optionC: `It helps in tapping useful resources`,
+    optionD: `It enables a firm to identify opportunities and get first mover advantage.`,
+    answer: `See marking scheme`,
+    markingScheme: `See marking scheme`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+  },
+  {
+    id: 'sqp2023_24_q5',
+    year: '2023-24',
+    paperType: 'SQP',
+    marks: 1,
+    type: 'MCQ',
+    question: `5. SEBI calls for information and issues a show cause notice to stock exchange 1 and its officials seeking explanation and conducting audit and enquiry. Which function is SEBI performing?`,
+    optionA: `Regulatory function b) Development function`,
+    optionB: `Management helps in achieving personal objectives`,
+    optionC: `Management helps in development of society`,
+    optionD: `Management increases efficiency`,
+    answer: `See marking scheme`,
+    markingScheme: `See marking scheme`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+  },
+  {
+    id: 'sqp2024_25_q3',
+    year: '2024-25',
+    paperType: 'SQP',
+    marks: 1,
+    type: 'MCQ',
+    question: `3. Read the following statements: Assertion (A) and Reason (R). Choose the 1 correct alternative from those given below: 1 Assertion(A): Financial Planning aims at enabling the company to tackle the uncertainty in respect of the availability and timing of the funds. Reason(R): Capital structure refers to the mix between owners’ and borrowed funds Alternatives :`,
+    optionA: `Both Assertion (A) is false and Reason (R) are true.`,
+    optionB: `Both Assertion (A) and Reason (R) are false.`,
+    optionC: `Both Assertion (A) and Reason (R) are true, but Reason (R) is not`,
+    optionD: `Both Assertion (A) and Reason (R) are true, and Reason (R) is the`,
+    answer: `See marking scheme`,
+    markingScheme: `See marking scheme`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+  }
 ];

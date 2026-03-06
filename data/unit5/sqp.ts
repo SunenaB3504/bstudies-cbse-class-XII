@@ -92,5 +92,35 @@ export const sqp: SQPQuestion[] = [
         optionD: 'Planning',
         answer: 'B) Decentralisation',
         aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** "optional policy" is the main trigger. Delegation is a compulsion/necessity, whereas Decentralisation is the optional policy decision made by top management to disburse authority.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
-    }
+    },
+  {
+    id: 'sqp2022_23_q1',
+    year: '2022-23',
+    paperType: 'SQP',
+    marks: 1,
+    type: 'MCQ',
+    question: `1. looking after the creative unit of the company, one of the functions he has to perform is 1 the process of organizing. Which step of the process will he need to perform after identifying and dividing the work that has to be done in accordance with previously determined plans?`,
+    optionA: `Identification and division of work`,
+    optionB: `. Complexity`,
+    optionC: `.Assignment of Duties`,
+    optionD: `.Establishing Reporting Relationships`,
+    answer: `See marking scheme`,
+    markingScheme: `See marking scheme`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+  },
+  {
+    id: 'sqp2022_23_q11',
+    year: '2022-23',
+    paperType: 'SQP',
+    marks: 1,
+    type: 'MCQ',
+    question: `11. filled by suitably skilled people and defining the inter relationship between roles so that 1 ambiguity in performance of duties can be eliminated.`,
+    optionA: `Organization structure`,
+    optionB: `Delegation of authority`,
+    optionC: `Decentralization`,
+    optionD: `controlling`,
+    answer: `See marking scheme`,
+    markingScheme: `See marking scheme`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+  }
 ];

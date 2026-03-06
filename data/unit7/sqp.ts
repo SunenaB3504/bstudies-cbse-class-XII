@@ -96,5 +96,20 @@ export const sqp: SQPQuestion[] = [
         question: 'A company offers Stock Option / Co-partnership to its employees. What kind of incentive is this?',
         answer: 'Financial Incentive',
         aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** "Stock Option / Co-partnership" is a type of Financial Incentive because it holds quantifiable monetary value for the employee.\n• **Structure your Answer:** You must identify the overarching category (Financial Incentive) for 1 mark, define what Stock Option is, and then list/explain 4 other Financial Incentives to secure the 6 marks.\n\n[Mark Justification - 6 Marks Total]:\n• 1 Mark for identifying 'Financial Incentive'.\n• 5 Marks for explaining Co-partnership and 4 other financial incentives.\n\n*Comprehensive Revision Points (Financial Incentives):*\n• **Co-partnership/Stock Option:** Offering company shares at a set price lower than market price to induce ownership feeling.\n• **Pay and Allowances:** Regular increments in basic salary and D.A.\n• **Productivity Linked Wage Incentives:** Paying higher wages for higher output.\n• **Bonus:** Direct monetary incentive offered over and above the regular wages.\n• **Profit Sharing:** Providing employees a share in the organisation's net profits.\n• **Perquisites:** Fringe benefits like car allowance, housing, and medical aid.`,
-    }
+    },
+  {
+    id: 'sqp2022_23_q19',
+    year: '2022-23',
+    paperType: 'SQP',
+    marks: 1,
+    type: 'MCQ',
+    question: `19. Which of the following statements about Advertising is incorrect?`,
+    optionA: `It is a personal form of communication`,
+    optionB: `It is a paid form of communication`,
+    optionC: `It is a mass selling technique.`,
+    optionD: `It is inflexible as the message can’t be adjusted to the needs of the buyer.`,
+    answer: `See marking scheme`,
+    markingScheme: `See marking scheme`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+  }
 ];
