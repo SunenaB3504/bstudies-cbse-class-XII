@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import remarkBreaks from 'remark-breaks';
 import { ChevronRight, ChevronLeft, Lightbulb, BookOpen, Target, Brain } from 'lucide-react';
 import { NonMCQWithUnit } from '../../utils/nonMcqAggregator';
 
@@ -93,7 +94,7 @@ export const NonMCQViewer: React.FC<NonMCQViewerProps> = ({ questions, batchName
                                 CBSE Marking Scheme / Ideal Answer
                             </h3>
                             <div className="prose prose-sm max-w-none text-gray-700 font-medium">
-                                <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]}>
                                     {currentQuestion.markingScheme || currentQuestion.answer || 'Answer not provided.'}
                                 </ReactMarkdown>
                             </div>
@@ -108,7 +109,7 @@ export const NonMCQViewer: React.FC<NonMCQViewerProps> = ({ questions, batchName
                                     AI Expert Breakdown & Strategy
                                 </h3>
                                 <div className="prose prose-purple prose-sm max-w-none text-gray-800 font-medium relative z-10">
-                                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                    <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]}>
                                         {currentQuestion.aiExplanation}
                                     </ReactMarkdown>
                                 </div>
