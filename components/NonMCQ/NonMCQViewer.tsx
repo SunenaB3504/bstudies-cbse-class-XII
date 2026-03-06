@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { ChevronRight, ChevronLeft, Lightbulb, BookOpen, Target, Brain } from 'lucide-react';
 import { NonMCQWithUnit } from '../../utils/nonMcqAggregator';
 
@@ -90,8 +92,10 @@ export const NonMCQViewer: React.FC<NonMCQViewerProps> = ({ questions, batchName
                                 <BookOpen className="w-4 h-4 text-gray-400" />
                                 CBSE Marking Scheme / Ideal Answer
                             </h3>
-                            <div className="prose prose-sm max-w-none text-gray-700 font-medium whitespace-pre-wrap">
-                                {currentQuestion.markingScheme || currentQuestion.answer || 'Answer not provided.'}
+                            <div className="prose prose-sm max-w-none text-gray-700 font-medium">
+                                <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                    {currentQuestion.markingScheme || currentQuestion.answer || 'Answer not provided.'}
+                                </ReactMarkdown>
                             </div>
                         </div>
 
@@ -103,8 +107,10 @@ export const NonMCQViewer: React.FC<NonMCQViewerProps> = ({ questions, batchName
                                     <Brain className="w-4 h-4" />
                                     AI Expert Breakdown & Strategy
                                 </h3>
-                                <div className="prose prose-purple prose-sm max-w-none text-gray-800 font-medium whitespace-pre-wrap relative z-10">
-                                    {currentQuestion.aiExplanation}
+                                <div className="prose prose-purple prose-sm max-w-none text-gray-800 font-medium relative z-10">
+                                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                        {currentQuestion.aiExplanation}
+                                    </ReactMarkdown>
                                 </div>
                             </div>
                         )}
@@ -118,8 +124,8 @@ export const NonMCQViewer: React.FC<NonMCQViewerProps> = ({ questions, batchName
                     onClick={handlePrev}
                     disabled={currentIndex === 0}
                     className={`flex items-center gap-2 px-6 py-4 rounded-xl font-bold transition-all ${currentIndex === 0
-                            ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
-                            : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-200 shadow-sm hover:shadow'
+                        ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                        : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-200 shadow-sm hover:shadow'
                         }`}
                 >
                     <ChevronLeft className="w-5 h-5" /> Previous
@@ -131,8 +137,8 @@ export const NonMCQViewer: React.FC<NonMCQViewerProps> = ({ questions, batchName
                     onClick={handleNext}
                     disabled={currentIndex === questions.length - 1}
                     className={`flex items-center gap-2 px-6 py-4 rounded-xl font-bold transition-all ${currentIndex === questions.length - 1
-                            ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
-                            : 'bg-teal-600 hover:bg-teal-700 text-white shadow-md hover:shadow-lg transform hover:-translate-y-0.5'
+                        ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                        : 'bg-teal-600 hover:bg-teal-700 text-white shadow-md hover:shadow-lg transform hover:-translate-y-0.5'
                         }`}
                 >
                     Next <ChevronRight className="w-5 h-5" />
