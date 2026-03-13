@@ -4,45 +4,34 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
     {
         title: "Key Definitions",
         points: [
-            "**Staffing:** Finding the right person for the right job having the right qualifications, doing the right job at the right time.",
-            "**Recruitment:** Searching for prospective employees and stimulating them to apply for jobs in the organization.",
-            "**Selection:** Choosing the best person from the pool of prospective candidates.",
-            "**Training:** The process of increasing the knowledge and skills of an employee for doing a particular job.",
-            "**Vestibule Training:** Employees learn their jobs on the equipment they will be using, but the training is conducted away from the actual work floor (using dummy models)."
+            "**Staffing:** Putting the right person on the right job at the right time.",
+            "**Recruitment:** Creating a pool of prospective candidates for a job.",
+            "**Selection:** Negative process of choosing the best person among applicants.",
+            "**Training:** Improving skill/knowledge for a *specific* job.",
+            "**Development:** Holistic growth of an employee for *future* challenges."
         ]
     },
     {
         title: "Core Concepts",
         points: [
-            "**Steps in Staffing Process:** 1. Estimating Manpower Requirements (Workload and Workforce analysis). 2. Recruitment. 3. Selection. 4. Placement and Orientation. 5. Training and Development. 6. Performance Appraisal. 7. Promotion and Career Planning. 8. Compensation.",
-            "**Types of Selection Tests:**\n  - **Trade Test:** Measures existing skills and current proficiency.\n  - **Aptitude Test:** Measures potential for learning new skills.\n  - **Intelligence Test:** Measures IQ and learning ability.\n  - **Personality Test:** Provides clues to emotions, reactions, maturity, and value system.",
-            "**Importance of Staffing:** Ensures higher performance by putting the right person on the right job. Ensures continuous survival and growth through succession planning."
+            "**Staffing Process (8 Steps):** 1. Estimating Manpower (Workload/Workforce). 2. Recruitment. 3. Selection. 4. Placement/Orientation. 5. Training/Development. 6. Performance Appraisal. 7. Promotion. 8. Compensation.",
+            "**Selection Tests:**\n• **Aptitude**: Potential for learning.\n• **Intelligence (IQ)**: Learning ability/maturity.\n• **Trade**: Existing proficiency.\n• **Personality**: Value system/emotions.\n• **Interest**: Depth of interest in a specific area.",
+            "**Training Methods:**\n• **On-the-job**: Apprenticeship, Internship, Coaching/Job Rotation.\n• **Off-the-job**: Vestibule training (dummy models), Case Study, Computer Modeling."
         ]
     },
     {
         title: "Important Distinctions",
         points: [
-            "**Recruitment vs Selection:** Recruitment is positive, Selection is negative.",
-            "**Internal vs External Sources:** Internal is economical, boosts morale, but limits fresh talent (e.g., Transfer, Promotion). External brings wider choice and fresh talent but is expensive and hurts existing staff morale (e.g., Casual Callers, Placement Agencies).",
-            "**Transfer vs Promotion:** Transfer is shifting an employee without a substantive change in responsibilities or status (horizontal). Promotion shifts an employee to a higher position with more responsibility/pay (vertical)."
+            "**Workload vs Workforce Analysis:** Workload (How many needed). Workforce (How many already present).",
+            "**Internal vs External Recruitment:** Internal is cheap but limits fresh blood. External brings fresh talent but is costly and can lower morale."
         ]
     },
     {
         title: "Exam Pitfalls & Tricks",
         points: [
-            "**Trick:** If the case mentions a 'database of unsolicited applicants', the answer is the external source **Casual Callers**, which reduces the cost of recruitment.",
-            "**Trap:** Do not confuse 'Placement' with 'Orientation/Induction'. Placement is occupying the position. Orientation is introducing the employee and familiarizing him with rules and policies.",
-            "**Pitfall:** Ensure you write the Steps in Staffing strictly in chronological order. 'Estimating Manpower Requirements' ALWAYS comes first."
-        ]
-    },
-    {
-        title: "Top SQP Questions",
-        points: [
-            "**Q: Explain the concept of 'Training' and state any two benefits of training to an organisation.** A: The correct approach involves identifying the core concept and outlining at least three distinct points of explanation or differentiation as required by the CBSE marking scheme. \n1. Primary Point: Defines the core subject clearly with an example....",
-            "**Q: Which step in the staffing process involves determining the number and type of employees required?** A: Estimating Manpower Requirements",
-            "**Q: Differentiate between Trade Test and Aptitude Test.** A: Trade Test measures existing skills. Aptitude Test measures potential to learn new skills.",
-            "**Q: Which step involves introducing the selected employee to other employees and familiarizing him with the rules and policies?** A: Orientation",
-            "**Q: A company maintains a database of unsolicited applicants in its offices. Which source of recruitment is this?** A: Casual Callers"
+            "**Trick:** If a company looks at 'unsolicited applicants' in its records, the source is **Casual Callers**.",
+            "**Step Identification:** 'Familiarizing the employee with the company rules' is **Orientation/Induction**.",
+            "**Pitfall:** Selection is 'Negative' because more people are rejected than selected. Recruitment is 'Positive'."
         ]
     }
 ];

@@ -64,7 +64,7 @@ const getSectionTheme = (title: string) => {
 
 export const MorningReviewSheet: React.FC<MorningReviewSheetProps> = ({ onBack }) => {
     return (
-        <div className="max-w-5xl mx-auto py-8 px-4 animate-in fade-in">
+        <div className="max-w-7xl mx-auto py-8 px-4 animate-in fade-in print:py-0 print:px-0 print:max-w-none">
             {/* Action Bar - Hidden in Print */}
             <div className="flex flex-col sm:flex-row items-center justify-between mb-12 print:hidden gap-6 bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
                 <button
@@ -88,30 +88,30 @@ export const MorningReviewSheet: React.FC<MorningReviewSheetProps> = ({ onBack }
             </div>
 
             {/* Print Header - Only visible in print */}
-            <div className="hidden print:block text-center mb-8 border-b-2 border-gray-900 pb-4">
-                <h1 className="text-4xl font-black text-gray-900 uppercase tracking-widest">BusinessMaster Class 12</h1>
-                <h2 className="text-2xl font-medium text-gray-600 mt-2">Exam Morning Cheat Sheet</h2>
+            <div className="hidden print:block text-center mb-6 border-b-2 border-gray-900 pb-2">
+                <h1 className="text-3xl font-black text-gray-900 uppercase tracking-tight">BusinessMaster Class 12 • Exam Morning Cheat Sheet</h1>
+                <p className="text-xs text-gray-600 uppercase tracking-widest mt-1">Comprehensive High-Yield Revision • All Units (1-12)</p>
             </div>
 
             {/* Main Content Render */}
-            <div className="space-y-12 print:space-y-8">
+            <div className="space-y-12 print:space-y-0 print:grid print:grid-cols-1">
                 {ALL_UNITS.map((unit, index) => (
                     <div
                         key={unit.id}
-                        className="bg-white rounded-3xl p-8 border border-gray-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] print:shadow-none print:border-gray-300 print:rounded-none print:break-inside-avoid print:p-0 print:mb-12 print:border-none"
+                        className="bg-white rounded-3xl p-8 border border-gray-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] print:shadow-none print:border-none print:rounded-none print:p-0 print:mb-8 print:break-inside-avoid"
                     >
                         {/* Unit Header */}
-                        <div className="flex items-center gap-4 mb-8 print:mb-4 border-b border-gray-100 print:border-gray-900 pb-4">
-                            <div className="bg-gray-100 text-gray-900 font-black text-xl w-12 h-12 flex items-center justify-center rounded-xl print:rounded-none print:border border-gray-900 print:bg-white">
+                        <div className="flex items-center gap-4 mb-8 print:mb-2 border-b border-gray-100 print:border-b-2 print:border-black pb-4 print:pb-1">
+                            <div className="bg-gray-100 text-gray-900 font-black text-xl w-12 h-12 flex items-center justify-center rounded-xl print:text-sm print:w-8 print:h-8 print:bg-transparent print:border print:border-black">
                                 {unit.id}
                             </div>
-                            <h2 className="text-2xl md:text-3xl font-black text-gray-900 tracking-tight">
+                            <h2 className="text-2xl md:text-3xl font-black text-gray-900 tracking-tight print:text-lg">
                                 {unit.name}
                             </h2>
                         </div>
 
                         {/* Cheat Sheet Sections */}
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 print:grid-cols-2 print:gap-6 print:text-sm">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 print:grid-cols-2 print:gap-x-4 print:gap-y-2">
                             {unit.cheatSheet.map((section: CheatSheetItem, secIdx: number) => {
                                 const theme = getSectionTheme(section.title);
                                 const points = section.points || section.content || [];
@@ -121,22 +121,22 @@ export const MorningReviewSheet: React.FC<MorningReviewSheetProps> = ({ onBack }
                                 return (
                                     <div
                                         key={secIdx}
-                                        className={`rounded-2xl p-6 ${theme.bg} ${theme.border} border print:border-l-4 print:border-y-0 print:border-r-0 print:bg-white print:rounded-none`}
+                                        className={`rounded-2xl p-6 ${theme.bg} ${theme.border} border print:bg-white print:border-none print:p-0 print:break-inside-avoid`}
                                     >
-                                        <div className="flex items-center gap-3 mb-4 print:mb-3">
+                                        <div className="flex items-center gap-3 mb-4 print:mb-1">
                                             <div className={`p-2 rounded-lg ${theme.iconBg} print:hidden`}>
                                                 {theme.icon}
                                             </div>
-                                            <h3 className={`font-black uppercase tracking-widest text-sm ${theme.titleText} print:text-gray-900 print:text-[14px]`}>
+                                            <h3 className={`font-black uppercase tracking-widest text-sm ${theme.titleText} print:text-black print:text-[10pt] print:decoration-black print:underline print:underline-offset-2`}>
                                                 {section.title}
                                             </h3>
                                         </div>
 
-                                        <div className="space-y-4 print:space-y-3">
+                                        <div className="space-y-4 print:space-y-1">
                                             {points.map((point: string, pIdx: number) => (
-                                                <div key={pIdx} className="flex items-start gap-3">
-                                                    <span className={`mt-0.5 font-bold ${theme.bulletPoint} print:text-gray-600 text-lg`}>•</span>
-                                                    <div className="prose prose-sm prose-gray max-w-none text-gray-800 font-medium leading-relaxed print:text-black print:leading-snug">
+                                                <div key={pIdx} className="flex items-start gap-3 print:gap-2">
+                                                    <span className={`mt-0.5 font-bold ${theme.bulletPoint} print:text-black print:text-[10pt]`}>•</span>
+                                                    <div className="prose prose-sm prose-gray max-w-none text-gray-800 font-medium leading-relaxed print:text-black print:text-[9pt] print:leading-tight print:font-normal">
                                                         <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]}>
                                                             {point}
                                                         </ReactMarkdown>
@@ -148,18 +148,18 @@ export const MorningReviewSheet: React.FC<MorningReviewSheetProps> = ({ onBack }
                                 );
                             })}
                         </div>
-
-                        {/* Force Page Break logic for print readability — every 3 units for better spacing */}
-                        {((index + 1) % 3 === 0) && (
-                            <div className="hidden print:block print:break-after-page"></div>
+                        
+                        {/* Visual separator for print if it's not the last unit of the page */}
+                        {((index + 1) % 2 === 0) && (
+                           <div className="hidden print:block print:break-after-page"></div>
                         )}
                     </div>
                 ))}
             </div>
 
             {/* Footer */}
-            <div className="hidden print:block text-center mt-8 text-gray-400 text-xs">
-                Generated via BusinessMaster • CBSE Class 12 Premium Prep
+            <div className="hidden print:block text-center mt-4 border-t border-gray-200 pt-4 text-gray-400 text-[8pt] uppercase tracking-widest">
+                BusinessMaster Premium Prep • CBSE Class 12 • Confidence Boost Sheet
             </div>
         </div>
     );

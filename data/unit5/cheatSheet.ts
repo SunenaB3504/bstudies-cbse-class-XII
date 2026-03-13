@@ -2,53 +2,37 @@ import { Chapter } from '../../types';
 
 export const CHEAT_SHEET: Chapter['cheatSheet'] = [
     {
-        title: "Key Definitions & Abbreviations",
+        title: "Key Definitions",
         points: [
-            "**Organising:** The process of defining and grouping the activities of the enterprise and establishing authority relationships among them.",
-            "**Organisation Structure:** The framework within which managerial and operating tasks are performed.",
-            "**Span of Management:** The number of subordinates that can be effectively managed by a superior.",
-            "**Delegation:** The downward transfer of authority from a superior to a subordinate.",
-            "**Decentralisation:** The delegation of authority throughout all the levels of the organization."
+            "**Organising:** Grouping activities and establishing authority relationships to achieve goals.",
+            "**Organisation Structure:** Framework within which managerial and operating tasks are performed.",
+            "**Span of Management:** Number of subordinates effectively managed by a superior (determines levels).",
+            "**Delegation:** Downward transfer of authority from superior to subordinate.",
+            "**Decentralisation:** Delegation of authority throughout all levels as a policy matter."
         ]
     },
     {
-        title: "Core Concepts & Processes",
+        title: "Core Concepts",
         points: [
-            "**Organising Process:**\n1. Identification and Division of Work\n2. Departmentalisation\n3. Assignment of Duties\n4. Establishing Reporting Relationships.",
-            "**Functional Structure:** Grouping of jobs of similar nature under one department (e.g., Production, Marketing, HR).\n• Best for single-product lines.\n• Promotes occupational specialization.",
-            "**Divisional Structure:** Comprises separate business units/divisions, each with its own functional structure.\n• Best for multi-product lines.\n• Promotes product specialization.",
-            "**Elements of Delegation:**\n1. Authority (Power to command)\n2. Responsibility (Obligation to perform)\n3. Accountability (Answerability for outcome)."
-        ]
-    },
-    {
-        title: "Numerical Formulas",
-        points: [
-            "*(No numerical formulas in Unit 5: Organising)*"
+            "**Organising Process:** 1. Identification/Division of work. 2. Departmentalisation. 3. Assignment of duties. 4. Establishing reporting relationships.",
+            "**Functional Structure:** Grouping by functions (Production, HR). Best for single-product firms. Promotes occupational specialization.",
+            "**Divisional Structure:** Grouping by product lines. Best for multi-product firms. Promotes product specialization and accountability.",
+            "**Delegation Elements:**\n• **Authority**: Right to command (flows downward).\n• **Responsibility**: Obligation to perform (flows upward).\n• **Accountability**: Answerability for outcome (absolute, flows upward)."
         ]
     },
     {
         title: "Important Distinctions",
         points: [
-            "**Functional vs Divisional:** Functional is divided by function (cheap but poor coordination across products). Divisional is divided by product (expensive but high accountability per product).",
-            "**Delegation vs Decentralisation:** Delegation is a compulsory act between two individuals (Manager to Subordinate). Decentralisation is an optional policy decision affecting the entire organization.",
-            "**Authority vs Responsibility vs Accountability:** Authority flows downwards. Responsibility flows upwards. Accountability flows upwards and is absolute (cannot be delegated)."
+            "**Functional vs Divisional:** Functional is economical; Divisional is costly but flexible and easy to fix responsibility.",
+            "**Delegation vs Decentralisation:** Delegation is compulsory (for daily work); Decentralisation is an optional policy (for long-term growth)."
         ]
     },
     {
-        title: "Exam Pitfalls & Tricks (From SQPs)",
+        title: "Exam Pitfalls & Tricks",
         points: [
-            "**Trick:** If the word 'Growth and Diversification' or 'adding new product line' comes up, the answer is always **Divisional Structure**.",
-            "**Pitfall:** Thinking you can delegate accountability. Remember the SQP trick: *A manager remains accountable for the tasks he delegates to his subordinates.*",
-            "**Pitfall:** Confusing the importance of 'effective administration' (Organising) with 'relief to top management' (Decentralisation)."
-        ]
-    },
-    {
-        title: "Top SQP Questions",
-        points: [
-            "**Q: Explain 'Span of Management' and how it affects organization structure.** A: • Meaning: Span of management refers to the number of subordinates that can be effectively managed by a superior. [1.5 Marks]\n• Impact: It determines the levels of management in the organization. A narrow span leads to a 'tall' structure (more le...",
-            "**Q: Distinguish between Functional and Divisional structure on the basis of: (i) Formation, (ii) Cost, (iii) Responsibility, (iv) Managerial Development.** A: 1. Formation: Functional is based on functions; Divisional on product lines.\n2. Cost: Functional is economical; Divisional is costly due to duplication.\n3. Responsibility: Hard to fix in Functional; Easy to fix in Divisional.\n4. Development: Na...",
-            "**Q: Define Delegation. Explain its elements in detail.** A: Definition: Downward transfer of authority from superior to subordinate.\nElements:\n1. Authority: Right to command; flows downward.\n2. Responsibility: Obligation to perform duty; flows upward.\n3. Accountability: Final answerability; cannot be d...",
-            "**Q: Compare Formal and Informal organization on any four bases.** A: Bases: 1. Origin (Management vs Social), 2. Authority (Position vs Personal), 3. Flow of Comm (Scalar Chain vs Informal/Grapevine), 4. Leadership (Managers vs Informal Leaders).\n[1 Mark each]"
+            "**Trick:** 'Adding new product line' or 'diversification' always implies **Divisional Structure**.",
+            "**Pitfall:** Accountability CANNOT be delegated. Even if a subordinate fails, the manager is responsible to his own boss.",
+            "**Trick:** 'Span of Management' determines if the structure is **Tall** (narrow span) or **Flat** (wide span)."
         ]
     }
 ];
