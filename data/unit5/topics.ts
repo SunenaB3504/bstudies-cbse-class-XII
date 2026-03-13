@@ -6,9 +6,9 @@ export const topics: TheoryTopic[] = [
     title: 'Concept of Organising',
     description: 'Definition and meaning of organising as a management function.',
     content: [
-      'Organising is the process of defining and grouping the work to be performed, defining and delegating responsibility and authority, and establishing relationships for the purpose of enabling people to work most effectively together in accomplishing objectives.',
-      'It involves translating plans into action by creating an organisational structure.',
-      'Process that initiates implementation of plans by clarifying jobs and working relationships and effectively deploying resources for attainment of identified and desired results.'
+      'Meaning: Organising is the process of identifying and grouping the work to be performed, defining and delegating responsibility and authority, and establishing relationships for the purpose of enabling people to work most effectively together in accomplishing objectives.',
+      'Core Concept: It is a function that creates a structure of relationships among various job positions and the people who fill them. It translates plans into action by clarifying jobs and working relationships.',
+      'Key Elements: (a) Identification and grouping of work. (b) Allocation of resources. (c) Establishing authority-responsibility relationships.'
     ],
     visualizations: []
   },
@@ -17,10 +17,10 @@ export const topics: TheoryTopic[] = [
     title: 'Steps in Organising Process',
     description: 'The logical steps to organise resources and activities.',
     content: [
-      '1. Identification and Division of Work: Identifying and dividing the work into manageable activities so that duplication is avoided and burden is shared.',
-      '2. Departmentalisation: Grouping similar activities together. Can be done on the basis of territory, products, etc.',
-      '3. Assignment of Duties: Defining the work of different job positions and allocating work to employees according to their skills and competencies.',
-      '4. Establishing Authority and Reporting Relationships: Clarifying who has to take orders from whom and to whom they are accountable. Creates a hierarchical structure.'
+      '1. Identification and Division of Work: The first step is identifying and dividing the total work into small, manageable activities according to predetermined plans. This avoids duplication and burden.',
+      '2. Departmentalisation: Once work is divided into small activities, similar activities are grouped together into departments (e.g., Marketing Dept, Finance Dept). This can be based on functions or products.',
+      '3. Assignment of Duties: Jobs are allocated to members according to their skills and competencies. It is essential for effective performance that work is assigned to those who are best suited for it.',
+      '4. Establishing Reporting Relationships: Merely allocating work is not enough; each individual must know who he has to take orders from and to whom he is accountable. This creates a clear hierarchy.'
     ],
     visualizations: [
       {
@@ -46,13 +46,13 @@ export const topics: TheoryTopic[] = [
     title: 'Importance of Organising',
     description: 'Benefits of the organising function for the enterprise.',
     content: [
-      '1. Benefits of Specialisation: Systematic allocation of jobs leads to specialisation and higher productivity.',
-      '2. Clarity in Working Relationships: Removes ambiguity in transfer of information/instructions and fixes responsibility.',
-      '3. Optimum Utilisation of Resources: Avoids overlapping and duplication, minimising wastage of resources.',
-      '4. Adaptation to Change: Allows the organisation structure to be modified to accommodate changes in the business environment.',
-      '5. Effective Administration: Clear description of jobs and duties helps avoid confusion and brings effectiveness.',
-      '6. Development of Personnel: Delegation allows managers to reduce workload and develop new methods. It gives subordinates chances to grow.',
-      '7. Expansion and Growth: Enables the enterprise to add more job positions, departments, and diversify product lines.'
+      '1. Benefits of Specialisation: A systematic allocation of jobs leads to employees performing a specific task repeatedly, resulting in specialisation, speed, and accuracy.',
+      '2. Clarity in Working Relationships: The establishment of reporting relationships clarifies the flow of authority and responsibility. It removes ambiguity in the transfer of information.',
+      '3. Optimum Utilisation of Resources: Organising leads to proper usage of all material, financial and human resources. Avoiding duplication of work helps in preventing wastage.',
+      '4. Adaptation to Change: It allows the organisation structure to be suitably modified and the revision of inter-relationships to provide for change in the business environment.',
+      '5. Effective Administration: Organising provides a clear description of jobs and related duties. This helps to avoid confusion and duplication, making administration easier.',
+      '6. Development of Personnel: Effective delegation allows managers to reduce their routine workload and focus on important issues. It provides subordinates with opportunities to grow.',
+      '7. Expansion and Growth: It enables an enterprise to take up new challenges and expand by adding more job positions, departments, and even new product lines.'
     ],
     visualizations: []
   },
@@ -61,8 +61,8 @@ export const topics: TheoryTopic[] = [
     title: 'Organisation Structure',
     description: 'Framework within which managerial and operating tasks are performed.',
     content: [
-      'The framework within which managerial and operating tasks are performed. It specifies the relationships between people, work, and resources.',
-      'Span of Management: Refers to the number of subordinates that can be effectively managed by a superior. This determines the levels of management in the structure.'
+      'Concept: Organisation structure is the network of job positions, responsibilities, and authority at different levels. It provides the framework within which managerial and operating tasks are performed.',
+      'Span of Management: It refers to the number of subordinates that can be effectively managed by a superior. It determines the levels of management and the shape of the organizational hierarchy (tall or flat structure).'
     ],
     visualizations: [
       {
@@ -92,12 +92,12 @@ export const topics: TheoryTopic[] = [
     title: 'Types of Organisation Structures',
     description: 'Functional and Divisional structures.',
     content: [
-      'Functional Structure: Grouping of jobs of similar nature under major functions (e.g., Production, Marketing).',
-      'Advantages of Functional: Occupational specialisation, promotes control and coordination within department, increasing efficiency, economies of scale, easier training.',
-      'Disadvantages of Functional: Less emphasis on overall objectives, coordination problems across departments, conflict of interests, inflexibility.',
-      'Divisional Structure: Organisation comprised of separate business units or divisions (usually by product line). Each division is multifunctional and self-contained.',
-      'Advantages of Divisional: Product specialisation, accountability for profits, promotes flexibility and initiative, facilitates expansion.',
-      'Disadvantages of Divisional: Conflicts among divisions, increased costs due to duplication, managers may ignore organisational interests.'
+      'Functional Structure: Grouping of activities on the basis of functions (Production, Finance, Marketing). Suitable for large organizations with one line of products.',
+      'Advantages of Functional: (a) Occupational specialisation. (b) Better control and coordination. (c) Increased managerial and operational efficiency. (d) Avoids duplication of effort.',
+      'Disadvantages of Functional: (a) Functional empires (focus on dept goals over org goals). (b) Coordination problems between depts. (c) Narrow perspective for managers.',
+      'Divisional Structure: Grouping of activities on the basis of product lines. Each division has its own functional departments (Production, HR, etc.). Suitable for multi-product firms.',
+      'Advantages of Divisional: (a) Skill development in multiple functions. (b) Fixes responsibility for performance/profits. (c) Flexibility and fast decision making. (d) Easy expansion.',
+      'Disadvantages of Divisional: (a) Conflict among divisions over resource allocation. (b) Increased cost due to duplication of functions. (c) Divisional heads may ignore overall interests.'
     ],
     visualizations: [
       {
@@ -147,12 +147,12 @@ export const topics: TheoryTopic[] = [
     title: 'Formal and Informal Organisation',
     description: 'Distinction between formally designed structure and social networks.',
     content: [
-      'Formal Organisation: Structure designed by management to accomplish a particular task. Clearly specifies boundaries of authority and responsibility.',
-      'Advantages: Fixes responsibility, no ambiguity in roles, unity of command, stability.',
-      'Limitations: Procedural delays, rigidity, does not account for social relationships.',
-      'Informal Organisation: Network of social relationships arising out of interaction among employees. Emerges spontaneously.',
-      'Advantages: Faster spread of information, fulfills social needs, compensates for inadequacies in formal structure.',
-      'Disadvantages: Spread of rumors, resistance to change, pressure to conform to group norms.'
+      'Formal Organisation: The structure designed by the management to accomplish a specific task. Features: Clearly defined authority-responsibility, based on rules/procedures, impersonal, stable.',
+      'Advantages: Fixes responsibility easily, clarity in roles, unity of command, stability of the organization.',
+      'Disadvantages: Procedural delays (scalar chain), rigidity, ignores social needs of employees.',
+      'Informal Organisation: Spontaneous network of social relationships among employees. Features: Spontaneous emergence, no written rules, no fixed direction of flow of info.',
+      'Advantages: Fast communication (grapevine), fulfills social needs of members, provides feedback to managers.',
+      'Disadvantages: Spread of rumors, resistance to change, priority to personal interests over organizational interests.'
     ],
     visualizations: []
   },
@@ -161,14 +161,14 @@ export const topics: TheoryTopic[] = [
     title: 'Delegation',
     description: 'Transfer of authority from superior to subordinate.',
     content: [
-      'Delegation differs to the downward transfer of authority from a superior to a subordinate. It is a prerequisite to efficient functioning.',
+      'Meaning: Downward transfer of authority from a superior to a subordinate. Prerequisite for efficient functioning of an organization as no manager can do all work alone.',
       'Elements of Delegation:',
-      '1. Authority: Right to command subordinates and take action. Flows from top to bottom.',
-      '2. Responsibility: Obligation of a subordinate to properly perform assigned duty. Flows upwards.',
-      '3. Accountability: Answerability for the final outcome. Cannot be delegated. Flows upwards.',
+      '1. Authority: Right of an individual to command his subordinates and to take action within the scope of his position. Flows from top to bottom.',
+      '2. Responsibility: Obligation of a subordinate to properly perform the assigned duty. It flows upwards.',
+      '3. Accountability: Being answerable for the final outcome. It flows upwards and cannot be delegated.',
       '> [!IMPORTANT]',
-      '> **The Principle of Absoluteness of Accountability**: Authority can be delegated but responsibility/accountability cannot. A manager remains accountable to their superior even after delegating tasks.',
-      'Importance: Effective management, Employee development, Motivation of employees, Facilitation of growth, Basis of management hierarchy, Better coordination.'
+      '> **Principle of Absoluteness of Accountability**: Delegation of authority does not mean abdication of responsibility. The superior remains accountable for the tasks delegated to subordinates.',
+      'Importance: (a) Effective management. (b) Employee development. (c) Motivation. (d) Facilitation of growth. (e) Basis of management hierarchy.'
     ],
     visualizations: []
   },
@@ -177,9 +177,9 @@ export const topics: TheoryTopic[] = [
     title: 'Decentralisation',
     description: 'Dispersal of decision-making authority to lower levels.',
     content: [
-      'Decentralisation refers to delegation of authority throughout all the levels of the organisation. Decision making authority is pushed down the chain of command.',
-      'Centralisation vs Decentralisation: Centralisation is retention of decision-making authority by higher management. Decentralisation is delegation of such authority.',
-      'Importance: Develops initiative among subordinates, Develops managerial talent for the future, Quick decision making, Relief to top management, Facilitates growth, Better control.'
+      'Meaning: Systematic dispersal of authority to the lowest level in the organization. It is much more than mere delegation; it is an organizational philosophy.',
+      'Decentralisation vs Delegation: Delegation is a technique of getting work done, while decentralisation is the result of policy decisions by top management.',
+      'Importance: (a) Develops initiative among subordinates. (b) Develops managerial talent for future. (c) Quick decision-making. (d) Relief to top management. (e) Facilitates growth. (f) Better control.'
     ],
     visualizations: []
   }

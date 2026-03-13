@@ -6,9 +6,9 @@ export const topics: TheoryTopic[] = [
     title: 'Concept & Importance',
     description: 'Understanding the business environment and its significance.',
     content: [
-      'Meaning: The sum total of all individuals, institutions and other forces that are outside the control of a business enterprise but that may affect its performance.',
-      'Features: Totality of external forces, Specific and general forces, Inter-relatedness, Dynamic nature, Uncertainty, Complexity, Relativity.',
-      'Importance: 1. Identification of opportunities (first mover advantage): Helps be the first to exploit opportunities (e.g., Maruti Udyog in small cars). 2. Identification of threats (early warning signals): Helps prepare for competition (e.g., knowing a foreign firm is entering the market). 3. Tapping useful resources: Businesses obtain inputs like finance and labor from the environment. 4. Coping with rapid changes: Helps managers deal with turbulence like shorter product life cycles. 5. Assisting in planning and policy formulation: Guidelines for long-term decisions. 6. Improving performance: Firms that monitor environment closely tend to succeed.'
+      'Meaning: Business environment refers to the sum total of all individuals, institutions and other forces that are outside the control of a business enterprise but that may affect its performance. It includes economic, social, political, technological and legal forces.',
+      'Features: (a) Totality of external forces: Aggregative in nature. (b) Specific and general forces: Specific forces (investors, customers) affect firms directly; general forces (PESTLE) affect all firms. (c) Inter-relatedness: Different parts are closely interrelated (e.g., health awareness leads to organic food demand). (d) Dynamic nature: Environment keeps on changing. (e) Uncertainty: Difficult to predict future happenings. (f) Complexity: Easy to understand in parts but difficult to grasp in totality. (g) Relativity: Differs from country to country and region to region.',
+      'Importance: (a) Identification of opportunities and getting the first mover advantage: Helping the firm to identify opportunities early (e.g., Maruti Udyog). (b) Identification of threats and early warning signals: Identifying negative trends early. (c) Tapping useful resources: Business environment is a source of resources like finance, machines, and raw materials. (d) Coping with rapid changes: Helps in dealing with turbulence in the environment. (e) Assisting in planning and policy formulation: Serves as a basis for long-term planning. (f) Improving performance: Continued monitoring helps in improving the performance of the enterprise.'
     ],
     visualizations: [
       {
@@ -40,11 +40,11 @@ export const topics: TheoryTopic[] = [
     title: 'Dimensions of Business Environment',
     description: 'Key factors constituting the general environment.',
     content: [
-      'Economic Environment: Factors that have an immediate and direct economic impact. Includes interest rates, inflation rates, changes in disposable income of people, value of rupee (e.g., Rise in interest rates decreases demand for houses/cars).',
-      'Social Environment: Social forces like customs, traditions, values, social trends, and society\'s expectations from business (e.g., Celebration of Diwali/Eid increases sales of sweets; Health/Fitness trend increases demand for gym/organic food).',
-      'Technological Environment: Forces related to scientific improvements and innovations which provide new ways of producing goods or operating business (e.g., Online booking of air tickets; WhatsApp as a marketing tool).',
-      'Political Environment: Includes political conditions such as general stability and peace in the country and the attitude of the elected government towards business (e.g., Skill India or Make in India initiatives).',
-      'Legal Environment: Includes various legislations passed by the Government, administrative orders issued by authorities, court judgments, and decisions of various commissions (e.g., Mandatory statutory warning on cigarette packets).'
+      'Economic Environment: It has immediate and direct economic impact on a business. Key factors: Interest rates, Inflation rates, Changes in disposable income of people, Value of rupee, and Stock market indices. Example: A rise in interest rates lead to a decrease in demand for loans and vice versa.',
+      'Social Environment: It includes social forces like customs, traditions, values, social trends, and society\'s expectations. Values refer to concepts that a society holds in high esteem. Trends refer to popular shifts in preference. Example: Health and fitness trend has increased demand for gym memberships and organic food.',
+      'Technological Environment: Includes forces relating to scientific improvements and innovations which provide new ways of producing goods and services and new methods/techniques of operating a business. Example: Online booking of tickets has transformed the travel industry.',
+      'Political Environment: It includes political conditions such as general stability and peace in the country and specific attitudes that elected government representatives hold towards business. Example: The attitude of the government towards foreign investment significantly impacts business operations.',
+      'Legal Environment: It includes various legislations passed by the Government, administrative orders, court judgments as well as the decisions rendered by various commissions and agencies. Every business must function within the laws of the land. Example: Mandatory statutory warning on tobacco products.'
     ],
     visualizations: [
       {
@@ -74,10 +74,10 @@ export const topics: TheoryTopic[] = [
     title: 'Economic Environment in India',
     description: 'Overview of India\'s economic landscape and reforms.',
     content: [
-      'Pre-1991: Agricultural focus, public sector dominance, restrictions on private sector.',
-      'Crisis of 1991: Fiscal deficit, high internal debt, low GNP growth, soaring inflation, foreign exchange crisis.',
-      'New Industrial Policy 1991: Abolition of licensing (Liberalisation), Disinvestment/reduced public sector role (Privatisation), Promotion of foreign investment (Globalisation).',
-      'LPG Model: Liberalisation (removing controls), Privatisation (empowering private sector), Globalisation (integrating with world economy).'
+      'Liberalisation: The economic reforms that were introduced were aimed at liberalising the Indian business and industry from all unnecessary controls and restrictions. Meaning: Removing licensing requirements in most industries, freedom in deciding the scale of business activities, freedom in fixing prices, and simplifying procedures for imports and exports.',
+      'Privatisation: The new set of economic reforms aimed at giving greater role to the private sector in the nation building process and a reduced role to the public sector. Meaning: Disinvestment (selling off part of public sector shares), dilution of government ownership, and closing down of sick public sector units.',
+      'Globalisation: It means the integration of the various economies of the world leading towards the emergence of a cohesive global economy. Meaning: Removal of barriers to foreign trade and investment, free movement of capital and labor across borders, and standardization of products for international markets.',
+      'Impact of LPG Reforms: Increasing competition, more demanding customers, rapidly changing technological environment, necessity for change, need for developing human resources, and market orientation.'
     ],
     visualizations: [
       {
@@ -100,11 +100,10 @@ export const topics: TheoryTopic[] = [
     title: 'Demonetization',
     description: 'The withdrawal of legal tender status of ₹500 and ₹1,000 notes.',
     content: [
-      'Event: November 8, 2016.',
-      'Aim: To curb corruption, counterfeiting, illegal activities, and "Black Money".',
-      'Feature 1: Tax Administration Measure (declaring unaccounted wealth).',
-      'Feature 2: Shift explicitly away from cash (channelizing savings into formal financial system).',
-      'Feature 3: Creating a "Less-cash" or "Cash-lite" economy.'
+      'Event: The Government of India announced on November 8, 2016, that the two largest denomination notes, ₹500 and ₹1,000, were no longer legal tender.',
+      'Aims: (a) To curb corruption. (b) To check the use of high-denomination notes for illegal activities. (c) To eliminate counterfeit currency. (d) To curb the accumulation of "Black Money" generated by income that has not been declared to tax authorities.',
+      'Features: (a) Tax Administration Measure: People with black money had to declare it and pay taxes/penalties. (b) Channeling savings into the formal financial system: People deposited their cash into banks, increasing liquidity. (c) Creating a less-cash economy: Promotion of digital transactions and e-wallets.',
+      'Impact: Decline in cash transactions, rise in digital payments, temporary slowdown in some sectors, and increased tax compliance.'
     ],
     visualizations: []
   }

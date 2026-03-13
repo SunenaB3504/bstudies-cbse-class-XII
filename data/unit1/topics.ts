@@ -51,13 +51,13 @@ export const topics: TheoryTopic[] = [
     title: 'Characteristics of Management',
     description: 'Key features that define the nature of management.',
     content: [
-      'Goal Oriented Process: Unites efforts of different individuals towards common goals.',
-      'Pervasive: Required in all types of organizations (economic, social, political) and at all levels.',
-      'Multidimensional: Management of Work, Management of People, Management of Operations.',
-      'Continuous Process: Ongoing series of functions (POSDC).',
-      'Group Activity: Teamwork and coordination of individual efforts.',
-      'Dynamic Function: Adapts to changing environment (PESTLE). Example: McDonalds changed its menu (e.g., McAloo Tikki) to survive and grow in the Indian market.',
-      'Intangible Force: Cannot be seen but its presence is felt (orderliness, discipline).'
+      'Goal Oriented Process: Management is a goal-oriented process because it is intended to achieve certain predetermined objectives. Every organization has a set of basic goals which are the basic reason for its existence.',
+      'Pervasive: Management is required in all types of organizations (economic, social, political), at all levels (Top, Middle, Lower), and in all countries. The way a manager works in India may be different from a manager in the USA, but management is common to both.',
+      'Multidimensional: (a) Management of Work: Translates goals into tasks to be achieved. (b) Management of People: Managing individuals and groups of people. (c) Management of Operations: Directing the production process to transform inputs into outputs.',
+      'Continuous Process: It is a series of continuous, composite but separate functions (Planning, Organising, Staffing, Directing, and Controlling) performed by all managers all the time.',
+      'Group Activity: An organization is a collection of diverse individuals with different needs. Management should enable all its members to grow and develop while fulfilling individual goals as well as organizational goals.',
+      'Dynamic Function: Management has to adapt itself to the changing environment. In order to be successful, an organization must change itself and its goals according to the needs of the environment (Economic, Social, Political, etc.). Example: McDonald’s changed its menu to survive in the Indian market.',
+      'Intangible Force: Management is an intangible force that cannot be seen but its presence can be felt in the way the organization functions. The effect of management is noticeable in an organization where targets are met according to plans, employees are happy and satisfied, and there is orderliness instead of chaos.'
     ],
     visualizations: [
       {
@@ -73,9 +73,9 @@ export const topics: TheoryTopic[] = [
     title: 'Objectives of Management',
     description: 'Organizational, Social, and Personal objectives.',
     content: [
-      'Organizational Objectives: Survival (earning enough revenue to cover costs), Profit (essential for covering risks/incentive), Growth (expansion in terms of sales, employees, or products).',
-      'Social Objectives: Using eco-friendly methods, creating employment for weaker sections, providing basic amenities like schools/healthcare (e.g., TATA Steel in Jamshedpur).',
-      'Personal Objectives: Fair wages/salary, peer recognition, good working conditions, and opportunities for training and development.'
+      'Organizational Objectives: These involve setting and achieving goals for the organization itself. (a) Survival: Earning enough revenue to cover costs. (b) Profit: Essential for covering risks and for growth. (c) Growth: Increasing its prospects in the long run (measured by sales volume, number of employees, etc.).',
+      'Social Objectives: It involves the creation of benefit for society. (a) Providing quality products at reasonable prices. (b) Using environmental friendly methods of production. (c) Creating employment opportunities for disadvantaged sections. (d) Providing basic amenities like schools and crèches to employees.',
+      'Personal/Individual Objectives: Organizations are made up of people with different personalities and backgrounds. (a) Competitive salaries and perks. (b) Peer recognition and social respect. (c) Personal growth and development (training). (d) Good and healthy working conditions.'
     ],
     visualizations: []
   },
@@ -97,9 +97,9 @@ export const topics: TheoryTopic[] = [
     title: 'Nature of Management: Art or Science?',
     description: 'Management has features of both Art and Science.',
     content: [
-      'Management as an Art: Based on practice and creativity. Features: Existence of theoretical knowledge, Personalized application, Based on practice and creativity.',
-      'Management as a Science: Systematized body of knowledge. Features: Systematized body of knowledge, Principles based on experimentation, Universal validity.',
-      'Conclusion: Management is an inexact science (Soft Science) and a creative art. They are not mutually exclusive but complementary.'
+      'Management as an Art: Art is the skillful and personalized application of existing knowledge to achieve desired results. (a) Existence of theoretical knowledge: Like any art, management has a lot of literature and theory. (b) Personalized application: Every manager has his own unique way of managing things. (c) Based on practice and creativity: Management requires regular practice and creativity to solve problems.',
+      'Management as a Science: Science is a systematized body of knowledge that explains certain general truths. (a) Systematized body of knowledge: Management has its own theory and principles. (b) Principles based on experimentation: Management principles are developed through observation and repeated experimentation. (c) Universal validity: Unlike pure science, management principles are not universally valid because they deal with humans.',
+      'Conclusion: Management is both an art and a science. It is an inexact science (social science) because it deals with human behavior, but it is a creative art because it requires the application of personal skills.'
     ],
     visualizations: [
       {
@@ -123,11 +123,12 @@ export const topics: TheoryTopic[] = [
     title: 'Management as a Profession',
     description: 'Is management a full-fledged profession?',
     content: [
-      'Well-defined body of knowledge: Yes, management has a systematic body of knowledge.',
-      'Restricted Entry: No, anyone can be a manager (unlike limits on doctors/lawyers).',
-      'Professional Association: Yes (e.g., AIMA), but membership is not mandatory.',
-      'Ethical Code of Conduct: Associations have codes, but they are not legally binding on all managers.',
-      'Service Motive: Basic motive is often profit, though service to society is growing involved.'
+      'Well-defined body of knowledge: Management has a systematic body of knowledge consisting of principles and theories.',
+      'Restricted Entry: In management, there is no restriction on anyone being designated or appointed as a manager. However, professional knowledge is preferred.',
+      'Professional Association: There are several professional associations for managers (like AIMA), but it is not mandatory for every manager to be a member.',
+      'Ethical Code of Conduct: While associations have laid down codes of conduct, they do not have statutory backing to enforce them on all managers.',
+      'Service Motive: The primary goal of management is profit maximization, but social responsibility is increasingly becoming a part of management objectives.',
+      'Conclusion: Management is not a full-fledged profession like Medicine or Law, but it is moving in that direction.'
     ],
     visualizations: []
   },
@@ -136,9 +137,9 @@ export const topics: TheoryTopic[] = [
     title: 'Levels of Management',
     description: 'The hierarchy of authority and responsibility.',
     content: [
-      'Top Management: Senior-most executives (Chairman, CEO, COO). Responsible for welfare, survival, and overall organizational goals/strategies.',
-      'Middle Management: Division heads (Production Manager, Marketing Manager). Link between top and lower levels. Implement plans, interpret policies, staff their departments.',
-      'Operational/Supervisory Management: Foremen, Supervisors. Directly oversee workforce, ensure quality, minimize wastage, maintain safety.'
+      'Top Management: Consists of Chairman, CEO, Board of Directors. Functions: (a) Formulating overall organizational goals and strategies. (b) Coordinating activities of different departments. (c) Responsible for welfare and survival of the organization. (d) Liaison with outside world.',
+      'Middle Management: Consists of Departmental Heads (Production, Finance, Marketing). Functions: (a) Interpreting policies framed by top management. (b) Ensuring their department has necessary personnel. (c) Assigning necessary duties and responsibilities. (d) Motivating people to achieve desired objectives.',
+      'Operational/Supervisory Management: Consists of Supervisors and Foremen. Functions: (a) Directly overseeing the efforts of the workforce. (b) Ensuring quality of output and safety standards. (c) Passing on instructions to workers. (d) Maintaining discipline and minimizing wastage.'
     ],
     visualizations: [
       {
@@ -154,10 +155,10 @@ export const topics: TheoryTopic[] = [
     title: 'Coordination',
     description: 'The essence of management.',
     content: [
-      'Definition: The process by which a manager synchronises the activities of different departments.',
-      'Essence of Management: It is not a separate function but the force that binds all other functions (Planning, Organizing, Staffing, Directing, Controlling).',
-      'Characteristics: Integrates group efforts, Ensures unity of action, Continuous process, All pervasive, Responsibility of all managers, Deliberate function.',
-      'Importance: Needed due to Growth in size (harmonizing individual goals), Functional differentiation (reconciling departmental conflicts), and Specialisation (balancing expert opinions).'
+      'Definition: Coordination is the process by which a manager synchronizes the activities of different departments to achieve organizational goals. It is the "thread" that runs through all functions like planning, organizing, staffing, directing, and controlling.',
+      'Characteristics: (a) Integrates group efforts into purposeful activities. (b) Ensures unity of action by acting as a binding force. (c) It is a continuous process that begins with planning and ends with controlling. (d) It is all-pervasive as it is needed at all levels. (e) It is the responsibility of all managers. (f) It is a deliberate function.',
+      'Importance: (a) Growth in size: As organizations grow, coordination is needed to harmonize individual goals with organizational goals. (b) Functional differentiation: To reconcile the conflicting interests of different departments. (c) Specialization: To integrate the opinions of specialists/experts into a common plan.',
+      'Essence of Management: Coordination is not a separate function of management. It is required in Planning (objectives integration), Organizing (authority-responsibility), Staffing (filling positions), Directing (guiding efforts), and Controlling (correcting deviations).'
     ],
     visualizations: [
       {

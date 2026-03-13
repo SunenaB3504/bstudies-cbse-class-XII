@@ -7,16 +7,16 @@ export const topics: TheoryTopic[] = [
     description: "Why consumer protection is significant for both consumers and businesses.",
     content: [
       "**From Consumers' Point of View**",
-      "1. **Consumer Ignorance**: Consumers need to be educated about rights and reliefs.",
-      "2. **Unorganised Consumers**: Need for organisation to protect interests.",
-      "3. **Widespread Exploitation**: Protection against unsafe products, adulteration, misleading ads, etc.",
+      "1. **Consumer Ignorance**: Most consumers are not aware of their rights and reliefs. They need to be educated to act as 'prudent' consumers.",
+      "2. **Unorganised Consumers**: Consumers are often spread and unorganised. They need to form consumer organisations to collectively protect their interests.",
+      "3. **Widespread Exploitation**: Protection is needed against exploitative practices like adulteration, defective goods, and misleading advertisements.",
       "",
       "**From Business's Point of View**",
-      "1. **Long-term Interest**: Satisfied customers lead to repeat sales and growth.",
-      "2. **Use of Society's Resources**: Responsibility to serve public interest.",
-      "3. **Social Responsibility**: Duty towards stakeholders, including consumers.",
-      "4. **Moral Justification**: Unethical to exploit consumers.",
-      "5. **Government Intervention**: Avoiding regulations by voluntarily practicing fair trade."
+      "1. **Long-term Interest of Business**: Satisfied customers lead to repeat sales and Positive Word of Mouth (WOM), which are essential for long-term growth.",
+      "2. **Business uses Society's Resources**: Since business depends on society for resources, it has a corresponding responsibility to serve public interest.",
+      "3. **Social Responsibility**: Every business has a duty towards its various stakeholders, including consumers, who are the 'King' of the market.",
+      "4. **Moral Justification**: It is the ethical and moral duty of every business to avoid exploitative and unfair trade practices.",
+      "5. **Government Intervention**: By practicing fair trade voluntarily, businesses can avoid the cost and complexity of strict government regulations."
     ],
     visualizations: []
   },
@@ -26,17 +26,18 @@ export const topics: TheoryTopic[] = [
     description: "Key provisions, definitions, and rights under the Act.",
     content: [
       "**Who is a Consumer?**",
-      "- A person who buys any goods or avails services for a consideration (paid, promised, or deferred).",
-      "- Includes offline and online transactions.",
-      "- **Excludes**: Person who obtains goods/services for resale or commercial purpose.",
+      "Under CPA 2019, a consumer is anyone who:",
+      "- Buys goods or avails services for a consideration (paid or promised).",
+      "- Includes both offline and online transactions through electronic means.",
+      "- **Excludes**: A person who obtains goods for resale or for any commercial purpose.",
       "",
       "**Consumer Rights**",
-      "1. **Right to Safety**: Protection against hazardous goods/services. **Trigger**: 'Electrical hazard', 'ISI mark', 'Life-threatening'.",
-      "2. **Right to be Informed**: Complete information about product. **Trigger**: 'Ingredients', 'Expiry date', 'Usage instructions'.",
-      "3. **Right to be Assured (Choose)**: Access to variety at competitive prices. **Trigger**: 'Monopoly price', 'Lack of variety', 'Forcing a brand'.",
-      "4. **Right to be Heard**: Right to file complaint and be heard. **Trigger**: 'Grievance cell', 'Company's feedback loop', 'Company ignored complaint'.",
-      "5. **Right to Seek Redressal**: Relief against unfair practices. **Trigger**: 'Compensation', 'Replacement', 'Refund', 'Court-ordered relief'.",
-      "6. **Right to Consumer Education**: Right to acquire knowledge. **Trigger**: 'Awareness camp', 'Knowledge of rights', 'Informing consumers'."
+      "1. **Right to Safety**: Right to be protected against products and services that are hazardous to life and health (e.g., ISI mark on electrical goods).",
+      "2. **Right to be Informed**: Right to have complete information about the product (ingredients, price, expiry, etc.) to make a healthy choice.",
+      "3. **Right to Choose (Assured)**: Right to have access to a variety of products at competitive prices. In case of a monopoly, it means the right to be assured of satisfactory quality.",
+      "4. **Right to be Heard**: Right to have their interest represented and to file a complaint in case of dissatisfaction.",
+      "5. **Right to Seek Redressal**: Right to get relief against unfair trade practices and exploitation. It includes the right to compensation, replacement, or refund.",
+      "6. **Right to Consumer Education**: Right to acquire knowledge and skills to be an informed consumer throughout life."
     ],
     visualizations: [
       {
@@ -59,16 +60,16 @@ export const topics: TheoryTopic[] = [
     title: "Consumer Responsibilities",
     description: "Duties of a consumer while purchasing and using goods/services.",
     content: [
-      "1. **Be Aware**: Knowledge of available goods.",
-      "2. **Buy Standardised Goods**: Look for quality marks. **Trigger**: 'ISI', 'Agmark', 'Hallmark'.",
-      "3. **Learn Risks**: Follow instructions.",
-      "4. **Read Labels**: Check price, expiry. **Trigger**: 'Information on pack'.",
-      "5. **Assert Yourself**: Ensure a fair deal. **Trigger**: 'Prudent person', 'Not being submissive'.",
-      "6. **Be Honest**: Discourage black-marketing.",
-      "7. **Ask for Cash Memo**: Proof of purchase. **Trigger**: 'Proof of purchase', 'Evidence for court'.",
-      "8. **File Complaint**: Even for small amounts.",
-      "9. **Form Consumer Societies**: Educate others.",
-      "10. **Respect Environment**: Avoid waste."
+      "1. **Be Aware of Available Goods/Services**: So that an intelligent and wise choice can be made.",
+      "2. **Buy only Standardised Goods**: Look for quality certification marks such as **ISI** (electricals), **AGMARK** (food), **BIS Hallmark** (jewellery).",
+      "3. **Learn about Risks**: Follow manufacturer's instructions and learn about risks associated with product usage.",
+      "4. **Read Labels Carefully**: For information regarding price, net weight, manufacturing and expiry dates.",
+      "5. **Assert Yourself**: To ensure that you get a fair deal and are not short-changed.",
+      "6. **Be Honest in your Dealings**: Choose only from legal goods and services and discourage unscrupulous practices like black-marketing.",
+      "7. **Ask for Cash Memo**: It is the only proof of purchase and is essential while filing a complaint.",
+      "8. **File a Complaint**: In an appropriate consumer forum in case of a shortcoming in the quality of goods or services.",
+      "9. **Form Consumer Societies**: Which would play an active part in educating consumers and safeguarding their interests.",
+      "10. **Respect the Environment**: Avoid waste, littering and contributing to pollution."
     ],
     visualizations: [
       {
@@ -90,20 +91,22 @@ export const topics: TheoryTopic[] = [
     title: "Redressal Agencies",
     description: "Three-tier enforcement machinery under the Consumer Protection Act, 2019.",
     content: [
+      "The Consumer Protection Act, 2019 provides for a three-tier enforcement machinery at the District, State, and National levels.",
+      "",
       "**District Commission**",
-      "- Jurisdiction: Value **up to ₹1 Crore**.",
-      "- Appeal: To State Commission within **45 days**.",
+      "- Has jurisdiction to entertain complaints where the value of goods or services paid as consideration does **not exceed ₹1 Crore**.",
+      "- If dissatisfied, the consumer can appeal to the State Commission within **45 days**.",
       "",
       "**State Commission**",
-      "- Jurisdiction: Value **₹1 Crore to ₹10 Crores**.",
-      "- Appeal: To National Commission within **30 days**.",
+      "- Has jurisdiction where the value of consideration **exceeds ₹1 Crore but does not exceed ₹10 Crores**.",
+      "- An appeal against its order can be made to the National Commission within **30 days**.",
       "",
       "**National Commission**",
-      "- Jurisdiction: Value **exceeds ₹10 Crores**.",
-      "- Appeal: To Supreme Court within **30 days**.",
+      "- Has jurisdiction for complaints where the value of consideration **exceeds ₹10 Crores**.",
+      "- An appeal against its order can be made to the Supreme Court of India within **30 days**.",
       "",
       "**Mediation**",
-      "- Provision for settlement of disputes through mediation at all three levels."
+      "- The Act introduces 'Mediation' as an alternate dispute resolution mechanism to allow for speedier disposal of cases."
     ],
     visualizations: [
       {
@@ -132,22 +135,21 @@ export const topics: TheoryTopic[] = [
     description: "Remedies available to consumers and the role of NGOs.",
     content: [
       "**Relief Available**",
-      "- Remove defect in goods or deficiency in services.",
-      "- Replace defective product.",
-      "- Refund price paid.",
-      "- Pay compensation for loss/injury.",
-      "- Pay punitive damages.",
-      "- Discontinue unfair trade practices.",
-      "- Withdraw hazardous goods.",
+      "- **Removal of Defect**: To remove the defect in goods or deficiency in services.",
+      "- **Replacement**: To replace the defective product with a new one of similar description.",
+      "- **Refund**: To refund the price paid by the consumer.",
+      "- **Compensation**: To pay a reasonable amount of compensation for any loss or injury suffered.",
+      "- **Punitive Damages**: In appropriate circumstances, to pay punitive damages.",
+      "- **Discontinuance of Unfair Practices**: To discontinue and not repeat unfair or restrictive trade practices.",
+      "- **Withdrawal of Hazardous Goods**: To withdraw hazardous goods from being offered for sale.",
       "",
       "**Role of Consumer Organisations & NGOs**",
-      "- Educating general public (seminars, workshops).",
-      "- Publishing periodicals.",
-      "- Comparative testing of products.",
-      "- Encouraging protests against unfair practices.",
-      "- Providing legal assistance.",
-      "- Filing complaints on behalf of consumers.",
-      "- Filing public interest litigation (PIL)."
+      "- **Education**: Educating the general public about their rights through seminars and workshops.",
+      "- **Publications**: Publishing periodicals and reports to impart knowledge.",
+      "- **Product Testing**: Carrying out comparative testing of consumer products in labs.",
+      "- **Legal Help**: Providing legal assistance to consumers by way of aid or advice.",
+      "- **Filing Complaints**: Filing complaints in consumer courts on behalf of consumers.",
+      "- **Public Interest Litigation (PIL)**: Taking an active part in filing cases in the interest of the general public."
     ],
     visualizations: []
   }

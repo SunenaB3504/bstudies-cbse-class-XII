@@ -7,14 +7,14 @@ export const topics: TheoryTopic[] = [
     description: "Understanding marketing as a social process and the evolution of marketing management philosophies.",
     content: [
       "**Meaning of Marketing**",
-      "Marketing is a social process by which individuals and groups obtain what they need and want through creating offering and freely exchanging products and services of value with others.",
+      "Marketing is a social process by which individuals and groups obtain what they need and want through creating, offering, and freely exchanging products and services of value with others. It involves understanding customer needs and delivering value to them profitable.",
       "",
       "**Marketing Management Philosophies**",
-      "1. **Production Concept**: Focus on availability and affordability. **Trigger**: 'Mass production', 'Availability/Affordability'.",
-      "2. **Product Concept**: Focus on quality, performance, and features. **Trigger**: 'Product improvement', 'High quality/features'.",
-      "3. **Selling Concept**: Focus on selling and promoting existing products. **Trigger**: 'Aggressive selling', 'Attracting customers', 'Pushing products'.",
-      "4. **Marketing Concept**: Focus on customer needs and satisfaction. **Trigger**: 'Customer satisfaction', 'Integrated marketing', 'Identifying needs'.",
-      "5. **Societal Marketing Concept**: Focus on satisfaction and social welfare. **Trigger**: 'Ethical/Ecological concerns', 'Society's well-being', 'Environmental protection'."
+      "1. **Production Concept**: Assumes that consumers will favour products that are widely available and affordable. Focus is on high production efficiency and wide distribution.",
+      "2. **Product Concept**: Assumes that consumers will favour products that offer the most quality, performance, and features. Focus is on continuous product improvement.",
+      "3. **Selling Concept**: Assumes that consumers will not buy enough of the firm's products unless it undertakes a large-scale selling and promotion effort. Focus is on aggressive selling and 'pushing' products.",
+      "4. **Marketing Concept**: Assumes that the key to achieving organizational goals consists of determining the needs and wants of target markets and delivering the desired satisfaction more effectively than competitors.",
+      "5. **Societal Marketing Concept**: Extends the marketing concept by stating that the organization's task is to determine needs and deliver satisfaction in a way that preserves or enhances the customer's and the society's well-being (e.g., environmental protection)."
     ],
     visualizations: [
       {
@@ -50,18 +50,18 @@ export const topics: TheoryTopic[] = [
     title: "Functions of Marketing",
     description: "Key activities involved in the marketing process.",
     content: [
-      "1. **Gathering and Analysing Market Information**: Identifying needs, opportunities, and threats (SWOT analysis).",
-      "2. **Marketing Planning**: Developing plans to achieve marketing objectives (e.g., increasing market share).",
-      "3. **Product Designing and Development**: Making the product attractive and improving performance.",
-      "4. **Standardisation and Grading**: Ensuring uniformity (standardisation) and classifying products (grading).",
-      "5. **Packaging and Labelling**: Protecting the product and providing information.",
-      "6. **Branding**: Giving a name/symbol to differentiate the product.",
-      "7. **Customer Support Services**: After-sales service, handling complaints to build loyalty.",
-      "8. **Pricing of Product**: Determining the amount of money customers pay.",
-      "9. **Promotion**: Informing and persuading customers to buy.",
-      "10. **Physical Distribution**: Managing flow of goods (Channels).",
-      "11. **Transportation**: Physical movement of goods.",
-      "12. **Storage or Warehousing**: Holding goods to time the supply with demand."
+      "1. **Gathering and Analysing Market Information**: Understanding customer needs and conducting SWOT analysis (Strengths, Weaknesses, Opportunities, Threats).",
+      "2. **Marketing Planning**: Developing a strategic plan to achieve objectives like increasing market share or sales volume.",
+      "3. **Product Designing and Development**: Creating a product that meets customer expectations in terms of features, quality, and design.",
+      "4. **Standardisation and Grading**: Standardisation ensures uniformity in quality; Grading involves classifying products into different groups based on quality/size.",
+      "5. **Packaging and Labelling**: Packaging refers to designing and producing the container for a product; Labelling involves putting information on the package.",
+      "6. **Branding**: Creating a distinct identity for a product through a name, symbol, or design.",
+      "7. **Customer Support Services**: Providing services like after-sales support, technical advice, and handling consumer grievances.",
+      "8. **Pricing of Product**: Deciding the amount of money to be paid by the customer for the product.",
+      "9. **Promotion**: Informing and persuading customers about the product's availability through various media.",
+      "10. **Physical Distribution**: Deciding on the channels of distribution and physical movement of goods.",
+      "11. **Transportation**: Physical movement of goods from one place to another, creating 'place utility'.",
+      "12. **Storage or Warehousing**: Holding goods until they are required in the market, creating 'time utility'."
     ],
     visualizations: []
   },
@@ -71,20 +71,20 @@ export const topics: TheoryTopic[] = [
     description: "Decisions regarding the product, including classification, branding, packaging, and labelling.",
     content: [
       "**Product Classification**",
-      "- **Consumer Products**: Convenience (frequent, low effort), Shopping (compare quality/price), Speciality (unique features, brand loyalty).",
-      "- **Industrial Products**: Materials & Parts, Capital Items, Supplies & Business Services.",
+      "- **Consumer Products**: Items meant for personal consumption. Includes Convenience goods (bread), Shopping goods (clothes), and Speciality goods (luxury cars).",
+      "- **Industrial Products**: Used as inputs in producing other goods. Includes Materials and Parts, Capital Items (machinery), and Supplies.",
       "",
       "**Branding**",
-      "- **Brand**: Name, term, sign, symbol.",
-      "- **Brand Name**: Spoken part.",
-      "- **Brand Mark**: Unspoken symbol/design.",
-      "- **Trade Mark**: Legal protection.",
-      "- **Characteristics of Good Brand Name**: Short/easy, suggests benefits, distinctive, adaptable, versatile, registerable.",
+      "- **Brand**: A name, term, sign, symbol, or design used to identify the products of one seller.",
+      "- **Brand Name**: The part of a brand that can be spoken (e.g., Nike).",
+      "- **Brand Mark**: The part of a brand that can be recognized but not spoken (e.g., symbol).",
+      "- **Trade Mark**: A brand name or brand mark that is given legal protection.",
+      "- **Good Brand Name**: Should be short, easy to pronounce, suggest benefits, be distinctive, and be adaptable to new products.",
       "",
       "**Packaging**",
-      "- **Levels**: Primary (immediate), Secondary (protection), Transportation (storage/shipping).",
-      "- **Functions**: Product identification, protection, facilitating use, promotion. **Label**: 'Silent Salesman' (attracts attention).",
-      "- **Importance**: Health/sanitation, self-service outlets, innovation, product differentiation."
+      "- **Levels**: **Primary** (tube of paste), **Secondary** (cardboard box for tube), **Transportation** (corrugated box for shipping).",
+      "- **Functions**: Product identification, protection, facilitating use, and promotion. It is often called the **'Silent Salesmen'**.",
+      "- **Importance**: Rising standards of health, self-service outlets, innovational opportunity, and product differentiation."
     ],
     visualizations: [
       {
@@ -105,7 +105,12 @@ export const topics: TheoryTopic[] = [
     description: "Identification and Promotion tools.",
     content: [
       "**Labelling**",
-      "- **Functions**: Describe product/contents, identify product/brand, grade products, promote products, provide legal information."
+      "Labelling refers to designing the label to be put on the package. Its key functions are:",
+      "1. **Describe the product and specify its contents**: Providing information about ingredients, usage, etc.",
+      "2. **Identification of the product or brand**: Helping customers identify the product among competitors.",
+      "3. **Grading of products**: Classifying products into categories like A, B, C based on quality.",
+      "4. **Help in promotion of products**: Using attractive graphics and graphics to attract attention.",
+      "5. **Providing information required by law**: E.g., statutory warnings on cigarette packs."
     ],
     visualizations: []
   },
@@ -118,12 +123,12 @@ export const topics: TheoryTopic[] = [
       "Price is the amount of money paid by a buyer in consideration of the purchase of a product or service.",
       "",
       "**Factors Affecting Price Determination**",
-      "1. **Product Cost**: Sets the floor price. Includes fixed, variable, and semi-variable costs.",
-      "2. **Utility and Demand**: Sets the upper limit. Higher utility/demand allows higher price.",
-      "3. **Competition**: Between lower and upper limits, price settles based on competition level.",
-      "4. **Government and Legal Regulations**: Price controls on essential commodities.",
-      "5. **Pricing Objectives**: Profit maximisation (short vs long run), Market share leadership, Survival, Quality leadership.",
-      "6. **Marketing Methods Used**: Factors like distribution and promotion quality."
+      "1. **Product Cost**: The total cost (Fixed + Variable) sets the minimum level or 'floor' for the price. Includes research and development, production, and distribution costs.",
+      "2. **Utility and Demand**: The utility of the product and the intensity of demand sets the 'ceiling' price. Higher utility or inelastic demand allows for higher pricing.",
+      "3. **Competition**: The nature and intensity of competition in the market influence where the price will settle between the floor and the ceiling. Competitive products and their prices are analyzed.",
+      "4. **Government and Legal Regulations**: Government may intervene to regulate prices of essential commodities (like medicines or fuels) to protect public interest and prevent exploitation.",
+      "5. **Pricing Objectives**: Objectives like profit maximisation (short vs long term), obtaining market share leadership, surviving in a competitive market, or achieving product quality leadership.",
+      "6. **Marketing Methods Used**: The quality and cost of distribution, intensity of advertising, type of packaging, and sales promotion also affect the final price determination."
     ],
     visualizations: []
   },
@@ -133,10 +138,14 @@ export const topics: TheoryTopic[] = [
     description: "Activities to make the product available to customers.",
     content: [
       "**Physical Distribution Components**",
-      "1. **Order Processing**: Accurate and speedy processing of orders.",
-      "2. **Transportation**: Moving goods from production to consumption points. Creates place utility.",
-      "3. **Warehousing**: Storing goods to bridge the time gap between production and consumption. Creates time utility.",
-      "4. **Inventory Control**: Balancing cost of inventory (capital tied up) vs. level of service (satisfaction)."
+      "1. **Order Processing**: The time and effort taken between receipt of order and its delivery. It should be fast and accurate.",
+      "2. **Transportation**: The means of carrying goods to the customer. It creates 'place utility'.",
+      "3. **Warehousing**: Acting as a bridge between the time of production and time of consumption. It creates 'time utility'.",
+      "4. **Inventory Control**: Maintaining a level of inventory that balances the cost of holding it against the cost of lost sales.",
+      "",
+      "**Channels of Distribution**",
+      "- **Direct Channel (Zero Level)**: Manufacturer directly to Customer (e.g., Mail order, Internet).",
+      "- **Indirect Channels**: Involves intermediaries like Wholesalers, Retailers, and Agents."
     ],
     visualizations: [
       {
@@ -167,16 +176,16 @@ export const topics: TheoryTopic[] = [
     description: "Tools used to communicate with customers: Advertising, Personal Selling, Sales Promotion, Public Relations.",
     content: [
       "**1. Advertising**",
-      "- Paid, impersonal form. **Trigger**: 'Paid form', 'Identified sponsor', 'Mass reach'.",
+      "An impersonal, paid form of communication by an identified sponsor. It has wide reach and can create a distinct image for the product.",
       "",
       "**2. Personal Selling**",
-      "- Oral presentation. **Trigger**: 'Oral conversation', 'Flexible', 'Personal relationship'.",
+      "Personal form of communication where a face-to-face dialogue takes place between the seller and the buyer. It is highly flexible and allows for immediate feedback.",
       "",
       "**3. Sales Promotion**",
-      "- Short-term incentives. **Trigger**: 'Immediate sales boost', 'Cash discounts', 'Free gifts'.",
+      "Short-term incentives designed to encourage the purchase or sale of a product or service (e.g., discounts, coupons, free samples).",
       "",
       "**4. Public Relations (PR)**",
-      "- Managing image. **Trigger**: 'Corporate image', 'Lobbying', 'Managing public opinion'."
+      "Involves a variety of programmes designed to promote or protect a company's image or its individual products in the eyes of the public."
     ],
     visualizations: []
   }
