@@ -13,10 +13,9 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
     {
         title: "Core Concepts",
         points: [
-            "**Features:** Goal Oriented, Pervasive, Multidimensional (Work, People, Operations), Continuous, Group Activity, Dynamic (adapts to environment), Intangible.",
-            "**Objectives:**\n• **Organisational**: Survival, Profit, Growth.\n• **Social**: Benefit to society (e.g., eco-friendly methods).\n• **Personal**: Satisfying employee needs (growth, salary).",
-            "**Nature of Management:**\n• **Art**: Personalized application, based on practice and creativity.\n• **Science**: Systematized body of knowledge (Inexact science, as it deals with humans).\n• **Profession**: Well-defined knowledge, but lacks restricted entry and statutory ethical code.",
-            "**Levels of Management:**\n• **Top**: Survival and welfare of org. Formulate overall objectives and strategies.\n• **Middle**: Interpretation of policies. Assigning duties and motivating personnel.\n• **Supervisory/Operational**: Direct oversight. Maintain quality and bypass safety-related suggestions to middle management."
+            "**Features of Management:** Goal Oriented, Pervasive, Multidimensional (Work, People, Operations), Continuous, Group Activity, Dynamic, Intangible.",
+            "**Nature of Management:**\n• **As Art**: Personalized application, based on practice and creativity, existence of theoretical knowledge.\n• **As Science**: Systematized body of knowledge, Principles based on experiment, Universal validity (*Inexact science*).\n• **As Profession**: Well-defined knowledge, Restricted entry, Professional association, Ethical code, Service motive.",
+            "**Coordination (6 Features):** 1. Integrates group efforts. 2. Ensures unity of action. 3. Continuous process. 4. Pervasive. 5. Responsibility of all managers. 6. Deliberate function."
         ]
     },
     {

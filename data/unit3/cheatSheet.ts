@@ -14,9 +14,10 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
     {
         title: "Core Concepts",
         points: [
-            "**Features:** Totality of external forces, Specific/General forces, Inter-relatedness, Dynamic, Uncertainty, Complexity, Relativity.",
+            "**Features of Business Env:** Totality of external forces, Specific/General forces, Inter-relatedness, Dynamic, Uncertainty, Complexity, Relativity.",
             "**Importance:** First mover advantage, Early warning signal, Tapping resources, Coping with rapid changes, Planning/Policy formulation, Improving performance.",
-            "**Dimensions (PESTLE):**\n• **Economic**: Interest rates, inflation, income changes, stock market indices.\n• **Social**: Traditions, values, lifestyle trends (e.g., health consciousness).\n• **Technological**: Innovation, scientific improvements in production/distribution.\n• **Political**: Stability, peace, government attitude towards business.\n• **Legal**: Laws, court judgments, statutory warnings."
+            "**PESTLE Dimensions:** Economic (Interest/Inflation), Social (Lifestyle), Tech (Innovation), Political (Stability), Legal (Statutory laws).",
+            "**Impact of Govt Policy Changes:** 1. Increasing competition. 2. More demanding customers. 3. Rapid tech change. 4. Necessity for change. 5. Need for developing human resource. 6. Market orientation. 7. Loss of budgetary support to public sector."
         ]
     },
     {

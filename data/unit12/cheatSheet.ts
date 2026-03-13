@@ -11,9 +11,10 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
     {
         title: "Core Concepts",
         points: [
-            "**Consumer Rights:** 1. Safety. 2. Information. 3. Choice. 4. Heard. 5. Redressal. 6. Education.",
-            "**Consumer Responsibilities:** Ask for cash memo, check labels/marks (ISI, Hallmarked), file complaints for even small amounts, form consumer societies.",
-            "**Redressal Agencies (Jurisdiction):**\n• **District**: Up to ₹1 Crore.\n• **State**: ₹1 Crore to ₹10 Crore.\n• **National**: Above ₹10 Crore."
+            "**Consumer Rights:** Safety, Information, Choice, Heard, Redressal, Education.",
+            "**Who Can File:** 1. Any Consumer. 2. Voluntary association. 3. Central/State Govt. 4. One/more consumers on behalf of many. 5. Legal heir of deceased consumer.",
+            "**Jurisdiction:** District (up to ₹1 Cr), State (₹1-10 Cr), National (above ₹10 Cr).",
+            "**Reliefs Available:** 1. Remove defect. 2. Replace product. 3. Refund price. 4. Compensation for injury. 5. Punitive damages. 6. Discontinue UTP (Unfair Trade Practice). 7. Cease manufacture of hazardous goods. 8. Corrective advertisement. 9. Pay to Consumer Welfare Fund."
         ]
     },
     {

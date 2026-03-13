@@ -13,10 +13,10 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
     {
         title: "Core Concepts",
         points: [
-            "**Financial Decisions:**\n• **Investment**: Long term (Capital Budgeting) and Short term (Working Capital).\n• **Financing**: Debt vs Equity mix.\n• **Dividend**: Retention vs Distribution.",
-            "**Capital Structure Factors:** ROI, Cash Flow, ICR, DSCR, Cost of Debt, Tax Rate, Control, Flexibility.",
-            "**Fixed Capital Factors:** Nature of business, Scale, Technique, Growth prospects, Diversification.",
-            "**Working Capital Factors:** Operating cycle, Business cycle, Seasonal factors, Credit allowed/availed."
+            "**Financial Decisions:** Investment (Capital Budgeting), Financing (Mix), Dividend (Retention/Release).",
+            "**Capital Structure Factors:** ROI, Cash Flow, ICR, DSCR (Ability to pay dues), Cost of Debt, Tax Rate, Control, Flexibility, Market sense.",
+            "**Dividend Decision Factors:** Amount of earnings, Stability of earnings/dividends, Growth prospects, Cash flow, Shareholder preference, Taxation, Market reaction, Stock market access, Legal/Contractual constraints.",
+            "**Fixed Capital Factors:** Nature, Scale, Technique, Growth, Diversification. **Working Capital**: Operating cycle, Seasonal factors, Credit allowed/availed."
         ]
     },
     {

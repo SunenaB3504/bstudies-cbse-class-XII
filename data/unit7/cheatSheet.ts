@@ -13,11 +13,11 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
     {
         title: "Core Concepts",
         points: [
-            "**Elements of Directing:** Supervision, Motivation, Leadership, Communication.",
-            "**Maslow's Hierarchy:** 1. Physiological (Salary). 2. Safety (Job security). 3. Social (Friendship). 4. Esteem (Status). 5. Self-actualisation (Achievement).",
-            "**Financial Incentives:** Pay/Allowance, Bonus, Profit Sharing, Stock Option (Shares at lower price), Productivity linked wage, Retirement benefits, Perquisites.",
-            "**Non-Financial Incentives:** Status, Org Climate, Career Advancement, Job Enrichment, Employee Recognition, Job Security, Employee Participation, Empowerment.",
-            "**Leadership Styles:** Autocratic (Centred on leader), Democratic (Participative), Laissez-faire (Full freedom to subordinates)."
+            "**Directing (Features):** 1. Initiates action. 2. Continuous. 3. Pervasive. 4. Flows from Top to Bottom.",
+            "**Maslow's Hierarchy:** Physiological, Safety, Social, Esteem, Self-actualisation.",
+            "**Incentives:** Financial (Bonus, Profit Sharing, Stock Option); Non-Financial (Status, Climate, Recognition).",
+            "**Leadership:** Autocratic (Centred on leader); Democratic (Participative); Laissez-faire (Free rein).",
+            "**Comm. Barriers:**\n• **Semantic**: Bad expression, Symbols with diff meanings, Faulty translation, Technical jargon, Body language.\n• **Psychological**: Premature evaluation, Lack of attention, Loss by transmission, Distrust.\n• **Organisational**: Policy, Rules/Regs, Status, Hierarchy, Facilities.\n• **Personal**: Fear of authority, Lack of confidence, Lack of incentive."
         ]
     },
     {

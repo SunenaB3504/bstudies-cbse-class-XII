@@ -15,9 +15,10 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
         title: "Core Concepts",
         points: [
             "**Organising Process:** 1. Identification/Division of work. 2. Departmentalisation. 3. Assignment of duties. 4. Establishing reporting relationships.",
-            "**Functional Structure:** Grouping by functions (Production, HR). Best for single-product firms. Promotes occupational specialization.",
-            "**Divisional Structure:** Grouping by product lines. Best for multi-product firms. Promotes product specialization and accountability.",
-            "**Delegation Elements:**\n• **Authority**: Right to command (flows downward).\n• **Responsibility**: Obligation to perform (flows upward).\n• **Accountability**: Answerability for outcome (absolute, flows upward)."
+            "**Functional Structure:** Grouping by functions; Occupational specialization. **Divisional Structure**: Grouping by product lines; Product specialization.",
+            "**Formal Org (Features):** Official relationships, based on rules/procedures, deliberate creation, stability, impersonal.",
+            "**Informal Org (Features):** Spontaneous emergence, no fixed direction of info (grapevine), social needs priority, no written rules.",
+            "**Delegation Elements:**\n• **Authority**: Right to command (downward). **Responsibility**: Obligation (upward).\n• **Accountability**: Final answerability (upward, absolute/cannot be delegated)."
         ]
     },
     {

@@ -13,9 +13,9 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
     {
         title: "Core Concepts",
         points: [
-            "**Features:** Focus on objectives, Primary function, Pervasive, Continuous, Futuristic, Involves decision making, Mental exercise.",
+            "**Features of Planning:** Focus on objectives, Primary function, Pervasive, Continuous, Futuristic, Involves decision making, Mental exercise.",
             "**Planning Process (7 Steps):** 1. Setting Objectives. 2. Developing Premises. 3. Identifying alternative courses. 4. Evaluating alternatives. 5. Selecting an alternative. 6. Implementing the plan. 7. Follow-up action.",
-            "**Types of Plans:**\n• **Single-use**: Budget, Programme.\n• **Standing**: Policy, Procedure, Rule, Method.\n• **Neither/Both**: Objectives, Strategy."
+            "**8 Types of Plans:**\n1. **Objectives**: End results to be achieved.\n2. **Strategy**: Comprehensive long-term plan (Direction & Scope).\n3. **Policy**: General guide to thinking ('We don't hire relatives').\n4. **Procedure**: Chronological steps to perform activities.\n5. **Method**: Step-by-step prescription for a routine task.\n6. **Rule**: Specific statement of what is to be done/not done ('No Smoking').\n7. **Programme**: Detailed statement including objectives, policies, and rules for a project.\n8. **Budget**: Statements of expected results in numerical terms."
         ]
     },
     {

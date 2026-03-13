@@ -13,9 +13,9 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
     {
         title: "Core Concepts",
         points: [
-            "**Money Market Instruments:**\n• **T-Bills**: Issued by RBI (Zero-coupon bonds). Min 25k.\n• **Commercial Paper**: Unsecured promissory note by creditworthy firms.\n• **Call Money**: Inter-bank (1-15 days) to maintain CRR.\n• **Commercial Bill**: Finance working capital (Bill of Exchange).",
-            "**Capital Market Types:**\n• **Primary**: New Issue Market (Public Issue, Rights Issue, Private Placement).\n• **Secondary**: Stock Exchange (Existing securities).",
-            "**SEBI Functions:**\n• **Protective**: Prohibit insider trading/fraud. Education.\n• **Developmental**: Training, internet trading.\n• **Regulatory**: Registration of brokers, code of conduct, audits."
+            "**Money Market (Instruments):** 1. **T-Bills** (RBI). 2. **Comm. Paper** (Promissory note). 3. **Call Money** (Inter-bank). 4. **Cert. of Deposit** (Banks). 5. **Comm. Bill** (Trade credit).",
+            "**Capital Market:** Primary (New issue via Prospectus, Rights, Private placement); Secondary (Stock Exchange).",
+            "**SEBI Functions:**\n• **Protective**: Control insider trading, prohibit fraud, education.\n• **Regulatory**: Register brokers/agents, code of conduct, audits/inspections.\n• **Developmental**: Training intermediaries, promoting internet trading."
         ]
     },
     {

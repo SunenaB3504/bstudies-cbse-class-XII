@@ -14,9 +14,11 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
     {
         title: "Core Concepts",
         points: [
-            "**Staffing Process (8 Steps):** 1. Estimating Manpower (Workload/Workforce). 2. Recruitment. 3. Selection. 4. Placement/Orientation. 5. Training/Development. 6. Performance Appraisal. 7. Promotion. 8. Compensation.",
-            "**Selection Tests:**\n• **Aptitude**: Potential for learning.\n• **Intelligence (IQ)**: Learning ability/maturity.\n• **Trade**: Existing proficiency.\n• **Personality**: Value system/emotions.\n• **Interest**: Depth of interest in a specific area.",
-            "**Training Methods:**\n• **On-the-job**: Apprenticeship, Internship, Coaching/Job Rotation.\n• **Off-the-job**: Vestibule training (dummy models), Case Study, Computer Modeling."
+            "**Staffing Process (8 Steps):** 1. Manpower Planning. 2. Recruitment. 3. Selection. 4. Placement. 5. Training. 6. Performance Appraisal. 7. Promotion. 8. Compensation.",
+            "**Selection Process Steps:** 1. Preliminary Screening. 2. Selection Tests. 3. Employment Interview. 4. Reference Checks. 5. Selection Decision. 6. Medical Exam. 7. Job Offer. 8. Contract.",
+            "**Selection Tests:** IQ (Maturity), Aptitude (Learning), Trade (Proficiency), Personality (Values), Interest (Preference).",
+            "**External Sources:** Direct Recruitment, Casual Callers, Advertising, Employment Exchange, Placement Agencies, Campus, Recommendations, Labour Contractors, Web (Naukri.com).",
+            "**Training Methods:** On-the-job (Apprenticeship, Internship, Induction); Off-the-job (Vestibule Training/Model Lab)."
         ]
     },
     {

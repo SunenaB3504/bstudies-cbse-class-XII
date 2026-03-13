@@ -12,8 +12,9 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
     {
         title: "Core Concepts",
         points: [
-            "**Controlling Process (5 Steps):** 1. Setting Standards (Quantitative or Qualitative). 2. Measurement of Performance (Personal observation, reports). 3. Comparing performance with standards. 4. Analysing Deviations (CPC and MBE). 5. Taking Corrective Action.",
-            "**Features:** Goal oriented, Pervasive, Continuous, Both backward-looking (evaluating past) and forward-looking (guiding future)."
+            "**Controlling Process (5 Steps):** 1. Setting Standards. 2. Measurement. 3. Comparison. 4. Analysing Deviations (CPC/MBE). 5. Corrective Action.",
+            "**Importance of Controlling:** 1. Accomplishing goals. 2. Judging accuracy of standards. 3. Efficient resource use. 4. Employee motivation. 5. Order & Discipline. 6. Facilitating coordination.",
+            "**Features:** Goal oriented, Pervasive, Continuous, Both backward and forward looking."
         ]
     },
     {

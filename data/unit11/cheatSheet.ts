@@ -13,8 +13,10 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
     {
         title: "Core Concepts",
         points: [
-            "**Marketing Philosophies:**\n• **Production**: Focus on availability/affordability.\n• **Product**: Focus on quality/features.\n• **Selling**: Focus on aggressive promotion.\n• **Marketing**: Focus on customer needs.\n• **Societal**: Focus on customer needs + social welfare.",
-            "**Marketing Mix (4 Ps):**\n• **Product**: Branding, Packaging (Primary, Secondary, Transportation), Labelling.\n• **Price**: Factors (Cost, Demand, Competition, Govt regulation).\n• **Place**: Channels (0-level, 1-level, 2-level) and Physical Distribution.\n• **Promotion**: Advertising, Personal Selling, Sales Promotion, Public Relations."
+            "**Marketing Philosophies:** Production (Availability), Product (Quality), Selling (Promotion), Marketing (Customer needs), Societal (Welfare).",
+            "**4 Ps Pointers:**\n• **Product**: Branding (Good brand: short, suggestive), Packaging, Labelling.\n• **Price**: Cost, Utility/Demand, Competition, Govt Laws, Pricing Objectives.\n• **Place**: Channels, Order processing, Transport, Inventory, Warehousing.\n• **Promotion**: Advertising, Personal Selling, Sales Prom, Public Relations.",
+            "**PR Tools:** News, Speeches, Events, Written materials (Annual reports), Public service activities.",
+            "**Adv. Objections:** Adds to cost, Confuses buyer, Promotes materialism (social value impact)."
         ]
     },
     {
