@@ -108,9 +108,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Flexible`,
     optionC: `Mainly behavioral`,
     optionD: `Formed by practice and experimentation`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `D) Formed by practice and experimentation`,
+    markingScheme: `D) Formed by practice and experimentation`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: D) Formed by practice and experimentation\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the nature of the principle.`
   },
   {
     id: 'sqp2024_25_q7',
@@ -123,9 +123,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Getting a proper receipt`,
     optionC: `Buy only standardised products`,
     optionD: `Be honest in your dealings`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `C) Buy only standardised products`,
+    markingScheme: `C) Buy only standardised products`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: C) Buy only standardised products\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the consumer responsibility.`
   },
   {
     id: 'sqp2024_25_q10',
@@ -138,8 +138,8 @@ export const sqp: SQPQuestion[] = [
     optionB: `controlling helps in ensuring order and discipline`,
     optionC: `controlling helps in improving employees motivation`,
     optionD: `controlling enables optimum utilisation of resources`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `B) controlling helps in ensuring order and discipline`,
+    markingScheme: `B) controlling helps in ensuring order and discipline`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: B) controlling helps in ensuring order and discipline\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the significance of controlling.`
   }
 ];
