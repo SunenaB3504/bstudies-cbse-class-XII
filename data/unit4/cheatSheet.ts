@@ -26,11 +26,28 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
         ]
     },
     {
+        title: "Forensic Data (GAIL India Case)",
+        points: [
+            "**The Shift:** Monopoly to Competitive market (Reliance/British Gas entry).",
+            "**The Plan:** Extend gas grid from 5,600 km to 10,000 km; 45 city gas projects.",
+            "**Total Capex:** ₹2,967.28 crore mainly through internal reserves."
+        ]
+    },
+    {
+        title: "Strategy: 3 Dimensions",
+        points: [
+            "1. Determining **long-term objectives**.",
+            "2. Adopting a **particular course of action**.",
+            "3. **Allocating resources** necessary to achieve objectives."
+        ]
+    },
+    {
         title: "Exam Pitfalls & Tricks",
         points: [
-            "**Trick:** If a case study mentions a 'Numerical expression of expected results', the answer is a **Budget**.",
-            "**Pitfall:** Ensure 'Evaluating Alternatives' mentions weighing both positive and negative consequences.",
-            "**Step Identification:** If managers are 'making assumptions about interest rates or inflation', they are in the **Developing Premises** stage."
+            "**Rule vs Policy:** Policy (general Thinking); Rule (specific Action, Zero discretion).",
+            "**Method vs Procedure:** Method is a single step of a Procedure.",
+            "**Trick:** If a case study mentions 'Numerical expression of expected results', the answer is a **Budget**.",
+            "**Pitfall:** Plans don't guarantee success; they only reduce uncertainty risks."
         ]
     }
 ];

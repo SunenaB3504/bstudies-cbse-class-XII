@@ -5,73 +5,72 @@ export const MIND_MAP: Chapter['mindMap'] = {
     label: "Planning",
     children: [
         {
+            id: "case",
+            label: "0. GAIL Case Study",
+            children: [
+                { id: "g1", label: "Grid: 5.6k -> 10k km" },
+                { id: "g2", label: "Projects: 6 -> 45" },
+                { id: "g3", label: "Capex: ₹2,967 Crore" }
+            ]
+        },
+        {
             id: "importance",
-            label: "Importance",
+            label: "1. Importance",
             children: [
                 { id: "dir", label: "Provides Direction" },
                 { id: "risk", label: "Reduces Risk" },
                 { id: "waste", label: "Reduces Waste" },
                 { id: "inn", label: "Promotes Innovation" },
+                { id: "dec", label: "Decision Making" },
                 { id: "std", label: "Stds for Controlling" }
             ]
         },
         {
             id: "features",
-            label: "Features",
+            label: "2. Features",
             children: [
-                { id: "prim", label: "Primary Function" },
-                { id: "perv", label: "Pervasive" },
+                { id: "prim", label: "Primary Function (Primacy)" },
+                { id: "perv", label: "Pervasive (All levels)" },
                 { id: "cont", label: "Continuous" },
-                { id: "fut", label: "Futuristic" },
-                { id: "dec", label: "Decision Making" }
+                { id: "fut", label: "Futuristic (Forecasting)" },
+                { id: "dec", label: "Involves Decision Making" },
+                { id: "ment", label: "Mental Exercise (Imagination)" }
             ]
         },
         {
             id: "process",
-            label: "Process",
+            label: "3. Process",
             children: [
-                { id: "set", label: "1. Objectives" },
-                { id: "prem", label: "2. Premises" },
-                { id: "ident", label: "3. Identify Alt" },
-                { id: "eval", label: "4. Evaluate Alt" },
-                { id: "sel", label: "5. Select Alt" },
-                { id: "imp", label: "6. Implement" },
-                { id: "foll", label: "7. Follow-up" }
-            ]
-        },
-        {
-            id: "types",
-            label: "Types of Plans",
-            children: [
-                { 
-                    id: "single", 
-                    label: "Single-Use",
-                    children: [
-                        { id: "bud", label: "Budget" },
-                        { id: "prog", label: "Programme" }
-                    ]
-                },
-                { 
-                    id: "stand", 
-                    label: "Standing",
-                    children: [
-                        { id: "pol", label: "Policy" },
-                        { id: "proc", label: "Procedure" },
-                        { id: "rule", label: "Rule" },
-                        { id: "meth", label: "Method" }
-                    ]
-                }
+                { id: "set", label: "Objectives" },
+                { id: "prem", label: "Premises (Assumptions)" },
+                { id: "ident", label: "Identify Alt" },
+                { id: "eval", label: "Evaluate Alt" },
+                { id: "sel", label: "Select Alt" },
+                { id: "imp", label: "Implement" },
+                { id: "foll", label: "Follow-up" }
             ]
         },
         {
             id: "limit",
-            label: "Limitations",
+            label: "4. Limitations",
             children: [
                 { id: "rig", label: "Rigidity" },
                 { id: "dyn", label: "Dynamic Env fails" },
                 { id: "crea", label: "Reduces Creativity" },
-                { id: "cost", label: "Huge Costs" }
+                { id: "cost", label: "Huge Costs" },
+                { id: "no_guar", label: "No Guarantee of Success" }
+            ]
+        },
+        {
+            id: "types",
+            label: "5. Types of Plans",
+            children: [
+                { id: "obj", label: "Objectives" },
+                { id: "strat", label: "Strategy (3 Dimensions)" },
+                { id: "sing", label: "Single-Use: Budget/Prog" },
+                { id: "stand", label: "Standing: Pol/Proc/Rule/Meth" }
             ]
         }
     ]
 };
+

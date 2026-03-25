@@ -173,9 +173,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Management is a continuous process`,
     optionC: `Management is an intangible force`,
     optionD: `Management is goal oriented`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `B) Management is a continuous process`,
+    markingScheme: `B) Management is a continuous process`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: B) Management is a continuous process\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the characteristic.`
   },
   {
     id: 'sqp2022_23_q5',
@@ -188,9 +188,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Management creates a dynamic organization`,
     optionC: `Management increases efficiency`,
     optionD: `Management helps in the development of society.`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `B) Management creates a dynamic organization`,
+    markingScheme: `B) Management creates a dynamic organization`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: B) Management creates a dynamic organization\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the importance.`
   },
   {
     id: 'sqp2022_23_q8',
@@ -203,9 +203,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Social`,
     optionC: `Profit`,
     optionD: `Survival`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `B) Social`,
+    markingScheme: `B) Social`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: B) Social\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the objective.`
   },
   {
     id: 'sqp2022_23_q9',
@@ -218,9 +218,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `It is the Last function of management`,
     optionC: `It is both forward looking and backward looking.`,
     optionD: `It is required only in business organizations.`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `C) It is both forward looking and backward looking.`,
+    markingScheme: `C) It is both forward looking and backward looking.`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: C) It is both forward looking and backward looking.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the characteristic.`
   },
   {
     id: 'sqp2022_23_q10',
@@ -233,9 +233,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Coordination`,
     optionC: `Controlling`,
     optionD: `Organizing`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `C) Controlling`,
+    markingScheme: `C) Controlling`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: C) Controlling\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the function.`
   },
   {
     id: 'sqp2023_24_q6',
@@ -248,9 +248,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Earning higher rate of return to household sector`,
     optionC: `Better functioning of depository`,
     optionD: `Management increases efficiency`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `A) Management helps in achieving group goals`,
+    markingScheme: `A) Management helps in achieving group goals`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: A) Management helps in achieving group goals\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the significance.`
   },
   {
     id: 'sqp2023_24_q10',
@@ -259,13 +259,13 @@ export const sqp: SQPQuestion[] = [
     marks: 1,
     type: 'MCQ',
     question: `10. Read the following statements: Assertion (A) and Reason(R). Choose the 1 correct alternative from those given below: ASSERTION (A): Management is concerned with efficient use of resources. REASONING (R): For management both efficiency and effectiveness need to be balanced. Alternatives:`,
-    optionA: `Both Assertion (A) and Reason (R) are true and Reason (R) is the correct`,
-    optionB: `Both Assertion (A) and Reason (R) are true and Reason (R) is not the`,
+    optionA: `Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).`,
+    optionB: `Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of Assertion (A).`,
     optionC: `Assertion (A) is true but Reason (R) is False`,
     optionD: `Assertion (A) is False but Reason (R) is True`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `B) Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of Assertion (A).`,
+    markingScheme: `B) Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of Assertion (A).`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: B) Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of Assertion (A).\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the relationship.`
   },
   {
     id: 'sqp2024_25_q1',
@@ -278,9 +278,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Management as profession`,
     optionC: `Management as art`,
     optionD: `Both A. and C.`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `A) Management as science`,
+    markingScheme: `A) Management as science`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: A) Management as science\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the nature.`
   },
   {
     id: 'sqp2024_25_q20',
@@ -293,8 +293,8 @@ export const sqp: SQPQuestion[] = [
     optionB: `Both the statements are false.`,
     optionC: `Statement I is true, Statement II is false.`,
     optionD: `Statement II is true, Statement I is false.`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `A) Both the statements are true.`,
+    markingScheme: `A) Both the statements are true.`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: A) Both the statements are true.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the statements.`
   }
 ];

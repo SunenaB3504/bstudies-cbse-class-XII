@@ -80,6 +80,18 @@ export const flashcards: Flashcard[] = [
   { id: 'f5-50', category: 'Decentralisation', question: 'What is Centralisation?', answer: 'The retention of decision-making authority by higher management levels.' },
   { id: 'f5-51', category: 'Distinction', question: 'Delegation vs Decentralisation: Scope?', answer: 'Delegation is between two individuals (narrow). Decentralisation is a policy extending to all levels (organisation-wide).' },
   { id: 'f5-52', category: 'Distinction', question: 'Delegation vs Decentralisation: Is it compulsory?', answer: 'Delegation is compulsory (a manager cannot do everything). Decentralisation is optional (a policy choice).' },
+  {
+    id: 'fc-u5-1b',
+    question: 'How did Wipro Technologies restructure to become a global giant?',
+    answer: 'By shifting from centralised to decentralised management and separating into product-line subsidiaries (Telecom, Engineering, etc.) to improve customer-orientation.',
+    category: 'Case Study'
+  },
+  {
+    id: 'fc-u5-1c',
+    question: 'In the "School Fete" example, what does organising ensure?',
+    answer: 'It ensures the fete succeeds by dividing the activity into task groups (food, decoration, etc.) and establishing coordinating relationships.',
+    category: 'Analogy'
+  },
   { id: 'f5-53', category: 'Decentralisation', question: 'How does decentralisation develop managerial talent?', answer: 'Lower-level managers get decision-making experience, preparing them for higher positions in the future.' },
   { id: 'f5-54', category: 'Decentralisation', question: 'How does decentralisation ensure "Quick Decision Making"?', answer: 'Decisions are made closer to the point of action, avoiding delays from referring matters to top management.' },
   { id: 'f5-55', category: 'Decentralisation', question: 'Name two importance points of decentralisation.', answer: 'Relief to top management (focus on strategic matters) and Facilitates growth (adds new departments easily).' },

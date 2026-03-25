@@ -29,11 +29,34 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
         ]
     },
     {
+        title: "Forensic Data (Wipro Case)",
+        points: [
+            "**The Goal:** Customer-orientation for global competition.",
+            "**Key Action:** De-layering (removing a layer of executives) and forming subsidiaries.",
+            "**Structure Shift:** From Centralised to Decentralised management."
+        ]
+    },
+    {
+        title: "Concept Analogies",
+        points: [
+            "**School Fete:** Committees (Food, Ticketing) = Departmentalisation & Coordination.",
+            "**Library Unloading:** 12 students dividing tasks = Division of Work to avoid confusion."
+        ]
+    },
+    {
+        title: "Span of Management",
+        points: [
+            "**Definition:** Number of subordinates managed by a superior.",
+            "**Narrow Span:** Tight control, many levels (**Tall Structure**).",
+            "**Wide Span:** Less supervision, fewer levels (**Flat Structure**)."
+        ]
+    },
+    {
         title: "Exam Pitfalls & Tricks",
         points: [
-            "**Trick:** 'Adding new product line' or 'diversification' always implies **Divisional Structure**.",
-            "**Pitfall:** Accountability CANNOT be delegated. Even if a subordinate fails, the manager is responsible to his own boss.",
-            "**Trick:** 'Span of Management' determines if the structure is **Tall** (narrow span) or **Flat** (wide span)."
+            "**Trick:** 'Adding product lines' = **Divisional Structure** (Cosmetics, Garments).",
+            "**Pitfall:** **Accountability** flows upward and is **Absolute** (cannot be delegated).",
+            "**Trick:** **Formal Org** is deliberate; **Informal Org** is spontaneous."
         ]
     }
 ];

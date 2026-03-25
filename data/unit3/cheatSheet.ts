@@ -28,11 +28,32 @@ export const CHEAT_SHEET: Chapter['cheatSheet'] = [
         ]
     },
     {
+        title: "Forensic Data (1991 Crisis)",
+        points: [
+            "**Fiscal Deficit:** 6.6% of GDP.",
+            "**Internal Debt:** 50% of GDP.",
+            "**GNP Growth:** Fell to 1.4%.",
+            "**Gold:** 47 tonnes pledged to Bank of England.",
+            "**Credit Rating:** Slashed from AAA to BB+."
+        ]
+    },
+    {
+        title: "Dimension Elements",
+        points: [
+            "**Economic:** GNP, Stock market indices, Value of Rupee, Money Supply.",
+            "**Social:** Literacy rates, Life expectancy, Birth/Death rates.",
+            "**Political:** Ideology of ruling party, Level of political morality.",
+            "**Legal:** FEMA, Competition Act, Factories Act, Companies Act 2013.",
+            "**Technological:** Scientific innovations, Robotics, Biotechnology."
+        ]
+    },
+    {
         title: "Exam Pitfalls & Tricks",
         points: [
-            "**Trick:** If people are buying more organic food, it is **Social**. If the price of organic food drops due to lower tax, it is **Economic**.",
-            "**Pitfall:** Relativity means demand for a product differs across regions. Sari demand is high in India but low elsewhere.",
-            "**Demonetisation Trick:** It wasn't just about 'new notes', it was a **Tax Administration Measure** to bring hidden wealth into the formal system."
+            "**India at Independence:** 70% population in Agri; 85% in Villages.",
+            "**Globalization Hallmarks:** Free flow of goods, capital, info, technology, and people.",
+            "**Demonetisation Impact:** 86% money invalid; decline in private wealth (real estate); rise in tax collection.",
+            "**Trick:** If people buy more organic food, it is **Social**. If the price drops due to lower tax, it is **Economic**."
         ]
     }
 ];

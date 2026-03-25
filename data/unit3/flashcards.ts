@@ -35,6 +35,7 @@ export const flashcards: Flashcard[] = [
   { id: 'f3-21', category: 'Economic', question: 'Change in the value of the Rupee affects which dimension?', answer: 'Economic Environment.' },
   { id: 'f3-22', category: 'Economic', question: 'What does "Disposable Income" mean?', answer: 'Income left with individuals after paying taxes. Changes in disposable income affect demand for goods.' },
   { id: 'f3-23', category: 'Economic', question: 'How does inflation affect business?', answer: 'Rising prices increase costs and may reduce consumer purchasing power, affecting demand for goods and services.' },
+  { id: 'f3-23b', category: 'Economic', question: 'List 3 components of Economic Environment besides interest/inflation.', answer: 'GNP growth rate, savings/investment rates, money supply, public debt, and balance of payments.' },
 
   // ═══════════════════════════════════════════════════════
   // 4. DIMENSIONS - SOCIAL, TECH, POLITICAL, LEGAL (24-33)
@@ -48,7 +49,7 @@ export const flashcards: Flashcard[] = [
   { id: 'f3-30', category: 'Political', question: 'Stability of government and its attitude towards business belongs to...?', answer: 'Political Environment.' },
   { id: 'f3-31', category: 'Legal', question: 'Define Legal Environment.', answer: 'Legislations, administrative orders, court judgments, and decisions of commissions affecting business operations.' },
   { id: 'f3-32', category: 'Legal', question: '"Statutory Warnings on cigarette packets" is which dimension?', answer: 'Legal Environment.' },
-  { id: 'f3-33', category: 'Legal', question: 'Name any two acts forming part of the Legal Environment.', answer: 'Consumer Protection Act, 2019 and Companies Act, 2013.' },
+  { id: 'f3-33', category: 'Legal', question: 'Name any four acts forming part of the Legal Environment.', answer: 'Companies Act 2013, FEMA, Factories Act 1948, Consumer Protection Act 1986, and Competition Act 2002.' },
 
   // ═══════════════════════════════════════════════════════
   // 5. LPG REFORMS 1991 (34-43)
@@ -60,8 +61,10 @@ export const flashcards: Flashcard[] = [
   { id: 'f3-38', category: 'Reform', question: 'Define Globalisation.', answer: 'Integration of various economies of the world leading towards the emergence of a cohesive global economy.' },
   { id: 'f3-39', category: 'Impact', question: 'How did Liberalisation impact businesses?', answer: 'Abolished licensing, freedom in fixing prices, removal of restrictions on movements of goods, reduced role of government.' },
   { id: 'f3-40', category: 'Impact', question: 'How did Globalisation impact Indian business?', answer: 'Increased competition from MNCs, more demanding customers, access to foreign capital and technology.' },
-  { id: 'f3-41', category: 'Impact', question: 'What was the Indian economy like before 1991?', answer: 'Agricultural focus, public sector dominance, heavy government restrictions on private sector (License-Permit Raj).' },
+  { id: 'f3-41', category: 'Impact', question: 'What was the Indian economy like before 1991?', answer: '70% population in agriculture, 85% in villages. Low productivity technology and dominant public sector.' },
   { id: 'f3-42', category: 'Impact', question: 'Mention two positive impacts of LPG on business.', answer: 'Access to world-class technology and rapid improvement in product quality due to global competition.' },
+  { id: 'f3-42b', category: 'Reform', question: 'What were the stats of the 1991 Fiscal Crisis?', answer: 'Fiscal deficit reached 6.6%, GNP growth fell to 1.4%, and Govt pledged 47 tonnes of gold to Bank of England.' },
+  { id: 'f3-42c', category: 'Reform', question: 'What was the hallmark of Globalization besides free trade?', answer: 'Free flow of capital, technology, info, and people across national borders.' },
   { id: 'f3-43', category: 'Impact', question: 'Mention two negative impacts of LPG on small businesses.', answer: 'Increased competition from MNCs and difficulty in meeting global quality standards.' },
 
   // ═══════════════════════════════════════════════════════
@@ -72,7 +75,8 @@ export const flashcards: Flashcard[] = [
   { id: 'f3-46', category: 'Demonetization', question: 'What was the main aim of Demonetization?', answer: 'To curb corruption, counterfeiting, illegal activities, and "Black Money".' },
   { id: 'f3-47', category: 'Demonetization', question: 'Explain Demonetization as a "Tax Administration Measure".', answer: 'People with black money had to declare their unaccounted wealth and pay taxes at a penalty rate.' },
   { id: 'f3-48', category: 'Demonetization', question: 'What is a "Less-cash" or "Cash-lite" economy?', answer: 'An economy where more transactions happen through digital/formal channels rather than physical cash.' },
-  { id: 'f3-49', category: 'Demonetization', question: 'How did demonetization promote digitization?', answer: 'It pushed people to use digital payment methods like UPI, mobile wallets, and online banking.' },
+  { id: 'f3-49', category: 'Demonetization', question: 'How did demonetization promote digitization?', answer: 'It pushed people to use digital payment methods like UPI, mobile wallets, and online banking (e.g., Jan Dhan accounts).' },
+  { id: 'f3-49b', category: 'Demonetization', question: 'What % of money in circulation became invalid on Nov 8, 2016?', answer: 'Approximately 86% of the money in circulation.' },
 
   // ═══════════════════════════════════════════════════════
   // 7. SQP TRIGGERS & TRAPS (50-55)

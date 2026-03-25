@@ -8,6 +8,12 @@ export const flashcards: Chapter['flashcards'] = [
     category: 'Concept'
   },
   {
+    id: 'fc-u4-1b',
+    question: 'How did GAIL India respond to competition from Reliance?',
+    answer: 'By planning to extend its gas grid from 5,600 km to 10,000 km and increasing city gas projects from 6 to 45.',
+    category: 'Case Study'
+  },
+  {
     id: 'fc-u4-2',
     question: 'Define "Planning Premises".',
     answer: 'Planning premises are the assumptions made about the future on the basis of which plans are drawn. They can be internal (policies, resources) or external (political, economic environment).',
@@ -24,6 +30,12 @@ export const flashcards: Chapter['flashcards'] = [
     question: 'Differentiate between "Rule" and "Policy".',
     answer: 'Policy is a general guide to thinking/decision-making (allows discretion). Rule is a specific statement telling what is to be done (allows no discretion).',
     category: 'Distinction'
+  },
+  {
+    id: 'fc-u4-4b',
+    question: 'Give an example of a "Rule".',
+    answer: '"No Smoking" in the factory premises. It is a specific statement that allows no discretion.',
+    category: 'Example'
   },
   {
     id: 'fc-u4-5',
@@ -68,6 +80,12 @@ export const flashcards: Chapter['flashcards'] = [
     category: 'Process'
   },
   {
+    id: 'fc-u4-11b',
+    question: 'What is the "Primacy of Planning"?',
+    answer: 'It means planning is the first and most basic function of management that provides the base for all other functions.',
+    category: 'Feature'
+  },
+  {
     id: 'fc-u4-12',
     question: 'Give an example of a Single-use Plan.',
     answer: 'Budget for an Annual Sales Conference or a specific Programme.',
@@ -88,7 +106,7 @@ export const flashcards: Chapter['flashcards'] = [
   {
     id: 'fc-u4-15',
     question: 'Define "Strategy".',
-    answer: 'Strategy is a comprehensive plan for accomplishing organisation objectives. It includes long-term objectives, adopting a course of action, and resource allocation.',
+    answer: 'Strategy is a comprehensive plan for accomplishing organisation objectives. It includes (1) Long-term objectives, (2) Adopting a course of action, and (3) Resource allocation.',
     category: 'Definition'
   },
   {
