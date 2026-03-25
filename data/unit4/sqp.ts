@@ -108,9 +108,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `It helps in assisting in planning and policy formulation`,
     optionC: `It helps in tapping useful resources`,
     optionD: `It enables a firm to identify opportunities and get first mover advantage.`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `c)  It helps in tapping useful resources`,
+    markingScheme: `c)  It helps in tapping useful resources`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: c)  It helps in tapping useful resources`
   },
   {
     id: 'sqp2023_24_q5',
@@ -123,9 +123,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Management helps in achieving personal objectives`,
     optionC: `Management helps in development of society`,
     optionD: `Management increases efficiency`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `a) Regulatory function`,
+    markingScheme: `a) Regulatory function`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: a) Regulatory function`
   },
   {
     id: 'sqp2024_25_q3',
@@ -138,8 +138,8 @@ export const sqp: SQPQuestion[] = [
     optionB: `Both Assertion (A) and Reason (R) are false.`,
     optionC: `Both Assertion (A) and Reason (R) are true, but Reason (R) is not`,
     optionD: `Both Assertion (A) and Reason (R) are true, and Reason (R) is the`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `25. (I) Management is an intangible force: Management is an intangible force`,
+    markingScheme: `25. (I) Management is an intangible force: Management is an intangible force`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: 25. (I) Management is an intangible force: Management is an intangible force`
   }
 ];

@@ -80,9 +80,9 @@ export const SQP_QUESTIONS: Chapter['sqp'] = [
     optionB: `Secondary market`,
     optionC: `Capital market`,
     optionD: `Wholesale debt market`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `c) Capital Market`,
+    markingScheme: `c) Capital Market`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: c) Capital Market`
   },
   {
     id: 'sqp2022_23_q13',
@@ -95,9 +95,9 @@ export const SQP_QUESTIONS: Chapter['sqp'] = [
     optionB: `Unique order code`,
     optionC: `Permanent account number`,
     optionD: `Depository participant number`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `(a)  (ii), (iii), (i)`,
+    markingScheme: `(a)  (ii), (iii), (i)`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: (a)  (ii), (iii), (i)`
   },
   {
     id: 'sqp2022_23_q14',
@@ -110,9 +110,9 @@ export const SQP_QUESTIONS: Chapter['sqp'] = [
     optionB: `Pricing`,
     optionC: `Permanent account number`,
     optionD: `Depository participant number`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `b) Unique order code`,
+    markingScheme: `b) Unique order code`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: b) Unique order code`
   },
   {
     id: 'sqp2022_23_q16',
@@ -125,9 +125,9 @@ export const SQP_QUESTIONS: Chapter['sqp'] = [
     optionB: `Process of holding shares in electronic form is known as Dematerialization`,
     optionC: `Securities Exchange Board of India performs the regulatory function of controlling`,
     optionD: `Capital market consists of Commercial banks, Development banks and stock`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `( C )Securities Exchange Board of India performs the regulatory function of controlling insider trading and imposing penalties for such practices.`,
+    markingScheme: `( C )Securities Exchange Board of India performs the regulatory function of controlling insider trading and imposing penalties for such practices.`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: ( C )Securities Exchange Board of India performs the regulatory function of controlling insider trading and imposing penalties for such practices.`
   },
   {
     id: 'sqp2023_24_q7',
@@ -140,9 +140,9 @@ export const SQP_QUESTIONS: Chapter['sqp'] = [
     optionB: `Earning higher rate of return to household sector`,
     optionC: `Better functioning of depository`,
     optionD: `Determining the prices of securities`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `b) Earning higher rate of return to household sector`,
+    markingScheme: `b) Earning higher rate of return to household sector`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: b) Earning higher rate of return to household sector`
   },
   {
     id: 'sqp2023_24_q16',
@@ -155,9 +155,9 @@ export const SQP_QUESTIONS: Chapter['sqp'] = [
     optionB: `Statement II is true and I is false`,
     optionC: `Both the statements are true`,
     optionD: `Both the statements are false`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `b) Statement II is true and I is false`,
+    markingScheme: `b) Statement II is true and I is false`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: b) Statement II is true and I is false`
   },
   {
     id: 'sqp2024_25_q4',
@@ -170,8 +170,8 @@ export const SQP_QUESTIONS: Chapter['sqp'] = [
     optionB: `Reduction in employees turnover`,
     optionC: `Statement I is true, Statement II is false.`,
     optionD: `Statement II is true, Statement I is false.`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `d) Statement II is true, Statement I is false.`,
+    markingScheme: `d) Statement II is true, Statement I is false.`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: d) Statement II is true, Statement I is false.`
   }
 ];

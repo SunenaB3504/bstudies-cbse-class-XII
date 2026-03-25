@@ -183,9 +183,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Financing decision`,
     optionC: `Working capital decision`,
     optionD: `Dividend decision`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `a) Long term investment decision`,
+    markingScheme: `a) Long term investment decision`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: a) Long term investment decision`
   },
   {
     id: 'sqp2025_26_q17',
@@ -198,9 +198,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Floatation cost`,
     optionC: `Risk consideration`,
     optionD: `Control`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `c)  Risk consideration`,
+    markingScheme: `c)  Risk consideration`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: c)  Risk consideration`
   },
   {
     id: 'sqp2025_26_q19',
@@ -213,9 +213,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Legal constraints`,
     optionC: `Stock market reaction`,
     optionD: `Contractual constraints`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `d) Contractual constraints`,
+    markingScheme: `d) Contractual constraints`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: d) Contractual constraints`
   },
   {
     id: 'sqp2024_25_q11',
@@ -228,9 +228,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Current assets are those assets which get converted into cash within`,
     optionC: `Capital budgeting decisions are irreversible.`,
     optionD: `Size of the assets, Profitability and competitiveness are not affected`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `d) Size of the assets, Profitability and competitiveness are not affected by capital budgeting decisions.`,
+    markingScheme: `d) Size of the assets, Profitability and competitiveness are not affected by capital budgeting decisions.`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: d) Size of the assets, Profitability and competitiveness are not affected by capital budgeting decisions.`
   },
   {
     id: 'sqp2024_25_q17',
@@ -243,9 +243,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Capital Budgeting Decision`,
     optionC: `Pricing Decision`,
     optionD: `Both B. and C.`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `c) Pricing decision`,
+    markingScheme: `c) Pricing decision`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: c) Pricing decision`
   },
   {
     id: 'sqp2024_25_q18',
@@ -258,8 +258,8 @@ export const sqp: SQPQuestion[] = [
     optionB: `(d), (e) and (f)`,
     optionC: `(a), (c) and (d)`,
     optionD: `(a), (c) and (e)`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `d) (a), (c) and (e)`,
+    markingScheme: `d) (a), (c) and (e)`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: d) (a), (c) and (e)`
   }
 ];

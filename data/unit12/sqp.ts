@@ -128,9 +128,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `.More people will be introduced into the formal economy.`,
     optionC: `.Financial saving will increase`,
     optionD: `.Tax evasion will be reduced`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `a) Internet connectivity is a prerequisite`,
+    markingScheme: `a) Internet connectivity is a prerequisite`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: a) Internet connectivity is a prerequisite`
   },
   {
     id: 'sqp2024_25_q12',
@@ -143,9 +143,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `More than ₹10 crore`,
     optionC: `Less than ₹1 crore`,
     optionD: `More than ₹1 crore and not more than ₹10 crore`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `d) More than â‚¹1 crore and not more than â‚¹10 crore`,
+    markingScheme: `d) More than â‚¹1 crore and not more than â‚¹10 crore`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: d) More than â‚¹1 crore and not more than â‚¹10 crore`
   },
   {
     id: 'sqp2024_25_q19',
@@ -158,8 +158,8 @@ export const sqp: SQPQuestion[] = [
     optionB: `Right to be assured`,
     optionC: `Right to be heard`,
     optionD: `Right to safety`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `a) Right to be informed`,
+    markingScheme: `a) Right to be informed`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: a) Right to be informed`
   }
 ];

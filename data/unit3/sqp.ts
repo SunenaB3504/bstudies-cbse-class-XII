@@ -114,9 +114,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Planning may not work in a dynamic environment.`,
     optionC: `Planning does not guarantee success.`,
     optionD: `Planning reduces creativity.`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `b) Planning does not work in a dynamic environment.`,
+    markingScheme: `b) Planning does not work in a dynamic environment.`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: b) Planning does not work in a dynamic environment.`
   },
   {
     id: 'sqp2022_23_q2',
@@ -129,9 +129,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `. Complexity`,
     optionC: `. Inter-relatedness`,
     optionD: `. Relativity`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `a) Uncertainty`,
+    markingScheme: `a) Uncertainty`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: a) Uncertainty`
   },
   {
     id: 'sqp2022_23_q4',
@@ -144,9 +144,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Technological and political`,
     optionC: `Political and economic`,
     optionD: `Social and legal`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `a) Technological and Social`,
+    markingScheme: `a) Technological and Social`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: a) Technological and Social`
   },
   {
     id: 'sqp2023_24_q3',
@@ -159,9 +159,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Promotion`,
     optionC: `Customer support services`,
     optionD: `Packaging and labelling`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `b) Social environment`,
+    markingScheme: `b) Social environment`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: b) Social environment`
   },
   {
     id: 'sqp2024_25_q6',
@@ -174,8 +174,8 @@ export const sqp: SQPQuestion[] = [
     optionB: `Economic and social environment`,
     optionC: `Technological and legal environment`,
     optionD: `Economic and technological environment`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `d) Economic and technological environment`,
+    markingScheme: `d) Economic and technological environment`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: d) Economic and technological environment`
   }
 ];

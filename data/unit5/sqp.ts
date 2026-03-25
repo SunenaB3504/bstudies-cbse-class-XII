@@ -104,9 +104,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `. Complexity`,
     optionC: `.Assignment of Duties`,
     optionD: `.Establishing Reporting Relationships`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `(1X2)`,
+    markingScheme: `(1X2)`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: (1X2)`
   },
   {
     id: 'sqp2022_23_q11',
@@ -119,8 +119,8 @@ export const sqp: SQPQuestion[] = [
     optionB: `Delegation of authority`,
     optionC: `Decentralization`,
     optionD: `controlling`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `a) Organization structure`,
+    markingScheme: `a) Organization structure`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: a) Organization structure`
   }
 ];

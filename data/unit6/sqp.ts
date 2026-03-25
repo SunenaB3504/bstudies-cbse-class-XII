@@ -104,9 +104,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Indirect financial payment`,
     optionC: `Time based Pay Plus incentives`,
     optionD: `Performance based direct financial payment`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `c) Time based pay plus incentives`,
+    markingScheme: `c) Time based pay plus incentives`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: c) Time based pay plus incentives`
   },
   {
     id: 'sqp2025_26_q9',
@@ -119,9 +119,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `It may lead to dissatisfaction and frustration among existing`,
     optionC: `Such employees are not likely to be good employees as their`,
     optionD: `Management has a wider choice while selecting people for`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `c) Such employees are not likely to be good employees as their background is not sufficiently known.`,
+    markingScheme: `c) Such employees are not likely to be good employees as their background is not sufficiently known.`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: c) Such employees are not likely to be good employees as their background is not sufficiently known.`
   },
   {
     id: 'sqp2025_26_q11',
@@ -134,9 +134,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Depository serves as an intermediary and buys and sells securities`,
     optionC: `Depository is like a bank and keeps securities in electronic form on`,
     optionD: `Depository buys securities from a company and sells to the public`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `c) Depository is  like a bank and keeps securities in electronic form on behalf of investors.`,
+    markingScheme: `c) Depository is  like a bank and keeps securities in electronic form on behalf of investors.`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: c) Depository is  like a bank and keeps securities in electronic form on behalf of investors.`
   },
   {
     id: 'sqp2025_26_q15',
@@ -149,9 +149,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Recruitment`,
     optionC: `Training and Development`,
     optionD: `Performance Appraisal`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `c) Training and development`,
+    markingScheme: `c) Training and development`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: c) Training and development`
   },
   {
     id: 'sqp2023_24_q1',
@@ -164,9 +164,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Unfavourable financial leverage, as return on investment is lower than the`,
     optionC: `Favourable financial leverage as debt is easily available`,
     optionD: `Favourable financial leverage, as return on investment is higher than cost`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `mark for identification`,
+    markingScheme: `mark for identification`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: mark for identification`
   },
   {
     id: 'sqp2024_25_q5',
@@ -179,9 +179,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Reduction in employees turnover`,
     optionC: `Helps in increasing employees satisfaction`,
     optionD: `Develops a sense of security amongst employees`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `(2)  Planning is futuristic: Planning essentially involves looking ahead and preparing for the future. The purpose of planning is to meet future events`,
+    markingScheme: `(2)  Planning is futuristic: Planning essentially involves looking ahead and preparing for the future. The purpose of planning is to meet future events`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: (2)  Planning is futuristic: Planning essentially involves looking ahead and preparing for the future. The purpose of planning is to meet future events`
   },
   {
     id: 'sqp2024_25_q9',
@@ -194,9 +194,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Performance appraisal, training and development, promotion and`,
     optionC: `Training and development, performance appraisal, promotion and`,
     optionD: `Training and development, performance appraisal, compensation,`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `3. Extent of competition in the market: The price will tend to reach the upper limit in case there is lesser degree of competition while under`,
+    markingScheme: `3. Extent of competition in the market: The price will tend to reach the upper limit in case there is lesser degree of competition while under`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: 3. Extent of competition in the market: The price will tend to reach the upper limit in case there is lesser degree of competition while under`
   },
   {
     id: 'sqp2024_25_q15',
@@ -209,8 +209,8 @@ export const sqp: SQPQuestion[] = [
     optionB: `It not only requires a judicial machinery for protecting the interest of`,
     optionC: `Induction training`,
     optionD: `Internship training`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `c) Induction training`,
+    markingScheme: `c) Induction training`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: c) Induction training`
   }
 ];

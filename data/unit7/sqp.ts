@@ -108,8 +108,8 @@ export const sqp: SQPQuestion[] = [
     optionB: `It is a paid form of communication`,
     optionC: `It is a mass selling technique.`,
     optionD: `It is inflexible as the message can’t be adjusted to the needs of the buyer.`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `a) It is a personal form of communication`,
+    markingScheme: `a) It is a personal form of communication`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: a) It is a personal form of communication`
   }
 ];

@@ -178,9 +178,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `place`,
     optionC: `product`,
     optionD: `price`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `c) product`,
+    markingScheme: `c) product`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: c) product`
   },
   {
     id: 'sqp2025_26_q12',
@@ -193,9 +193,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Customer value`,
     optionC: `Exchange mechanism`,
     optionD: `Needs and wants`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `b) Customer value`,
+    markingScheme: `b) Customer value`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: b) Customer value`
   },
   {
     id: 'sqp2022_23_q3',
@@ -208,9 +208,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `. Managers may gain power and assert independence and ignore organization interests.`,
     optionC: `. It ensures that different functions get due attention.`,
     optionD: `. Heads do not get training for top management positions.`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `Earning after tax = â‚¹  24,50,000`,
+    markingScheme: `Earning after tax = â‚¹  24,50,000`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: Earning after tax = â‚¹  24,50,000`
   },
   {
     id: 'sqp2022_23_q12',
@@ -223,9 +223,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Statement II is true and I is false`,
     optionC: `Both the statements are true`,
     optionD: `Both the statements are false`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `d) Both the statements are false`,
+    markingScheme: `d) Both the statements are false`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: d) Both the statements are false`
   },
   {
     id: 'sqp2022_23_q15',
@@ -238,9 +238,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Process of holding shares in electronic form is known as Dematerialization`,
     optionC: `Promotion`,
     optionD: `Physical distribution.`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `d) physical distribution`,
+    markingScheme: `d) physical distribution`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: d) physical distribution`
   },
   {
     id: 'sqp2022_23_q17',
@@ -253,9 +253,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `The marketing manager of the firm`,
     optionC: `Production concept`,
     optionD: `Societal Marketing concept`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `d ).Societal Marketing concept`,
+    markingScheme: `d ).Societal Marketing concept`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: d ).Societal Marketing concept`
   },
   {
     id: 'sqp2022_23_q18',
@@ -268,9 +268,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `It is a paid form of communication`,
     optionC: `It is a mass selling technique.`,
     optionD: `The competitors of the firm`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `(a)  Utility and demand of the product`,
+    markingScheme: `(a)  Utility and demand of the product`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: (a)  Utility and demand of the product`
   },
   {
     id: 'sqp2023_24_q4',
@@ -283,9 +283,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Promotion`,
     optionC: `Customer support services`,
     optionD: `Packaging and labelling`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `c) Customer support services`,
+    markingScheme: `c) Customer support services`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: c) Customer support services`
   },
   {
     id: 'sqp2023_24_q9',
@@ -298,9 +298,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `If a firm's objective is to capture market share, it should keep low price of its`,
     optionC: `If a firm wants to attain product quality leadership, it should charge lower`,
     optionD: `If a firm is facing problems in survival due to stiff competition, it may offer`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `c) If firm wants to attain product quality leadership, it should charge lower prices`,
+    markingScheme: `c) If firm wants to attain product quality leadership, it should charge lower prices`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: c) If firm wants to attain product quality leadership, it should charge lower prices`
   },
   {
     id: 'sqp2023_24_q13',
@@ -313,9 +313,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Statement II is true and I is false`,
     optionC: `Both the statements are true`,
     optionD: `Both the statements are false`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `b) Statement II is true and I is false`,
+    markingScheme: `b) Statement II is true and I is false`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: b) Statement II is true and I is false`
   },
   {
     id: 'sqp2023_24_q14',
@@ -328,9 +328,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `It helps the firm to identify threats and early warning signals.`,
     optionC: `It helps in tapping useful resources.`,
     optionD: `It helps in improving performance.`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `a) It enables the firm to identify opportunities and getting the first mover advantage.`,
+    markingScheme: `a) It enables the firm to identify opportunities and getting the first mover advantage.`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: a) It enables the firm to identify opportunities and getting the first mover advantage.`
   },
   {
     id: 'sqp2023_24_q19',
@@ -343,9 +343,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Reduce the prices of real estate`,
     optionC: `Based on practice and creativity`,
     optionD: `Universal Validity`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `c) Based on practice and creativity`,
+    markingScheme: `c) Based on practice and creativity`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: c) Based on practice and creativity`
   },
   {
     id: 'sqp2023_24_q20',
@@ -358,9 +358,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Reduce the prices of real estate`,
     optionC: `Withhold the accumulation of black money generated by undeclared`,
     optionD: `Counterfeit the use of high denomination notes for illegal activities`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `b) Reduce the prices of real estate`,
+    markingScheme: `b) Reduce the prices of real estate`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: b) Reduce the prices of real estate`
   },
   {
     id: 'sqp2024_25_q14',
@@ -373,8 +373,8 @@ export const sqp: SQPQuestion[] = [
     optionB: `Standardisation`,
     optionC: `Grading`,
     optionD: `Marketing planning`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `c) Grading`,
+    markingScheme: `c) Grading`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: c) Grading`
   }
 ];

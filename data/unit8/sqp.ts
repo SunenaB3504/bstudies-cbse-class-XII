@@ -94,9 +94,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Deviations should be analysed for their causes.`,
     optionC: `Measurement of actual performance should be done only after the`,
     optionD: `Managers must keep a check on each and every activity, otherwise`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `b) Deviations should be analysed to find out the causes.`,
+    markingScheme: `b) Deviations should be analysed to find out the causes.`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: b) Deviations should be analysed to find out the causes.`
   },
   {
     id: 'sqp2023_24_q12',
@@ -109,9 +109,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Comparing actual performance with standards.`,
     optionC: `Establishing standards.`,
     optionD: `Measurement of actual performance`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `d) Measurement of actual performance`,
+    markingScheme: `d) Measurement of actual performance`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: d) Measurement of actual performance`
   },
   {
     id: 'sqp2024_25_q8',
@@ -124,8 +124,8 @@ export const sqp: SQPQuestion[] = [
     optionB: `Both Assertion(A) and Reason (R) are true and Reason is not the`,
     optionC: `Assertion (A) is true, Reason (R) is false.`,
     optionD: `Assertion(A) is false, Reason(R) is true.`,
-    answer: `See marking scheme`,
-    markingScheme: `See marking scheme`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: See marking scheme\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+    answer: `readings. The method of time study will depend upon volume and frequency of the task, the cycle time of the operation and time measurement costs.`,
+    markingScheme: `readings. The method of time study will depend upon volume and frequency of the task, the cycle time of the operation and time measurement costs.`,
+    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: readings. The method of time study will depend upon volume and frequency of the task, the cycle time of the operation and time measurement costs.`
   }
 ];

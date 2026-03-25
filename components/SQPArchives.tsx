@@ -153,7 +153,7 @@ export const SQPArchives: React.FC<{ chapter: Chapter }> = ({ chapter }) => {
                     AI Reasoning
                   </h5>
                   <div className="text-amber-800 font-medium text-xs leading-relaxed whitespace-pre-wrap">
-                    {(q.aiExplanation || q.explanation)?.split('\n').map((line, lineIndex) => {
+                    {(q.aiExplanation)?.split('\n').map((line, lineIndex) => {
                       // Handle bolding **text**
                       const parts = line.split(/(\*\*.*?\*\*)/g);
                       return (
