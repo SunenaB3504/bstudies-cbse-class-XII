@@ -15,8 +15,7 @@ export const sqp: SQPQuestion[] = [
     answer: `A) It involves a series of continuous, composite, but separate functions`,
     markingScheme: `A) It involves a series of continuous, composite, but separate functions`,
     aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** \"continuous process\" refers to the fact that management involves a series of ongoing, continuous, composite, but separate functions.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
-    },
-  { 
+    }, { 
     id: 'bulk_101',
     year: '2023-24',
     paperType: "SQP",
@@ -26,9 +25,7 @@ export const sqp: SQPQuestion[] = [
     answer: `• 1 Mark for defining/identifying the core concept (Planning).\n• 1 Mark for each valid point explained (up to 3 marks).\n\n*Comprehensive Revision Points for Planning Process:*\n• Point 1: **Setting Objectives** (e.g., Target of 10% profit).\n• Point 2: **Developing Premises** (making assumptions about the uncertain future).\n• Point 3: **Identifying Alternative Courses of Action** (discovering all possible ways to achieve goals).\n• Point 4: **Evaluating Alternatives** (weighing pros and cons of each).\n• Point 5: **Selecting an Alternative** (choosing the most viable, profitable plan).\n• Point 6: **Implementing the Plan** (putting the plan into action, organizing resources).\n• Point 7: **Follow-up Action** (monitoring whether plans are being implemented effectively).`,
       markingScheme: `Function of Management: Planning. (1 mark for naming Planning)\nSetting of objectives. (1 mark)\nDeveloping Premises. (1 mark) (CBSE Marking Scheme)`,
       aiExplanation: `[Mark Justification - 3 Marks Total]:\n• 1 Mark for defining/identifying the core concept (Planning).\n• 1 Mark for each valid point explained (up to 3 marks).\n\n*Comprehensive Revision Points for Planning Process:*\n• Point 1: **Setting Objectives** (e.g., Target of 10% profit).\n• Point 2: **Developing Premises** (making assumptions about the uncertain future).\n• Point 3: **Identifying Alternative Courses of Action** (discovering all possible ways to achieve goals).\n• Point 4: **Evaluating Alternatives** (weighing pros and cons of each).\n• Point 5: **Selecting an Alternative** (choosing the most viable, profitable plan).\n• Point 6: **Implementing the Plan** (putting the plan into action, organizing resources).\n• Point 7: **Follow-up Action** (monitoring whether plans are being implemented effectively).`
-    },
-
-    { 
+    }, { 
     id: '2025-26-q1',
       year: '2025-26',
       paperType: 'SQP',
@@ -39,11 +36,10 @@ export const sqp: SQPQuestion[] = [
       optionB: 'Restricted Entry',
       optionC: 'Service Motive',
       optionD: 'Systematized body of knowledge',
-      answer: `Restricted Entry (and Ethical Code of Conduct)`,
-      markingScheme: `Restricted Entry (and Ethical Code of Conduct)`,
+      answer: `b) Restricted Entry (and Ethical Code of Conduct)`,
+      markingScheme: `b) Restricted Entry (and Ethical Code of Conduct)`,
       aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** Unlike medicine or law, there is no \"Restricted Entry\" (educational degree) or a compulsory regulatory body for managers.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
-    },
-    { 
+    }, { 
     id: '2025-26-q2',
       year: '2025-26',
       paperType: 'SQP',
@@ -54,11 +50,10 @@ export const sqp: SQPQuestion[] = [
       optionB: 'Coordination',
       optionC: 'Planning',
       optionD: 'Hierarchy',
-      answer: `Coordination`,
-      markingScheme: `Coordination`,
+      answer: `d)  Formed by practice and experimentation`,
+      markingScheme: `d)  Formed by practice and experimentation`,
       aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** The \"force that binds all other functions\" is the textbook definition of Coordination (the essence of management).\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
-    },
-    { 
+    }, { 
     id: '2025-26-q22',
       year: '2025-26',
       paperType: 'SQP',
@@ -68,8 +63,7 @@ export const sqp: SQPQuestion[] = [
       answer: `• 1 Mark for each valid point of difference explained (up to 3 marks).\n\n*Comprehensive Revision Points (Top Level vs Middle Level):*\n• **Meaning/Role:** Top level integrates diverse elements and determines overall objectives; Middle level acts as a link, implementing policies set by top management.\n• **Composition:** Top level includes CEO, Board of Directors, President, GM; Middle level includes Departmental Heads, Plant Superintendents, Operations Managers.\n• **Nature of Work:** Top level focuses on long-term corporate strategy, framing rules and coordinating resources; Middle level focuses on short-term tactical plans, assigning duties, and motivating personnel.\n• **Source of Authority:** Top level derives authority from owners/shareholders and has maximum authority; Middle level derives authority from the Top level.`,
       markingScheme: `Top Level Management: Integrates diverse elements and coordinates activities. Middle Level: Link between top and lower level managers; implements policies. (1 mark for each point of difference).`,
       aiExplanation: `[Mark Justification - 3 Marks Total]:\n• 1 Mark for each valid point of difference explained (up to 3 marks).\n\n*Comprehensive Revision Points (Top Level vs Middle Level):*\n• **Meaning/Role:** Top level integrates diverse elements and determines overall objectives; Middle level acts as a link, implementing policies set by top management.\n• **Composition:** Top level includes CEO, Board of Directors, President, GM; Middle level includes Departmental Heads, Plant Superintendents, Operations Managers.\n• **Nature of Work:** Top level focuses on long-term corporate strategy, framing rules and coordinating resources; Middle level focuses on short-term tactical plans, assigning duties, and motivating personnel.\n• **Source of Authority:** Top level derives authority from owners/shareholders and has maximum authority; Middle level derives authority from the Top level.`
-    },
-    { 
+    }, { 
     id: '2024-25-q1',
       year: '2024-25',
       paperType: 'SQP',
@@ -80,22 +74,20 @@ export const sqp: SQPQuestion[] = [
       optionB: 'Administration',
       optionC: 'Coordination',
       optionD: 'Cooperation',
-      answer: `Coordination`,
-      markingScheme: `Coordination`,
+      answer: `3. Extent of competition in the market: The price will tend to reach the upper limit in case there is lesser degree of competition while under conditions of free competition, the price will tend to be set at the lowest level. 4. Government and legal regulations: In order to protect the interest of public against unfair practices in the field of price fixing, Government can intervene and declare a product as essential product and regulate it’s price. In such a case, the Government does not allow the firms to charge such a high price and intervene to regulate the price of the product. 5. Pricing objectives: Apart from profit maximisation, the pricing objectives of a firm may include: (a) Obtaining Market Share Leadership: If a firm's objective is to obtain larger share of the market; it will keep the price of its products at lower levels so that greater number of people are attracted to purchase the products; (b) Surviving in a Competitive Market: If a firm is facing difficulties in surviving in the market because of intense competition or introduction of a more efficient substitute by a competitor, it may resort to discounting its products or running a promotion campaign to liquidate its stock; and (c) Attaining Product Quality Leadership: In this case, normally higher prices are charged to cover high quality and high cost of research and Development. 6. Marketing Methods Used: Price fixation process is also affected by other elements of marketing such as distribution system, quality of salesmen employed, quality and amount of advertising, sales promotion efforts, the type of packaging, product differentiation, credit facility and customer services provided.`,
+      markingScheme: `3. Extent of competition in the market: The price will tend to reach the upper limit in case there is lesser degree of competition while under conditions of free competition, the price will tend to be set at the lowest level. 4. Government and legal regulations: In order to protect the interest of public against unfair practices in the field of price fixing, Government can intervene and declare a product as essential product and regulate it’s price. In such a case, the Government does not allow the firms to charge such a high price and intervene to regulate the price of the product. 5. Pricing objectives: Apart from profit maximisation, the pricing objectives of a firm may include: (a) Obtaining Market Share Leadership: If a firm's objective is to obtain larger share of the market; it will keep the price of its products at lower levels so that greater number of people are attracted to purchase the products; (b) Surviving in a Competitive Market: If a firm is facing difficulties in surviving in the market because of intense competition or introduction of a more efficient substitute by a competitor, it may resort to discounting its products or running a promotion campaign to liquidate its stock; and (c) Attaining Product Quality Leadership: In this case, normally higher prices are charged to cover high quality and high cost of research and Development. 6. Marketing Methods Used: Price fixation process is also affected by other elements of marketing such as distribution system, quality of salesmen employed, quality and amount of advertising, sales promotion efforts, the type of packaging, product differentiation, credit facility and customer services provided.`,
       aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** \"synchronisation of efforts\" and \"unity of action\" are the primary definitional phrases for Coordination.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
-    },
-    { 
+    }, { 
     id: '2024-25-q5',
       year: '2024-25',
       paperType: 'SQP',
       marks: 1,
       type: 'MCQ',
       question: 'Management is an intangible force. Explain.',
-      answer: `It cannot be seen but its presence is felt in the way the organization functions (e.g., orderliness).`,
-      markingScheme: `It cannot be seen but its presence is felt in the way the organization functions (e.g., orderliness).`,
+      answer: `(2)  Planning is futuristic: Planning essentially involves looking ahead and preparing for the future. The purpose of planning is to meet future events effectively to the best advantage of an organisation. It implies peeping into the future, analysing it and predicting it. Planning is, therefore, regarded as a forward looking function based on forecasting. (3)  Planning involves decision making: Planning essentially involves choice from among various alternatives and activities. The need for planning arises only when alternatives are available. In actual practice, planning presupposes the existence of alternatives. Planning, thus, involves thorough examination and evaluation of each alternative and choosing the most appropriate one. (4)  Planning is a mental exercise:Planning requires application of the mind involving foresight, intelligent imagination and sound judgement. It is basically an intellectual activity of thinking rather than doing, because planning determines the action to be taken. However, planning requires logical and systematic thinking rather than guesswork or wishful thinking.`,
+      markingScheme: `(2)  Planning is futuristic: Planning essentially involves looking ahead and preparing for the future. The purpose of planning is to meet future events effectively to the best advantage of an organisation. It implies peeping into the future, analysing it and predicting it. Planning is, therefore, regarded as a forward looking function based on forecasting. (3)  Planning involves decision making: Planning essentially involves choice from among various alternatives and activities. The need for planning arises only when alternatives are available. In actual practice, planning presupposes the existence of alternatives. Planning, thus, involves thorough examination and evaluation of each alternative and choosing the most appropriate one. (4)  Planning is a mental exercise:Planning requires application of the mind involving foresight, intelligent imagination and sound judgement. It is basically an intellectual activity of thinking rather than doing, because planning determines the action to be taken. However, planning requires logical and systematic thinking rather than guesswork or wishful thinking.`,
       aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** \"intangible force\" means it cannot be seen or touched, but its presence is felt in the way the organization functions (e.g., orderliness, discipline, goal achievement).\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
-    },
-    { 
+    }, { 
     id: '2024-25-q22',
       year: '2024-25',
       paperType: 'SQP',
@@ -105,8 +97,7 @@ export const sqp: SQPQuestion[] = [
       answer: `• 1 Mark for identifying the correct objective (Social).\n• 1 Mark for each valid point explained (up to 3 marks).\n\n*Comprehensive Revision Points (Social Objectives):*\n• **Definition:** Social objectives involve the creation of benefit for society during business operations.\n• **Environmental Protection:** Using environmentally friendly methods of production (eco-friendly packaging, reducing pollution).\n• **Employment Generation:** Creating employment opportunities, especially for disadvantaged sections of society.\n• **Basic Amenities:** Providing facilities like schools, crèches, and hospitals for employees and the community.\n• **Fair Practices:** Ensuring the supply of quality products at fair, reasonable prices without exploiting consumers.`,
       markingScheme: `Social Objective. Management has an obligation towards society, which includes using eco-friendly methods of production to protect the environment. (1 mark for identifying objective, 2 marks for explanation).`,
       aiExplanation: `[Mark Justification - 3 Marks Total]:\n• 1 Mark for identifying the correct objective (Social).\n• 1 Mark for each valid point explained (up to 3 marks).\n\n*Comprehensive Revision Points (Social Objectives):*\n• **Definition:** Social objectives involve the creation of benefit for society during business operations.\n• **Environmental Protection:** Using environmentally friendly methods of production (eco-friendly packaging, reducing pollution).\n• **Employment Generation:** Creating employment opportunities, especially for disadvantaged sections of society.\n• **Basic Amenities:** Providing facilities like schools, crèches, and hospitals for employees and the community.\n• **Fair Practices:** Ensuring the supply of quality products at fair, reasonable prices without exploiting consumers.`
-    },
-    { 
+    }, { 
     id: '2023-24-q1',
       year: '2023-24',
       paperType: 'Board',
@@ -117,11 +108,10 @@ export const sqp: SQPQuestion[] = [
       optionB: 'Middle Level Management',
       optionC: 'Operational Management',
       optionD: 'None of the above',
-      answer: `Middle Level Management`,
-      markingScheme: `Middle Level Management`,
+      answer: `b) Middle Level Management`,
+      markingScheme: `b) Middle Level Management`,
       aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** \"interpret the policies framed by top management\" is specifically a function of Middle Level Management, acting as a link between top and lower levels.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
-    },
-    { 
+    }, { 
     id: '2023-24-q2',
       year: '2023-24',
       paperType: 'Board',
@@ -132,11 +122,10 @@ export const sqp: SQPQuestion[] = [
       optionB: 'Personalised Application',
       optionC: 'Based on practice and creativity',
       optionD: 'Universal Validity',
-      answer: `Personalised Application`,
-      markingScheme: `Personalised Application`,
+      answer: `b) Personalised Application`,
+      markingScheme: `b) Personalised Application`,
       aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** Applying principles in an \"own unique way\" or customized manner strictly refers to \"Personalised Application\" as a feature of Art.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
-    },
-    { 
+    }, { 
     id: '2023-24-q13',
       year: '2023-24',
       paperType: 'Board',
@@ -150,8 +139,7 @@ export const sqp: SQPQuestion[] = [
       answer: `Effectiveness = Achieving Goals; Efficiency = Minimum Cost.`,
       markingScheme: `Effectiveness = Achieving Goals; Efficiency = Minimum Cost.`,
       aiExplanation: `Effectiveness is about the "End Result" (Time). Efficiency is about the "Process" (Cost/Input-Output).\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept, feature, or specific term. No partial credit.`
-    },
-    { 
+    }, { 
     id: '2022-23-q1',
       year: '2022-23',
       paperType: 'Board',
@@ -161,8 +149,7 @@ export const sqp: SQPQuestion[] = [
       answer: `Supervisory or Operational Management`,
       markingScheme: `Supervisory or Operational Management`,
       aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** \"Foremen and Supervisors\" directly oversee the actual workforce, placing them at the lowest managerial level, which is Supervisory or Operational Management.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
-    },
-  {
+    }, {
     id: 'sqp2025_26_q1',
     year: '2025-26',
     paperType: 'SQP',
@@ -176,8 +163,7 @@ export const sqp: SQPQuestion[] = [
     answer: `B) Management is a continuous process`,
     markingScheme: `B) Management is a continuous process`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: B) Management is a continuous process\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the characteristic.`
-  },
-  {
+  }, {
     id: 'sqp2022_23_q5',
     year: '2022-23',
     paperType: 'SQP',
@@ -191,8 +177,7 @@ export const sqp: SQPQuestion[] = [
     answer: `B) Management creates a dynamic organization`,
     markingScheme: `B) Management creates a dynamic organization`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: B) Management creates a dynamic organization\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the importance.`
-  },
-  {
+  }, {
     id: 'sqp2022_23_q8',
     year: '2022-23',
     paperType: 'SQP',
@@ -206,8 +191,7 @@ export const sqp: SQPQuestion[] = [
     answer: `B) Social`,
     markingScheme: `B) Social`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: B) Social\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the objective.`
-  },
-  {
+  }, {
     id: 'sqp2022_23_q9',
     year: '2022-23',
     paperType: 'SQP',
@@ -221,8 +205,7 @@ export const sqp: SQPQuestion[] = [
     answer: `C) It is both forward looking and backward looking.`,
     markingScheme: `C) It is both forward looking and backward looking.`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: C) It is both forward looking and backward looking.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the characteristic.`
-  },
-  {
+  }, {
     id: 'sqp2022_23_q10',
     year: '2022-23',
     paperType: 'SQP',
@@ -236,8 +219,7 @@ export const sqp: SQPQuestion[] = [
     answer: `C) Controlling`,
     markingScheme: `C) Controlling`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: C) Controlling\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the function.`
-  },
-  {
+  }, {
     id: 'sqp2023_24_q6',
     year: '2023-24',
     paperType: 'SQP',
@@ -251,8 +233,7 @@ export const sqp: SQPQuestion[] = [
     answer: `A) Management helps in achieving group goals`,
     markingScheme: `A) Management helps in achieving group goals`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: A) Management helps in achieving group goals\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the significance.`
-  },
-  {
+  }, {
     id: 'sqp2023_24_q10',
     year: '2023-24',
     paperType: 'SQP',
@@ -266,8 +247,7 @@ export const sqp: SQPQuestion[] = [
     answer: `B) Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of Assertion (A).`,
     markingScheme: `B) Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of Assertion (A).`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: B) Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation of Assertion (A).\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the relationship.`
-  },
-  {
+  }, {
     id: 'sqp2024_25_q1',
     year: '2024-25',
     paperType: 'SQP',
@@ -278,11 +258,10 @@ export const sqp: SQPQuestion[] = [
     optionB: `Management as profession`,
     optionC: `Management as art`,
     optionD: `Both A. and C.`,
-    answer: `A) Management as science`,
-    markingScheme: `A) Management as science`,
+    answer: `3. Extent of competition in the market: The price will tend to reach the upper limit in case there is lesser degree of competition while under conditions of free competition, the price will tend to be set at the lowest level. 4. Government and legal regulations: In order to protect the interest of public against unfair practices in the field of price fixing, Government can intervene and declare a product as essential product and regulate it’s price. In such a case, the Government does not allow the firms to charge such a high price and intervene to regulate the price of the product. 5. Pricing objectives: Apart from profit maximisation, the pricing objectives of a firm may include: (a) Obtaining Market Share Leadership: If a firm's objective is to obtain larger share of the market; it will keep the price of its products at lower levels so that greater number of people are attracted to purchase the products; (b) Surviving in a Competitive Market: If a firm is facing difficulties in surviving in the market because of intense competition or introduction of a more efficient substitute by a competitor, it may resort to discounting its products or running a promotion campaign to liquidate its stock; and (c) Attaining Product Quality Leadership: In this case, normally higher prices are charged to cover high quality and high cost of research and Development. 6. Marketing Methods Used: Price fixation process is also affected by other elements of marketing such as distribution system, quality of salesmen employed, quality and amount of advertising, sales promotion efforts, the type of packaging, product differentiation, credit facility and customer services provided.`,
+    markingScheme: `3. Extent of competition in the market: The price will tend to reach the upper limit in case there is lesser degree of competition while under conditions of free competition, the price will tend to be set at the lowest level. 4. Government and legal regulations: In order to protect the interest of public against unfair practices in the field of price fixing, Government can intervene and declare a product as essential product and regulate it’s price. In such a case, the Government does not allow the firms to charge such a high price and intervene to regulate the price of the product. 5. Pricing objectives: Apart from profit maximisation, the pricing objectives of a firm may include: (a) Obtaining Market Share Leadership: If a firm's objective is to obtain larger share of the market; it will keep the price of its products at lower levels so that greater number of people are attracted to purchase the products; (b) Surviving in a Competitive Market: If a firm is facing difficulties in surviving in the market because of intense competition or introduction of a more efficient substitute by a competitor, it may resort to discounting its products or running a promotion campaign to liquidate its stock; and (c) Attaining Product Quality Leadership: In this case, normally higher prices are charged to cover high quality and high cost of research and Development. 6. Marketing Methods Used: Price fixation process is also affected by other elements of marketing such as distribution system, quality of salesmen employed, quality and amount of advertising, sales promotion efforts, the type of packaging, product differentiation, credit facility and customer services provided.`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: A) Management as science\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the nature.`
-  },
-  {
+  }, {
     id: 'sqp2024_25_q20',
     year: '2024-25',
     paperType: 'SQP',
@@ -297,4 +276,5 @@ export const sqp: SQPQuestion[] = [
     markingScheme: `A) Both the statements are true.`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: A) Both the statements are true.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the statements.`
   }
+
 ];

@@ -20,8 +20,13 @@ export const sqp: SQPQuestion[] = [
         marks: 1,
         type: 'MCQ',
         question: 'A statutory warning on tobacco packets is an example of which dimension of business environment?',
-        answer: 'Legal Environment',
-        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** "Statutory warning" means it is required by statute (law). Any laws passed by the government fall under the Legal Environment.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+        optionA: 'Social Environment',
+        optionB: 'Political Environment',
+        optionC: 'Economic Environment',
+        optionD: 'Legal Environment',
+        answer: `d) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of the Assertion.`,
+        markingScheme: `d) Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of the Assertion.`,
+        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** \"Statutory warning\" means it is required by statute (law). Any laws passed by the government fall under the Legal Environment.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     },
     {
         id: '2025-26-q4',
@@ -30,8 +35,13 @@ export const sqp: SQPQuestion[] = [
         marks: 1,
         type: 'MCQ',
         question: 'It is very difficult to predict future happenings, especially when environment changes are taking place too frequently. Which feature is highlighted?',
-        answer: 'Uncertainty',
-        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** "difficult to predict future happenings" directly defines the "Uncertainty" feature of the business environment.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+        optionA: 'Complexity',
+        optionB: 'Uncertainty',
+        optionC: 'Relativity',
+        optionD: 'Dynamic nature',
+        answer: `d) Statement II is true, Statement I is false`,
+        markingScheme: `d) Statement II is true, Statement I is false`,
+        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** \"difficult to predict future happenings\" directly defines the \"Uncertainty\" feature of the business environment.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     },
     {
         id: '2025-26-q23',

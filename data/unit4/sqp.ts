@@ -24,8 +24,13 @@ export const sqp: SQPQuestion[] = [
         marks: 1,
         type: 'MCQ',
         question: 'Identify the type of plan which is a statement of expected results expressed in numerical terms.',
-        answer: 'Budget',
-        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** "expected results expressed in numerical terms" is the textbook definition of a Budget (e.g., sales budget, cash budget).\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+        optionA: 'Budget',
+        optionB: 'Programme',
+        optionC: 'Strategy',
+        optionD: 'Rule',
+        answer: `c) Aiv, B iii,Ci ,Dii`,
+        markingScheme: `c) Aiv, B iii,Ci ,Dii`,
+        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** \"expected results expressed in numerical terms\" is the textbook definition of a Budget (e.g., sales budget, cash budget).\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     },
     {
         id: '2025-26-q24',
@@ -44,8 +49,13 @@ export const sqp: SQPQuestion[] = [
         marks: 1,
         type: 'MCQ',
         question: 'Planning involves looking ahead and anticipating the future. Which feature is highlighted?',
-        answer: 'Futuristic',
-        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** "looking ahead and anticipating the future" directly points to the feature that Planning is "Futuristic" (or forward-looking).\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+        optionA: 'Futuristic',
+        optionB: 'Continuous',
+        optionC: 'Pervasive',
+        optionD: 'Mental Exercise',
+        answer: 'a) Futuristic',
+        markingScheme: 'a) Futuristic',
+        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** \"looking ahead and anticipating the future\" directly points to the feature that Planning is \"Futuristic\" (or forward-looking).\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     },
     {
         id: '2024-25-q25',
@@ -64,8 +74,13 @@ export const sqp: SQPQuestion[] = [
         marks: 1,
         type: 'MCQ',
         question: 'Successful execution of a plan in the past does not ensure success in the future. Which limitation is this?',
-        answer: 'Planning does not guarantee success',
-        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** The prompt discusses past success not guaranteeing future success, which highlights the limitation "Planning does not guarantee success" due to managers relying on previously tried-and-tested plans rather than adapting.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+        optionA: 'Planning leads to rigidity',
+        optionB: 'Planning reduces creativity',
+        optionC: 'Planning does not guarantee success',
+        optionD: 'Planning is a time consuming process',
+        answer: 'c) Planning does not guarantee success',
+        markingScheme: 'c) Planning does not guarantee success',
+        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** The prompt discusses past success not guaranteeing future success, which highlights the limitation \"Planning does not guarantee success\" due to managers relying on previously tried-and-tested plans rather than adapting.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     },
     {
         id: '2023-24-q26',
@@ -84,8 +99,13 @@ export const sqp: SQPQuestion[] = [
         marks: 1,
         type: 'MCQ',
         question: 'Which type of plan allows no discretion to the manager and specifies exactly what is to be done?',
-        answer: 'Rule',
-        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** "allows no discretion" and "specifies exactly what is to be done" are defining characteristics of a Rule, which demands strict compliance.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
+        optionA: 'Rule',
+        optionB: 'Policy',
+        optionC: 'Procedure',
+        optionD: 'Method',
+        answer: `d) Heads do not get training for top management   positions.`,
+        markingScheme: `d) Heads do not get training for top management   positions.`,
+        aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** \"allows no discretion\" and \"specifies exactly what is to be done\" are defining characteristics of a Rule, which demands strict compliance.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     },
     {
         id: '2022-23-q14',
@@ -94,7 +114,12 @@ export const sqp: SQPQuestion[] = [
         marks: 1,
         type: 'MCQ',
         question: 'Planning provides the basis for which other management function?',
-        answer: 'Controlling',
+        optionA: 'Organising',
+        optionB: 'Staffing',
+        optionC: 'Directing',
+        optionD: 'Controlling',
+        answer: `b) Unique order code`,
+        markingScheme: `b) Unique order code`,
         aiExplanation: `**How to Approach This Question:**\n• **Identify the Core Link:** Planning sets the standards (goals). Controlling measures actual performance against those standards. Planning provides the basis for Controlling.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     },
   {
@@ -134,12 +159,12 @@ export const sqp: SQPQuestion[] = [
     marks: 1,
     type: 'MCQ',
     question: `3. Read the following statements: Assertion (A) and Reason (R). Choose the 1 correct alternative from those given below: 1 Assertion(A): Financial Planning aims at enabling the company to tackle the uncertainty in respect of the availability and timing of the funds. Reason(R): Capital structure refers to the mix between owners’ and borrowed funds Alternatives :`,
-    optionA: `Both Assertion (A) is false and Reason (R) are true.`,
-    optionB: `Both Assertion (A) and Reason (R) are false.`,
-    optionC: `Both Assertion (A) and Reason (R) are true, but Reason (R) is not`,
-    optionD: `Both Assertion (A) and Reason (R) are true, and Reason (R) is the`,
-    answer: `25. (I) Management is an intangible force: Management is an intangible force`,
-    markingScheme: `25. (I) Management is an intangible force: Management is an intangible force`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: 25. (I) Management is an intangible force: Management is an intangible force`
+    optionA: `Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).`,
+    optionB: `Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).`,
+    optionC: `Assertion (A) is true but Reason (R) is false.`,
+    optionD: `Assertion (A) is false but Reason (R) is true.`,
+    answer: `b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).`,
+    markingScheme: `b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).`,
+    aiExplanation: `**How to Approach This Question:**\n• **Assertion Check:** Financial planning indeed helps in ensuring funds are available at the right time (Tackling uncertainty). (True)\n• **Reason Check:** Capital structure describes the debt-equity mix. (True)\n• **Relationship Check:** Does the definition of Capital Structure explain *why* financial planning tackles uncertainty? No. Financial planning is broader and focuses on timing and availability, while capital structure is a specific financial decision.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark for identifying that both are true but R is not the correct explanation.`
   }
 ];

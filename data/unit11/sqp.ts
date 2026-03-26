@@ -22,9 +22,7 @@ export const sqp: SQPQuestion[] = [
 • **1. Branding:** Giving a name, sign, symbol etc., to a product to differentiate it from competitors. Helps in product identification and advertising.
 • **2. Packaging:** Designing and developing the wrapper or container for the product. It acts as a silent salesman.
 • **3. Labelling:** Designing the label to be printed on the package. It provides information about the product, its contents, date of manufacture, etc.`
-  },
-
-  {
+  }, {
     id: '2025-26-q34',
     year: '2025-26',
     paperType: 'SQP',
@@ -49,8 +47,7 @@ export const sqp: SQPQuestion[] = [
 • **Product Combinations:** Offering another product as a gift alongside.
 • **Quantity Gift:** Offering an extra quantity of the product.
 • **Instant Draws/Contests:** Scratch cards or lucky draws.`
-  },
-  {
+  }, {
     id: '2024-25-q2',
     year: '2024-25',
     paperType: 'SQP',
@@ -63,8 +60,7 @@ export const sqp: SQPQuestion[] = [
 
 [Mark Justification - 1 Mark Total]:
 • 1 Mark awarded for the direct, correct identification of the concept.`
-  },
-  {
+  }, {
     id: '2024-25-q34b',
     year: '2024-25',
     paperType: 'SQP',
@@ -86,8 +82,7 @@ export const sqp: SQPQuestion[] = [
 • **3. Extent of Competition:** Less competition = Higher price. Severe competition = Lower price matching competitors.
 • **4. Government and Legal Regulations:** Govt can declare a product as essential and regulate its price.
 • **5. Pricing Objectives:** E.g., obtaining market share leadership (low price), surviving (low price), or attaining product quality leadership (high price).`
-  },
-  {
+  }, {
     id: '2023-24-q12',
     year: '2023-24',
     paperType: 'Board',
@@ -100,8 +95,7 @@ export const sqp: SQPQuestion[] = [
 
 [Mark Justification - 1 Mark Total]:
 • 1 Mark awarded for the direct, correct identification of the concept.`
-  },
-  {
+  }, {
     id: '2023-24-q20',
     year: '2023-24',
     paperType: 'Board',
@@ -114,22 +108,20 @@ export const sqp: SQPQuestion[] = [
 
 [Mark Justification - 1 Mark Total]:
 • 1 Mark awarded for the direct, correct identification of the concept.`
-  },
-  {
+  }, {
     id: '2022-23-q12',
     year: '2022-23',
     paperType: 'Board',
     marks: 1,
     type: 'MCQ',
     question: 'Which marketing management philosophy believes that profit can be maximised through sales volume?',
-    answer: 'Selling Concept',
+    answer: `d) Both the statements are false`,
     aiExplanation: `**How to Approach This Question:**
 • **Identify the Keyword:** "profit can be maximised through sales volume" uniquely identifies the Selling Concept, which relies on aggressive promotion rather than customer satisfaction (Marketing Concept).
 
 [Mark Justification - 1 Mark Total]:
 • 1 Mark awarded for the direct, correct identification of the concept.`
-  },
-  {
+  }, {
     id: '2022-23-q34',
     year: '2022-23',
     paperType: 'Board',
@@ -152,22 +144,20 @@ export const sqp: SQPQuestion[] = [
 • **Transportation:** Physical movement of goods from place of production to place of consumption.
 • **Warehousing:** Storing goods systematically to create time utility.
 • **Inventory Control:** Maintaining adequate level of inventory. Higher inventory means better service but higher cost of capital tied up.`
-  },
-  {
+  }, {
     id: '2022-23-q15',
     year: '2022-23',
     paperType: 'Board',
     marks: 1,
     type: 'MCQ',
     question: 'Providing a name, sign, or symbol to a product is known as?',
-    answer: 'Branding',
+    answer: `d) physical distribution`,
     aiExplanation: `**How to Approach This Question:**
 • **Identify the Keyword:** "name, sign, or symbol to a product" is the exact textbook definition of Branding.
 
 [Mark Justification - 1 Mark Total]:
 • 1 Mark awarded for the direct, correct identification of the concept.`,
-  },
-  {
+  }, {
     id: 'sqp2025_26_q7',
     year: '2025-26',
     paperType: 'SQP',
@@ -181,8 +171,7 @@ export const sqp: SQPQuestion[] = [
     answer: `c) product`,
     markingScheme: `c) product`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: c) product`
-  },
-  {
+  }, {
     id: 'sqp2025_26_q12',
     year: '2025-26',
     paperType: 'SQP',
@@ -196,8 +185,7 @@ export const sqp: SQPQuestion[] = [
     answer: `b) Customer value`,
     markingScheme: `b) Customer value`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: b) Customer value`
-  },
-  {
+  }, {
     id: 'sqp2022_23_q3',
     year: '2022-23',
     paperType: 'SQP',
@@ -208,11 +196,10 @@ export const sqp: SQPQuestion[] = [
     optionB: `. Managers may gain power and assert independence and ignore organization interests.`,
     optionC: `. It ensures that different functions get due attention.`,
     optionD: `. Heads do not get training for top management positions.`,
-    answer: `Earning after tax = â‚¹  24,50,000`,
-    markingScheme: `Earning after tax = â‚¹  24,50,000`,
+    answer: `d) Heads do not get training for top management   positions.`,
+    markingScheme: `d) Heads do not get training for top management   positions.`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: Earning after tax = â‚¹  24,50,000`
-  },
-  {
+  }, {
     id: 'sqp2022_23_q12',
     year: '2022-23',
     paperType: 'SQP',
@@ -226,8 +213,7 @@ export const sqp: SQPQuestion[] = [
     answer: `d) Both the statements are false`,
     markingScheme: `d) Both the statements are false`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: d) Both the statements are false`
-  },
-  {
+  }, {
     id: 'sqp2022_23_q15',
     year: '2022-23',
     paperType: 'SQP',
@@ -241,8 +227,7 @@ export const sqp: SQPQuestion[] = [
     answer: `d) physical distribution`,
     markingScheme: `d) physical distribution`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: d) physical distribution`
-  },
-  {
+  }, {
     id: 'sqp2022_23_q17',
     year: '2022-23',
     paperType: 'SQP',
@@ -253,11 +238,10 @@ export const sqp: SQPQuestion[] = [
     optionB: `The marketing manager of the firm`,
     optionC: `Production concept`,
     optionD: `Societal Marketing concept`,
-    answer: `d ).Societal Marketing concept`,
-    markingScheme: `d ).Societal Marketing concept`,
+    answer: `d) d ).Societal Marketing concept`,
+    markingScheme: `d) d ).Societal Marketing concept`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: d ).Societal Marketing concept`
-  },
-  {
+  }, {
     id: 'sqp2022_23_q18',
     year: '2022-23',
     paperType: 'SQP',
@@ -268,11 +252,10 @@ export const sqp: SQPQuestion[] = [
     optionB: `It is a paid form of communication`,
     optionC: `It is a mass selling technique.`,
     optionD: `The competitors of the firm`,
-    answer: `(a)  Utility and demand of the product`,
-    markingScheme: `(a)  Utility and demand of the product`,
+    answer: `a) (a)  Utility and demand of the product`,
+    markingScheme: `a) (a)  Utility and demand of the product`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: (a)  Utility and demand of the product`
-  },
-  {
+  }, {
     id: 'sqp2023_24_q4',
     year: '2023-24',
     paperType: 'SQP',
@@ -286,8 +269,7 @@ export const sqp: SQPQuestion[] = [
     answer: `c) Customer support services`,
     markingScheme: `c) Customer support services`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: c) Customer support services`
-  },
-  {
+  }, {
     id: 'sqp2023_24_q9',
     year: '2023-24',
     paperType: 'SQP',
@@ -301,8 +283,7 @@ export const sqp: SQPQuestion[] = [
     answer: `c) If firm wants to attain product quality leadership, it should charge lower prices`,
     markingScheme: `c) If firm wants to attain product quality leadership, it should charge lower prices`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: c) If firm wants to attain product quality leadership, it should charge lower prices`
-  },
-  {
+  }, {
     id: 'sqp2023_24_q13',
     year: '2023-24',
     paperType: 'SQP',
@@ -316,8 +297,7 @@ export const sqp: SQPQuestion[] = [
     answer: `b) Statement II is true and I is false`,
     markingScheme: `b) Statement II is true and I is false`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: b) Statement II is true and I is false`
-  },
-  {
+  }, {
     id: 'sqp2023_24_q14',
     year: '2023-24',
     paperType: 'SQP',
@@ -331,8 +311,7 @@ export const sqp: SQPQuestion[] = [
     answer: `a) It enables the firm to identify opportunities and getting the first mover advantage.`,
     markingScheme: `a) It enables the firm to identify opportunities and getting the first mover advantage.`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: a) It enables the firm to identify opportunities and getting the first mover advantage.`
-  },
-  {
+  }, {
     id: 'sqp2023_24_q19',
     year: '2023-24',
     paperType: 'SQP',
@@ -346,8 +325,7 @@ export const sqp: SQPQuestion[] = [
     answer: `c) Based on practice and creativity`,
     markingScheme: `c) Based on practice and creativity`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: c) Based on practice and creativity`
-  },
-  {
+  }, {
     id: 'sqp2023_24_q20',
     year: '2023-24',
     paperType: 'SQP',
@@ -361,8 +339,7 @@ export const sqp: SQPQuestion[] = [
     answer: `b) Reduce the prices of real estate`,
     markingScheme: `b) Reduce the prices of real estate`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: b) Reduce the prices of real estate`
-  },
-  {
+  }, {
     id: 'sqp2024_25_q14',
     year: '2024-25',
     paperType: 'SQP',
@@ -377,4 +354,5 @@ export const sqp: SQPQuestion[] = [
     markingScheme: `c) Grading`,
     aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: c) Grading`
   }
+
 ];

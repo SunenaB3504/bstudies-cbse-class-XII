@@ -28,7 +28,7 @@ export const sqp: SQPQuestion[] = [
     marks: 1,
     type: 'MCQ',
     question: 'Identify the primary objective of financial management which focuses on maximizing the market price of shares.',
-    answer: 'Wealth Maximisation',
+    answer: `c) Such employees are not likely to be good employees as their background is not sufficiently known.`,
     aiExplanation: `**How to Approach This Question:**
 • **Identify the Keyword:** "maximizing the market price of shares" is the core principle of Wealth Maximisation.
 
@@ -140,7 +140,7 @@ export const sqp: SQPQuestion[] = [
     marks: 1,
     type: 'MCQ',
     question: 'The preparation of a financial blueprint of an organisation\'s future operations is known as?',
-    answer: 'Financial Planning',
+    answer: `c) It is both forward looking and backward looking`,
     aiExplanation: `**How to Approach This Question:**
 • **Identify the Keyword:** "financial blueprint of an organisation's future operations" is the strict textbook definition of Financial Planning.
 

@@ -64,7 +64,7 @@ export const sqp: SQPQuestion[] = [
         marks: 1,
         type: 'MCQ',
         question: 'Instructions should be clear and precise so that subordinates can understand them easily. Which principle of directing is highlighted?',
-        answer: 'Managerial Communication',
+        answer: `b) Earning higher rate of return to household sector`,
         aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** "instructions should be clear" translates directly to the principle of "Managerial Communication" in Directing, which ensures downward instructions are fully understood.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`,
     },
     {
@@ -84,7 +84,7 @@ export const sqp: SQPQuestion[] = [
         marks: 1,
         type: 'MCQ',
         question: 'Which element of directing involves the process of stimulating people to action to accomplish desired goals?',
-        answer: 'Motivation',
+        answer: `d) physical distribution`,
         aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** "process of stimulating people to action" is the strict textbook definition of Motivation.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`,
     },
     {
@@ -94,7 +94,7 @@ export const sqp: SQPQuestion[] = [
         marks: 6,
         type: 'LA',
         question: 'A company offers Stock Option / Co-partnership to its employees. What kind of incentive is this?',
-        answer: 'Financial Incentive',
+        answer: `Functions of marketing, apart from the ones Choco Ltd is already performing: (Any four) 1. Gathering and analyzing market information: This is necessary to identify the needs of the customers and make various decisions for the successful marketing of the products and services. This is important for making an analysis of the available opportunities and threats as well as strengths and weaknesses of the organization and help in deciding what opportunities can best be pursued by it. 2. Product designing and development: The design of the product contributes to making the product attractive to the target customers. A good design can improve performance of a product and give it a competitive advantage in the market. 3. Standardization: Standardization refers to producing goods of predetermined specifications which help in achieving uniformity and consistency in the output 4. Packaging and labeling- Packaging refers to designing and developing the package for the products. Labeling refers to designing and developing the label to be put on the product. 5. Transportation- Transportation involves physical movement of goods from one place to another. As generally the users of products particularly consumer products are wide spread and geographically separated from the place where they are produced. 6. Storage and warehousing- In order to maintain smooth flow of products in the market, there is a need for proper storage of the products. Further there is need for storage of adequate stock of goods to protect against unavoidable delays in delivery or to meet out contingencies in the demand. Ram Kumar the CEO of Sabarmati Enterprises in a meeting with the middle management of the company advised that the personal goals of the people should be reconciled with the organizational objectives for harmony in the organization. Briefly explain the objective of management that he was referring to. (1½ X 4 =6) (½ mark for heading and 1 mark for the explanation)`,
         aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** "Stock Option / Co-partnership" is a type of Financial Incentive because it holds quantifiable monetary value for the employee.\n• **Structure your Answer:** You must identify the overarching category (Financial Incentive) for 1 mark, define what Stock Option is, and then list/explain 4 other Financial Incentives to secure the 6 marks.\n\n[Mark Justification - 6 Marks Total]:\n• 1 Mark for identifying 'Financial Incentive'.\n• 5 Marks for explaining Co-partnership and 4 other financial incentives.\n\n*Comprehensive Revision Points (Financial Incentives):*\n• **Co-partnership/Stock Option:** Offering company shares at a set price lower than market price to induce ownership feeling.\n• **Pay and Allowances:** Regular increments in basic salary and D.A.\n• **Productivity Linked Wage Incentives:** Paying higher wages for higher output.\n• **Bonus:** Direct monetary incentive offered over and above the regular wages.\n• **Profit Sharing:** Providing employees a share in the organisation's net profits.\n• **Perquisites:** Fringe benefits like car allowance, housing, and medical aid.`,
     },
   {

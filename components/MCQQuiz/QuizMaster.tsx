@@ -34,7 +34,9 @@ export const QuizMaster: React.FC<QuizMasterProps> = ({ onBack }) => {
         };
 
         setAnswers(prev => [...prev, newAnswer]);
+    };
 
+    const handleNextQuestion = () => {
         if (currentQuestionIndex < mcqData.length - 1) {
             setCurrentQuestionIndex(prev => prev + 1);
         } else {
@@ -158,6 +160,7 @@ export const QuizMaster: React.FC<QuizMasterProps> = ({ onBack }) => {
             <QuestionCard
                 question={mcqData[currentQuestionIndex]}
                 onAnswer={handleAnswerSubmit}
+                onNext={handleNextQuestion}
             />
         </div>
     );

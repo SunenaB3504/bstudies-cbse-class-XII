@@ -44,7 +44,12 @@ export const sqp: SQPQuestion[] = [
         marks: 1,
         type: 'MCQ',
         question: 'Which technique of scientific management aims to eliminate unnecessary movements?',
-        answer: 'Motion Study',
+        optionA: 'Motion Study',
+        optionB: 'Time Study',
+        optionC: 'Method Study',
+        optionD: 'Fatigue Study',
+        answer: 'a) Motion Study',
+        markingScheme: 'a) Motion Study',
         aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** The trigger phrases are "eliminate" and "unnecessary movements". This directly points to Taylor's Motion Study.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     },
     {
@@ -84,7 +89,7 @@ export const sqp: SQPQuestion[] = [
         marks: 1,
         type: 'MCQ',
         question: 'Which principle of management states that there should be no discrimination against anyone on account of sex, religion, language, caste, belief or nationality?',
-        answer: 'Equity',
+        answer: `a) Uncertainty`,
         aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** The prompt mentions "no discrimination" based on sex, religion, caste, etc. This is the exact definition of Fayol's principle of Equity.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     },
     {
@@ -94,7 +99,7 @@ export const sqp: SQPQuestion[] = [
         marks: 1,
         type: 'MCQ',
         question: 'The standard time taken to perform a well-defined job is determined by which study?',
-        answer: 'Time Study',
+        answer: `(a)  (ii), (iii), (i)`,
         aiExplanation: `**How to Approach This Question:**\n• **Identify the Keyword:** The trigger is "standard time taken to perform a well-defined job". This directly relates to Taylor's Time Study.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the concept.`
     },
   {
