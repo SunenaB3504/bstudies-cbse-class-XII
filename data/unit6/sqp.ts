@@ -179,9 +179,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Reduction in employees turnover`,
     optionC: `Helps in increasing employees satisfaction`,
     optionD: `Develops a sense of security amongst employees`,
-    answer: `(2)  Planning is futuristic: Planning essentially involves looking ahead and preparing for the future. The purpose of planning is to meet future events effectively to the best advantage of an organisation. It implies peeping into the future, analysing it and predicting it. Planning is, therefore, regarded as a forward looking function based on forecasting. (3)  Planning involves decision making: Planning essentially involves choice from among various alternatives and activities. The need for planning arises only when alternatives are available. In actual practice, planning presupposes the existence of alternatives. Planning, thus, involves thorough examination and evaluation of each alternative and choosing the most appropriate one. (4)  Planning is a mental exercise:Planning requires application of the mind involving foresight, intelligent imagination and sound judgement. It is basically an intellectual activity of thinking rather than doing, because planning determines the action to be taken. However, planning requires logical and systematic thinking rather than guesswork or wishful thinking.`,
-    markingScheme: `(2)  Planning is futuristic: Planning essentially involves looking ahead and preparing for the future. The purpose of planning is to meet future events effectively to the best advantage of an organisation. It implies peeping into the future, analysing it and predicting it. Planning is, therefore, regarded as a forward looking function based on forecasting. (3)  Planning involves decision making: Planning essentially involves choice from among various alternatives and activities. The need for planning arises only when alternatives are available. In actual practice, planning presupposes the existence of alternatives. Planning, thus, involves thorough examination and evaluation of each alternative and choosing the most appropriate one. (4)  Planning is a mental exercise:Planning requires application of the mind involving foresight, intelligent imagination and sound judgement. It is basically an intellectual activity of thinking rather than doing, because planning determines the action to be taken. However, planning requires logical and systematic thinking rather than guesswork or wishful thinking.`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: (2)  Planning is futuristic: Planning essentially involves looking ahead and preparing for the future. The purpose of planning is to meet future events`
+    answer: `a) Competitive spirit among the existing staff`,
+    markingScheme: `a) Competitive spirit among the existing staff`,
+    aiExplanation: `**How to Approach This Question:**\n• **Concept:** External recruitment brings in "fresh blood" and qualified outsiders, which creates a competitive environment for existing employees to improve their performance.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for identifying the correct benefit of external recruitment.`
   },
   {
     id: 'sqp2024_25_q9',
@@ -194,9 +194,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `Performance appraisal, training and development, promotion and`,
     optionC: `Training and development, performance appraisal, promotion and`,
     optionD: `Training and development, performance appraisal, compensation,`,
-    answer: `3. Extent of competition in the market: The price will tend to reach the upper limit in case there is lesser degree of competition while under`,
-    markingScheme: `3. Extent of competition in the market: The price will tend to reach the upper limit in case there is lesser degree of competition while under`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: 3. Extent of competition in the market: The price will tend to reach the upper limit in case there is lesser degree of competition while under`
+    answer: `c) Training and development, performance appraisal, promotion and career planning, compensation`,
+    markingScheme: `c) Training and development, performance appraisal, promotion and career planning, compensation`,
+    aiExplanation: `**How to Approach This Question:**\n• The correct answer is: c) Training and development, performance appraisal, promotion and career planning, compensation`
   },
   {
     id: 'sqp2024_25_q15',

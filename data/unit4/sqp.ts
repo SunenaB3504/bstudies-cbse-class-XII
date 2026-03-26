@@ -163,8 +163,8 @@ export const sqp: SQPQuestion[] = [
     optionB: `Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).`,
     optionC: `Assertion (A) is true but Reason (R) is false.`,
     optionD: `Assertion (A) is false but Reason (R) is true.`,
-    answer: `b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).`,
-    markingScheme: `b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).`,
-    aiExplanation: `**How to Approach This Question:**\n• **Assertion Check:** Financial planning indeed helps in ensuring funds are available at the right time (Tackling uncertainty). (True)\n• **Reason Check:** Capital structure describes the debt-equity mix. (True)\n• **Relationship Check:** Does the definition of Capital Structure explain *why* financial planning tackles uncertainty? No. Financial planning is broader and focuses on timing and availability, while capital structure is a specific financial decision.\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark for identifying that both are true but R is not the correct explanation.`
+    answer: `c) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion.`,
+    markingScheme: `c) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion.`,
+    aiExplanation: `**How to Approach This Question:**\n• The correct answer is: c) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion.`
   }
 ];

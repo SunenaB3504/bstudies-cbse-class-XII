@@ -230,7 +230,7 @@ export const sqp: SQPQuestion[] = [
     optionD: `Size of the assets, Profitability and competitiveness are not affected`,
     answer: `d) Size of the assets, Profitability and competitiveness are not affected by capital budgeting decisions.`,
     markingScheme: `d) Size of the assets, Profitability and competitiveness are not affected by capital budgeting decisions.`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: d) Size of the assets, Profitability and competitiveness are not affected by capital budgeting decisions.`
+    aiExplanation: `**How to Approach This Question:**\n• The correct answer is: d) Size of the assets, Profitability and competitiveness are not affected by capital budgeting decisions.`
   },
   {
     id: 'sqp2024_25_q17',

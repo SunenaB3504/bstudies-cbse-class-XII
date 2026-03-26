@@ -124,8 +124,8 @@ export const sqp: SQPQuestion[] = [
     optionB: `Both Assertion(A) and Reason (R) are true and Reason is not the`,
     optionC: `Assertion (A) is true, Reason (R) is false.`,
     optionD: `Assertion(A) is false, Reason(R) is true.`,
-    answer: `readings. The method of time study will depend upon volume and frequency of the task, the cycle time of the operation and time measurement costs.`,
-    markingScheme: `readings. The method of time study will depend upon volume and frequency of the task, the cycle time of the operation and time measurement costs.`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: readings. The method of time study will depend upon volume and frequency of the task, the cycle time of the operation and time measurement costs.`
+    answer: `d) Assertion (A) is false, Reason (R) is true`,
+    markingScheme: `d) Assertion (A) is false, Reason (R) is true`,
+    aiExplanation: `**How to Approach This Question:**\n• The correct answer is: d) Assertion (A) is false, Reason (R) is true`
   }
 ];

@@ -143,9 +143,9 @@ export const sqp: SQPQuestion[] = [
     optionB: `More than ₹10 crore`,
     optionC: `Less than ₹1 crore`,
     optionD: `More than ₹1 crore and not more than ₹10 crore`,
-    answer: `d) More than â‚¹1 crore and not more than â‚¹10 crore`,
-    markingScheme: `d) More than â‚¹1 crore and not more than â‚¹10 crore`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: d) More than â‚¹1 crore and not more than â‚¹10 crore`
+    answer: `d) More than ₹1 crore and not more than ₹10 crore`,
+    markingScheme: `d) More than ₹1 crore and not more than ₹10 crore`,
+    aiExplanation: `**How to Approach This Question:**\n• The correct answer is: d) More than ₹1 crore and not more than ₹10 crore`
   },
   {
     id: 'sqp2024_25_q19',

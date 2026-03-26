@@ -143,8 +143,8 @@ export const sqp: SQPQuestion[] = [
     optionB: `controlling helps in ensuring order and discipline`,
     optionC: `controlling helps in improving employees motivation`,
     optionD: `controlling enables optimum utilisation of resources`,
-    answer: `B) controlling helps in ensuring order and discipline`,
-    markingScheme: `B) controlling helps in ensuring order and discipline`,
-    aiExplanation: `**How to Approach This Question:**\n• Read all options carefully before selecting.\n• Eliminate options that are clearly incorrect.\n• The correct answer is: B) controlling helps in ensuring order and discipline\n\n[Mark Justification - 1 Mark Total]:\n• 1 Mark awarded for the direct, correct identification of the significance of controlling.`
+    answer: `b) controlling helps in ensuring order and discipline`,
+    markingScheme: `b) controlling helps in ensuring order and discipline`,
+    aiExplanation: `**How to Approach This Question:**\n• The correct answer is: b) controlling helps in ensuring order and discipline`
   }
 ];
